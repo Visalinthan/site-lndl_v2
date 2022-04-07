@@ -14,8 +14,17 @@
     
     <?php include("module/nav.php"); ?>
 
-    <main id="home">
-
+    <main id="home" class="container">
+        <div class="row bloc">
+            <div class="col">
+                <h1>Réalisez des économies, gagnez en confort et agissez pour la planète.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore repellat quibusdam fugit sequi perferendis ullam fugiat neque tenetur earum autem, libero veniam animi voluptatum totam nisi culpa ea voluptatem quod!</p>
+                <button class="btn-simuler">Testez votre éligibilité </button>
+            </div>
+            <div class="col">
+                <img src="img/home/famille.png" />
+            </div>
+        </div>
     </main>
 
     <?php include("module/footer.php"); ?>

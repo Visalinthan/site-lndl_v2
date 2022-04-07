@@ -1,7 +1,7 @@
 <nav class="navbar">
     <div class="nav-logo">
         <a href="#">
-            <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
+            <img class="logo-lndl" alt="logo LNDL" src="../img/Logo_blanc.png" />
         </a>
     </div>
     <ul class="nav-list">
