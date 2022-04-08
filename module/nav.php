@@ -1,7 +1,7 @@
 <nav class="navbar">
     <div class="nav-logo">
         <a href="#">
-            <img class="logo-lndl" alt="logo LNDL" src="../img/Logo_blanc.png" />
+            <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
         </a>
     </div>
     <ul class="nav-list">
@@ -9,10 +9,10 @@
             <a href="#">À propos</a>
         </li>
         <li class="list-item">
-            <a href="#">Nos Services</a>
+            <a href="#">Nos services</a>
         </li>
         <li class="list-item">
-            <a href="#">Test</a>
+            <a href="#">Les aides</a>
         </li>
         <li class="list-item">
             <a href="#">Contact</a>
@@ -37,13 +37,17 @@
             <a href="#">À propos</a>
         </li>
         <li>
-            <a href="#">Nos Services</a>
+            <a href="#">Nos services</a>
         </li>
         <li>
-            <a href="#">Test</a>
+            <a href="#">Les aides</a>
         </li>
         <li>
             <a href="#">Contact</a>
         </li>
     </ul>
+
+    <div id="sidebar-btn">
+        <button class="btn-simuler">Faire une estimation</button>
+    </div>
 </div>
