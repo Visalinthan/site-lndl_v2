@@ -24,7 +24,7 @@
         <div class="col-md-3 col-sm-12 case">
             <form class="row g-3">
                 <div class="col-auto">
-                    <label for="newsletter" class="visually-hidden">Password</label>
+                    <label for="newsletter" class="visually-hidden">Newsletter</label>
                     <input type="email" class="form-control" id="newsletter" placeholder="newsletter@live.fr">
                 </div>
                 <div class="col-auto">
