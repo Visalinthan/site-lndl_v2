@@ -33,6 +33,7 @@
         </div>
         <div class="bloc">
             <div class="row bloc_2">
+                <div class="line"></div>
                 <div class="col-md-12 text">
                     <h2>Nos expertises</h2>
                     <p>
@@ -75,6 +76,7 @@
 
         <div class="bloc">
             <div class="row bloc_2">
+                <div class="line"></div>
                 <div class="col-md-12 text">
                     <h2>Nous choisir c'est...</h2>
                     <p>
@@ -111,6 +113,7 @@
 
         <div class="bloc">
             <div class="row bloc_2">
+                <div class="line"></div>
                 <div class="col-md-12 text">
                     <h2>Nos certifications</h2>
                     <p>
@@ -119,25 +122,24 @@
                 </div>
             </div>
             <div class="row bloc_5">
-                <div class="col-md-3 col-sm-12">
-                    <img src="img/home/lndl-certification-rge-qualibat.png"
-                        alt="LNDL certification RGE Qualibat" />
+                <div class="col-md-3 certif">
+                    <img src="img/home/lndl-certification-rge-qualibat.png" alt="LNDL certification RGE Qualibat" />
                 </div>
-                <div class="col-md-3 col-sm-12">
-                    <img src="img/home/lndl-certification-rge-qualipac.png"
-                        alt="LNDL certification RGE QualiPac" />
+                <div class="col-md-3 certif">
+                    <img src="img/home/lndl-certification-rge-qualipac.png" alt="LNDL certification RGE QualiPac" />
                 </div>
-                <div class="col-md-3 col-sm-12">
-                    <img src="img/home/lndl-certification-rge-chauffage.png"
-                        alt="LNDL certification RGE Chauffage" />
+                <div class="col-md-3 certif">
+                    <img src="img/home/lndl-certification-rge-chauffage.png" alt="LNDL certification RGE Chauffage" />
                 </div>
-                <div class="col-md-3 col-sm-12">
+                <div class="col-md-3 certif">
                     <img src="img/home/lndl-certification-rge-ventilation-plus.png"
                         alt="LNDL certification RGE Ventilation Plus" />
                 </div>
             </div>
         </div>
-
+        <div class="bloc">
+            <?php include("module/carrousel.php"); ?>
+        </div>
     </main>
 
     <?php include("module/footer.php"); ?>

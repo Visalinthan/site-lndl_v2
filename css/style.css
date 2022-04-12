@@ -2,6 +2,7 @@
 :root {
     --green: #528B37;
     --bg-grey: #F7F8F9;
+    --darkblue: #37528B;
 }
 
 html {
@@ -84,10 +85,12 @@ a {
     width: 100%;
     background-color: #fff;
     height: 120px;
+    z-index: 10;
 }
 
 .logo-lndl {
     height: 100px;
+    border-radius: 10px;
 }
 
 .nav-list {
@@ -142,6 +145,69 @@ a {
 }
 
 
+/* -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS --*/
+
+
+/* -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS --*/
+
+
+/* -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS --*/
+
+.line {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid var(--darkblue);
+}
+
+.slider {
+    margin: 5vh auto;
+    position: relative;
+}
+
+.slider .card {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+}
+
+.slider .prev {
+    position: absolute;
+    left: 50px;
+    top: 30%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.slider .next {
+    position: absolute;
+    right: 50px;
+    top: 30%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.slider .card p {
+    max-width: 750px;
+    text-align: justify;
+}
+
+.slider .card.active {
+    display: flex;
+    animation: fade 0.8s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 /* --CONTENT -- --CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT --*/
 
 
@@ -163,6 +229,14 @@ a {
 
 .bloc:first-child {
     background-color: var(--bg-grey);
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+}
+
+.bloc:last-child {
+    background-color: var(--bg-grey);
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
 }
 
 .bloc .row {
@@ -255,11 +329,12 @@ a {
     border-radius: 25px;
 }
 
-.bloc_5 div {
+.bloc_5 .certif {
     margin: 10px auto;
+    min-height: 150px;
 }
 
-.bloc_5 div img {
+.bloc_5 .certif img {
     max-height: 100px;
 }
 
