@@ -4,3 +4,6 @@
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/mobile.css">
 <link rel="stylesheet" href="../css/fontawesome/css/all.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+

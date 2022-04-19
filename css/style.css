@@ -18,6 +18,7 @@ h6,
 p,
 a,
 li,
+label,
 small,
 button {
     font-family: "Montserrat";
@@ -86,8 +87,22 @@ a {
     font-size: 20px;
     width: 100%;
     background-color: #fff;
-    height: 120px;
     z-index: 10;
+    box-shadow: 10px 5px 5px rgb(192, 192, 192);
+}
+
+.nav-logo {
+    text-align: center;
+}
+
+.form-switch {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form-check label {
+    padding: 0 20px;
 }
 
 .logo-lndl {
@@ -155,7 +170,7 @@ a {
 
 /* -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS -- -- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS ---- TOOLS --*/
 
-.row>* {
+#overlay .row>* {
     margin: 0px;
     padding: 0px;
 }
@@ -170,6 +185,7 @@ a {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 100;
+    display: none;
 }
 
 .container-fluid {
@@ -185,8 +201,16 @@ a {
     background-color: transparent;
     width: 30vw;
     height: 50vh;
+    max-width: 700px;
+    max-height: 700px;
+    min-width: 500px;
+    min-height: 500px;
     perspective: 1000px;
     cursor: pointer;
+}
+
+.flip-card input[type="radio"] {
+    visibility: hidden;
 }
 
 .flip-card-inner {
@@ -424,6 +448,7 @@ a {
     flex-direction: column;
     justify-content: space-around;
     min-height: 200px;
+    max-width: 350px;
     border-radius: 25px;
 }
 

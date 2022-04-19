@@ -1,8 +1,12 @@
-<nav class="navbar">
+<nav class="navbar" data-aos="fade-down" data-aos-duration="1500">
     <div class="nav-logo">
         <a href="#">
             <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
         </a>
+        <div class=" form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="mySwitch" name="pageHome">
+            <label id="label-nav" class="form-check-label" for="mySwitch"></label>
+        </div>
     </div>
     <ul class="nav-list">
         <li class="list-item">
@@ -11,7 +15,7 @@
         <li class="list-item">
             <a href="#">Nos services</a>
         </li>
-        <li class="list-item">
+        <li class="list-item part">
             <a href="#">Les aides</a>
         </li>
         <li class="list-item">
