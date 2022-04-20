@@ -16,7 +16,7 @@
     <?php include("module/overlay.php"); ?>
     <main id="home" class="container">
         <div class="bloc" data-aos="fade-down" data-aos-duration="500">
-            <div class="row bloc_1" >
+            <div class="row bloc_1">
                 <div class="col text" data-aos="fade-right" data-aos-duration="1200">
                     <h1>Réalisez des économies, gagnez en confort et agissez pour la planète.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore repellat quibusdam fugit
@@ -24,7 +24,7 @@
                         perferendis ullam fugiat neque tenetur earum autem, libero veniam animi voluptatum totam nisi
                         culpa
                         ea voluptatem quod!</p>
-                    <button class="btn-simuler">Testez votre éligibilité </button>
+                    <a href="simulation.php" class="btn-simuler">Testez votre éligibilité</a>
                 </div>
                 <div class="col image" data-aos="fade-left" data-aos-duration="1500">
                     <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />

@@ -1,6 +1,6 @@
 <nav class="navbar" data-aos="fade-down" data-aos-duration="1500">
     <div class="nav-logo">
-        <a href="#">
+        <a href="home.php">
             <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
         </a>
         <div class=" form-check form-switch">
@@ -23,7 +23,7 @@
         </li>
     </ul>
     <div id="nav-btn">
-        <button class="btn-simuler">Faire une estimation</button>
+        <a href="simulation.php" class="btn-simuler">Faire une estimation</a>
     </div>
 
 </nav>
