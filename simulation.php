@@ -18,6 +18,20 @@
                 <img class="logo-lndl" alt="logo LNDL" src="img/logo.png" />
             </a>
         </div>
+        <div class="progressbar">
+            <div class="progress-step active">
+                <div class="point"></div>
+            </div>
+            <div class="progress-step">
+                <div class="point"></div>
+            </div>
+            <div class="progress-step">
+                <div class="point"></div>
+            </div>
+            <div class="progress-step">
+                <div class="point"></div>
+            </div>
+        </div>
     </nav>
     <main id="simulation" class="container">
         <div class="bloc">
@@ -29,7 +43,7 @@
                 </div>
 
             </div>
-            <form action="#" class="form">
+            <form id="form-simule" class="form" method="POST">
 
                 <div class="row form-step">
                     <h1 class="col-md-12">Mon type de logement :</h1>
@@ -77,9 +91,9 @@
                     </div>
                 </div>
 
-                
+
                 <div class="row form-step">
-                    <h1 class="col-md-12">Quelle est la  date de construction de votre logement ?</h1>
+                    <h1 class="col-md-12">Quelle est la date de construction de votre logement ?</h1>
                     <input type="radio" id="inf2" name="construction" value="inf2" required />
                     <label class="case col-md-4" for="inf2">
                         <h4>Moins de 2 ans</h4>
@@ -127,6 +141,11 @@
                     </label>
                 </div>
 
+                <div class="btn-form-step">
+                    <button type="button" id="prevBtn" class="btn btn-simuler" onclick="nextPrev(-1)">Précédent</button>
+                    <button type="button" id="nextBtn" class="btn btn-simuler" onclick="nextPrev(1)">Suivant</button>
+                </div>
+
             </form>
 
         </div>
@@ -136,3 +155,100 @@
 </body>
 
 </html>
+
+<script>
+/*   
+const formSteps = document.querySelectorAll(".form-step");
+
+var inputStep = $(".form-step.active :input");
+
+var formStepsNum = 0;
+
+$(inputStep).on("click", function() {
+    if ($(inputStep).is(":checked")) {
+        formStepsNum++;
+        updateFormSteps();
+    }
+});
+
+function updateFormSteps() {
+    formSteps.forEach((formStep) => {
+        formStep.classList.contains("active") && formStep.classList.remove("active");
+    });
+    formSteps[formStepsNum].classList.add("active")
+}*/
+
+
+var currentTab = 0; // Current tab is set to be the first tab (0)
+showTab(currentTab); // Display the current tab
+
+function showTab(n) {
+    // This function will display the specified tab of the form...
+    var x = document.getElementsByClassName("form-step");
+    x[n].style.display = "flex";
+    //... and fix the Previous/Next buttons:
+    if (n == 0) {
+        document.getElementById("prevBtn").style.display = "none";
+    } else {
+        document.getElementById("prevBtn").style.display = "inline";
+    }
+    if (n == (x.length - 1)) {
+        document.getElementById("nextBtn").innerHTML = "Envoyer";
+    } else {
+        document.getElementById("nextBtn").innerHTML = "Continuer";
+    }
+    //... and run a function that will display the correct step indicator:
+    //fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+    // This function will figure out which tab to display
+    var x = document.getElementsByClassName("form-step");
+    // Exit the function if any field in the current tab is invalid:
+    if (n == 1 && !validateForm()) return false;
+    // Hide the current tab:
+    x[currentTab].style.display = "none";
+    // Increase or decrease the current tab by 1:
+    currentTab = currentTab + n;
+    // if you have reached the end of the form...
+    if (currentTab >= x.length) {
+        // ... the form gets submitted:
+        document.getElementById("regForm").submit();
+        return false;
+    }
+    // Otherwise, display the correct tab:
+    showTab(currentTab);
+}
+
+function validateForm() {
+    // This function deals with validation of the form fields
+    var x, y, i, valid = true;
+    x = document.getElementsByClassName("form-step");
+    y = x[currentTab].getElementsByTagName("input");
+    // A loop that checks every input field in the current tab:
+    for (i = 0; i < y.length; i++) {
+        // If a field is empty...
+        if (y[i].value == "") {
+            // add an "invalid" class to the field:
+            y[i].className += " invalid";
+            // and set the current valid status to false
+            valid = false;
+        }
+    }
+    // If the valid status is true, mark the step as finished and valid:
+    /*if (valid) {
+        document.getElementsByClassName("step")[currentTab].className += " finish";
+    }*/
+    return valid; // return the valid status
+}
+/*
+function fixStepIndicator(n) {
+    // This function removes the "active" class of all steps...
+    var i, x = document.getElementsByClassName("step");
+    for (i = 0; i < x.length; i++) {
+        x[i].className = x[i].className.replace(" active", "");
+    }
+    //... and adds the "active" class on the current step:
+    x[n].className += " active";
+}*/
+</script>
