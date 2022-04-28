@@ -128,3 +128,16 @@
         margin-top: -9px;
     }
 }
+
+@media all and (max-width: 1000px) {
+    .navbar.simule .nav-logo {
+        position: static;
+        margin: 0 5vw;
+    }
+}
+
+@media all and (max-width: 796px) {
+    .navbar {
+        height: 135px;
+    }
+}
