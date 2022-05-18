@@ -5,6 +5,7 @@ const form = document.querySelector('form');
 
 form.querySelectorAll('input')
 
+//Affiche chaque partie de formulaire en fonction du paramètre 
 function showTab(n) {
     // This function will display the specified tab of the form...
     var x = document.getElementsByClassName("form-step");
@@ -25,22 +26,11 @@ function showTab(n) {
     x = document.getElementsByClassName("form-step");
     y = x[currentTab].querySelectorAll("input");
 
-    console.log(y);
-
-    document.querySelector('form').addEventListener('change', function() {
-        var elts = x[currentTab].querySelectorAll('input');
-        for (i = 0; i < elts.length; i++) {
-            if (elts[i].checked === true) {
-                alert(elts[i].value);
-                break;
-            }
-        }
-    });
-
     //... and run a function that will display the correct step indicator:
     //fixStepIndicator(n)
 }
 
+// bouton next 
 function nextPrev(n) {
     // This function will figure out which tab to display
     var x = document.getElementsByClassName("form-step");
