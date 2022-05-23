@@ -11,12 +11,14 @@ function showTab(n) {
     var x = document.getElementsByClassName("form-step");
     x[n].style.display = "flex";
 
+
     //... and fix the Previous/Next buttons:
     if (n == 0) {
         document.getElementById("prevBtn").style.display = "none";
     } else {
         document.getElementById("prevBtn").style.display = "inline";
     }
+
     if (n == (x.length - 1)) {
         document.getElementById("nextBtn").innerHTML = "Envoyer";
     } else {
@@ -55,6 +57,19 @@ function validateForm() {
     var x, y, i, valid = true;
     x = document.getElementsByClassName("form-step");
     y = x[currentTab].getElementsByTagName("input");
+
+
+    $(x[currentTab]).find(':input', ':select', ':textarea').each(
+        function() {
+            var input = $(this);
+            var name = input.attr('name');
+            if (!$("input[type=radio][name=" + name + "]:checked").val()) {
+                input.className += " invalid";
+                // and set the current valid status to false
+                valid = false;
+            }
+        }
+    );
 
 
     // A loop that checks every input field in the current tab:
