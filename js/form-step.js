@@ -59,33 +59,20 @@ function validateForm() {
     y = x[currentTab].getElementsByTagName("input");
 
 
-    $(x[currentTab]).find(':input', ':select', ':textarea').each(
-        function() {
-            var input = $(this);
-            var name = input.attr('name');
-            if (!$("input[type=radio][name=" + name + "]:checked").val()) {
-                input.className += " invalid";
-                // and set the current valid status to false
-                valid = false;
-            }
-        }
-    );
-
-
     // A loop that checks every input field in the current tab:
     for (i = 0; i < y.length; i++) {
         // If a field is empty...
-        if (y[i].value == "") {
+        if (y[i].value == "" || y[i].validity.valid == false) {
             // add an "invalid" class to the field:
-            y[i].className += " invalid";
+            y[i].className = "invalid";
             // and set the current valid status to false
             valid = false;
         }
     }
     // If the valid status is true, mark the step as finished and valid:
-    /*if (valid) {
-        document.getElementsByClassName("step")[currentTab].className += " finish";
-    }*/
+    /* if (valid) {
+         document.getElementsByClassName("step")[currentTab].className += " finish";
+     }*/
     return valid; // return the valid status
 }
 /*

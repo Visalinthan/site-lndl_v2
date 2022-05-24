@@ -573,6 +573,20 @@ a {
     border-width: 2px;
 }
 
+.form-step .invalid+label.picto {
+    border: 1px solid red;
+    transition: all .3s ease-in-out;
+    transform: scale(1.025);
+    border-width: 2px;
+}
+
+.form-step :valid+label.picto {
+    border: none;
+    transition: all .3s ease-in-out;
+    transform: scale(1.025);
+    border-width: 2px;
+}
+
 .form-step .form-input {
     background-color: #F8F8F8;
     border-radius: 10px;
@@ -597,6 +611,7 @@ a {
 
 .btn-form-step button {
     margin: 0 15px;
+    /*visibility: hidden;*/
 }
 
 

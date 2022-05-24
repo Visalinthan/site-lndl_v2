@@ -49,12 +49,12 @@
                 <div class="row form-step">
                     <h1 class="col-md-12">Mon type de logement :</h1>
                     <input type="radio" id="maison" name="logement" value="maison" required />
-                    <label for="maison" class="case col-md-6">
+                    <label for="maison" class="case col-md-6 picto">
                         <img alt="maison" src="img/simuler/House.png">
                         <h6>Maison</h6>
                     </label>
                     <input type="radio" id="appartement" name="logement" value="appartement" required />
-                    <label for="appartement" class="case col-md-6">
+                    <label for="appartement" class="case col-md-6 picto">
                         <img alt="appartement" src="img/simuler/Building.png">
                         <h6>Appartement</h6>
                     </label>
@@ -63,12 +63,12 @@
                 <div class="row form-step">
                     <h1 class="col-md-12">Votre statut :</h1>
                     <input type="radio" id="proprietaire" name="statut" value="proprietaire" required />
-                    <label class="case col-md-6" for="proprietaire">
+                    <label class="case col-md-6 picto" for="proprietaire">
                         <img alt="propriétaire" src="img/simuler/House.png">
                         <h6>Proprétaire</h6>
                     </label>
                     <input type="radio" id="locataire" name="statut" value="locataire" required />
-                    <label class="case col-md-6" for="locataire">
+                    <label class="case col-md-6 picto" for="locataire">
                         <img alt="Locataire" src="img/simuler/Building.png">
                         <h6>Locataire</h6>
                     </label>
@@ -79,15 +79,15 @@
                     <div class="form-input">
                         <div class="col-md-6 mb-5">
                             <label for="surface" class="form-label">Surface habitable m²</label>
-                            <input type="text" class="form-control" id="surface">
+                            <input type="text" class="form-control"  id="surface"  name="surface">
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="codepostale" class="form-label">Code Postale</label>
-                            <input type="number" class="form-control" id="codepostale">
+                            <input type="number" class="form-control" id="codepostale" name="codepostale">
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="ville" class="form-label">Ville</label>
-                            <input type="text" class="form-control" id="ville">
+                            <input type="text" class="form-control" id="ville" name="ville">
                         </div>
                     </div>
                 </div>
@@ -96,15 +96,15 @@
                 <div class="row form-step">
                     <h1 class="col-md-12">Quelle est la date de construction de votre logement ?</h1>
                     <input type="radio" id="inf2" name="construction" value="inf2" required />
-                    <label class="case col-md-4" for="inf2">
+                    <label class="case col-md-4 picto" for="inf2">
                         <h4>Moins de 2 ans</h4>
                     </label>
                     <input type="radio" id="inf15" name="construction" value="inf15" required />
-                    <label class="case col-md-4" for="inf15">
+                    <label class="case col-md-4 picto" for="inf15">
                         <h4>Entre 2 et 15 ans</h4>
                     </label>
                     <input type="radio" id="sup15" name="construction" value="sup15" required />
-                    <label class="case col-md-4" for="sup15">
+                    <label class="case col-md-4 picto" for="sup15">
                         <h4>Plus de 15 ans</h4>
                     </label>
                 </div>
@@ -112,32 +112,32 @@
                 <div class="row form-step">
                     <h1 class="col-md-12">Quelle est l'énergie de chauffage actuelle de votre logement ?</h1>
                     <input type="radio" id="electricite" name="chauffage" value="electricite" required />
-                    <label class="case col-md-4" for="electricite">
+                    <label class="case col-md-4 picto" for="electricite">
                         <img alt="électricité" src="img/simuler/light-bulb.png">
                         <h6>électricite</h6>
                     </label>
                     <input type="radio" id="chauffegaz" name="chauffage" value="chauffegaz" required />
-                    <label class="case col-md-4" for="chauffegaz">
+                    <label class="case col-md-4 picto" for="chauffegaz">
                         <img alt="chauffage gaz" src="img/simuler/fire.png">
                         <h6>chauffage au gaz</h6>
                     </label>
                     <input type="radio" id="chauffefioul" name="chauffage" value="chauffefioul" required />
-                    <label class="case col-md-4" for="chauffefioul">
+                    <label class="case col-md-4 picto" for="chauffefioul">
                         <img alt="chauffage fioul" src="img/simuler/oil-drum.png">
                         <h6>chauffage au fioul</h6>
                     </label>
                     <input type="radio" id="chauffebois" name="chauffage" value="chauffebois" required />
-                    <label class="case col-md-4" for="chauffebois">
+                    <label class="case col-md-4 picto" for="chauffebois">
                         <img alt="chauffage bois" src="img/simuler/noto_wood.png">
                         <h6>chauffage au bois</h6>
                     </label>
                     <input type="radio" id="chauffecharbon" name="chauffage" value="chauffecharbon" required />
-                    <label class="case col-md-4" for="chauffecharbon">
+                    <label class="case col-md-4 picto" for="chauffecharbon">
                         <img alt="chauffage charbon" src="img/simuler/combustible.png">
                         <h6>chauffage au charbon</h6>
                     </label>
                     <input type="radio" id="autrechauffe" name="chauffage" value="autrechauffe" required />
-                    <label class="case col-md-4" for="autrechauffe">
+                    <label class="case col-md-4 picto" for="autrechauffe">
                         <h6>Autre</h6>
                     </label>
                 </div>
