@@ -44,7 +44,7 @@
                 </div>
 
             </div>
-            <form id="form-simule" class="form" name="form" method="POST">
+            <form id="form-simule" class="form needs-validation " name="form" method="POST"  novalidate>
 
                 <div class="row form-step">
                     <h1 class="col-md-12">Mon type de logement :</h1>
@@ -157,8 +157,8 @@
                 </div>
 
                 <div class="btn-form-step">
-                    <button type="button" id="prevBtn" class="btn btn-simuler" onclick="nextPrev(-1)">Précédent</button>
-                    <button type="button" id="nextBtn" class="btn btn-simuler" onclick="nextPrev(1)">Suivant</button>
+                    <button type="button" id="prevBtn" class="btn btn-simuler">Précédent</button>
+                    <button type="button" id="nextBtn" class="btn btn-simuler">Suivant</button>
                 </div>
 
             </form>
