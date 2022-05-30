@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav class="navbar simule">
+    <nav class="navbar simule" data-aos="fade-down" data-aos-duration="1500">
         <div class="nav-logo">
             <a href="home.php">
                 <img class="logo-lndl" alt="logo LNDL" src="img/logo.png" />
@@ -157,8 +157,8 @@
                 </div>
 
                 <div class="btn-form-step">
-                    <button type="button" id="prevBtn" class="btn btn-simuler">Précédent</button>
-                    <button type="button" id="nextBtn" class="btn btn-simuler">Suivant</button>
+                    <button type="button" id="prevBtn" class="btn btn-simuler" onclick="nextPrev(-1)">Précédent</button>
+                    <button type="button" id="nextBtn" class="btn btn-simuler" onclick="nextPrev(1)">Suivant</button>
                 </div>
 
             </form>
@@ -167,8 +167,19 @@
 
     </main>
     <?php include("module/footer.php"); ?>
+    <script src="js/form-step.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 700,
+            easing: 'ease-in-sine',
+            delay: 500,
+            once: true,
+            disable: 'mobile'
+        })
+</script>
 </body>
 
 </html>
 
-<script src="js/form-step.js"></script>
+

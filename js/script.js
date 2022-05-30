@@ -38,6 +38,8 @@ $(document).ready(function() {
         location.href = 'home.php';
     });
 
+
+
     AOS.init({
         offset: 100,
         duration: 700,

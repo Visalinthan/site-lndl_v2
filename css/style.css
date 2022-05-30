@@ -532,7 +532,21 @@ a {
     display: none;
     align-items: center;
     justify-content: space-around;
+    transition: display 2s 10s;
+    /*animation: slideForm 2s;*/
 }
+
+
+/*
+@keyframes slideForm {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+*/
 
 .form-step.active {
     display: flex;
