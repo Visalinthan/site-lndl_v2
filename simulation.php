@@ -84,10 +84,12 @@
                         <div class="col-md-6 mb-5">
                             <label for="codepostale" class="form-label">Code Postale</label>
                             <input type="number" class="form-control" id="codepostale" name="codepostale">
+                            <div style="display: none; color: #f55;" id="error-message"></div>
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="ville" class="form-label">Ville</label>
-                            <input type="text" class="form-control" id="ville" name="ville">
+                            <!--<input type="text" class="form-control" id="ville" name="ville">-->
+                            <select class="form-control" name="ville" id="ville"></select>
                         </div>
                     </div>
                 </div>
@@ -177,7 +179,9 @@
             once: true,
             disable: 'mobile'
         })
-</script>
+    </script>
+    <script src="js/api-zipcode.js"></script>
+
 </body>
 
 </html>
