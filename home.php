@@ -31,6 +31,43 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="bloc">
+            <div class="row bloc_2">
+                <div class="line" data-aos="fade-right" data-aos-duration="1000"></div>
+                <div class="col-md-12 text" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>Nous choisir c'est...</h2>
+                    <p>
+                    Confier ses travaux à des professionnels experts dans leur domaine. Notre entreprise respecte une charte de qualité et nos certifications nous labellisé comme professionnel Reconnu Garant de l'Environnement (RGE).
+                    </p>
+                </div>
+            </div>
+            <div class="row bloc_4">
+                <div class="col-md-4">
+                    <div class="choice" data-aos="flip-right" data-aos-duration="700">
+                        <img src="img/home/ep_service.png" alt="Assistance Complète avec la LNDL" />
+                        <p>Une assistance complète</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="choice" data-aos="flip-right" data-aos-duration="1000">
+                        <img src="img/home/Protect.png" alt="Certifié RGE avec la LNDL" />
+                        <p>Des artisans partenaires certifiés RGE</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="choice" data-aos="flip-right" data-aos-duration="1200">
+                        <img src="img/home/Guarantee.png" alt="Garantie décénnale avec la LNDL" />
+                        <p>Garantie décénnale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
         <div class="bloc">
             <div class="row bloc_2">
                 <div class="line" data-aos="fade-right" data-aos-duration="1000"></div>
@@ -74,41 +111,7 @@
             </div>
         </div>
 
-        <div class="bloc">
-            <div class="row bloc_2">
-                <div class="line" data-aos="fade-right" data-aos-duration="1000"></div>
-                <div class="col-md-12 text" data-aos="fade-up" data-aos-duration="1000">
-                    <h2>Nous choisir c'est...</h2>
-                    <p>
-                        Confier ses travaux à des professionnels experts dans leur domaine. Notre entreprise respecte
-                        une charte de qualité et nos certifications nous labellise comme professionnel Reconnu Garant de
-                        l'Environnement (RGE).
-                    </p>
-                </div>
-            </div>
-            <div class="row bloc_4">
-                <div class="col-md-4">
-                    <div class="choice" data-aos="flip-right" data-aos-duration="700">
-                        <img src="img/home/ep_service.png" alt="Assistance Complète avec la LNDL" />
-                        <p>Une assistance complète</p>
-                    </div>
 
-                </div>
-                <div class="col-md-4">
-                    <div class="choice" data-aos="flip-right" data-aos-duration="1000">
-                        <img src="img/home/Protect.png" alt="Certifié RGE avec la LNDL" />
-                        <p>Des artisans partenaires certifiés RGE</p>
-                    </div>
-
-                </div>
-                <div class="col-md-4">
-                    <div class="choice" data-aos="flip-right" data-aos-duration="1200">
-                        <img src="img/home/Guarantee.png" alt="Garantie décénnale avec la LNDL" />
-                        <p>Garantie décénnale</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
         <div class="bloc">
@@ -117,7 +120,7 @@
                 <div class="col-md-12 text" data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nos certifications</h2>
                     <p>
-                        Pour des travaux de qualité en toute sécurité !
+                    Avec l’augmentation du prix des énergies, ne rien faire revient souvent plus cher !
                     </p>
                 </div>
             </div>

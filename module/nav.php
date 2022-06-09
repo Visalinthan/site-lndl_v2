@@ -1,4 +1,4 @@
-<nav class="navbar" data-aos="fade-down" data-aos-duration="1500">
+<nav class="navbar" >
     <div class="nav-logo">
         <a href="home.php">
             <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
@@ -9,14 +9,20 @@
         </div>
     </div>
     <ul class="nav-list">
-        <li class="list-item">
-            <a href="#">À propos</a>
+        <li class="list-item part">
+            <a href="qsn.php">Qui sommes-nous ?</a>
         </li>
-        <li class="list-item">
-            <a href="#">Nos services</a>
+        <li class="list-item pro">
+            <a href="#">A propos</a>
         </li>
         <li class="list-item part">
-            <a href="#">Les aides</a>
+            <a href="#">Nos services</a>
+        </li>
+        <li class="list-item pro">
+            <a href="#">Nos prestations</a>
+        </li>
+        <li class="list-item part">
+            <a href="#">Aides et subventions</a>
         </li>
         <li class="list-item">
             <a href="#">Contact</a>

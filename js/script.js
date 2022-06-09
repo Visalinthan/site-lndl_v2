@@ -10,7 +10,9 @@ $(document).ready(function() {
 
     if (sessionStorage.getItem('page') == "Particulier" || sessionStorage.getItem('page') == "Professionnel") {
         $("#overlay").hide();
-        $("#label-nav").append(sessionStorage.getItem('page'));
+        if ($('#label-nav').text() != sessionStorage.getItem('page')) {
+            $("#label-nav").append(sessionStorage.getItem('page'));
+        }
 
     } else {
         $("#overlay").show();
