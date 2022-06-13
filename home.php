@@ -16,7 +16,7 @@
     <?php include("module/overlay.php"); ?>
     <main id="home" class="container">
         <div class="bloc" data-aos="fade-down" data-aos-duration="500">
-            <div class="row bloc_1">
+            <div class="row" id="bloc_1">
                 <div class="col text" data-aos="fade-right" data-aos-duration="1200">
                     <h1>Réalisez des économies, gagnez en confort et agissez pour la planète.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore repellat quibusdam fugit
@@ -32,14 +32,15 @@
             </div>
         </div>
 
-
         <div class="bloc">
-            <div class="row bloc_2">
+            <div class="row">
                 <div class="line" data-aos="fade-right" data-aos-duration="1000"></div>
-                <div class="col-md-12 text" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nous choisir c'est...</h2>
                     <p>
-                    Confier ses travaux à des professionnels experts dans leur domaine. Notre entreprise respecte une charte de qualité et nos certifications nous labellisé comme professionnel Reconnu Garant de l'Environnement (RGE).
+                        Confier ses travaux à des professionnels experts dans leur domaine. Notre entreprise respecte
+                        une charte de qualité et nos certifications nous labellisé comme professionnel Reconnu Garant de
+                        l'Environnement (RGE).
                     </p>
                 </div>
             </div>
@@ -67,12 +68,12 @@
             </div>
         </div>
 
-        
+
         <div class="bloc">
-            <div class="row bloc_2">
+            <div class="row">
                 <div class="line" data-aos="fade-right" data-aos-duration="1000"></div>
-                <div class="col-md-12 text">
-                    <h2 data-aos="fade-up" data-aos-duration="500">Nos expertises</h2>
+                <div class="col-md-12">
+                    <h2 data-aos="fade-up" data-aos-duration="500">Nos Expertises</h2>
                     <p data-aos="fade-up" data-aos-duration="1000">
                         Acteur de la rénovation énergétique en France, La Nationale du Logement vous accompagne dans vos
                         projets
@@ -86,45 +87,45 @@
                         améliorons constamment la qualité de nos services.
                     </p>
                 </div>
-                <div class="col-md-12 image" data-aos="flip-right" data-aos-duration="1800">
-                    <img src="img/home/expertises.png" alt="LNDL Expertises">
-                </div>
-            </div>
-            <div class="row bloc_3">
-                <div class="col-lg-4 col-md-6 case" data-aos="fade-up" data-aos-duration="500">
-                    <img src="img/home/picto_1.png" alt="Measure your performance" />
-                    <h5>Measure your performance</h5>
-                    <p>Stay connected with your team and make quick decisions wherever you are. </p>
-                </div>
-                <div class="col-lg-4 col-md-6 case" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="img/home/picto_2.png" alt="Custom analytics" />
-                    <h5>Custom analytics</h5>
-                    <p>Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one
-                        place.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 case" data-aos="fade-up" data-aos-duration="1500">
-                    <img src="img/home/picto_3.png" alt="Team Management" />
-                    <h5>Team Managementt</h5>
-                    <p>Our calendar lets you know what is happening with customer and projects so you
-                    </p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="service" id="img-iti" data-aos="flip-right" data-aos-duration="700">
+                            <h3>ITE / ITI</h3>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service" id="img-pac" data-aos="flip-right" data-aos-duration="1000">
+                            <h3>PAC</h3>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service" id="img-vmc" data-aos="flip-right" data-aos-duration="1200">
+                            <h3>VMC</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service" id="img-tce" data-aos="flip-right" data-aos-duration="1300">
+                            <h3>TCE</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
 
-
-
         <div class="bloc">
-            <div class="row bloc_2">
+            <div class="row">
                 <div class="line" data-aos="flip-right" data-aos-duration="1000"></div>
-                <div class="col-md-12 text" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-12 " data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nos certifications</h2>
                     <p>
-                    Avec l’augmentation du prix des énergies, ne rien faire revient souvent plus cher !
+                        Avec l’augmentation du prix des énergies, ne rien faire revient souvent plus cher !
                     </p>
                 </div>
             </div>
-            <div class="row bloc_5">
+            <div class="row">
                 <div class="col-md-3 certif" data-aos="flip-right" data-aos-duration="700">
                     <img src="img/home/lndl-certification-rge-qualibat.png" alt="LNDL certification RGE Qualibat" />
                 </div>
@@ -140,9 +141,7 @@
                 </div>
             </div>
         </div>
-        <div class="bloc">
-            <?php include("module/carrousel.php"); ?>
-        </div>
+
     </main>
 
     <?php include("module/footer.php"); ?>

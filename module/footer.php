@@ -1,34 +1,53 @@
 <footer>
     <div class="row">
-        <div  class="col-md-3 col-sm-12 case">
+        <div class="col-md-2 col-sm-12 case">
+            <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
             <p>
-            La Nationale du Logement a pour mission principale, d'accompagner les ménages et les entreprises à la rénovation énergétique.
+                La Nationale du Logement a pour mission principale, d'accompagner les ménages et les entreprises à la
+                rénovation énergétique.
             </p>
         </div>
-        <div class="col-md-3 col-sm-12 case">
+        <div class="col-md-2 col-sm-12 case">
             <ul>
                 <li><a href="#">Qui sommes-nous ?</a></li>
                 <li><a href="#">Aides et subventions</a></li>
                 <li><a href="#">Parrainage</a></li>
             </ul>
         </div>
-        <div class="col-md-3 col-sm-12 case">
-            <ul class="menu-service">
-                <li><a href="#">Isolation</a></li>
-                <li><a href="#">Chauffage</a></li>
-                <li><a href="#">Ventilation</a></li>
-                <li><a href="#">Couverture</a></li>
-            </ul>
+        <div class="col-md-2 col-sm-12 case">
+            <p>
+                La Nationale du Logement
+            </p>
+            <p>
+                1 rue de Rome
+                93110 Rosny-Sous-Bois
+            </p>
+            <a href="tel:01 48 55 16 47">01 48 55 16 47</a><br />
+            <a href="mailto:infos@lndl.fr">infos@lndl.fr</a>
         </div>
 
-        <div class="col-md-3 col-sm-12 case">
+        <div class="col-md-4 col-sm-12 case">
             <form class="row g-3">
                 <div class="col-auto">
-                    <label for="newsletter" class="visually-hidden">Newsletter</label>
-                    <input type="email" class="form-control" id="newsletter" placeholder="newsletter@live.fr">
+                    <input type="text" class="form-control" id="name" placeholder="Nom" required>
                 </div>
                 <div class="col-auto">
-                    <button type="submit" class="btn btn-success mb-3">S'inscrire</button>
+                    <input type="text" class="form-control" id="cp" placeholder="Code Postale / Ville" required>
+                </div>
+                <div class="col-auto">
+                    <input type="number" class="form-control" id="tel" placeholder="Téléphone" required>
+                </div>
+                <div class="col-auto">
+                    <input type="text" class="form-control" id="mail" placeholder="Mail">
+                </div>
+                <div class="col-10">
+                    <input type="text" class="form-control" id="objet" placeholder="Objet">
+                </div>
+                <div class="col-10">
+                    <textarea  class="form-control" id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success mb-3">Envoyer</button>
                 </div>
             </form>
         </div>

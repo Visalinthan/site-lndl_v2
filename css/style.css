@@ -31,6 +31,11 @@ h4,
 h5,
 h6 {
     font-weight: 800;
+    padding: 25px 10px;
+}
+
+p {
+    padding: 20px 10px;
 }
 
 h1 {
@@ -357,14 +362,15 @@ a {
 /* --CONTENT -- --CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT --*/
 
 .container {
-    margin: 15vh auto;
+    margin: 0 auto;
+    margin-top: 15vh;
     padding: 0;
     max-width: 1920px;
 }
 
 .bloc {
     width: 100%;
-    padding: 5vh 0;
+    padding: 7vh 0;
 }
 
 #home .bloc:first-child {
@@ -382,65 +388,38 @@ a {
 .bloc .row {
     margin: 7vh auto;
     max-width: 1500px;
+    /* display: flex;*/
+    justify-content: center;
     text-align: center;
     align-items: center;
 }
 
-.bloc_1 {
-    width: 100%;
-    align-items: center;
-}
-
-.bloc_1 .text {
-    width: 100%;
+.bloc .text {
     display: flex;
     text-align: left;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 400px;
 }
 
-.bloc_1 .image img {
+.bloc .image img {
     width: 100%;
     min-width: 250px;
-    max-width: 550px;
+    max-width: 650px;
 }
 
 @media all and (max-width: 1200px) {
-    .bloc_1 {
+    #bloc_1 {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
         justify-content: center;
     }
-    .bloc_1 .text {
+    #bloc_1 .text {
         align-items: center;
     }
 }
 
-.bloc_2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.bloc_2 .text h2,
-.bloc_2 .text h5 {
-    padding: 25px;
-}
-
-.bloc_2 .image img {
-    width: 100%;
-    min-width: 250px;
-    max-width: 950px;
-}
-
-.bloc_3 {
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.bloc_3 .case {
+.bloc .case {
     display: flex;
     text-align: center;
     align-items: center;
@@ -449,15 +428,15 @@ a {
     min-height: 250px;
 }
 
-.bloc_3 .case img {
+.bloc .case img {
     width: 64px;
 }
 
-.bloc_4 div:first-child {
+.bloc div:first-child {
     margin: 10px auto;
 }
 
-.bloc_4 .choice {
+.bloc .choice {
     background-color: var(--green);
     color: #fff;
     display: flex;
@@ -470,13 +449,43 @@ a {
     border-radius: 25px;
 }
 
-.bloc_5 .certif {
+.bloc .service {
+    background-image: url("../img/home/famille.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloc .service {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bloc .certif {
     margin: 10px auto;
     min-height: 150px;
 }
 
-.bloc_5 .certif img {
+.bloc .certif img {
     max-height: 100px;
+}
+
+.bloc .pole {
+    max-width: 250px;
+    min-height: 200px;
+    padding: 25px;
+    text-align: center;
+}
+
+.bloc .pole img {
+    width: 100px;
+}
+
+.number p {
+    font-size: 4em;
+    font-weight: 700;
 }
 
 
@@ -641,8 +650,12 @@ footer {
 }
 
 footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     padding: 25px;
+    text-align: center;
 }
 
 footer .row .case {
