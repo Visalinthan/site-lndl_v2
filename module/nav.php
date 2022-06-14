@@ -16,13 +16,13 @@
             <a href="#">A propos</a>
         </li>
         <li class="list-item part">
-            <a href="#">Nos services</a>
+            <a href="services.php">Nos services</a>
         </li>
         <li class="list-item pro">
-            <a href="#">Nos prestations</a>
+            <a href="services.php">Nos prestations</a>
         </li>
         <li class="list-item part">
-            <a href="#">Aides et subventions</a>
+            <a href="aides.php">Aides et subventions</a>
         </li>
         <li class="list-item">
             <a href="#">Contact</a>

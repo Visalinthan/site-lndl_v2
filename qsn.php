@@ -75,7 +75,7 @@
                 <div class="col-md-3">
                     <div class="pole">
                         <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
-                        <h6>TECHNIQUE</h5h6>
+                        <h6>TECHNIQUE</h6>
                     </div>
                 </div>
                 <div class="col-md-3">
