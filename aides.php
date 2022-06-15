@@ -45,8 +45,8 @@
                 </div>
             </div>
 
-
         </div>
+
         <div class="bloc">
             <div class="row">
                 <div class="col-md-12">
@@ -111,6 +111,29 @@
                     </p>
                 </div>
 
+            </div>
+        </div>
+
+        <div class="bloc">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="simulation.php" class="btn-simuler">Estimez vos droits</a>
+                    <p><small>gratuit et immédiat</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bloc">
+            <div class="row">
+                <div class="col text">
+                    <h2>Bénéficiez d’une réduction considérable sur vos factures d’énergie</h2>
+                    <h5>Notre certification d’entreprise RGE nous permet de vous faire profiter des différents dispositifs d’aides. Pour y accéder, suivez ces 3 étapes:</h5>
+                    <ul>
+                        <li> Etablissez votre devis par notre expert</li>
+                        <li> Réalisez vos travaux de rénovation</li>
+                        <li> Percevez le versement de vos aides</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </main>

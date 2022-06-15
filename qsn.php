@@ -182,16 +182,44 @@
             </div>
             <div class="row">
                 <div class="col-md-3 certif">
-                    <img src="img/home/lndl-certification-rge-qualibat.png" alt="LNDL certification RGE Qualibat" />
+                    <img src="img/reference/reference-lndl-bondy-habitat.png" alt="LNDL certification RGE Qualibat" />
                 </div>
                 <div class="col-md-3 certif">
-                    <img src="img/home/lndl-certification-rge-qualipac.png" alt="LNDL certification RGE QualiPac" />
+                    <img src="img/reference/reference-lndl-cdc-habitat.png" alt="LNDL certification RGE QualiPac" />
                 </div>
                 <div class="col-md-3 certif">
-                    <img src="img/home/lndl-certification-rge-chauffage.png" alt="LNDL certification RGE Chauffage" />
+                    <img src="img/reference/reference-lndl-credit-agricole.png" alt="LNDL certification RGE Chauffage" />
                 </div>
                 <div class="col-md-3 certif">
-                    <img src="img/home/lndl-certification-rge-ventilation-plus.png"
+                    <img src="img/reference/reference-lndl-foncia.png"
+                        alt="LNDL certification RGE Ventilation Plus" />
+                </div>
+                <div class="col-md-3 certif">
+                    <img src="img/reference/reference-lndl-hotel-de-la-marine.png"
+                        alt="LNDL certification RGE Ventilation Plus" />
+                </div>
+                <div class="col-md-3 certif">
+                    <img src="img/reference/reference-lndl-immo-de-france.png"
+                        alt="LNDL certification RGE Ventilation Plus" />
+                </div>
+                <div class="col-md-3 certif">
+                    <img src="img/reference/reference-lndl-kering.png"
+                        alt="LNDL certification RGE Ventilation Plus" />
+                </div>
+                <div class="col-md-3 certif">
+                    <img src="img/reference/reference-lndl-laposte.png"
+                        alt="LNDL certification RGE Ventilation Plus" />
+                </div>
+                <div class="col-md-3 certif">
+                    <img src="img/reference/reference-lndl-montereau-fault-yonne.png"
+                        alt="LNDL certification RGE Ventilation Plus" />
+                </div>
+                <div class="col-md-3 certif">
+                    <img src="img/reference/reference-lndl-servair.png"
+                        alt="LNDL certification RGE Ventilation Plus" />
+                </div>
+                <div class="col-md-3 certif">
+                    <img src="img/reference/reference-lndl-stepc.png"
                         alt="LNDL certification RGE Ventilation Plus" />
                 </div>
             </div>

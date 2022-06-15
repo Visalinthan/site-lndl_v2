@@ -17,7 +17,7 @@
     <main id="home" class="container">
         <div class="bloc" data-aos="fade-down" data-aos-duration="500">
             <div class="row" id="bloc_1">
-                <div class="col text" data-aos="fade-right" data-aos-duration="1200">
+                <div class="col text part" data-aos="fade-right" data-aos-duration="1200">
                     <h1>Réalisez des économies, gagnez en confort et agissez pour la planète.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore repellat quibusdam fugit
                         sequi
@@ -25,6 +25,10 @@
                         culpa
                         ea voluptatem quod!</p>
                     <a href="simulation.php" class="btn-simuler">Testez votre éligibilité</a>
+                </div>
+                <div class="col text pro" data-aos="fade-right" data-aos-duration="1200">
+                    <h4>La Nationale Du Logement s’est diversifiée et qualifiée dans le secteur de la rénovation depuis
+                        quelques années pour répondre aux besoins de tous.</h4>
                 </div>
                 <div class="col image" data-aos="fade-left" data-aos-duration="1500">
                     <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
@@ -35,7 +39,7 @@
         <div class="bloc">
             <div class="row">
                 <div class="line" data-aos="fade-right" data-aos-duration="1000"></div>
-                <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-12 part" data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nous choisir c'est...</h2>
                     <p>
                         Confier ses travaux à des professionnels experts dans leur domaine. Notre entreprise respecte
@@ -43,26 +47,43 @@
                         l'Environnement (RGE).
                     </p>
                 </div>
+                <div class="col-md-12 pro" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>Nous faire confiance</h2>
+                    <p>
+                        Confier vos travaux à des professionnels experts en rénovation.
+                    </p>
+                </div>
             </div>
             <div class="row bloc_4">
                 <div class="col-md-4">
-                    <div class="choice" data-aos="flip-right" data-aos-duration="700">
+                    <div class="choice part" data-aos="flip-right" data-aos-duration="700">
                         <img src="img/home/ep_service.png" alt="Assistance Complète avec la LNDL" />
                         <p>Une assistance complète</p>
                     </div>
 
-                </div>
-                <div class="col-md-4">
-                    <div class="choice" data-aos="flip-right" data-aos-duration="1000">
-                        <img src="img/home/Protect.png" alt="Certifié RGE avec la LNDL" />
-                        <p>Des artisans partenaires certifiés RGE</p>
+                    <div class="choice pro" data-aos="flip-right" data-aos-duration="700">
+                        <h5>Accompagnement de A à Z</h5>
                     </div>
 
                 </div>
                 <div class="col-md-4">
-                    <div class="choice" data-aos="flip-right" data-aos-duration="1200">
+                    <div class="choice part" data-aos="flip-right" data-aos-duration="1000">
+                        <img src="img/home/Protect.png" alt="Certifié RGE avec la LNDL" />
+                        <p>Des artisans partenaires certifiés RGE</p>
+                    </div>
+
+                    <div class="choice pro" data-aos="flip-right" data-aos-duration="700">
+                        <h5>Un savoir faire reconnu</h5>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="choice part" data-aos="flip-right" data-aos-duration="1200">
                         <img src="img/home/Guarantee.png" alt="Garantie décénnale avec la LNDL" />
                         <p>Garantie décénnale</p>
+                    </div>
+                    <div class="choice pro" data-aos="flip-right" data-aos-duration="700">
+                        <h5>RGE</h5>
                     </div>
                 </div>
             </div>
@@ -72,7 +93,7 @@
         <div class="bloc">
             <div class="row">
                 <div class="line" data-aos="fade-right" data-aos-duration="1000"></div>
-                <div class="col-md-12">
+                <div class="col-md-12 part">
                     <h2 data-aos="fade-up" data-aos-duration="500">Nos Expertises</h2>
                     <p data-aos="fade-up" data-aos-duration="1000">
                         Acteur de la rénovation énergétique en France, La Nationale du Logement vous accompagne dans vos
@@ -87,7 +108,11 @@
                         améliorons constamment la qualité de nos services.
                     </p>
                 </div>
-                <div class="row">
+                <div class="col-md-12 pro">
+                    <h2 data-aos="fade-up" data-aos-duration="500">Nos Prestations</h2>
+                </div>
+                <div class="row part">
+
                     <div class="col-md-3">
                         <div class="service" id="img-iti" data-aos="flip-right" data-aos-duration="700">
                             <h3>ITE / ITI</h3>
@@ -110,6 +135,73 @@
                             <h3>TCE</h3>
                         </div>
                     </div>
+                </div>
+                <div class="row pro">
+
+                    <div class="col-md-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>Rénovation énérgétique</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                   <ul>
+                                       <li>Calorifugeage</li>
+                                       <li>Les points singuliers</li>
+                                       <li>Rééquilibrage de réseau hydraulique</li>
+                                       <li>ITE</li>
+                                       <li>Pompe à chaleur</li>
+                                       <li>VMC</li>
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>Tout corp d’état</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                   <ul>
+                                       <li>Ventilation</li>
+                                       <li>Ravalement</li>
+                                       <li>Couverture étanchéité</li>
+                                       <li>Peinture</li>
+                                       <li>Revetement de sol</li>
+                                       <li>Plomberie</li>
+                                       <li>Electricité</li>
+                                       <li>Maçonnerie Platrerie</li>
+                                       <li>Gros Oeuvre</li>
+                                       <li>Second Oeuvre</li>
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3>Démolition</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                   <ul>
+                                       <li>Désamiantage</li>
+                                       <li>Déplombage</li>
+                                       <li>Curage</li>
+                                       <li>Déconstruction</li>
+                                       <li>Démolition</li>
+                                       <li>Recyclage</li>
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -157,11 +157,9 @@ a {
 
 .btn-simuler {
     max-width: 250px;
-    height: 40px;
-    padding: 10px 20px;
+    padding: 10px;
     background-color: var(--green);
     color: #fff !important;
-    font-size: 1em;
     border: none;
     border-radius: 5px;
     align-items: center !important;
@@ -219,7 +217,7 @@ a {
     justify-content: space-around;
 }
 
-.flip-card {
+#overlay .flip-card {
     background-color: transparent;
     width: 30vw;
     height: 50vh;
@@ -231,11 +229,11 @@ a {
     cursor: pointer;
 }
 
-.flip-card input[type="radio"] {
+#overlay .flip-card input[type="radio"] {
     visibility: hidden;
 }
 
-.flip-card-inner {
+#overlay .flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -244,12 +242,12 @@ a {
     transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
+#overlay .flip-card:hover .flip-card-inner {
     transform: rotateY(-180deg);
 }
 
-.flip-card-front,
-.flip-card-back {
+#overlay .flip-card-front,
+#overlay .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -264,12 +262,12 @@ a {
     color: var(--green);
 }
 
-.flip-card-back {
+#overlay .flip-card-back {
     transform: rotateY(180deg);
     z-index: 0;
 }
 
-.flip-card-back ul li {
+#overlay .flip-card-back ul li {
     font-size: clamp(16px, 2vw, 20px);
     font-weight: 600;
     padding: 15px 0;
@@ -432,7 +430,7 @@ a {
 }
 
 .bloc div {
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 .bloc .choice {
@@ -449,9 +447,7 @@ a {
 }
 
 .bloc .service {
-    background-image: url("../img/home/famille.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #ccc;
 }
 
 .bloc .service {
@@ -459,7 +455,53 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#home .bloc .flip-card {
+    background-color: transparent;
+    height: 350px;
+    width: 100%;
+    perspective: 1000px;
     cursor: pointer;
+}
+
+#home .bloc .flip-card-inner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#home .bloc .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+#home .bloc .flip-card-front,
+#home .bloc .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .bloc .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .bloc .flip-card-back {
+    background-color: var(--green);
+    color: white;
+    transform: rotateY(180deg);
 }
 
 .bloc .certif {
@@ -491,13 +533,28 @@ a {
     align-items: flex-start;
 }
 
-#services .bloc ul {
-    list-style-type: circle;
-    text-align: justify;
+#aides .btn-simuler {
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 15px;
 }
 
-#services .bloc .pole h6 {
-    text-align: justify;
+#aides ul {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+#aides ul li {
+    counter-increment: my-awesome-counter;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+#aides ul li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #000;
+    font-weight: bold;
 }
 
 

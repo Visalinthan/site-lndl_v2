@@ -1,4 +1,4 @@
-<nav class="navbar" >
+<nav class="navbar">
     <div class="nav-logo">
         <a href="home.php">
             <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
@@ -12,20 +12,24 @@
         <li class="list-item part">
             <a href="qsn.php">Qui sommes-nous ?</a>
         </li>
+
         <li class="list-item pro">
-            <a href="#">A propos</a>
+            <a href="qsn.php">A propos</a>
         </li>
+
         <li class="list-item part">
             <a href="services.php">Nos services</a>
         </li>
+
         <li class="list-item pro">
             <a href="services.php">Nos prestations</a>
         </li>
-        <li class="list-item part">
+
+        <li class="list-item">
             <a href="aides.php">Aides et subventions</a>
         </li>
         <li class="list-item">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
         </li>
     </ul>
     <div id="nav-btn">
@@ -43,17 +47,23 @@
 
 <div id="sidebarMenu">
     <ul class="sidebarMenuInner">
-        <li>
-            <a href="#">À propos</a>
+        <li class="part">
+            <a href="qsn.php">Qui sommes-nous ?</a>
+        </li>
+        <li class="pro">
+            <a href="qsn.php">À propos</a>
+        </li>
+        <li class="part">
+            <a href="services.php">Nos services</a>
+        </li>
+        <li class="pro">
+            <a href="services.php">Nos prestations</a>
         </li>
         <li>
-            <a href="#">Nos services</a>
+            <a href="aides.php">Les aides</a>
         </li>
         <li>
-            <a href="#">Les aides</a>
-        </li>
-        <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
         </li>
     </ul>
 

@@ -26,7 +26,7 @@
             <a href="mailto:infos@lndl.fr">infos@lndl.fr</a>
         </div>
 
-        <div class="col-md-4 col-sm-12 case">
+        <div class="col-md-4 col-sm-12 case" id="contact">
             <form class="row g-3">
                 <div class="col-auto">
                     <input type="text" class="form-control" id="name" placeholder="Nom" required>
