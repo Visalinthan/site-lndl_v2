@@ -14,26 +14,26 @@
     <?php include("module/nav.php"); ?>
     <main id="services" class="container">
 
-        <div class="bloc">
+        <div class="bloc part">
 
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Nos Services</h2>
-                    <p>
+                    <h1>Nos Services</h1>
+                    <h4>
                         Améliorez vos performances énergétiques avec La Nationale du Logement, votre conducteur de
                         travaux vous accompagne dans votre projet de A à Z.
-                    </p>
+                    </h4>
                 </div>
             </div>
         </div>
 
-        <div class="bloc">
+        <div class="bloc part">
             <div class="row serv">
                 <div class="col image">
                     <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
                 </div>
                 <div class="col text">
-                    <h1>Pompe à chaleur</h1>
+                    <h2>Pompe à chaleur</h2>
                     <p>La pompe à chaleur (PAC) est un appareil qui utilise un dispositif thermodynamique qui permet de
                         transférer de la chaleur provenant d’un milieu froid (l’air ou le sol principalement) vers un
                         lieu à chauffer. Elle collecte donc l’énergie nécessaire au bon fonctionnement du chauffage, de
@@ -67,7 +67,7 @@
             <div class="row serv">
 
                 <div class="col text">
-                    <h1>ITE / ITI</h1>
+                    <h2>ITE / ITI</h2>
                     <p>Une isolation thermique par l’intérieur (ITI) consolide et isole les murs de vos pièces des
                         déperditions de chaleur. L’isolation thermique par l’extérieur (ITE) concerne les parois de
                         votre façade. </p>
@@ -113,7 +113,7 @@
             <div class="row serv">
 
                 <div class="col text">
-                    <h1>VMC</h1>
+                    <h2>VMC</h2>
                     <p>La ventilation mécanique contrôlée (VMC) est un équipement essentiel qui permet de renouveler
                         l’air de votre bâtiment. Il évacue l’air vicié et fait pénétrer l’air frais issu de l’extérieur
                         via des bouches d’extraction situées dans les différentes pièces.</p>
@@ -153,140 +153,247 @@
                     <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
                 </div>
                 <div class="col-md-6 text">
-                    <h2>Tous Corps d' Etat</h2>
+                    <h2>Tout Corps d' Etat</h2>
                     <p>
                         Un large champs d'expertise sur tous types de batiments et pour tous types d'interventions allié
                         à une équipe performante.
                     </p>
-                    <h4>Les Avantages</h4>
-                    <ul>
-                        <li>Synchronisation des travaux </li>
-                        <li>Respect des normes et délais </li>
-                        <li>Gain de temps</li>
-                        <li>Économies</li>
-                        <li>Personnel expérimenté et formé</li>
-                        <li>Suivi rigoureux et maintien à jour des habilitations</li>
-                        <li>Matériel adapté</li>
-                        <li>Réalisation des prestations dans de bonnes conditions</li>
-                        <li>Excellente supervision des travaux</li>
-                        <li>Méthodologie de travail maîtrisée</li>
-                    </ul>
+
                 </div>
                 <div class="row tce">
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Assistance Complète avec la LNDL" />
-                            <h6>VENTILATION</h6>
-                            <ul>
-                                <li>VMC</li>
-                            </ul>
-                        </div>
+                    <div class="col-md-3">
+                        <img src="img/5907.jpg" alt="Assistance Complète avec la LNDL" />
+                        <h6>VENTILATION</h6>
+                        <ul>
+                            <li>VMC</li>
+                        </ul>
 
                     </div>
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Certifié RGE avec la LNDL" />
-                            <h6>RAVALEMENT</h6>
-                            <ul>
-                                <li>Peinture</li>
-                                <li>Enduit</li>
-                                <li>Isolation</li>
-                                <li>Divers</li>
-                            </ul>
-                        </div>
+                    <div class="col-md-3">
+                        <img src="img/5907.jpg" alt="Certifié RGE avec la LNDL" />
+                        <h6>RAVALEMENT</h6>
+                        <ul>
+                            <li>Peinture</li>
+                            <li>Enduit</li>
+                            <li>Isolation</li>
+                            <li>Divers</li>
+                        </ul>
+
 
                     </div>
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
-                            <h6>COUVERTURE-ÉTANCHÉITÉ</h6>
+
+                    <div class="col-md-3">
+                        <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
+                        <h6>PEINTURE </h6>
+                        <ul>
+                            <li>Plafond </li>
+                            <li>Mur </li>
+                            <li>Sol </li>
+                            <li>Signalétique </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
+                        <h6>REVÊTEMENT DE SOL </h6>
+                        <ul>
+                            <li>Sol souple</li>
+                            <li>Carrelage</li>
+                            <li>Parquet</li>
+                            <li>Moquette</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
+                        <h6>PLOMBERIE</h6>
+                        <ul>
+                            <li>Chauffage gaz</li>
+                            <li>Chauffage hydraulique</li>
+                            <li>Sanitaire</li>
+                            <li>Plomberie</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
+                        <h6>ELECTRICITÉ</h6>
+                        <ul>
+                            <li>Courant fort</li>
+                            <li>Courant faible</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
+                        <h6>MAÇONNERIE-PLÂTRERIE</h6>
+                        <ul>
+                            <li>Structure</li>
+                            <li>Plancher</li>
+                            <li>Reprise en sous œuvre</li>
+                            <li>Création de mur</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
+                        <h6>DÉMOLITION-CURAGE</h6>
+                        <ul>
+                            <li>Gros œuvre</li>
+                            <li>Second œuvre</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
+                        <h6>COUVERTURE-ÉTANCHÉITÉ</h6>
+                        <div class="couverture">
                             <ul>
                                 <li>Couverture tuile</li>
                                 <li>Couverture ardoise</li>
                                 <li>Couverture zinc</li>
                                 <li>Couverture bac acier</li>
+
+                            </ul>
+                            <ul>
                                 <li>Étanchéité liquide</li>
                                 <li>Toiture-terrasse accessible</li>
                                 <li>Toiture-terrasse inaccessible</li>
                                 <li>Toiture-terrasse végétalisée</li>
                             </ul>
                         </div>
+
                     </div>
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
-                            <h6>PEINTURE </h6>
-                            <ul>
-                                <li>Plafond </li>
-                                <li>Mur </li>
-                                <li>Sol </li>
-                                <li>Signalétique </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
-                            <h6>REVÊTEMENT DE SOL </h6>
-                            <ul>
-                                <li>Sol souple</li>
-                                <li>Carrelage</li>
-                                <li>Parquet</li>
-                                <li>Moquette</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
-                            <h6>PLOMBERIE</h6>
-                            <ul>
-                                <li>Chauffage gaz</li>
-                                <li>Chauffage hydraulique</li>
-                                <li>Sanitaire</li>
-                                <li>Plomberie</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
-                            <h6>ELECTRICITÉ</h6>
-                            <ul>
-                                <li>Courant fort</li>
-                                <li>Courant faible</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
-                            <h6>MAÇONNERIE-PLÂTRERIE</h6>
-                            <ul>
-                                <li>Structure</li>
-                                <li>Plancher</li>
-                                <li>Reprise en sous œuvre</li>
-                                <li>Création de mur</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="pole">
-                            <img src="img/5907.jpg" alt="Garantie décénnale avec la LNDL" />
-                            <h6>DÉMOLITION-CURAGE</h6>
-                            <ul>
-                                <li>Gros œuvre</li>
-                                <li>Second œuvre</li>
-                            </ul>
-                        </div>
-                    </div>
+                </div>
+
+                <div class="row">
+                    <h4>Les Avantages</h4>
+                    <ul class="col-md-3">
+                        <li>Synchronisation des travaux </li>
+                        <li>Respect des normes et délais </li>
+                        <li>Gain de temps</li>
+                        <li>Économies</li>
+                    </ul>
+                    <ul class="col-md-3">
+                        <li>Personnel expérimenté et formé</li>
+                        <li>Suivi rigoureux et maintien à jour des habilitations</li>
+                        <li>Matériel adapté</li>
+                    </ul>
+                    <ul class="col-md-3">
+                        <li>Réalisation des prestations dans de bonnes conditions</li>
+                        <li>Excellente supervision des travaux</li>
+                        <li>Méthodologie de travail maîtrisée</li>
+                    </ul>
                 </div>
 
             </div>
 
-
         </div>
+        <div class="bloc pro">
+            <div class="row serv">
+                <div class="col image">
+                    <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
+                </div>
+                <div class="col text">
+                    <h2>Rénovation énergétique</h2>
+                    <p>La rénovation énergétique consiste à réaliser des travaux sur un bâtiment existant afin
+                        d’améliorer sa performance énergétique. Elle se définit par le rapport entre le niveau d'énergie
+                        absorbé par le bâtiment et l'énergie totale qu'il consomme réellement pour son fonctionnement.
+                    </p>
 
+                </div>
+
+                <div class="row">
+                    <h3>Nos Services</h3>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Calorifugeage</li>
+                            <li>Les points singuliers</li>
+                            <li>Rééquilibrage de réseau hydraulique</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Isolation des combles </li>
+                            <li>ITE</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Pompe à chaleur</li>
+                            <li>VMC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row serv">
+                <div class="col text">
+                    <h2>Tous Corps d'État</h2>
+
+                    <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux
+                        publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers
+                        différents. </p>
+                </div>
+                <div class="col image">
+                    <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
+                </div>
+
+                <div class="row">
+                    <h3>Nos Services</h3>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Ventilation</li>
+                            <li>Ravalement</li>
+                            <li>Couverture étanchéité</li>
+                            <li>Peinture</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Revetement de Sol</li>
+                            <li>Plomberie</li>
+                            <li>Electricté</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Maçonnerie Platrerie</li>
+                            <li>Gros œuvre</li>
+                            <li>Second oeuvre</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row serv">
+                <div class="col image">
+                    <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
+                </div>
+                <div class="col text">
+                    <h2>Démolition</h2>
+                    <p>La Nationale Du Logement intervient dans toute la France pour prendre en charge vos différents
+                        travaux de démolition, jusqu’au tri et évacuation des déchets. </p>
+                </div>
+
+                <div class="row">
+                    <h3>Nos Services</h3>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Désamiantage</li>
+                            <li>Déplombage</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Curage</li>
+                            <li>Déconstruction</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Démolition</li>
+                            <li>Recyclage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <?php include("module/footer.php"); ?>

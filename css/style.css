@@ -116,7 +116,7 @@ a {
 .form-switch {
     display: flex;
     align-items: center;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .form-check label {
@@ -370,13 +370,13 @@ a {
     padding: 5vh 0;
 }
 
-#home .bloc:first-child {
+.bloc:first-child {
     background-color: var(--bg-grey);
     border-bottom-left-radius: 50% 10%;
     border-bottom-right-radius: 50% 10%;
 }
 
-#home .bloc:last-child {
+.bloc:last-child {
     background-color: var(--bg-grey);
     border-top-left-radius: 50% 10%;
     border-top-right-radius: 50% 10%;
@@ -533,6 +533,42 @@ a {
     align-items: flex-start;
 }
 
+#services .bloc .tce ul li {
+    text-align: center;
+}
+
+#services .tce ul {
+    list-style: none;
+}
+
+#services .tce img {
+    width: 100px;
+}
+
+#services .couverture {
+    display: flex;
+}
+
+#services .couverture ul {
+    min-width: 250px;
+}
+
+#qsn ul,
+#services ul {
+    list-style: circle;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+#qsn ul li,
+#services ul li {
+    text-align: left;
+}
+
+#qsn div .row {
+    align-items: flex-start;
+}
+
 #aides .btn-simuler {
     border-radius: 15px;
     font-size: 1.5em;
@@ -555,6 +591,134 @@ a {
     content: counter(my-awesome-counter) ". ";
     color: #000;
     font-weight: bold;
+}
+
+ol.process-chart {
+    color: #fff;
+    counter-reset: item;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 0 0 1em;
+    padding: 0;
+}
+
+ol.process-chart>li,
+ol.process-chart>li>div {
+    position: relative;
+}
+
+ol.process-chart>li {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 0%, transparent 25%);
+    background-color: var(--green);
+    counter-increment: item;
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 1em 1em 1em -1em;
+    min-width: 11.25em;
+    padding: 1em 1em 1em 2em;
+    min-height: 250px;
+}
+
+ol.process-chart>li:before,
+ol.process-chart>li>div:before {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*
+ol.process-chart>li:before {
+    content: 'Process';
+    display: inline-block;
+    font-weight: 300;
+    left: 2em;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 1em;
+    transform: rotate(90deg);
+    transform-origin: 25% 50%;
+}*/
+
+ol.process-chart>li:after {
+    border-bottom: 1em solid transparent;
+    border-left: 1em solid #fff;
+    border-right: 0 solid transparent;
+    border-top: 1em solid transparent;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: -1em;
+    top: 0;
+    width: 0;
+    z-index: 1;
+}
+
+ol.process-chart>li>div {
+    padding: 0 0 0 1em;
+}
+
+ol.process-chart>li>div:before {
+    content: counter(item, decimal-leading-zero);
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1;
+}
+
+
+/*** PRIMARY ***/
+
+ol.process-chart>li:nth-of-type(6n+1) {
+    background-color: #528B37;
+}
+
+ol.process-chart>li:nth-of-type(6n+1):after {
+    border-left-color: #528B37;
+}
+
+
+/*** SECONDARY ***/
+
+ol.process-chart>li:nth-of-type(6n+2) {
+    background-color: #1B8151;
+}
+
+ol.process-chart>li:nth-of-type(6n+2):after {
+    border-left-color: #1B8151;
+}
+
+
+/*** TERTIARY ***/
+
+ol.process-chart>li:nth-of-type(6n+3) {
+    background-color: #007564;
+}
+
+ol.process-chart>li:nth-of-type(6n+3):after {
+    border-left-color: #007564;
+}
+
+
+/*** QUATERNARY ***/
+
+ol.process-chart>li:nth-of-type(6n+4) {
+    background-color: #00676C;
+}
+
+ol.process-chart>li:nth-of-type(6n+4):after {
+    border-left-color: #00676C;
+}
+
+
+/*** QUINARY ***/
+
+ol.process-chart>li:nth-of-type(6n+5) {
+    background-color: #125767;
+}
+
+ol.process-chart>li:nth-of-type(6n+5):after {
+    border-left-color: #125767;
 }
 
 
