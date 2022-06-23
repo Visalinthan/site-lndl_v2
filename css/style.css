@@ -362,7 +362,6 @@ a {
 }
 
 #sous-menu ul {
-    width: 100% !important;
     padding: 100px 0px;
     position: fixed;
 }
@@ -371,20 +370,13 @@ a {
     padding: 10px;
     cursor: pointer;
     list-style: none;
+    font-size: 0.8em;
 }
 
 #sous-menu ul li:hover,
 #sous-menu ul li.active {
     background-color: #00676C;
-}
-
-#sous-menu ul li:hover>a,
-#sous-menu ul li.active>a {
     color: #fff;
-}
-
-#sous-menu ul li a {
-    color: #000;
 }
 
 

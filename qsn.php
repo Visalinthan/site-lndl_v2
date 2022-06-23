@@ -16,18 +16,18 @@
 
 
     <main id="qsn" class="container row">
-        <div id="sous-menu" class="col-md-2">
+        <div id="sous-menu" class="col-md-1">
                 <ul>
-                    <li><a href="#histoire">Qui sommes-nous ?</a></li>
-                    <li><a href="#equipe">Nos équipes</a></li>
-                    <li class="pro"><a href="#process">Processus travaux</a></li>
-                    <li><a href="#engagement">Nos engagements</a></li>
-                    <li><a href="#chiffre">LNDL en quelques chiffres</a></li>
-                    <li class="pro"><a href="#avantage">Les avantages avec LNDL</a></li>
-                    <li><a href="#ref">Nos références</a></li>
+                    <li>Qui sommes-nous ?</li>
+                    <li>Nos équipes</li>
+                    <li class="pro">Processus travaux</li>
+                    <li>Nos engagements</li>
+                    <li>LNDL en quelques chiffres</li>
+                    <li class="pro">Les avantages avec LNDL</li>
+                    <li>Nos références</li>
                 </ul>
         </div>
-        <div class="col-md-10" id="histoire">
+        <div class="col-md-11" >
             <div  class="bloc">
                 <div class="row" id="bloc_1">
                     <div class="col text part">

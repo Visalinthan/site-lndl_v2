@@ -41,6 +41,35 @@ $(document).ready(function() {
     });
 
 
+    var sousMenu = $("#sous-menu li");
+
+    /*
+        $('a[href*=#]').bind('click', function(e) {
+            e.preventDefault(); // prevent hard jump, the default behavior
+
+            var target = $(this).attr("href"); // Set the target as variable
+
+            // perform animated scrolling by getting top-position of target-element and set it as scroll target
+            $('html, body').stop().animate({
+                scrollTop: $(target).offset().top
+            }, 600, function() {
+                location.hash = target; //attach the hash (#jumptarget) to the pageurl
+            });
+
+            return false;
+        });
+    */
+
+    $(window).scroll(function() {
+        var scrollDistance = $(window).scrollTop();
+        $('.bloc').each(function(i) {
+            console.log($(this).position());
+            if ($(this).position().top + (-50) <= scrollDistance) {
+                $('#sous-menu li.active').removeClass('active');
+                $('#sous-menu li').eq(i).addClass('active');
+            }
+        });
+    }).scroll();
 
     AOS.init({
         offset: 100,
