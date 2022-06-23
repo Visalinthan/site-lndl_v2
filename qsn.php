@@ -17,18 +17,18 @@
 
     <main id="qsn" class="container row">
         <div id="sous-menu" class="col-md-1">
-                <ul>
-                    <li>Qui sommes-nous ?</li>
-                    <li>Nos équipes</li>
-                    <li class="pro">Processus travaux</li>
-                    <li>Nos engagements</li>
-                    <li>LNDL en quelques chiffres</li>
-                    <li class="pro">Les avantages avec LNDL</li>
-                    <li>Nos références</li>
-                </ul>
+            <ul>
+                <li>Qui sommes-nous ?</li>
+                <li>Nos équipes</li>
+                <li class="pro">Processus travaux</li>
+                <li>Nos engagements</li>
+                <li>LNDL en quelques chiffres</li>
+                <li class="pro">Les avantages avec LNDL</li>
+                <li>Nos références</li>
+            </ul>
         </div>
-        <div class="col-md-11" >
-            <div  class="bloc">
+        <div class="col-md-11">
+            <div class="bloc">
                 <div class="row" id="bloc_1">
                     <div class="col text part">
                         <h1>Notre histoire</h1>
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div id="equipe" class="bloc" >
+            <div id="equipe" class="bloc">
                 <div class="row">
                     <div class="line"></div>
                     <div class="col-md-12">

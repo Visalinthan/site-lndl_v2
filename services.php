@@ -13,18 +13,18 @@
 
     <?php include("module/nav.php"); ?>
     <main id="services" class="container row">
-        <div id="sous-menu" class="col-md-2">
+        <div id="sous-menu" class="col-md-1">
             <ul>
-                <li class="part"><a href="#pac">Pompe à chaleur</a></li>
-                <li class="part"><a href="#ite">ITE / ITI</a></li>
-                <li class="part"><a href="#vmc">VMC</a></li>
-                <li class="part"><a href="#tce">Tous Corps d'Etat</a></li>
-                <li class="pro"><a href="#renov">Rénovation énergétique</a></li>
-                <li class="pro"><a href="#tce2">Tous Corps d'Etat</a></li>
-                <li class="pro"><a href="#demol">Démolition</a></li>
+                <li class="part">Pompe à chaleur</li>
+                <li class="part">ITE / ITI</li>
+                <li class="part">VMC</li>
+                <li class="part">Tous Corps d'Etat</li>
+                <li class="pro">Rénovation énergétique</li>
+                <li class="pro">Tous Corps d'Etat</li>
+                <li class="pro">Démolition</li>
             </ul>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-11">
 
             <div class="bloc part">
 
