@@ -33,7 +33,7 @@
             </div>
         </div>
     </nav>
-    
+
     <main id="simulation" class="container">
         <div class="bloc">
             <div class="row bloc_3">
@@ -44,7 +44,7 @@
                 </div>
 
             </div>
-            <form id="form-simule" class="form needs-validation " name="form" method="POST"  novalidate>
+            <form id="form-simule" class="form needs-validation " name="form" method="POST" novalidate>
 
                 <div class="row form-step">
                     <h1 class="col-md-12">Mon type de logement :</h1>
@@ -79,7 +79,7 @@
                     <div class="form-input">
                         <div class="col-md-6 mb-5">
                             <label for="surface" class="form-label">Surface habitable m²</label>
-                            <input type="text" class="form-control"  id="surface"  name="surface">
+                            <input type="text" class="form-control" id="surface" name="surface">
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="codepostale" class="form-label">Code Postale</label>
@@ -171,19 +171,17 @@
     <?php include("module/footer.php"); ?>
     <script src="js/form-step.js"></script>
     <script>
-        AOS.init({
-            offset: 100,
-            duration: 700,
-            easing: 'ease-in-sine',
-            delay: 500,
-            once: true,
-            disable: 'mobile'
-        })
+    AOS.init({
+        offset: 100,
+        duration: 700,
+        easing: 'ease-in-sine',
+        delay: 500,
+        once: true,
+        disable: 'mobile'
+    })
     </script>
     <script src="js/api-zipcode.js"></script>
 
 </body>
 
 </html>
-
-
