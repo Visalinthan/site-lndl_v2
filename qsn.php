@@ -16,9 +16,10 @@
 
 
     <main id="qsn" class="container row">
-        <div id="sous-menu" class="col-md-1">
+        <div id="sous-menu" class="col-xl-1 col-lg-12">
             <ul>
-                <li>Qui sommes-nous ?</li>
+                <li class="pro">Qui sommes-nous ?</li>
+                <li class="part">Notre histoire</li>
                 <li>Nos équipes</li>
                 <li class="pro">Processus travaux</li>
                 <li>Nos engagements</li>
@@ -27,7 +28,7 @@
                 <li>Nos références</li>
             </ul>
         </div>
-        <div class="col-md-11">
+        <div class="col-xl-11 col-lg-12">
             <div class="bloc">
                 <div class="row" id="bloc_1">
                     <div class="col text part">

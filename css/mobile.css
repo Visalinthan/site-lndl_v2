@@ -141,3 +141,12 @@
         height: 135px;
     }
 }
+
+
+/*--Sous Menu --*/
+
+@media all and (max-width: 1199px) {
+    #sous-menu {
+        display: none
+    }
+}
