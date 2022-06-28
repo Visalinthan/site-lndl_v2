@@ -74,9 +74,9 @@
         text-decoration: none;
     }
     /*
-.row {
-    --bs-gutter-x: 0rem
-}*/
+    .row {
+        --bs-gutter-x: 0rem
+    }*/
     /*-- MENU DESKTOP -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP ---- MENU DESKTOP --*/
     /*-- MENU DESKTOP -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP ---- MENU DESKTOP --*/
     /*-- MENU DESKTOP -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP ---- MENU DESKTOP --*/
@@ -109,6 +109,13 @@
         display: flex;
         align-items: center;
         cursor: pointer !important;
+        padding-left: 0em;
+    }
+    
+    .form-check {
+        min-height: 0rem;
+        padding-left: 0em;
+        margin-bottom: 0rem;
     }
     
     .form-check label {
@@ -132,6 +139,14 @@
     .navbar a {
         color: #444;
         font-weight: 600;
+    }
+    
+    .nav-list li.active {
+        border-bottom: 5px solid var(--green);
+    }
+    
+    .nav-list li.active a {
+        color: var(--green);
     }
     
     .navbar a:hover {
@@ -330,7 +345,7 @@
     }
     /*--Sous Menu --*/
     
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1300px) {
         #sous-menu {
             display: flex;
             flex-direction: column;
@@ -345,9 +360,13 @@
             padding: 10px;
             cursor: pointer;
             list-style: none;
-            font-size: 0.8em;
+            max-width: 155px;
+        }
+        #sous-menu ul li a {
+            font-size: 0.8em !important;
             font-weight: bold;
-            width: 100%;
+            text-decoration: none;
+            color: #000;
         }
         #sous-menu ul li:hover,
         #sous-menu ul li.active {
@@ -618,7 +637,7 @@
         margin: 1em 1em 1em -1em;
         min-width: 11.25em;
         padding: 1em 1em 1em 2em;
-        min-height: 250px;
+        height: 300px;
     }
     
     ol.process-chart>li:before,
@@ -709,6 +728,8 @@ ol.process-chart>li:before {
     ol.process-chart>li:nth-of-type(6n+5):after {
         border-left-color: #125767;
     }
+    /* Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step */
+    /* Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step */
     /* Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step -- Form-Step */
     
     .progressbar {

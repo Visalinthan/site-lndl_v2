@@ -18,18 +18,18 @@
     <main id="qsn" class="container row">
         <div id="sous-menu" class="col-xl-1 col-lg-12">
             <ul>
-                <li class="pro">Qui sommes-nous ?</li>
-                <li class="part">Notre histoire</li>
-                <li>Nos équipes</li>
-                <li class="pro">Processus travaux</li>
-                <li>Nos engagements</li>
-                <li>LNDL en quelques chiffres</li>
-                <li class="pro">Les avantages avec LNDL</li>
-                <li>Nos références</li>
+                <li class="pro"><a href="#story">Qui sommes-nous ?</a></li>
+                <li class="part"><a href="#story">Notre histoire</a></li>
+                <li><a href="#team">Nos équipes</a></li>
+                <li class="pro"><a href="#process">Processus travaux</a></li>
+                <li><a href="#engagement">Nos engagements</a></li>
+                <li><a href="#chiffre">LNDL en quelques chiffres</a></li>
+                <li class="pro"><a href="#avantage">Les avantages avec LNDL</a></li>
+                <li><a href="#ref">Nos références</a></li>
             </ul>
         </div>
         <div class="col-xl-11 col-lg-12">
-            <div class="bloc">
+            <div id="story" class="bloc">
                 <div class="row" id="bloc_1">
                     <div class="col text part">
                         <h1>Notre histoire</h1>
@@ -75,7 +75,7 @@
                 </div>
             </div>
 
-            <div id="equipe" class="bloc">
+            <div id="team" class="bloc">
                 <div class="row">
                     <div class="line"></div>
                     <div class="col-md-12">
@@ -139,27 +139,27 @@
                 </div>
 
                 <ol class="row process-chart">
-                    <li class="col-md-3">
+                    <li class=" col-lg-12">
                         <div>
                             <h5>Etude de faisabilité technique</h5>
                         </div>
                     </li>
-                    <li class="col-md-3">
+                    <li class="col-lg-12">
                         <div>
                             <h5>Formalisation du contrat de partenariat</h5>
                         </div>
                     </li>
-                    <li class="col-md-3">
+                    <li class=" col-lg-12">
                         <div>
                             <h5>Accompagnement pour l’instruction de primes</h5>
                         </div>
                     </li>
-                    <li class="col-md-3">
+                    <li class=" col-lg-12">
                         <div>
                             <h5>Réalisation des travaux</h5>
                         </div>
                     </li>
-                    <li class="col-md-3">
+                    <li class=" col-lg-12">
                         <div>
                             <h5>Réception des travaux</h5>
                         </div>

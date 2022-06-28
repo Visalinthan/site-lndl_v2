@@ -138,14 +138,14 @@
 
 @media all and (max-width: 796px) {
     .navbar {
-        height: 135px;
+        /* height: 135px;*/
     }
 }
 
 
 /*--Sous Menu --*/
 
-@media all and (max-width: 1199px) {
+@media all and (max-width: 1299px) {
     #sous-menu {
         display: none
     }

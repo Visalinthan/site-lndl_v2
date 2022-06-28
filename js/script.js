@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $("#overlay .flip-card").click(function() {
         var page = $(this).attr('id');
         sessionStorage.setItem('page', page);
@@ -41,24 +42,45 @@ $(document).ready(function() {
     });
 
 
-    var sousMenu = $("#sous-menu li");
 
-    /*
-        $('a[href*=#]').bind('click', function(e) {
-            e.preventDefault(); // prevent hard jump, the default behavior
 
-            var target = $(this).attr("href"); // Set the target as variable
+    $('.navbar .nav-list li').click(function(e) {
+        var click = $(this).children().attr("href");
+        localStorage.setItem('active', click);
+        var active = localStorage.getItem('active');
 
-            // perform animated scrolling by getting top-position of target-element and set it as scroll target
-            $('html, body').stop().animate({
-                scrollTop: $(target).offset().top
-            }, 600, function() {
-                location.hash = target; //attach the hash (#jumptarget) to the pageurl
-            });
+        if (active == $('main').attr('id')) {
+            $(this).siblings().removeClass('active').end().addClass('active');
+        }
 
-            return false;
+        //e.preventDefault();
+
+        //$this.parent().siblings().removeClass('active').end().addClass('active');
+
+        //Load the page content in to element
+        //with id #content using ajax (There are other ways)
+        //$('#content').load($this.href());
+    });
+
+
+
+
+
+    $("#sous-menu ul li ").bind('click', function(e) {
+        e.preventDefault(); // prevent hard jump, the default behavior
+
+        var target = $(this).children().attr("href"); // Set the target as variable
+        console.log(target);
+
+        // perform animated scrolling by getting top-position of target-element and set it as scroll target
+        $('main').animate({
+            scrollTop: $(target).offset().top
+        }, 500, function() {
+            location.hash = target; //attach the hash (#jumptarget) to the pageurl
         });
-    */
+
+        return false;
+    });
 
 
 

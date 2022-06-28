@@ -15,22 +15,22 @@
     <main id="services" class="container row">
         <div id="sous-menu" class="col-xl-1 col-lg-12">
             <ul>
-                <li class="part">Nos Services</li>
-                <li class="part">Pompe à chaleur</li>
-                <li class="part">ITE / ITI</li>
-                <li class="part">VMC</li>
-                <li class="part">Tous Corps d'Etat</li>
-                <li class="pro">Rénovation énergétique</li>
-                <li class="pro">Tous Corps d'Etat</li>
-                <li class="pro">Démolition</li>
+                <li class="part"><a href="#serv">Nos Services</a></li>
+                <li class="part"><a href="#pac">Pompe à chaleur</a></li>
+                <li class="part"><a href="#ite">ITE / ITI</a></li>
+                <li class="part"><a href="#vmc">VMC</a></li>
+                <li class="part"><a href="#tce">Tous Corps d'Etat</a></li>
+                <li class="pro"><a href="#renov">Rénovation énergétique</a></li>
+                <li class="pro"><a href="#tce2">Tous Corps d'Etat</a></li>
+                <li class="pro"><a href="#demol">Démolition</a></li>
             </ul>
         </div>
-        <div class="col-md-11">
+        <div class="col-xl-11 col-lg-12">
 
             <div class="bloc part">
 
-                <div class="row">
-                    <div class="col-xl-11 col-lg-12">
+                <div class="row" id="serv">
+                    <div class="col-md-12">
                         <h1>Nos Services</h1>
                         <h4>
                             Améliorez vos performances énergétiques avec La Nationale du Logement, votre conducteur de
@@ -40,8 +40,8 @@
                 </div>
             </div>
 
-            <div class="bloc part">
-                <div id="pac" class="row serv">
+            <div class="bloc part" id="pac">
+                <div  class="row serv">
                     <div class="col image">
                         <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
                     </div>
@@ -81,8 +81,8 @@
                 </div>
 
             </div>
-            <div class="bloc part">
-                <div id="ite" class="row serv">
+            <div class="bloc part" id="ite">
+                <div  class="row serv">
 
                     <div class="col text">
                         <h2>ITE / ITI</h2>
@@ -133,8 +133,8 @@
 
                 </div>
             </div>
-            <div class="bloc part">
-                <div id="vmc" class="row serv">
+            <div class="bloc part" id="vmc">
+                <div class="row serv">
 
                     <div class="col text">
                         <h2>VMC</h2>
@@ -175,9 +175,9 @@
                 </div>
 
             </div>
-            <div class="bloc part">
+            <div class="bloc part" id="tce">
 
-                <div id="tce" class="row ">
+                <div  class="row ">
 
                     <div class="col-md-6 image">
                         <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
@@ -316,8 +316,8 @@
                 </div>
             </div>
 
-            <div class="bloc pro">
-                <div id="renov" class="row serv">
+            <div class="bloc pro" id="renov"  >
+                <div class="row serv">
                     <div class="col image">
                         <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
                     </div>
@@ -356,8 +356,8 @@
                     </div>
                 </div>
             </div>
-            <div class="bloc pro">
-                <div id="tce2" class="row serv">
+            <div class="bloc pro" id="tce2>
+                <div " class="row serv">
                     <div class="col text">
                         <h2>Tous Corps d'État</h2>
 
@@ -396,8 +396,8 @@
                     </div>
                 </div>
             </div>
-            <div class="bloc pro">
-                <div id="demol" class="row serv">
+            <div class="bloc pro" id="demol">
+                <div  class="row serv">
                     <div class="col image">
                         <img src="img/home/famille.png" alt="Lndl vous aide à économiser " />
                     </div>
