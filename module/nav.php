@@ -1,6 +1,6 @@
 <nav class="navbar">
     <div class="nav-logo">
-        <a href="home">
+        <a href="home.php">
             <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
         </a>
         <div class="form-check form-switch">
@@ -12,23 +12,23 @@
 
     <ul class="nav-list">
         <li class="list-item part">
-            <a href="qsn">Qui sommes-nous ?</a>
+            <a href="qsn.php">Qui sommes-nous ?</a>
         </li>
 
         <li class="list-item pro">
-            <a href="qsn">A propos</a>
+            <a href="qsn.php">A propos</a>
         </li>
 
         <li class="list-item part">
-            <a href="services">Nos services</a>
+            <a href="services.php">Nos services</a>
         </li>
 
         <li class="list-item pro">
-            <a href="services">Nos prestations</a>
+            <a href="services.php">Nos prestations</a>
         </li>
 
         <li class="list-item">
-            <a href="aides">Aides et subventions</a>
+            <a href="aides.php">Aides et subventions</a>
         </li>
         <li class="list-item">
             <a href="#contact">Contact</a>
@@ -38,7 +38,7 @@
 
 
     <div id="nav-btn">
-        <a href="simulation" class="btn-simuler">Faire une estimation</a>
+        <a href="simulation.php" class="btn-simuler">Faire une estimation</a>
     </div>
 
 
