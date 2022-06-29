@@ -41,10 +41,13 @@
                 <div class="line" data-aos="fade-right" data-aos-duration="1000"></div>
                 <div class="col-md-12 part" data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nous choisir c'est...</h2>
+
+                    <h4>Confier ses travaux à des professionnels experts dans leur domaine !</h4>
                     <p>
-                        Confier ses travaux à des professionnels experts dans leur domaine. Notre entreprise respecte
-                        une charte de qualité et nos certifications nous labellisé comme professionnel Reconnu Garant de
-                        l'Environnement (RGE).
+                        Notre entreprise respecte
+                        une charte de qualité et nos certifications nous labellisé comme professionnel Reconnu
+                        Garant de
+                        l’Environnement (RGE).
                     </p>
                 </div>
                 <div class="col-md-12 pro" data-aos="fade-up" data-aos-duration="1000">
@@ -145,14 +148,14 @@
                                     <h3>Rénovation énérgétique</h3>
                                 </div>
                                 <div class="flip-card-back">
-                                   <ul>
-                                       <li>Calorifugeage</li>
-                                       <li>Les points singuliers</li>
-                                       <li>Rééquilibrage de réseau hydraulique</li>
-                                       <li>ITE</li>
-                                       <li>Pompe à chaleur</li>
-                                       <li>VMC</li>
-                                   </ul>
+                                    <ul>
+                                        <li>Calorifugeage</li>
+                                        <li>Les points singuliers</li>
+                                        <li>Rééquilibrage de réseau hydraulique</li>
+                                        <li>ITE</li>
+                                        <li>Pompe à chaleur</li>
+                                        <li>VMC</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -165,18 +168,18 @@
                                     <h3>Tout corp d’état</h3>
                                 </div>
                                 <div class="flip-card-back">
-                                   <ul>
-                                       <li>Ventilation</li>
-                                       <li>Ravalement</li>
-                                       <li>Couverture étanchéité</li>
-                                       <li>Peinture</li>
-                                       <li>Revetement de sol</li>
-                                       <li>Plomberie</li>
-                                       <li>Electricité</li>
-                                       <li>Maçonnerie Platrerie</li>
-                                       <li>Gros Oeuvre</li>
-                                       <li>Second Oeuvre</li>
-                                   </ul>
+                                    <ul>
+                                        <li>Ventilation</li>
+                                        <li>Ravalement</li>
+                                        <li>Couverture étanchéité</li>
+                                        <li>Peinture</li>
+                                        <li>Revetement de sol</li>
+                                        <li>Plomberie</li>
+                                        <li>Electricité</li>
+                                        <li>Maçonnerie Platrerie</li>
+                                        <li>Gros Oeuvre</li>
+                                        <li>Second Oeuvre</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -189,14 +192,14 @@
                                     <h3>Démolition</h3>
                                 </div>
                                 <div class="flip-card-back">
-                                   <ul>
-                                       <li>Désamiantage</li>
-                                       <li>Déplombage</li>
-                                       <li>Curage</li>
-                                       <li>Déconstruction</li>
-                                       <li>Démolition</li>
-                                       <li>Recyclage</li>
-                                   </ul>
+                                    <ul>
+                                        <li>Désamiantage</li>
+                                        <li>Déplombage</li>
+                                        <li>Curage</li>
+                                        <li>Déconstruction</li>
+                                        <li>Démolition</li>
+                                        <li>Recyclage</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +216,7 @@
                 <div class="col-md-12 " data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nos certifications</h2>
                     <p>
-                        Avec l’augmentation du prix des énergies, ne rien faire revient souvent plus cher !
+                        Avec la hausse des prix de l'énergie, ne rien faire coûte souvent plus cher !
                     </p>
                 </div>
             </div>

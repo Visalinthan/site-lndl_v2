@@ -33,10 +33,11 @@
                 <div class="row" id="bloc_1">
                     <div class="col text part">
                         <h1>Notre histoire</h1>
-                        <p>Conscient des nombreuses fraudes et arnaques dans le secteur de la rénovation énergétique,
-                            Diafara GARY décide de pallier à l’ampleur de cette problématique.
-                            Au cours de ses expériences, il a également pu aiguiser une sensibilité face à la précarité
-                            énergétique. C’est ainsi qu’il fonde la Nationale du Logement.
+                        <p>Au cours de ses expériences, Diafara GARY a pu aiguiser une sensibilité face à la précarité
+                            énergétique.
+                            Conscient des nombreuses fraudes et arnaques dans le secteur de la rénovation énergétique,
+                            il a à cœur de pallier l’ampleur de cette problématique.
+                            C’est ainsi qu’il fonde la Nationale du Logement.
                         </p>
                         <p>
                             Sa motivation ?<br />
