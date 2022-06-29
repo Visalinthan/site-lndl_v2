@@ -9,7 +9,7 @@ $(document).ready(function() {
         }, 1000);
     });
 
-    if (sessionStorage.getItem('page') == "Particulier" || sessionStorage.getItem('page') == "Professionnel") {
+    if (sessionStorage.getItem('page') == "Particuliers" || sessionStorage.getItem('page') == "Professionnels") {
         $("#overlay").hide();
         if ($('#label-nav').text() != sessionStorage.getItem('page')) {
             $("#label-nav").append(sessionStorage.getItem('page'));
@@ -21,12 +21,12 @@ $(document).ready(function() {
 
     var switchPage = $("#mySwitch");
 
-    if (sessionStorage.getItem('page') == "Particulier") {
+    if (sessionStorage.getItem('page') == "Particuliers") {
         $(".pro").remove();
         $('.part').show();
         switchPage.attr("checked", true)
 
-    } else if (sessionStorage.getItem('page') == "Professionnel") {
+    } else if (sessionStorage.getItem('page') == "Professionnels") {
         $(".part").remove();
         $('.pro').show();
         switchPage.attr("checked", false)
@@ -34,9 +34,9 @@ $(document).ready(function() {
 
     switchPage.click(function() {
         if ($("input[type=checkbox]").is(":checked")) {
-            sessionStorage.setItem('page', 'Particulier');
+            sessionStorage.setItem('page', 'Particuliers');
         } else {
-            sessionStorage.setItem('page', 'Professionnel');
+            sessionStorage.setItem('page', 'Professionnels');
         }
         location.href = 'home.php';
     });

@@ -8,10 +8,18 @@
             </p>
         </div>
         <div class="col-md-2 col-sm-12 case">
-            <ul>
-                <li><a href="#">Qui sommes-nous ?</a></li>
-                <li><a href="#">Aides et subventions</a></li>
-                <li><a href="#">Parrainage</a></li>
+            <ul class="part">
+                <li><a href="qsn.php">Qui sommes-nous ?</a></li>
+                <li><a href="services.php">Nos Services</a></li>
+                <li><a href="aides.php">Aides et subventions</a></li>
+                
+            </ul>
+
+            <ul class="pro">
+                <li><a href="qsn.php">A propos</a></li>
+                <li><a href="services.php">Nos Prestations</a></li>
+                <li><a href="aides.php">Aides et subventions</a></li>
+                
             </ul>
         </div>
         <div class="col-md-2 col-sm-12 case">

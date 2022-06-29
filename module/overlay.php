@@ -8,7 +8,7 @@
         </div>
         <div class="row service-card">
 
-            <div id="Particulier" class="flip-card" data-aos="flip-right" data-aos-duration="1200">
+            <div id="Particuliers" class="flip-card" data-aos="flip-right" data-aos-duration="1200">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <h2>Particuliers</h2>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div id="Professionnel" class="flip-card"  data-aos="flip-right" data-aos-duration="1200">
+            <div id="Professionnels" class="flip-card"  data-aos="flip-right" data-aos-duration="1200">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <h2>Professionnels</h2>
