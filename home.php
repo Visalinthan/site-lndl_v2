@@ -19,12 +19,9 @@
             <div class="row" id="bloc_1">
                 <div class="col text part" data-aos="fade-right" data-aos-duration="1200">
                     <h1>Réalisez des économies, gagnez en confort et agissez pour la planète.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore repellat quibusdam fugit
-                        sequi
-                        perferendis ullam fugiat neque tenetur earum autem, libero veniam animi voluptatum totam nisi
-                        culpa
-                        ea voluptatem quod!</p>
-                    <a href="simulation.php" class="btn-simuler">Testez votre éligibilité</a>
+                    <div class="btn">
+                        <a href="simulation.php" class="btn-simuler">Testez votre éligibilité</a>
+                    </div>
                 </div>
                 <div class="col text pro" data-aos="fade-right" data-aos-duration="1200">
                     <h4>La Nationale Du Logement s’est diversifiée et qualifiée dans le secteur de la rénovation depuis
@@ -42,12 +39,10 @@
                 <div class="col-md-12 part" data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nous choisir c'est...</h2>
 
-                    <h4>Confier ses travaux à des professionnels experts dans leur domaine !</h4>
+                    <h4>...confier ses travaux à des professionnels experts dans leur domaine !</h4>
                     <p>
-                        Notre entreprise respecte
-                        une charte de qualité et nos certifications nous labellisé comme professionnel Reconnu
-                        Garant de
-                        l’Environnement (RGE).
+                        La Nationale Du Logement respecte une charte de qualité et possède toutes les certifications et
+                        labels permettant d’être Reconnu Garant de l'Environnement (RGE).
                     </p>
                 </div>
                 <div class="col-md-12 pro" data-aos="fade-up" data-aos-duration="1000">

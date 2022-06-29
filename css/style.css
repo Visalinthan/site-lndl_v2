@@ -413,9 +413,14 @@
     
     #home .bloc .text {
         display: flex;
-        text-align: left;
+        text-align: center;
         flex-direction: column;
         justify-content: space-around;
+    }
+    
+    #home .bloc .btn {
+        width: 100%;
+        line-height: 80px;
     }
     
     #home .bloc .image img {
