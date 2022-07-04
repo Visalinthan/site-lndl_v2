@@ -3,10 +3,7 @@
         <a href="home.php">
             <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
         </a>
-        <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" id="mySwitch" name="pageHome">
-            <label id="label-nav" class="form-check-label" for="mySwitch"></label>
-        </div>
+
     </div>
 
 
@@ -35,11 +32,14 @@
         </li>
 
     </ul>
-
-
-    <div id="nav-btn">
-        <a href="simulation.php" class="btn-simuler">Faire une estimation</a>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="mySwitch" name="pageHome">
+        <label id="label-nav" class="form-check-label" for="mySwitch"></label>
     </div>
+
+    <!-- <div id="nav-btn">
+        <a href="simulation.php" class="btn-simuler">Faire une estimation</a>
+    </div>-->
 
 
 </nav>
