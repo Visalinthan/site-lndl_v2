@@ -3,7 +3,7 @@
         <div class="col-md-2 col-sm-12 case">
             <img class="logo-lndl" alt="logo LNDL" src="../img/logo.png" />
             <p>
-                La Nationale du Logement a pour mission principale, d'accompagner les ménages et les entreprises à la
+                La Nationale du Logement a pour mission principale d'accompagner les ménages et les entreprises à la
                 rénovation énergétique.
             </p>
         </div>
