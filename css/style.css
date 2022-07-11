@@ -73,10 +73,10 @@
     a {
         text-decoration: none;
     }
-    /*
+    
     .row {
         --bs-gutter-x: 0rem
-    }*/
+    }
     /*-- MENU DESKTOP -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP ---- MENU DESKTOP --*/
     /*-- MENU DESKTOP -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP ---- MENU DESKTOP --*/
     /*-- MENU DESKTOP -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP -- -- MENU DESKTOP ---- MENU DESKTOP --*/
@@ -378,14 +378,18 @@
     .bloc {
         height: 800px;
         z-index: 10;
-        background-image: url('../img/bg.jpg');
+        background-color: #00676C;
+        /* background-image: url('../img/bg.jpg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
-        position: relative;
+        background-size: cover;*/
         display: flex;
+    }
+    
+    .bloc div {
         align-items: center;
         justify-content: center;
+        border: 1px solid red;
     }
     
     .triangle {
@@ -400,11 +404,10 @@
         right: 0;
         z-index: 12;
     }
-    
-    .bloc-right-up .triangle {
+    /*  .bloc-right-up .triangle {
         border-width: 0 350px 300px 0;
         border-color: transparent #fff transparent transparent;
-    }
+    }*/
     
     .bloc-left-down {
         position: absolute;
@@ -412,11 +415,11 @@
         left: 0;
         z-index: 12;
     }
-    
+    /*
     .bloc-left-down .triangle {
         border-width: 800px 0 0 500px;
         border-color: transparent transparent transparent #fff;
-    }
+    }*/
     
     .bloc-right-down {
         position: absolute;
@@ -424,11 +427,11 @@
         right: 0;
         z-index: 12;
     }
-    
+    /*
     .bloc-right-down .triangle {
         border-width: 0 0 300px 350px;
         border-color: transparent transparent #fff transparent;
-    }
+    }*/
     
     .bloc-left-up {
         position: absolute;
@@ -436,13 +439,13 @@
         left: 0;
         z-index: 12;
     }
-    
+    /*
     .bloc-left-up .triangle {
         border-width: 400px 500px 0 0;
         border-color: #fff transparent transparent transparent;
-    }
+    }*/
     
-    .content {
+    .triangle .content {
         width: 70%;
         position: absolute;
         z-index: 1;
@@ -480,6 +483,17 @@
         text-align: center;
         margin: 0 auto;
         max-width: 1200px;
+    }
+    
+    .diagonal-box {
+        transform: skewX(-3deg);
+        height: 100%;
+        border: 1px solid blue;
+    }
+    
+    .diagonal-box .content {
+        margin: 0 auto;
+        transform: skewx(3deg);
     }
     /* --CONTENT -- --CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT --*/
     /* --CONTENT -- --CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT --*/
