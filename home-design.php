@@ -50,8 +50,8 @@
 
             </div>
 
-            <div class="bloc row ">
-                <div class="col-md-8 ">
+            <div class="bloc" style="position: relative">
+                <div class="col-md-8 diagonal-box-right">
                     <div class="content">
                         <div class="line"></div>
                         <div class="col-md-12 part">
@@ -99,25 +99,206 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" style="position: relative; height: 100%;">
-                    <p class="part">
-                        La Nationale Du Logement respecte une charte de qualité et possède toutes les
-                        certifications et
-                        labels permettant d’être Reconnu Garant de l'Environnement (RGE).
-                    </p>
-                    <p class="pro">
-                        Confier vos travaux à des professionnels experts en rénovation.
-                    </p>
-                    <div class="bloc-right-down">
-                        <div class="triangle"
-                            style="border-width: 0 0 200px 650px; border-color: transparent transparent #fff transparent;">
-                            <div class="content">
-                                <a href="simulation.php" class="btn-simuler">Testez votre éligibilité</a>
+                <div class="col-md-4 diagonal-box-right">
+                    <div class="content">
+                        <p class="part">
+                            La Nationale Du Logement respecte une charte de qualité et possède toutes les
+                            certifications et
+                            labels permettant d’être Reconnu Garant de l'Environnement (RGE).
+                        </p>
+                        <p class="pro">
+                            Confier vos travaux à des professionnels experts en rénovation.
+                        </p>
+                    </div>
+                </div>
+                <div class="bloc-right-down">
+                    <div class="triangle"
+                        style="border-width: 0 0 250px 600px; border-color: transparent transparent #fff transparent;">
+                        <div class="content">
+                            <a href="simulation.php" class="btn-simuler">Testez votre éligibilité</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloc" style="position: relative">
+                <div class="col-md-8 diagonal-box-left">
+                    <div class="content">
+                        <div class="line"></div>
+                        <div class="col-md-12 part">
+                            <h2>Nos Expertises</h2>
+
+                            <p>
+                                Acteur de la rénovation énergétique en France, La Nationale du Logement vous accompagne
+                                dans vos
+                                projets
+                                de rénovation.
+                            </p>
+                            <p>
+                                Nous vous conseillons et nous réalisons vos projets sur-mesure, en restant disponible
+                                tout au
+                                long
+                                de vos travaux de rénovation. Votre confort est notre priorité et c'est la raison pour
+                                laquelle
+                                nous
+                                améliorons constamment la qualité de nos services.
+                            </p>
+
+                        </div>
+                        <div class="col-md-12 pro">
+                            <h2>Nos Prestations</h2>
+
+                        </div>
+                        <div class="row part">
+
+                            <div class="col-md-3">
+                                <div class="service" id="img-iti">
+                                    <h3>ITE / ITI</h3>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                <div class="service" id="img-pac">
+                                    <h3>PAC</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="service" id="img-vmc">
+                                    <h3>VMC</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="service" id="img-tce">
+                                    <h3>TCE</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pro">
+
+                            <div class="col-md-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <h3>Rénovation énérgétique</h3>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <ul>
+                                                <li>Calorifugeage</li>
+                                                <li>Les points singuliers</li>
+                                                <li>Rééquilibrage de réseau hydraulique</li>
+                                                <li>ITE</li>
+                                                <li>Pompe à chaleur</li>
+                                                <li>VMC</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <h3>Tout corp d’état</h3>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <ul>
+                                                <li>Ventilation</li>
+                                                <li>Ravalement</li>
+                                                <li>Couverture étanchéité</li>
+                                                <li>Peinture</li>
+                                                <li>Revetement de sol</li>
+                                                <li>Plomberie</li>
+                                                <li>Electricité</li>
+                                                <li>Maçonnerie Platrerie</li>
+                                                <li>Gros Oeuvre</li>
+                                                <li>Second Oeuvre</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <h3>Démolition</h3>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <ul>
+                                                <li>Désamiantage</li>
+                                                <li>Déplombage</li>
+                                                <li>Curage</li>
+                                                <li>Déconstruction</li>
+                                                <li>Démolition</li>
+                                                <li>Recyclage</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 diagonal-box-left">
+                    <div class="content">
+
+                    </div>
+                </div>
+                <div class="bloc-right-up">
+                    <div class="triangle"
+                        style="  border-width: 0 350px 300px 0; border-color: transparent #fff transparent transparent;">
+                        <div class="content">
+                            <a href="simulation.php" class="btn-simuler">Testez votre éligibilité</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloc" style="position: relative">
+                <div class="col-md-8 diagonal-box-right">
+                    <div class="content">
+                        <div class="line"></div>
+                        <div class="col-md-12 ">
+                            <h2>Nos certifications</h2>
+                            <p>
+                                Avec la hausse des prix de l'énergie, ne rien faire coûte souvent plus cher !
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 diagonal-box-right">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-md-4 certif">
+                                <img src="img/home/lndl-certification-rge-qualibat.png"
+                                    alt="LNDL certification RGE Qualibat" />
+                            </div>
+                            <div class="col-md-4 certif">
+                                <img src="img/home/lndl-certification-rge-qualipac.png"
+                                    alt="LNDL certification RGE QualiPac" />
+                            </div>
+                            <div class="col-md-4 certif">
+                                <img src="img/home/lndl-certification-rge-chauffage.png"
+                                    alt="LNDL certification RGE Chauffage" />
+                            </div>
+                            <div class="col-md-4 certif">
+                                <img src="img/home/lndl-certification-rge-ventilation-plus.png"
+                                    alt="LNDL certification RGE Ventilation Plus" />
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <div class="bloc-right-down">
+                    <div class="triangle"
+                        style="border-width: 0 0 250px 600px; border-color: transparent transparent #fff transparent;">
+                        <div class="content">
+                            <a href="simulation.php" class="btn-simuler">Testez votre éligibilité</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

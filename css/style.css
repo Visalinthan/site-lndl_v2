@@ -9,6 +9,10 @@
         width: 100%;
     }
     
+    body {
+        overflow-x: hidden;
+    }
+    
     h1,
     h2,
     h3,
@@ -378,18 +382,14 @@
     .bloc {
         height: 800px;
         z-index: 10;
-        background-color: #00676C;
-        /* background-image: url('../img/bg.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;*/
         display: flex;
     }
     
-    .bloc div {
-        align-items: center;
-        justify-content: center;
-        border: 1px solid red;
+    .bloc:first-child {
+        background-image: url('../img/bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     
     .triangle {
@@ -485,15 +485,42 @@
         max-width: 1200px;
     }
     
-    .diagonal-box {
-        transform: skewX(-3deg);
+    .diagonal-box-right {
+        transform: skewX(-4deg);
         height: 100%;
-        border: 1px solid blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #007564;
     }
     
-    .diagonal-box .content {
+    .diagonal-box-right:nth-child(2) {
+        background-color: #1B8151;
+    }
+    
+    .diagonal-box-right .content {
         margin: 0 auto;
-        transform: skewx(3deg);
+        transform: skewx(4deg);
+    }
+    
+    .diagonal-box-left {
+        transform: skewX(4deg);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #007564;
+    }
+    
+    .diagonal-box-left:nth-child(2) {
+        background-color: #1B8151;
+    }
+    
+    .diagonal-box-left .content {
+        margin: 0 auto;
+        transform: skewx(-4deg);
     }
     /* --CONTENT -- --CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT --*/
     /* --CONTENT -- --CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT ----CONTENT --*/
@@ -584,9 +611,13 @@
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
-        min-height: 200px;
-        max-width: 350px;
+        height: 200px;
+        max-width: 250px;
         border-radius: 25px;
+    }
+    
+    .bloc .choice img {
+        width: 90px;
     }
     
     .bloc .service {
@@ -594,6 +625,7 @@
     }
     
     .bloc .service {
+        width: 250px;
         min-height: 250px;
         display: flex;
         align-items: center;
