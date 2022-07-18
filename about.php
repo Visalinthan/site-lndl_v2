@@ -47,198 +47,8 @@
     <div id="wrapper" class="animsition">
         <div id="page" class="clearfix">
             <!-- Header Wrap -->
-            <div id="site-header-wrap">
-                <!-- /#site-logo -->
-                <!-- Header -->
-                <header id="site-header">
-                    <div id="site-logo" class="clearfix">
-                        <div id="site-logo-inner">
-                            <a href="index.html" rel="home" class="main-logo">
-                                <img src="assets/images/logo/logo-light.png" alt="consalti" width="183" height="48"
-                                    data-retina="assets/images/logo/logo-light@3x.png" data-width="183"
-                                    data-height="48">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="header-box">
-                        <!-- Top Bar -->
-                        <div id="top-bar">
-                            <div id="top-bar-inner">
-                                <div class="top-bar-content">
-                                    <div class="top-bar-left">
-                                        <span class="map section-14px-regular">Tungmahamek, Sathorn, Bangkok, Thailand
-                                            10120</span>
-                                        <span class="mail section-14px-regular"><a
-                                                href="mailto:consalti.business@gmail.com">consalti.business@gmail.com</a></span>
-                                    </div>
-                                    <div class="top-bar-right">
-                                        <span class="phone section-14px-regular"><a href="tel:012345678">+12 3 456
-                                                7890</a></span>
-                                                <div class="socials-header">
-                                                    <ul class="widget-socials link-style-3">
-                                                        <li><a href="#" class="facebook"></a></li>
-                                                        <li><a href="#" class="twitter"></a></li>
-                                                        <li><a href="#" class="linked-in"></a></li>
-                                                        <li><a href="#" class="instagram"></a></li>
-                                                    </ul>
-                                                </div>
-                                    </div>
-                                </div>
-                                <!-- /.top-bar-content -->
-                            </div>
-                        </div>
-                        <!-- /#top-bar -->
-                        <div id="site-header-inner">
-                            <div class="wrap-inner clearfix">
-                                <div class="mobile-button">
-                                    <span></span>
-                                </div>
-                                <!-- /.mobile-button -->
-                                <nav id="main-nav" class="main-nav">
-                                    <ul id="menu-primary-menu" class="menu">
-                                        <li class="menu-item">
-                                            <a href="index.html">Home</a>
-                                        </li>
-                                        <li class="menu-item current-menu-item">
-                                            <a href="about.html">About Us </a>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children">
-                                            <a href="service.html">Services</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="service.html">Services</a></li>
-                                                <li class="menu-item"><a href="service-details.html">Service Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="team.html">Team</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="faq.html">Faq</a>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children">
-                                            <a href="portfolio.html">Portfolio</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
-                                                <li class="menu-item"><a href="portfolio-details.html">Portfolio
-                                                        Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children">
-                                            <a href="blog.html">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="blog.html">Blog</a></li>
-                                                <li class="menu-item"><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="contact.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <!-- /#main-nav -->
-                            </div>
-                            <!-- /.wrap-inner -->
-                            <div id="site-header-right">
-                                <div class="header-search flat-show-search">
-                                    <a href="#" class="header-search-trigger show-search"></a>
-                                    <div class="widget widget-search top-search">
-                                        <form action="#" method="get" role="search" class="search-form">
-                                            <input type="search" id="s" class="search-field"
-                                                placeholder="Search keywords" value="" name="s" title="Search for"
-                                                required="">
-                                            <button class="search search-submit" type="submit" title="Search"></button>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="header-menu">
-                                    <!-- <a href="#" class="header-menu-trigger"></a> -->
-                                    <div class="mobile-nav-toggler">
-                                        <span class="bar"></span><!-- /.bar -->
-                                        <span class="bar"></span><!-- /.bar -->
-                                        <span class="bar"></span><!-- /.bar -->
-                                    </div>
-                                </div>
-                                <div class="button-header">
-                                    <a href="contact.html">GET REQUEST</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /#site-header-inner -->
-                    </div>
-                </header>
-                <!-- /#site-header -->
-
-                <div class="side-menu__block">
-                    <div class="side-menu__block-overlay custom-cursor__overlay">
-                        <div class="cursor"></div>
-                        <div class="cursor-follower"></div>
-                    </div>
-                    <div class="side-menu__block-inner">
-                        <div class="side-menu__top justify-content-end">
-                            <a href="#" class="side-menu__toggler side-menu__close-btn"><img
-                                    src="assets/icon/close-1-1.png" alt="images"></a>
-                        </div>
-                        <div class="side-menu__top-introduce">
-                            <a href="index.html" rel="home" class="main-logo">
-                                <img src="assets/images/logo/logo.png" alt="images">
-                            </a>
-                            <p>Etiam efficitur, metus in cursus imperdiet, neque nisl porta erat, nec volutpat
-                                felis lacus a tellus. Nunc tristique nulla nisi.</p>
-                            <hr>
-                        </div>
-                        <div class="side-menu__top-search">
-                            <div class="widget widget-search">
-                                <h3 class="widget-title section-24px-barlow">
-                                    Search
-                                </h3>
-                                <form action="#" method="get" role="search" class="search-form">
-                                    <input type="search" class="search-field" placeholder="Search..." value="" name="s"
-                                        title="Search for" required="">
-                                    <button class="search search-submit" type="submit" title="Search"></button>
-                                </form>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="side-menu__top-category">
-                            <div class="widget widget-category">
-                                <h3 class="widget-title section-24px-barlow">
-                                    Categories
-                                </h3>
-                                <ul>
-                                    <li class="cat-item active"><a href="blog.html">Graphics
-                                            Design</a><span>36</span></li>
-                                    <li class="cat-item"><a href="blog.html">ui/ux brand design</a><span>32</span>
-                                    </li>
-                                    <li class="cat-item"><a href="blog.html">web devolopment</a><span>26</span></li>
-                                    <li class="cat-item"><a href="blog.html">branding design</a><span>16</span></li>
-                                    <li class="cat-item"><a href="blog.html">ui/ux brand design</a><span>32</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- /#main-nav -->
-                    </div>
-                </div>
-
-
-            </div>
+            <?php include("module/header.php")?>
             <!-- #site-header-wrap -->
-
-            <!-- title page -->
-            <section class="flat-title-page parallax parallax-2">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="breadcrumbs">
-                            <h2 class="section-title-page">About Our Company</h2>
-                            <div class="breadcrumb-trail link-style-4">
-                                <a class="home" href="index.html">Home</a><span>About Us</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <!-- flat about 2 -->
             <section class="tf-space flat-about-2">
@@ -248,34 +58,20 @@
                             <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="section-title st-2">
-                                    <h3 class="section-heading">About our company</h3>
                                     <div class="features-content-left">
-                                        <h3>Get Your Best Business<br>
-                                            Solution With Consalti</h3>
+                                        <h3>Notre Histoire</h3>
                                     </div>
-                                    <p>Maecenas posuere neque et volutpat accumsan. Aliquam hendrerit tincidunt diam eu
-                                        imperdiet. Etiam dictum suscipit tempus. Vestibulum eget pelle
-                                        dolor. Duis enim risus, malesuada sodales sapien eu,</p>
-                                </div>
-                                <div class="about-our-company">
-                                    <div class="icon-tick"></div>
-                                    <div class="content-box">
-                                        <h4>Business strategy growth</h4>
-                                        <p>Maecenas posuere neque et volutpat accumsan. Aliquam hendrerit tincidunt diam
-                                            eu imperdiet. Etiam dictum suscipit tempus. </p>
-                                    </div>
-                                </div>
-                                <div class="about-our-company">
-                                    <div class="icon-tick"></div>
-                                    <div class="content-box">
-                                        <h4>Finance valuable ideas</h4>
-                                        <p>Maecenas posuere neque et volutpat accumsan. Aliquam hendrerit tincidunt diam
-                                            eu imperdiet. Etiam dictum suscipit tempus. </p>
-                                    </div>
-                                </div>
-                                <div class="button-contact wow fadeInUp" data-wow-delay="500ms"
-                                    data-wow-duration="1500ms">
-                                    <a href="contact.html" class="button readmore btn-style3">Contact us</a>
+                                    <p>Au cours de ses expériences, Diafara GARY a pu aiguiser une sensibilité face à la
+                                        précarité énergétique. Conscient des nombreuses fraudes et arnaques dans le
+                                        secteur de la rénovation énergétique, il a à cœur de pallier l’ampleur de cette
+                                        problématique. C’est ainsi qu’il fonde la Nationale du Logement.</p>
+                                    <p>
+                                        Sa motivation ?<br />
+                                        Partager des solutions, et apporter une satisfaction aux français tout en les
+                                        accompagnant dans leurs projets de A à Z. Pour ce faire, il s’entoure depuis 4
+                                        ans de professionnels dotés d’un savoir-faire, afin d’apporter une expertise aux
+                                        ménages.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -285,24 +81,7 @@
                                     data-wow-duration="1500ms">
                                     <img src="assets/images/image-box/about-2-post@2x.jpg" alt="images">
                                 </div>
-                                <div class="about-counter-box tf-counter wow fadeInUp" data-wow-delay="500ms"
-                                    data-wow-duration="1500ms">
-                                    <div class="about-counter-inner">
-                                        <div class="number-counter">
-                                            <span>0</span>
-                                            <span class="number" data-speed="1000" data-to="9"
-                                                data-inviewport="yes">9</span>
-                                        </div>
-                                        <div class="heading-count">
-                                            <h3>YEARS<br>
-                                                EXPERIENCE</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mark-about-post wow fadeInDown" data-wow-delay="300ms"
-                                    data-wow-duration="1500ms">
-                                    <img src="assets/images/mark-image/mark-about-2-post.png" alt="images">
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -746,127 +525,8 @@
             <!-- /flat logo slogan -->
 
             <!-- Footer -->
-            <footer id="footer" class="clearfix">
-                <div id="footer-top" class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="footer-schedule">
-                                <div class="heading-schedule">
-                                    <h2 class="section-40px-barlow font-weight-500">Need Free Consultation ?</h2>
-                                </div>
-                                <div class="button-footer">
-                                    <a href="contact.html" class="button readmore">Book Schedule</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="footer-widgets" class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="logo-footer">
-                                <a href="index.html" rel="home" class="main-logo">
-                                    <img src="assets/images/logo/logo-dark.png" alt="images">
-                                </a>
-                            </div>
-                            <p class="text-widget">Improve efficiency, provide a better customer experience with modern
-                                technology services around the world. Our skilled staff, combined</p>
-                            <div class="widget-social link-style-4">
-                                <ul>
-                                    <li><a href="#" class="facebook-icon"></a></li>
-                                    <li><a href="#" class="twitter-icon"></a></li>
-                                    <li><a href="#" class="linked-icon"></a></li>
-                                    <li><a href="#" class="instagram-icon"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="footer-widgets-nav-menu text-white">
-                                <div class="menu-1">
-                                    <h3 class="widget-title-link-wrap">Official Info</h3>
-                                    <div class="widget-links">
-                                        <ul class="link-wrap">
-                                            <li><a href="about.html">About us</a></li>
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="contact.html">Contact us</a></li>
-                                        </ul>
-                                        <ul class="link-wrap">
-                                            <li><a href="service.html">Help</a></li>
-                                            <li><a href="about.html">History</a></li>
-                                            <li><a href="contact.html">Support</a></li>
-                                            <li><a href="contact.html">Privacy</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="menu-2">
-                                    <h3 class="widget-title-link-wrap">Useful Links</h3>
-                                    <ul class="link-wrap menu2">
-                                        <li><a href="service-details.html">Strategy & Planning</a></li>
-                                        <li><a href="service-details.html">Vision & Values</a></li>
-                                        <li><a href="service-details.html">Audit & Assurance</a></li>
-                                        <li><a href="service-details.html">Support & Maintenance</a></li>
-                                        <li><a href="service-details.html">Company History</a></li>
-                                    </ul>
-                                </div>
-                                <div class="menu-3">
-                                    <h3 class="widget-title-link-wrap style-2">Get in Touch</h3>
-                                    <ul class="widget-list-contact link-style-4">
-                                        <li>
-                                            <span class="meta-address">66 Broklyant, India 3269 Road.</span>
-                                        </li>
-                                        <li><a href="mailto:olux.moore@gmail.com"
-                                                class="meta-mail">yourmail.@gmail.com</a>
-                                        </li>
-                                        <li><a href="tel:012345678" class="meta-phone">012 345 678 9101</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer><!-- /#footer -->
-            <!-- Bottom -->
-            <div id="bottom" class="clearfix has-spacer">
-                <div id="bottom-bar-inner" class="container">
-                    <div class="bottom-bar-inner-wrap">
-                        <div class="bottom-bar-content-left link-style-4">
-                            <div id="copyright"><span class="text">Copyright © 2021 The Business Consulting HTML Template. Design by <a href="https://themeforest.net/user/themesflat/portfolio">themesflat</a></span>
-                            </div>
-                        </div>
-                        <div class="bottom-bar-content-right">
-                            <div class="widget-links-bottom link-style-4">
-                                <ul>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="service-details.html">Privacy</a></li>
-                                    <li><a href="service-details.html">Policy</a></li>
-                                    <li><a href="service-details.html">Customer</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /#bottom -->
-
-        </div>
-        <!-- /#page -->
-    </div>
-    <!-- /#wrapper -->
-
-    <a id="scroll-top"></a>
-
-    <!-- Javascript -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.easing.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/plugin.js"></script>
-    <script src="assets/js/countto.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/shortcodes.js"></script>
-    <script src="assets/js/swiper.js"></script>
-    <script src="assets/js/main.js"></script>
+            <?php include("module/footer.php") ?>
+            <!-- /#footer -->
 
 </body>
 
