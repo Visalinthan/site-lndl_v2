@@ -21,34 +21,17 @@
                      <nav id="main-nav" class="main-nav">
                          <ul id="menu-primary-menu" class="menu">
                              <li class="menu-item">
-                                 <a href="about.php">Qui sommes-nous ?</a>
+                                 <a href="qsn.php">Qui sommes-nous ?</a>
                              </li>
                              <li class="menu-item">
-                                 <a href="portfolio.php">Nos Services </a>
+                                 <a href="services.php">Nos Services </a>
                              </li>
                              <li class="menu-item">
-                                 <a href="about.php">Aides et Subventions</a>
-                             </li>
-                             <li class="menu-item menu-item-has-children">
-                                 <a href="team.php">All Pages</a>
-                                 <ul class="sub-menu">
-                                     <li class="menu-item"><a href="about.php">Services</a></li>
-                                     <li class="menu-item"><a href="about-details.php">Service Details</a>
-                                     </li>
-                                     <li class="menu-item"><a href="portfolio.php">Portfolio</a></li>
-                                     <li class="menu-item"><a href="portfolio-details.php">Portfolio
-                                             Details</a>
-                                     </li>
-                                     <li class="menu-item"><a href="blog.php">Blog</a></li>
-                                     <li class="menu-item"><a href="blog-details.php">Blog Single</a></li>
-                                     <li class="menu-item">
-                                         <a href="faq.php">Faq</a>
-                                     </li>
-                                 </ul>
+                                 <a href="aides.php">Aides et Subventions</a>
                              </li>
 
                              <li class="menu-item">
-                                 <a href="contact.php">Contact</a>
+                                 <a href="#contact">Contact</a>
                              </li>
                          </ul>
                      </nav>
@@ -75,7 +58,7 @@
                          </div>
                      </div>
                      <div class="button-header">
-                         <a href="contact.php">GET REQUEST</a>
+                         <a href="contact.php">FAIRE UNE SIMULATION</a>
                      </div>
                  </div>
              </div>
