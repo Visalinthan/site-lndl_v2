@@ -125,108 +125,89 @@
 
             <section class="tf-space flat-client">
                 <div class="container">
+
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="client-title-left">
-                                <div class="section-title st-2 wow fadeInDown" data-wow-delay="0ms"
-                                    data-wow-duration="1500ms">
-                                    <h3 class="section-heading no-bd">What Our Clients Say</h3>
-                                    <div class="features-content-left">
-                                        <h3>Your Business Our Solution</h3>
-                                    </div>
+
+                        <div class="col-md-3">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-1.jpg" alt="images">
+
                                 </div>
+                                <h3 class="client-name">MaPrimeRénov’</h3>
+                                <p>MaPrimeRénov’ est l’aide financière de l’Etat destinée aux propriétaires pour les
+                                    travaux de rénovation énergétique. La Nationale du Logement vous accompagne dans les
+                                    démarches en constituant votre dossier, pour bénéficier de subventions calculées en
+                                    fonction des revenus.
+                                </p>
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-12">
-                            <div class="swiper-container carousel client-carousel">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
-                                            data-wow-duration="1500ms">
-                                            <div class="client-author">
-                                                <img src="assets/images/image-box/clients-post-1.jpg" alt="images">
-                                                <div class="mark-client"></div>
-                                            </div>
-                                            <h3 class="client-name">Mrs. Angelina Zoly</h3>
-                                            <h4 class="client-job">CEO & Foundre</h4>
-                                            <p>Maecenas posuere neque et volutpat accumsan. Aliquam hendrerit tincidunt
-                                                diam eu imperdiet. Etiam dictum suscipit tempus. Vestibulum eget pelle
-                                            </p>
-                                            <div class="list-review">
-                                                <ul>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                </ul>
-                                            </div>
-                                            <div class="top item-shape item-shape1"></div>
-                                            <div class="top item-shape item-shape2"></div>
-                                            <div class="bottom item-shape item-shape1"></div>
-                                            <div class="bottom item-shape item-shape2"></div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
-                                            data-wow-duration="1500ms">
-                                            <div class="client-author">
-                                                <img src="assets/images/image-box/clients-post-2.jpg" alt="images">
-                                                <div class="mark-client"></div>
-                                            </div>
-                                            <h3 class="client-name">Mr. Adnan Zahir</h3>
-                                            <h4 class="client-job">CEO & Foundre</h4>
-                                            <p>Maecenas posuere neque et volutpat accumsan. Aliquam hendrerit tincidunt
-                                                diam eu imperdiet. Etiam dictum suscipit tempus. Vestibulum eget pelle
-                                            </p>
-                                            <div class="list-review">
-                                                <ul>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate un-active"></li>
-                                                </ul>
-                                            </div>
-                                            <div class="top item-shape item-shape1"></div>
-                                            <div class="top item-shape item-shape2"></div>
-                                            <div class="bottom item-shape item-shape1"></div>
-                                            <div class="bottom item-shape item-shape2"></div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
-                                            data-wow-duration="1500ms">
-                                            <div class="client-author">
-                                                <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
-                                                <div class="mark-client"></div>
-                                            </div>
-                                            <h3 class="client-name">Mrs. Angelina Zoly</h3>
-                                            <h4 class="client-job">CEO & Foundre</h4>
-                                            <p>Maecenas posuere neque et volutpat accumsan. Aliquam hendrerit tincidunt
-                                                diam eu imperdiet. Etiam dictum suscipit tempus. Vestibulum eget pelle
-                                            </p>
-                                            <div class="list-review">
-                                                <ul>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                    <li class="star-rate"></li>
-                                                </ul>
-                                            </div>
-                                            <div class="top item-shape item-shape1"></div>
-                                            <div class="top item-shape item-shape2"></div>
-                                            <div class="bottom item-shape item-shape1"></div>
-                                            <div class="bottom item-shape item-shape2"></div>
-                                        </div>
-                                    </div>
+                        <div class="col-md-3">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-2.jpg" alt="images">
+
                                 </div>
+                                <h3 class="client-name">Les certificats d’économies d’énergie</h3>
+                                <p>Les certificats d’économies d’énergies (CEE) est un dispositif de l’Etat qui propose
+                                    des aides financières aux ménages pour des travaux liés aux économies d’énergies. En
+                                    fonction de vos projets, LNDL et ses partenaires vous permettent de bénéficier de
+                                    primes “Coup de pouce”.
+                                </p>
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
                             </div>
-                            <div class="swiper-button-next btn-custom-carousel-next"></div>
-                            <div class="swiper-button-prev btn-custom-carousel-prev"></div>
                         </div>
+                        <div class="col-md-3">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+
+                                </div>
+                                <h3 class="client-name">Eco prêt CIC</h3>
+                                <p>Afin d’encourager les propriétaires à la transition énergétique, L’Etat vous permet
+                                    de bénéficier d’un prêt à taux zéro.</p>
+                                <p>Avec notre partenaire CIC, nous vous simplifions les démarches et réalisons pour
+                                    vous, votre dossier de financement sans intérêt, ce qui vous permettra de financer
+                                    votre « reste à charge ».</p>
+
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+
+                                </div>
+                                <h3 class="client-name">Prêt à taux réduit</h3>
+                                <p>Habituellement, la TVA appliquée lors de travaux de rénovation est de 10%.LNDL
+                                    appliquera pour vous, une TVA à 5,5% sur vos travaux d’amélioration de la
+                                    performance énergétique.
+                                </p>
+
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
+                            </div>
+                        </div>
+
                     </div>
+
                 </div>
             </section>
 

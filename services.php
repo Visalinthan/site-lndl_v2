@@ -32,13 +32,12 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="portfolio-details.html">Marketing Research</a>
-                                            <p>Improve efficiency, provide a better customer experience with modern
-                                                technology services available around the world.</p>
+                                            <a href="pac.php">Pompe à chaleur</a>
+                                            <p>La pompe à chaleur (PAC) est un appareil qui utilise un dispositif thermodynamique qui permet de transférer de la chaleur provenant d’un milieu froid (l’air ou le sol principalement) vers un lieu à chauffer.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
-                                        <a href="portfolio-details.html" class="readmore"></a>
+                                        <a href="pac.php" class="readmore"></a>
                                     </div>
                                 </div>
                             </div>
@@ -50,13 +49,12 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="portfolio-details.html">Marketing Research</a>
-                                            <p>Improve efficiency, provide a better customer experience with modern
-                                                technology services available around the world.</p>
+                                            <a href="ite-iti.php">ITE / ITI</a>
+                                            <p>Une isolation thermique par l’intérieur (ITI) consolide et isole les murs de vos pièces des déperditions de chaleur. L’isolation thermique par l’extérieur (ITE) concerne les parois de votre façade.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
-                                        <a href="portfolio-details.html" class="readmore"></a>
+                                        <a href="ite-iti.php" class="readmore"></a>
                                     </div>
                                 </div>
                             </div>
@@ -68,13 +66,12 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="portfolio-details.html">Marketing Research</a>
-                                            <p>Improve efficiency, provide a better customer experience with modern
-                                                technology services available around the world.</p>
+                                            <a href="vmc.php">VMC</a>
+                                            <p>La ventilation mécanique contrôlée (VMC) est un équipement essentiel qui permet de renouveler l’air de votre bâtiment.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
-                                        <a href="portfolio-details.html" class="readmore"></a>
+                                        <a href="vmc.php" class="readmore"></a>
                                     </div>
                                 </div>
                             </div>
@@ -86,13 +83,12 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="portfolio-details.html">Marketing Research</a>
-                                            <p>Improve efficiency, provide a better customer experience with modern
-                                                technology services available around the world.</p>
+                                            <a href="tce.php">Tout Corps d' Etat</a>
+                                            <p>Un large champs d'expertise sur tous types de batiments et pour tous types d'interventions allié à une équipe performante.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
-                                        <a href="portfolio-details.html" class="readmore"></a>
+                                        <a href="tce.php" class="readmore"></a>
                                     </div>
                                 </div>
                             </div>
