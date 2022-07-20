@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<!--<![endif]-->
+<!doctype html>
+<html lang="fr">
 
-<?php include("module/head.php")?>
+<head>
+    <meta charset="utf-8">
+    <title>La Nationnale Du Logement</title>
+    <meta name="description"
+        content="Découvrez l'ensemble des travaux de rénovation énergétique à réaliser et réduisez le coût de vos factures énergie ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php include("module/links.php"); ?>
+</head>
 
 <body class="header-fixed">
 
@@ -17,7 +21,7 @@
     <div id="wrapper" class="animsition">
         <div id="page" class="clearfix">
             <!-- Header Wrap -->
-            <?php include("module/menu.php")?>
+            <?php include("module/nav.php")?>
 
             <!-- title page -->
             <section class="flat-title-page parallax parallax-8">
