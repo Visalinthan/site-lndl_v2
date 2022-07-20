@@ -5,9 +5,9 @@
      <header id="site-header">
          <div id="site-logo" class="clearfix">
              <div id="site-logo-inner">
-                 <a href="index.php" rel="home" class="main-logo">
-                     <img src="assets/images/logo/logo-light.png" alt="consalti" width="183" height="48"
-                         data-retina="assets/images/logo/logo-light@3x.png" data-width="183" data-height="48">
+                 <a href="home.php" rel="home" class="main-logo">
+                     <img src="assets/img/logo.png" alt="lndl" width="150" height="48"
+                         data-retina="assets/img/logo.png" data-width="150" data-height="48">
                  </a>
              </div>
          </div>

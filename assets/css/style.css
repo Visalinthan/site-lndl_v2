@@ -4011,7 +4011,7 @@ a:focus {
 
 .flat-logo-slogan .slogan-logo img {
     display: block;
-    height: 138px;
+    max-height: 100px;
     object-fit: contain;
     -webkit-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -4019,6 +4019,7 @@ a:focus {
     filter: grayscale(100%);
     transition: all 300ms ease;
     border-radius: 7px;
+    border: 1px solid red
 }
 
 .flat-logo-slogan .slogan-logo:hover img {

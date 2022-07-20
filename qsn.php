@@ -363,27 +363,77 @@
                         </div>
                     </div>
                     <div class="row margin-top-55 display-flex text-center">
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="slogan-logo">
                                 <a href="#">
-                                    <img src="assets/images/logo/logo-slogan-1.png" alt="images">
+                                    <img src="assets/img/reference/reference-lndl-bondy-habitat.png" alt="images">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="slogan-logo">
                                 <a href="#">
-                                    <img src="assets/images/logo/logo-slogan-2.png" alt="images">
+                                    <img src="assets/img/reference/reference-lndl-cdc-habitat.png" alt="images">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="slogan-logo">
                                 <a href="#">
-                                    <img src="assets/images/logo/logo-slogan-3.png" alt="images">
+                                    <img src="assets/img/reference/reference-lndl-foncia.png" alt="images">
                                 </a>
                             </div>
                         </div>
+                        <div class="col-md-2">
+                            <div class="slogan-logo">
+                                <a href="#">
+                                    <img src="assets/img/reference/reference-lndl-hotel-de-la-marine.png" alt="images">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="slogan-logo">
+                                <a href="#">
+                                    <img src="assets/img/reference/reference-lndl-immo-de-france.png" alt="images">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="slogan-logo">
+                                <a href="#">
+                                    <img src="assets/img/reference/reference-lndl-kering.png" alt="images">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="slogan-logo">
+                                <a href="#">
+                                    <img src="assets/img/reference/reference-lndl-laposte.png" alt="images">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="slogan-logo">
+                                <a href="#">
+                                    <img src="assets/img/reference/reference-lndl-montereau-fault-yonne.png" alt="images">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="slogan-logo">
+                                <a href="#">
+                                    <img src="assets/img/reference/reference-lndl-servair.png" alt="images">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="slogan-logo">
+                                <a href="#">
+                                    <img src="assets/img/reference/reference-lndl-stepc.png" alt="images">
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>

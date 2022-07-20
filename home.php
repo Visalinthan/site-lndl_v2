@@ -69,21 +69,21 @@
                             <div class="row bloc_4">
                                 <div class="col-md-4">
                                     <div class="choice part">
-                                        <img src="img/home/ep_service.png" alt="Assistance Complète avec la LNDL" />
+                                        <img src="assets/img/home/ep_service.png" alt="Assistance Complète avec la LNDL" />
                                         <p>Une assistance complète</p>
                                     </div>
 
                                 </div>
                                 <div class="col-md-4">
                                     <div class="choice part">
-                                        <img src="img/home/Protect.png" alt="Certifié RGE avec la LNDL" />
+                                        <img src="assets/img/home/Protect.png" alt="Certifié RGE avec la LNDL" />
                                         <p>Des artisans partenaires certifiés RGE</p>
                                     </div>
 
                                 </div>
                                 <div class="col-md-4">
                                     <div class="choice part">
-                                        <img src="img/home/Guarantee.png" alt="Garantie décénnale avec la LNDL" />
+                                        <img src="assets/img/home/Guarantee.png" alt="Garantie décénnale avec la LNDL" />
                                         <p>Garantie décénnale</p>
                                     </div>
                                 </div>
@@ -185,19 +185,19 @@
                         <div class="bloc-side" style="background-color:cadetblue;width: 65%;">
                             <div class="row">
                                 <div class="col-md-3 certif">
-                                    <img src="img/home/lndl-certification-rge-qualibat.png"
+                                    <img src="assets/img/home/lndl-certification-rge-qualibat.png"
                                         alt="LNDL certification RGE Qualibat" />
                                 </div>
                                 <div class="col-md-3 certif">
-                                    <img src="img/home/lndl-certification-rge-qualipac.png"
+                                    <img src="assets/img/home/lndl-certification-rge-qualipac.png"
                                         alt="LNDL certification RGE QualiPac" />
                                 </div>
                                 <div class="col-md-3 certif">
-                                    <img src="img/home/lndl-certification-rge-chauffage.png"
+                                    <img src="assets/img/home/lndl-certification-rge-chauffage.png"
                                         alt="LNDL certification RGE Chauffage" />
                                 </div>
                                 <div class="col-md-3 certif">
-                                    <img src="img/home/lndl-certification-rge-ventilation-plus.png"
+                                    <img src="assets/img/home/lndl-certification-rge-ventilation-plus.png"
                                         alt="LNDL certification RGE Ventilation Plus" />
                                 </div>
                             </div>
