@@ -351,7 +351,7 @@
 
 
             <!-- flat logo slogan -->
-            <section class="tf-space ">
+            <section class="tf-space flat-logo-slogan">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">

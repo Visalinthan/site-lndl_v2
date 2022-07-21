@@ -858,6 +858,56 @@ h6 a {
     color: inherit
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    padding: 25px 10px;
+}
+
+p {
+    padding: 20px 10px;
+}
+
+h1 {
+    font-size: clamp(30px, 5vw, 45px);
+}
+
+h2 {
+    font-size: clamp(25px, 4vw, 40px);
+}
+
+h3 {
+    font-size: clamp(20px, 3vw, 35px);
+}
+
+h4 {
+    font-size: clamp(18px, 2.5vw, 30px);
+}
+
+h5 {
+    font-size: clamp(16px, 2vw, 20px);
+}
+
+h6,
+button {
+    font-size: clamp(14px, 1.8vw, 17px);
+}
+
+p,
+a,
+li {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* Extra classes
 -------------------------------------------------------------- */
@@ -1345,6 +1395,7 @@ h6 a {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
+    align-items: center !important;
 }
 
 .flex-column {
@@ -3070,6 +3121,8 @@ a:focus {
     background-position: center;
 }
 
+.flat-work .features-content-left,
+.flat-work .features-content-right,
 .flat-features .features-content-left,
 .flat-features .features-content-right {
     width: 50%;
@@ -3161,7 +3214,6 @@ a:focus {
 }
 
 .flat-features .box-content {
-    position: absolute;
     left: 0;
     right: 0;
 }
@@ -3172,12 +3224,10 @@ a:focus {
 }
 
 .flat-features .features-box .content-post {
-    position: relative;
     margin: 0 39px;
 }
 
 .flat-features .box-content .post-readmore {
-    position: absolute;
     bottom: 17px;
     left: 21px;
 }
@@ -3329,6 +3379,7 @@ a:focus {
 .flat-counter .about-counter-inner .heading-count h3 {
     font-size: 16px;
     line-height: 24px;
+    padding: 0px;
 }
 
 
@@ -4019,7 +4070,6 @@ a:focus {
     filter: grayscale(100%);
     transition: all 300ms ease;
     border-radius: 7px;
-    border: 1px solid red
 }
 
 .flat-logo-slogan .slogan-logo:hover img {
@@ -4171,6 +4221,7 @@ a:focus {
 .flat-about-2 .about-2-content-left .content-box h4 {
     font-size: 20px;
     margin-bottom: 9px;
+    padding: 0px;
 }
 
 .flat-about-2 .about-2-content-left .about-our-company p {
@@ -4271,7 +4322,7 @@ a:focus {
 
 .flat-client .client-content-box {
     position: relative;
-    padding: 35px;
+    padding: 0px;
     background-color: #fff;
     border-radius: 6px;
     text-align: center;
@@ -5210,6 +5261,7 @@ a:focus {
     justify-content: space-between;
     padding: 17px 40px;
     border-bottom: dashed 1px #fff;
+    line-height: 0px;
 }
 
 .flat-portfolio-details .post-media .content .list li:last-child {
@@ -5220,6 +5272,7 @@ a:focus {
 .flat-portfolio-details .post-media .content .list li span {
     font-size: 16px;
     color: #fff;
+    padding: 0px;
 }
 
 .flat-portfolio-details .main-content .section-title {
