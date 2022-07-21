@@ -5,7 +5,7 @@
                     <div class="col-md-12">
                         <div class="footer-schedule">
                             <div class="heading-schedule">
-                                <h2 class="section-40px-barlow font-weight-500">Need Free Consultation ?</h2>
+                                <h2 class="section-40px-barlow font-weight-500">Besoin de renseignement ?</h2>
                             </div>
                             <div class="button-footer">
                                 <a href="contact.html" class="button readmore">Book Schedule</a>

@@ -31,7 +31,7 @@
                              </li>
 
                              <li class="menu-item">
-                                 <a href="#contact">Contact</a>
+                                 <a href="contact.php">Contact</a>
                              </li>
                          </ul>
                      </nav>
