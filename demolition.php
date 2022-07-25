@@ -86,7 +86,7 @@
                                     languages are members of the same family. The languages only differ in their
                                     grammar, their pronunciation and their most common words. pronunciation and more
                                     common words.</p>
-                                <div class="section-wrap tf-row align-items-center">
+                                <div class="section-wrap tf-row">
                                     <div class="tf-col-6">
                                         <div class="post-project-content">
                                             <h3>Project Target</h3>

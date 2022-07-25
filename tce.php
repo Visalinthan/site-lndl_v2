@@ -71,7 +71,7 @@
                                 <p>Un large champs d'expertise sur tous types de batiments et pour tous types d'interventions allié à une équipe performante.</p>
                                 <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="20"
                                     data-smobile="10"></div>
-                                <div class="section-wrap tf-row align-items-center">
+                                <div class="section-wrap tf-row ">
                                     <div class="tf-col-6">
                                         <div class="post-project-content">
                                             <h3>Les Avantages</h3>

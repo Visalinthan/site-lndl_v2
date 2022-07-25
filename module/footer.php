@@ -8,7 +8,7 @@
                                 <h2 class="section-40px-barlow font-weight-500">Besoin de renseignement ?</h2>
                             </div>
                             <div class="button-footer">
-                                <a href="contact.html" class="button readmore">Book Schedule</a>
+                                <a href="contact.php" class="button readmore">Contacter</a>
                             </div>
                         </div>
                     </div>
@@ -18,12 +18,12 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="logo-footer">
-                            <a href="index.html" rel="home" class="main-logo">
-                                <img src="assets/images/logo/logo-dark.png" alt="images">
+                            <a href="home.php" rel="home" class="main-logo">
+                                <img src="assets/img/Logo_blanc.png" alt="images">
                             </a>
                         </div>
-                        <p class="text-widget">Improve efficiency, provide a better customer experience with modern
-                            technology services around the world. Our skilled staff, combined</p>
+                        <p class="text-widget">La Nationale du Logement a pour mission principale d'accompagner les
+                            ménages et les entreprises à la rénovation énergétique.</p>
                         <div class="widget-social">
                             <ul>
                                 <li><a href="#" class="facebook-icon"></a></li>
@@ -35,44 +35,35 @@
                     </div>
                     <div class="col-md-8">
                         <div class="footer-widgets-nav-menu text-white">
-                            <div class="menu-1">
-                                <h3 class="widget-title-link-wrap">Official Info</h3>
+                            <div class="menu-2">
+                                <h3 class="widget-title-link-wrap">Liens</h3>
                                 <div class="widget-links">
-                                    <ul class="link-wrap">
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="service.html">Services</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="contact.html">Contact us</a></li>
-                                    </ul>
-                                    <ul class="link-wrap">
-                                        <li><a href="service.html">Help</a></li>
-                                        <li><a href="about.html">History</a></li>
-                                        <li><a href="contact.html">Support</a></li>
-                                        <li><a href="contact.html">Privacy</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
+                                    <ul class="link-wrap menu2">
+                                        <li>
+                                            <a href="qsn.php">Qui sommes-nous ?</a>
+                                        </li>
+                                        <li>
+                                            <a href="services.php">Nos Services </a>
+                                        </li>
+                                        <li>
+                                            <a href="aides.php">Aides et Subventions</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="contact.php">Contact</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="menu-2">
-                                <h3 class="widget-title-link-wrap">Useful Links</h3>
-                                <ul class="link-wrap menu2">
-                                    <li><a href="service-details.html">Strategy & Planning</a></li>
-                                    <li><a href="service-details.html">Vision & Values</a></li>
-                                    <li><a href="service-details.html">Audit & Assurance</a></li>
-                                    <li><a href="service-details.html">Support & Maintenance</a></li>
-                                    <li><a href="service-details.html">Company History</a></li>
-                                </ul>
-                            </div>
                             <div class="menu-3">
-                                <h3 class="widget-title-link-wrap style-2">Get in Touch</h3>
+                                <h3 class="widget-title-link-wrap style-2">Contact</h3>
                                 <ul class="widget-list-contact link-style-4">
                                     <li>
-                                        <span class="meta-address">66 Broklyant, India 3269 Road.</span>
+                                        <span class="meta-address">1 rue de Rome 93110 Rosny-Sous-Bois</span>
                                     </li>
-                                    <li><a href="mailto:olux.moore@gmail.com" class="meta-mail">yourmail.@gmail.com</a>
+                                    <li><a href="mailto:infos@lndl.fr" class="meta-mail">infos@lndl.fr</a>
                                     </li>
-                                    <li><a href="tel:012345678" class="meta-phone">012 345 678 9101</a></li>
+                                    <li><a href="tel:0148551647" class="meta-phone">01 48 55 16 47</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -85,18 +76,15 @@
             <div id="bottom-bar-inner" class="container">
                 <div class="bottom-bar-inner-wrap">
                     <div class="bottom-bar-content-left link-style-4">
-                        <div id="copyright"><span class="text">Copyright © 2021 The Business Consulting HTML Template.
-                                Design by <a
-                                    href="https://themeforest.net/user/themesflat/portfolio">themesflat</a></span>
+                        <div id="copyright"><span class="text">Copyright © 2022 - La Nationale du Logement - 1 rue de
+                                Rome - 93110 Rosny-sous-Bois
                         </div>
                     </div>
                     <div class="bottom-bar-content-right">
                         <div class="widget-links-bottom link-style-4">
                             <ul>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="service-details.html">Privacy</a></li>
-                                <li><a href="service-details.html">Policy</a></li>
-                                <li><a href="service-details.html">Customer</a></li>
+                                <li><a href="#">Mentions légales </a></li>
+                                <li><a href="#">Politique de cookies</a></li>
                             </ul>
                         </div>
                     </div>
@@ -104,21 +92,21 @@
             </div>
         </div><!-- /#bottom -->
 
-    </div>
-    <!-- /#page -->
-    </div>
-    <!-- /#wrapper -->
+        </div>
+        <!-- /#page -->
+        </div>
+        <!-- /#wrapper -->
 
-    <a id="scroll-top"></a>
+        <a id="scroll-top"></a>
 
-    <!-- Javascript -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/wow.min.js"></script>
-    <script src="../assets/js/plugin.js"></script>
-    <script src="../assets/js/jquery-validate.js"></script>
-    <script src="../assets/js/countto.js"></script>
-    <script src="../assets/js/jquery.fancybox.js"></script>
-    <script src="../assets/js/shortcodes.js"></script>
-    <script src="../assets/js/swiper-bundle.min.js"></script>
-    <script src="../assets/js/swiper.js"></script>
-    <script src="../assets/js/main.js"></script>
+        <!-- Javascript -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/wow.min.js"></script>
+        <script src="../assets/js/plugin.js"></script>
+        <script src="../assets/js/jquery-validate.js"></script>
+        <script src="../assets/js/countto.js"></script>
+        <script src="../assets/js/jquery.fancybox.js"></script>
+        <script src="../assets/js/shortcodes.js"></script>
+        <script src="../assets/js/swiper-bundle.min.js"></script>
+        <script src="../assets/js/swiper.js"></script>
+        <script src="../assets/js/main.js"></script>

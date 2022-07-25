@@ -2828,7 +2828,9 @@ a:focus {
 }
 
 #comments .name-wrap,
-#comments .email-wrap {
+#comments .email-wrap,
+#comments .tel-wrap,
+#comments .surname-wrap {
     float: left;
     margin-left: 30px;
     width: calc(50% - 30px);
@@ -2836,12 +2838,16 @@ a:focus {
 }
 
 #comments .name-wrap input,
-#comments .email-wrap input {
+#comments .email-wrap input,
+#comments .surname-wrap input,
+#comments .tel-wrap input {
     padding: 23px;
 }
 
 #comments .name-wrap input:focus,
-#comments .email-wrap input:focus {
+#comments .email-wrap input:focus,
+#comments .surname-wrap input:focus,
+#comments .tel-wrap input:focus {
     border: 1px solid rgba(204, 204, 204, 0);
 }
 
@@ -3132,6 +3138,9 @@ a:focus {
 
 .section-title h3.section-heading {
     margin-bottom: 22px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
 }
 
 .section-title h2 {
@@ -4756,6 +4765,10 @@ a:focus {
     color: #707070;
 }
 
+.meta-address {
+    display: flex;
+}
+
 .flat-service-details .widget-list-contact li {
     color: var(--primary-color5);
     font-weight: 500;
@@ -4854,6 +4867,7 @@ a:focus {
 
 .flat-testimonial-2 .section-title,
 .flat-testimonial .section-title h3 {
+    padding: 0px;
     padding-left: unset;
 }
 
@@ -5030,7 +5044,9 @@ a:focus {
 }
 
 .flat-faq-contact .faq-contact-form .name-wrap,
+.flat-faq-contact .faq-contact-form .surname-wrap,
 .flat-faq-contact .faq-contact-form .email-wrap,
+.flat-faq-contact .faq-contact-form .tel-wrap,
 .flat-faq-contact .faq-contact-form .phone-wrap,
 .flat-faq-contact .faq-contact-form .subject-wrap {
     width: 48.3%;
@@ -5393,6 +5409,7 @@ a:focus {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
+    padding: 0px;
 }
 
 .flat-contact .title {
@@ -5405,6 +5422,7 @@ a:focus {
     font-family: 'Barlow', sans-serif;
     line-height: 36px;
     color: #fff;
+    padding: 0px;
 }
 
 .flat-contact .contact-form {

@@ -23,15 +23,13 @@
             <!-- Header Wrap -->
             <?php include("module/nav.php")?>
 
-  <!-- title page -->
-  <section class="flat-title-page parallax parallax-9 contact-page-title">
+            <!-- title page -->
+            <section class="flat-title-page parallax parallax-9 contact-page-title">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="breadcrumbs">
-                            <h2 class="section-title-page">Get in Touch</h2>
-                            <div class="breadcrumb-trail link-style-2">
-                                <a class="home" href="index.html">Home</a><span>Contact Us</span>
-                            </div>
+                            <h2 class="section-title-page">Contact</h2>
+
                         </div>
                     </div>
                 </div>
@@ -43,28 +41,23 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="section-title link-style-2">
-                                <h3 class="section-heading">Let's Talk</h3>
+                                <h3 class="section-heading">Echangeons</h3>
                                 <div class="features-content-left">
-                                    <h2>Speak With Our<br>
-                                        Consulti</h2>
+                                    <h2>Nous répondons...</h2>
                                 </div>
                                 <div class="contact-icon-box wow fadeInUp" data-wow-delay="0ms"
                                     data-wow-duration="1500ms">
                                     <div class="icon meta-address"></div>
                                     <div class="content">
-                                        <h4>66 Broklyant, India 3269 Road.
-                                            New Eskaton, New York, USA</h4>
+                                        <h4>1 rue de Rome <br /> 93110 Rosny-Sous-Bois</h4>
                                     </div>
                                 </div>
                                 <div class="contact-icon-box wow fadeInUp" data-wow-delay="300ms"
                                     data-wow-duration="1500ms">
                                     <div class="icon meta-mail"></div>
                                     <div class="content">
-                                        <a href="mailto:abc@gmail.com">
-                                            <h4>Your.Agency@Gmail.Com</h4>
-                                        </a>
-                                        <a href="mailto:abc@gmail.com">
-                                            <h4>My.Shop@Hotmail.Com</h4>
+                                        <a href="mailto:infos@lndl.fr">
+                                            <h4>infos@lndl.fr</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -72,11 +65,8 @@
                                     data-wow-duration="1500ms">
                                     <div class="icon meta-phone"></div>
                                     <div class="content">
-                                        <a href="tel:012345678">
-                                            <h4>+11 012 888 598 9303</h4>
-                                        </a>
-                                        <a href="tel:012345678">
-                                            <h4>+88 096 965 678 9203</h4>
+                                        <a href="tel:0148551647">
+                                            <h4>01 48 55 16 47</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -84,8 +74,8 @@
                         </div>
                         <div class="col-md-8">
                             <div class="title">
-                                <h3>Don’t Hesitate<br>
-                                    To Send Your Message To Us</h3>
+                                <h3>N'hésitez pas<br />
+                                    Pour nous envoyer votre message</h3>
                             </div>
                             <div class="contact-form wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
                                 id="comments">
@@ -95,7 +85,18 @@
                                     <div class="text-wrap clearfix">
                                         <fieldset class="name-wrap">
                                             <input type="text" id="name" class="tb-my-input" name="name" tabindex="1"
-                                                placeholder="Name*" value="" size="32" aria-required="true" required="">
+                                                placeholder="Nom*" value="" size="32" aria-required="true" required="">
+                                        </fieldset>
+                                        <fieldset class="tel-wrap">
+                                            <input type="number" id="email" class="tb-my-input" name="tel" tabindex="2"
+                                                placeholder="Téléphone*" value="" size="32" aria-required="true"
+                                                required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="text-wrap clearfix">
+                                        <fieldset class="surname-wrap">
+                                            <input type="text" id="surname" class="tb-my-input" name="surname" tabindex="1"
+                                                placeholder="Prénom*" value="" size="32" aria-required="true" required="">
                                         </fieldset>
                                         <fieldset class="email-wrap">
                                             <input type="email" id="email" class="tb-my-input" name="email" tabindex="2"
@@ -105,10 +106,10 @@
                                     </div>
                                     <fieldset class="message-wrap">
                                         <textarea id="comment-message" name="message" rows="13" tabindex="4"
-                                            placeholder="write your comment" aria-required="true"></textarea>
+                                            placeholder="Ecrivez votre demande" aria-required="true"></textarea>
                                     </fieldset>
                                     <button name="submit" type="submit" id="comment-reply"
-                                        class="button btn-style4 btn-submit-comment">Send Message</button>
+                                        class="button btn-style4 btn-submit-comment">Envoyer</button>
                                 </form>
                             </div>
                         </div>
@@ -123,7 +124,7 @@
                     <div class="row">
                         <div class="inner">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7302.453092836291!2d90.47477022812872!3d23.77494577893369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1627293157601!5m2!1svi!2s"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.0203341422643!2d2.4721955158539872!3d48.876888907357774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e612c6c2e64f8f%3A0xce6d8c62340082e!2s1%20Rue%20de%20Rome%2C%2093110%20Rosny-sous-Bois!5e0!3m2!1sfr!2sfr!4v1658756278201!5m2!1sfr!2sfr"
                                 class="map-contact" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     </div>

@@ -71,12 +71,14 @@
                                 <p>Une isolation thermique par l’intérieur (ITI) consolide et isole les murs de vos
                                     pièces des déperditions de chaleur. L’isolation thermique par l’extérieur (ITE)
                                     concerne les parois de votre façade.</p>
+                                    
+                                    <h3>Comment choisir entre ITE et ITI ?</h3>
                                 <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="20"
                                     data-smobile="10"></div>
-                                <div class="section-wrap tf-row align-items-center">
+                                <div class="section-wrap tf-row">
                                     <div class="tf-col-6">
                                         <div class="post-project-content">
-                                            <h3>Comment choisir entre ITE et ITI ?</h3>
+                                           
                                             <h4>ITE</h4>
                                             <ul class="work-process">
                                                 <li>
@@ -119,42 +121,39 @@
                                             </ul>
 
 
-                                            <h4>ITI</h4>
-                                            <ul class="work-process">
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Processus simple</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Solution qui s’adapte à des problématiques particulières comme
-                                                        l’isolation du sol</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Préservation de vos façades</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Vous pouvez mettre à profit vos travaux en rénovant votre
-                                                        intérieur</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Ne grignote pas de surface intérieure</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Moins coûteux</h4>
-                                                </li>
-                                            </ul>
+
                                         </div>
                                     </div>
                                     <div class="tf-col-6">
-                                        <div class="post-media">
-                                            <img src="assets/images/image-box/portfolio-details-post-2@2x.jpg"
-                                                alt="images">
-                                        </div>
+                                        <h4>ITI</h4>
+                                        <ul class="work-process">
+                                            <li>
+                                                <div class="icon-tick"></div>
+                                                <h4>Processus simple</h4>
+                                            </li>
+                                            <li>
+                                                <div class="icon-tick"></div>
+                                                <h4>Solution qui s’adapte à des problématiques particulières comme
+                                                    l’isolation du sol</h4>
+                                            </li>
+                                            <li>
+                                                <div class="icon-tick"></div>
+                                                <h4>Préservation de vos façades</h4>
+                                            </li>
+                                            <li>
+                                                <div class="icon-tick"></div>
+                                                <h4>Vous pouvez mettre à profit vos travaux en rénovant votre
+                                                    intérieur</h4>
+                                            </li>
+                                            <li>
+                                                <div class="icon-tick"></div>
+                                                <h4>Ne grignote pas de surface intérieure</h4>
+                                            </li>
+                                            <li>
+                                                <div class="icon-tick"></div>
+                                                <h4>Moins coûteux</h4>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

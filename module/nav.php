@@ -39,16 +39,6 @@
                  </div>
                  <!-- /.wrap-inner -->
                  <div id="site-header-right">
-                     <div class="header-search flat-show-search">
-                         <a href="#" class="header-search-trigger show-search"></a>
-                         <div class="widget widget-search top-search">
-                             <form action="#" method="get" role="search" class="search-form">
-                                 <input type="search" id="s" class="search-field" placeholder="Search keywords" value=""
-                                     name="s" title="Search for" required="">
-                                 <button class="search search-submit" type="submit" title="Search"></button>
-                             </form>
-                         </div>
-                     </div>
                      <div class="header-menu">
                          <!-- <a href="#" class="header-menu-trigger"></a> -->
                          <div class="mobile-nav-toggler">
@@ -78,39 +68,17 @@
              </div>
              <div class="side-menu__top-introduce">
                  <a href="index.html" rel="home" class="main-logo">
-                     <img src="assets/images/logo/logo.png" alt="images">
+                     <img src="assets/img/Logo_blanc.png" alt="images">
                  </a>
-                 <p>Etiam efficitur, metus in cursus imperdiet, neque nisl porta erat, nec volutpat
-                     felis lacus a tellus. Nunc tristique nulla nisi.</p>
-                 <hr>
-             </div>
-             <div class="side-menu__top-search">
-                 <div class="widget widget-search">
-                     <h3 class="widget-title section-24px-barlow">
-                         Search
-                     </h3>
-                     <form action="#" method="get" role="search" class="search-form">
-                         <input type="search" class="search-field" placeholder="Search..." value="" name="s"
-                             title="Search for" required="">
-                         <button class="search search-submit" type="submit" title="Search"></button>
-                     </form>
-                 </div>
              </div>
              <hr>
              <div class="side-menu__top-category">
                  <div class="widget widget-category">
-                     <h3 class="widget-title section-24px-barlow">
-                         Categories
-                     </h3>
                      <ul>
-                         <li class="cat-item active"><a href="blog.php">Graphics
-                                 Design</a><span>36</span></li>
-                         <li class="cat-item"><a href="blog.php">ui/ux brand design</a><span>32</span>
-                         </li>
-                         <li class="cat-item"><a href="blog.php">web devolopment</a><span>26</span></li>
-                         <li class="cat-item"><a href="blog.php">branding design</a><span>16</span></li>
-                         <li class="cat-item"><a href="blog.php">ui/ux brand design</a><span>32</span>
-                         </li>
+                         <li class="cat-item"><a href="qsn.php">Qui sommes-nous ?</a> </li>
+                         <li class="cat-item"><a href="services.php">Nos Services </a></li>
+                         <li class="cat-item"><a href="aides.php">Aides et Subventions</a></li>
+                         <li class="cat-item"><a href="contact.php">Contact</a></li>
                      </ul>
                  </div>
              </div>
