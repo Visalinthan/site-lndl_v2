@@ -5,6 +5,73 @@
     --darkblue: #37528B;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+label,
+small,
+button {
+    font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    padding: 25px 10px;
+}
+
+p {
+    padding: 20px 10px;
+}
+
+h1 {
+    font-size: clamp(30px, 5vw, 50px);
+}
+
+h2 {
+    font-size: clamp(25px, 4vw, 40px);
+}
+
+h3 {
+    font-size: clamp(20px, 3vw, 35px);
+}
+
+h4 {
+    font-size: clamp(18px, 2.5vw, 30px);
+}
+
+h5 {
+    font-size: clamp(16px, 2vw, 20px);
+}
+
+h6,
+button,
+.btn-simuler {
+    font-size: clamp(14px, 1.8vw, 17px);
+}
+
+p,
+a,
+label,
+li {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /*
 .row {
@@ -42,23 +109,6 @@
     left: 5vw;
     top: 2vh;
     position: absolute;
-}
-
-.form-switch {
-    display: flex;
-    align-items: center;
-    cursor: pointer !important;
-    padding-left: 0em;
-}
-
-.form-check {
-    min-height: 0rem;
-    padding-left: 0em;
-    margin-bottom: 0rem;
-}
-
-.form-check label {
-    padding: 0 20px;
 }
 
 .logo-lndl {
@@ -144,9 +194,10 @@
 }
 
 .bloc {
-    width: 100%;
+    width: 80%;
     padding: 5vh 0;
     text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -294,6 +345,10 @@
     font-weight: bold;
 }
 
+.form-step input {
+    padding: 10px;
+}
+
 .btn-form-step {
     display: flex;
     align-items: center;
@@ -301,7 +356,7 @@
 }
 
 .btn-form-step button {
-    margin: 0 15px;
+    margin: 15px;
 }
 
 

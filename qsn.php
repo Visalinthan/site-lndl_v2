@@ -27,7 +27,7 @@
             <!-- flat about 2 -->
             <section class="tf-space flat-about-2">
                 <div class="container">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center part">
                         <div class="col-md-6">
                             <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
@@ -60,6 +60,38 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row align-items-center pro">
+                        <div class="col-md-6">
+                            <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="section-title st-2">
+                                    <div class="features-content-left">
+                                        <h3>Qui sommes-nous ?</h3>
+                                    </div>
+                                    <p>La Nationale du Logement accompagne depuis 4 ans particuliers et professionnels
+                                        dans leur projet de rénovation. Situé à Rosny-sous-bois en région parisienne,
+                                        nos équipes opèrent dans toute la France afin de répondre à la demande de tous.
+                                        Le BTP représente un enjeu majeur, c’est pourquoi nous avons décidé d’agir en
+                                        apportant des solutions qui visent des niveaux de performances énergétiques
+                                        élevés.</p>
+
+                                    <p>Notre philosophie ?</p>
+
+                                    <p class="padding-top-16">S'entourer de professionnels engagés, proposer des
+                                        services de qualité, s’assurer de la satisfaction de nos clients.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-2-content-right">
+                                <div data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <img src="assets/images/image-box/about-2-post@2x.jpg" alt="images">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- /flat about 2 -->
@@ -78,7 +110,7 @@
                         </div>
                     </div>
                     <div class="row padding-top-45 display-flex">
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="team-post">
                                     <img src="assets/images/image-box/team-post-1@2x.jpg" alt="images">
@@ -90,7 +122,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -103,7 +135,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="team-content-box slide-active wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -116,7 +148,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -130,7 +162,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="team-post">
                                     <img src="assets/images/image-box/team-post-1@2x.jpg" alt="images">
@@ -142,7 +174,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -156,7 +188,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -187,40 +219,82 @@
                         </div>
                     </div>
                     <div class="row margin-top-55 align-items-center">
-                        <div class="col-md-12">
-                            <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="section-title st-2">
-                                    <p>Pour vous assurer la garantie d'un service de qualité nous sommes labellisés RGE.
-                                        Cette qualification vous apporte en plus, la possibilité de bénéficier des aides
-                                        telles que : les certificats d’économies d’énergie (CEE), les aides à la
-                                        rénovation énergétique distribuée par l’ANAH et de MaPrimeRénov’, l’éco-prêt à
-                                        taux zéro (Eco-PTZ)...*
-                                    </p>
+                        <div class="about-2-content-left wow fadeInLeft col-md-6" data-wow-delay="0ms"
+                            data-wow-duration="1500ms">
+                            <div class="flex-column">
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Synchronisation des travaux</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Respect des normes et délais</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Gain de temps</h4>
+                                    </div>
+                                </div>
+
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Communication plus facile</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Économies</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Personnel expérimenté et formé</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row margin-top-55 display-flex text-center">
-                        <div class="col-md-3">
-                            <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/images/logo/logo-slogan-1.png" alt="images">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/images/logo/logo-slogan-2.png" alt="images">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/images/logo/logo-slogan-3.png" alt="images">
-                                </a>
+                        <div class="about-2-content-left wow fadeInLeft col-md-6" data-wow-delay="0ms"
+                            data-wow-duration="1500ms">
+                            <div class="flex-column">
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Suivi rigoureux et maintien à jour des habilitations</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Matériel adapté</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Réalisation des prestations dans de bonnes conditions</h4>
+                                    </div>
+                                </div>
+
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Excellente supervision des travaux</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Méthodologie de travail maîtrisée</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -239,8 +313,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row  padding-top-45">
-                        <div class="col-lg-3 col-md-6">
+                    <div class="row  padding-top-45 part">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -252,7 +326,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -263,7 +337,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -276,7 +350,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -289,8 +363,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row padding-top-45">
-                        <div class="col-lg-3 col-md-6">
+                    <div class="row padding-top-45 part">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -304,7 +378,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -318,7 +392,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -332,7 +406,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -341,6 +415,55 @@
                                 <div class="heading-count">
                                     <h3>RÉPARTITIONS <br>
                                         HOMMES/FEMMES</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  padding-top-45 pro">
+                        <div class="col-lg-3 col-md-6 padding-top-45">
+                            <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="number-counter">
+                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">95</span>
+                                </div>
+                                <div class="heading-count">
+                                    <h3>PARTENAIRES <br /> RECONNU</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 padding-top-45">
+                            <div class="about-counter-inner wow fadeInUp" data-wow-delay="300ms"
+                                data-wow-duration="1500ms">
+                                <div class="number-counter">
+                                    <span class="number" data-speed="4000" data-to="559"
+                                        data-inviewport="yes">559</span>
+                                </div>
+                                <div class="heading-count">
+                                    <h3>TRAVAUX <br> RÉALISÉS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 padding-top-45">
+                            <div class="about-counter-inner wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="number-counter">
+                                    <span class="number" data-speed="4000" data-to="4"
+                                        data-inviewport="yes">4</span><span>ans</span>
+                                </div>
+                                <div class="heading-count">
+                                    <h3>EXPÉRIENCES</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 padding-top-45">
+                            <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
+                                data-wow-duration="1500ms">
+                                <div class="number-counter">
+                                    <span class="number" data-speed="4000" data-to="7" data-inviewport="yes">7</span>
+                                </div>
+                                <div class="heading-count">
+                                    <h3>POLE <br>
+                                        DEDIÉS</h3>
                                 </div>
                             </div>
                         </div>
@@ -363,74 +486,54 @@
                         </div>
                     </div>
                     <div class="row margin-top-55 display-flex text-center">
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-bondy-habitat.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-bondy-habitat.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-cdc-habitat.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-cdc-habitat.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-foncia.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-foncia.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-hotel-de-la-marine.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-hotel-de-la-marine.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-immo-de-france.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-immo-de-france.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-kering.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-kering.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-laposte.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-laposte.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-montereau-fault-yonne.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-montereau-fault-yonne.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-servair.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-servair.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/reference/reference-lndl-stepc.png" alt="images">
-                                </a>
+                                <img src="assets/img/reference/reference-lndl-stepc.png" alt="images">
                             </div>
                         </div>
 

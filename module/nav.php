@@ -6,11 +6,13 @@
          <div id="site-logo" class="clearfix">
              <div id="site-logo-inner">
                  <a href="home.php" rel="home" class="main-logo">
-                     <img src="assets/img/logo.png" alt="lndl" width="150" height="48"
-                         data-retina="assets/img/logo.png" data-width="150" data-height="48">
+                     <img src="assets/img/logo.png" alt="lndl" width="150" height="48" data-retina="assets/img/logo.png"
+                         data-width="150" data-height="48">
                  </a>
              </div>
+
          </div>
+
          <div class="header-box">
              <div id="site-header-inner">
                  <div class="wrap-inner clearfix">
@@ -21,10 +23,12 @@
                      <nav id="main-nav" class="main-nav">
                          <ul id="menu-primary-menu" class="menu">
                              <li class="menu-item">
-                                 <a href="qsn.php">Qui sommes-nous ?</a>
+                                 <a href="qsn.php" class="part">Qui sommes-nous ?</a>
+                                 <a href="qsn.php" class="pro">A propos</a>
                              </li>
                              <li class="menu-item">
-                                 <a href="services.php">Nos Services </a>
+                                 <a href="services.php" class="part">Nos Services </a>
+                                 <a href="services.php" class="pro">Nos Prestations </a>
                              </li>
                              <li class="menu-item">
                                  <a href="aides.php">Aides et Subventions</a>
@@ -33,10 +37,13 @@
                              <li class="menu-item">
                                  <a href="contact.php">Contact</a>
                              </li>
+
                          </ul>
+
                      </nav>
                      <!-- /#main-nav -->
                  </div>
+
                  <!-- /.wrap-inner -->
                  <div id="site-header-right">
                      <div class="header-menu">
@@ -47,9 +54,16 @@
                              <span class="bar"></span><!-- /.bar -->
                          </div>
                      </div>
-                     <div class="button-header">
-                         <a href="contact.php">FAIRE UNE SIMULATION</a>
+
+                     <div class="form-check form-switch">
+                         <input class="form-check-input" type="checkbox" id="mySwitch" name="pageHome">
+                         <label id="label-nav" class="form-check-label" for="mySwitch"></label>
                      </div>
+
+                     <div class="button-header">
+                         <a href="simulation.php">FAIRE UNE SIMULATION</a>
+                     </div>
+
                  </div>
              </div>
              <!-- /#site-header-inner -->

@@ -29,7 +29,7 @@
                 <div class="container">
                     <div class="row ">
                         <div class="col-md-6">
-                            <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
+                            <div class="about-2-content-left wow fadeInLeft part" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="section-title st-2">
                                     <div class="features-content-left">
@@ -49,6 +49,43 @@
                                         <div class="icon-tick"></div>
                                         <div class="content-box">
                                             <h4>Pour tous vos besoins </h4>
+                                        </div>
+                                    </div>
+                                    <div class="about-our-company">
+                                        <div class="icon-tick"></div>
+                                        <div class="content-box">
+                                            <h4>Cumulables</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="about-2-content-left wow fadeInLeft pro" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="section-title st-2">
+                                    <div class="features-content-left">
+                                        <h3>LNDL vous accompagne pour bénéficier d’aides afin de favoriser votre
+                                            transition écologique</h3>
+                                    </div>
+                                    <p>Afin de réaliser vos travaux, il existe de nombreuses aides de l'État, ces
+                                        dispositifs vous permettent de bénéficier de réductions considérables sur
+                                        l’ensemble de vos projets.</p>
+                                    <p>Ces aides sont uniquement valables lorsque les travaux sont effectués par des
+                                        artisans certifiés RGE (Reconnu Garant de l'Environnement). Avec La Nationale du
+                                        Logement, renouveler et moderniser vos structures en toute sérénité.</p>
+                                </div>
+                                <div class="flex-column">
+                                    <div class="about-our-company">
+                                        <div class="icon-tick"></div>
+                                        <div class="content-box">
+                                            <h4>Sur chaque secteur</h4>
+                                        </div>
+                                    </div>
+                                    <div class="about-our-company">
+                                        <div class="icon-tick"></div>
+                                        <div class="content-box">
+                                            <h4>Pour tous vos projets</h4>
                                         </div>
                                     </div>
                                     <div class="about-our-company">
@@ -85,7 +122,7 @@
             <!-- /flat about 2 -->
 
 
-            <section class="tf-space flat-about-2">
+            <section class="tf-space flat-about-2 part">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12" style="text-align:center">
@@ -127,12 +164,12 @@
             </section>
 
 
-            <section class="tf-space flat-client">
+            <section class="tf-space flat-client ">
                 <div class="container">
 
-                    <div class="row">
+                    <div class="row part display-flex">
 
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -151,7 +188,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -170,7 +207,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -190,7 +227,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -201,6 +238,95 @@
                                 <p>Habituellement, la TVA appliquée lors de travaux de rénovation est de 10%.LNDL
                                     appliquera pour vous, une TVA à 5,5% sur vos travaux d’amélioration de la
                                     performance énergétique.
+                                </p>
+
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row pro display-flex">
+
+                        <div class="col-md-4 padding-top-45">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-1.jpg" alt="images">
+
+                                </div>
+                                <h3 class="client-name">Le crédit d'impôt pour la transition énergétique des entreprises</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, commodi minima ab in accusamus et cupiditate voluptatem neque? Porro quas, dolor ratione ducimus inventore quasi exercitationem aliquam accusamus quia ullam.
+                                </p>
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padding-top-45">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-2.jpg" alt="images">
+
+                                </div>
+                                <h3 class="client-name">Les aides de l'ADEME</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium esse voluptatem officia sint quae dignissimos. Dolorem necessitatibus consectetur eveniet at officia est, nisi voluptates atque pariatur maxime nulla aut odit!
+                                </p>
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padding-top-45">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+
+                                </div>
+                                <h3 class="client-name">Le prêt Eco-Energie (PEE)</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium unde voluptate quas sed quia iure assumenda sit at neque, dignissimos obcaecati magnam officia ut ea nisi illo? Sed, ut.</p>
+
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padding-top-45">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+
+                                </div>
+                                <h3 class="client-name">Le dispositif des certificats d’économies d’énergie</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis veritatis neque! Sequi et incidunt earum eius. Aut doloribus voluptas perferendis nostrum quia et aliquid repellat eligendi accusamus. Obcaecati, numquam.
+                                </p>
+
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 padding-top-45">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+
+                                </div>
+                                <h3 class="client-name">Le guichet de subvention pour l'efficacité énergétique des entreprises</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis veritatis neque! Sequi et incidunt earum eius. Aut doloribus voluptas perferendis nostrum quia et aliquid repellat eligendi accusamus. Obcaecati, numquam.
                                 </p>
 
                                 <div class="top item-shape item-shape1"></div>

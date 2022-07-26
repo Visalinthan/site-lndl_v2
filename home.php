@@ -36,8 +36,14 @@
                                         <div class="slider-left">
                                             <div class="slider-left-content">
                                                 <h3>La Nationale du Logement</h3>
-                                                <h2>Réalisez des économies, gagnez en confort et agissez pour la
+                                                <h2 class="part">Réalisez des économies, gagnez en confort et agissez
+                                                    pour la
                                                     planète.</h2>
+
+                                                <h4 class="pro">La Nationale Du Logement s’est diversifiée et qualifiée
+                                                    dans le secteur de la rénovation depuis
+                                                    quelques années pour répondre aux besoins de tous.</h4>
+
                                                 <div class="button-slider">
                                                     <a href="contact.html" class="button readmore">Tester votre
                                                         éligibité</a>
@@ -73,7 +79,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="features-content wow fadeInDown" data-wow-delay="0ms"
+                            <div class="features-content wow fadeInDown part" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="section-title">
                                     <h3 class="section-heading">Nous choisir c'est...</h3>
@@ -89,10 +95,19 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="features-content wow fadeInDown pro" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="section-title">
+                                    <h3 class="section-heading">Nous faire confiance</h3>
+                                    <div class="features-content-left">
+                                        <h4>Confier vos travaux à des professionnels experts en rénovation.</h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row padding-top-45 display-flex">
-                        <div class="col-md-4">
+                    <div class="row padding-top-45 display-flex part">
+                        <div class="col-md-4 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -113,7 +128,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 padding-top-45">
                             <div class="features-box active wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
@@ -135,7 +150,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -144,6 +159,73 @@
                                         <img src="assets/images/image-box/features-icon-3.jpg" alt="images">
                                     </div>
                                     <h3 class="headline">Garantie décénnale</h3>
+                                </div>
+                                <div class="box-content">
+                                    <div class="content-post">
+                                        <img src="assets/images/image-box/features-img-3@2x.jpg" alt="images">
+                                        <div class="post-readmore">
+                                            <a href="service-details.html" class="read-more"><span class="text">Read
+                                                    More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row padding-top-45 display-flex pro">
+                        <div class="col-md-4 padding-top-45">
+                            <div class="features-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
+                                <div class="item-shape item-shape1"></div>
+                                <div class="item-shape item-shape2"></div>
+                                <div class="features-box-inner">
+                                    <div class="icon-features">
+                                        <img src="assets/images/image-box/features-icon-1.jpg" alt="images">
+                                    </div>
+                                    <h3 class="headline">Accompagnement de A à Z</h3>
+                                </div>
+                                <div class="box-content">
+                                    <div class="content-post">
+                                        <img src="assets/images/image-box/features-img-1@2x.jpg" alt="images">
+                                        <div class="post-readmore">
+                                            <a href="service-details.html" class="read-more"><span class="text">Read
+                                                    More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padding-top-45">
+                            <div class="features-box active wow fadeInUp" data-wow-delay="300ms"
+                                data-wow-duration="1000ms">
+                                <div class="item-shape item-shape1"></div>
+                                <div class="item-shape item-shape2"></div>
+                                <div class="features-box-inner">
+                                    <div class="icon-features">
+                                        <img src="assets/images/image-box/features-icon-2.jpg" alt="images">
+                                    </div>
+                                    <h3 class="headline">Un savoir faire reconnu</h3>
+                                </div>
+                                <div class="box-content active">
+                                    <div class="content-post">
+                                        <img src="assets/images/image-box/features-img-2@2x.jpg" alt="images">
+                                        <div class="post-readmore">
+                                            <a href="service-details.html" class="read-more"><span class="text">Read
+                                                    More</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padding-top-45">
+                            <div class="features-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
+                                <div class="item-shape item-shape1"></div>
+                                <div class="item-shape item-shape2"></div>
+                                <div class="features-box-inner">
+                                    <div class="icon-features">
+                                        <img src="assets/images/image-box/features-icon-3.jpg" alt="images">
+                                    </div>
+                                    <h3 class="headline">RGE</h3>
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
@@ -166,7 +248,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="section-title wow fadeInDown part" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
                                 <h3 class="section-heading">Nos Expertises</h3>
                                 <div class="features-content-left">
                                     <h4>
@@ -185,12 +268,17 @@
                                     </p>
                                 </div>
                             </div>
+
+                            <div class="section-title wow fadeInDown pro" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <h3 class="section-heading">Nos Prestations</h3>
+                            </div>
                         </div>
 
                     </div>
-                    <div class="row padding-top-45 display-flex">
+                    <div class="row padding-top-45 display-flex ">
 
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="work-box active wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
@@ -209,7 +297,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="work-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
@@ -228,7 +316,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="work-box">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
@@ -247,7 +335,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 padding-top-45">
                             <div class="work-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
@@ -284,32 +372,24 @@
                         </div>
                     </div>
                     <div class="row margin-top-55 display-flex text-center">
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/home/lndl-certification-rge-qualibat.png" alt="images">
-                                </a>
+                                <img src="assets/img/home/lndl-certification-rge-qualibat.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/home/lndl-certification-rge-qualipac.png" alt="images">
-                                </a>
+                                <img src="assets/img/home/lndl-certification-rge-qualipac.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/home/lndl-certification-rge-ventilation-plus.png" alt="images">
-                                </a>
+                                <img src="assets/img/home/lndl-certification-rge-ventilation-plus.png" alt="images">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 padding-top-45">
                             <div class="slogan-logo">
-                                <a href="#">
-                                    <img src="assets/img/home/lndl-certification-rge-chauffage.png" alt="images">
-                                </a>
+                                <img src="assets/img/home/lndl-certification-rge-chauffage.png" alt="images">
                             </div>
                         </div>
 

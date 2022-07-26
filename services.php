@@ -29,7 +29,7 @@
             <section class="tf-space flat-portfolio">
                 <div class="container">
                     <div class="row">
-                        <div class="fl-gallery isotope-gl">
+                        <div class="fl-gallery isotope-gl part">
                             <div class="tf-col-6 tf-financial tf-solicitory">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
@@ -97,6 +97,60 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="fl-gallery isotope-gl pro">
+                            <div class="tf-col-6 tf-financial tf-solicitory">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/images/image-box/portfolio-post-1@2x.jpg" alt="images">
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="pac.php">Rénovation énergétique</a>
+                                            <p>La rénovation énergétique consiste à réaliser des travaux sur un bâtiment existant afin d’améliorer sa performance énergétique. Elle se définit par le rapport entre le niveau d'énergie absorbé par le bâtiment et l'énergie totale qu'il consomme réellement pour son fonctionnement.</p>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="renovation.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tf-col-6 tf-financial tf-strategy">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/images/image-box/portfolio-post-2@2x.jpg" alt="images">
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="ite-iti.php">Tous Corps d'État</a>
+                                            <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers différents.</p>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="tce.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tf-col-6 tf-financial tf-strategy">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/images/image-box/portfolio-post-3@2x.jpg" alt="images">
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="vmc.php">Démolition</a>
+                                            <p>La Nationale Du Logement intervient dans toute la France pour prendre en charge vos différents travaux de démolition, jusqu’au tri et évacuation des déchets.</p>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="demolition.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+
 
                         
 

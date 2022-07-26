@@ -8,12 +8,20 @@
         content="Découvrez l'ensemble des travaux de rénovation énergétique à réaliser et réduisez le coût de vos factures énergie ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("module/links.php"); ?>
+    
+   
     <link rel="stylesheet" type="text/css" href="assets/css/form-step.css">
 </head>
 
 <body>
 
-    <nav class="navbar simule" data-aos="fade-down" data-aos-duration="1500">
+    <!-- preloader -->
+    <div class="preload preload-container">
+        <div class="preload-logo"></div>
+    </div>
+    <!-- /preloader -->
+
+    <nav class="navbar simule">
         <div class="nav-logo">
             <a href="home.php">
                 <img class="logo-lndl" alt="logo LNDL" src="img/logo.png" />

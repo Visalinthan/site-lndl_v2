@@ -1885,6 +1885,8 @@ a:focus {
     top: 50%;
     transform: translateY(-50%);
     z-index: 99;
+    display: flex;
+    justify-content: right;
 }
 
 #site-header-right .button-header {
@@ -1919,7 +1921,7 @@ a:focus {
 
 #site-header-right .header-menu,
 #site-header-right .header-search {
-    display: inline-block;
+    display: none;
     margin-right: 40px;
 }
 
@@ -1941,6 +1943,35 @@ a:focus {
     content: '\e913';
     font-family: 'icomoon';
     font-size: 23px;
+}
+
+
+/* switch btob btoc*/
+
+.form-switch {
+    display: flex;
+    align-items: center;
+    cursor: pointer !important;
+    padding-left: 0em;
+    line-height: 50px;
+    width: 300px;
+}
+
+#mySwitch {
+    width: 45px;
+    height: 25px;
+}
+
+.form-check {
+    min-height: 0rem;
+    padding-left: 0em;
+    margin-bottom: 0rem;
+}
+
+.form-check label {
+    padding: 0 20px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .mobile-nav-toggler {
@@ -4073,19 +4104,6 @@ a:focus {
     display: block;
     max-height: 100px;
     object-fit: contain;
-    -webkit-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: all 300ms ease;
-    border-radius: 7px;
-}
-
-.flat-logo-slogan .slogan-logo:hover img {
-    -webkit-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    filter: grayscale(0%);
 }
 
 

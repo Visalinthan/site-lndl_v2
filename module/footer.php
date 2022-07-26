@@ -110,3 +110,4 @@
         <script src="../assets/js/swiper-bundle.min.js"></script>
         <script src="../assets/js/swiper.js"></script>
         <script src="../assets/js/main.js"></script>
+        <script src="../assets/js/script.js"></script>
