@@ -60,12 +60,19 @@ function validateForm() {
                 y[i].className += " invalid";
             }
 
+            if (y[i].type == "checkbox") {
+
+            }
+
             valid = false;
+            console.log('false')
 
         } else if (!y[i].classList.contains("valid")) {
+
             y[i].classList.remove("invalid");
             y[i].className += " valid";
             valid = true;
+            console.log('true');
         }
 
     }

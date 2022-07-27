@@ -29,7 +29,7 @@
             <section class="tf-space flat-portfolio">
                 <div class="container">
                     <div class="row">
-                        <div class="fl-gallery isotope-gl part">
+                        <div class="fl-gallery isotope-gl part  display-flex">
                             <div class="tf-col-6 tf-financial tf-solicitory">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
@@ -99,7 +99,7 @@
                             </div>
                         </div>
 
-                        <div class="fl-gallery isotope-gl pro">
+                        <div class="fl-gallery isotope-gl display-flex pro">
                             <div class="tf-col-6 tf-financial tf-solicitory">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
