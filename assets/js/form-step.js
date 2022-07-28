@@ -32,7 +32,11 @@ function showTab(n) {
 function nextPrev(n) {
     var x = document.getElementsByClassName("form-step");
 
-    let inputs = x[currentTab].querySelectorAll("input");
+    //let inputs = x[currentTab].querySelectorAll("input");
+
+    let projets = document.getElementsByName('projet');
+
+
 
     if (n == 1 && !validateForm()) return false;
     x[currentTab].style.display = "none";
