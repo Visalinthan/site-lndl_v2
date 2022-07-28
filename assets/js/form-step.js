@@ -32,6 +32,7 @@ function showTab(n) {
 function nextPrev(n) {
     var x = document.getElementsByClassName("form-step");
 
+    let inputs = x[currentTab].querySelectorAll("input");
 
     if (n == 1 && !validateForm()) return false;
     x[currentTab].style.display = "none";
@@ -53,26 +54,42 @@ function validateForm() {
 
     for (i = 0; i < y.length; i++) {
 
-        if (y[i].value == "" || y[i].validity.valid == false) {
+        if (y[i].value == "" || y[i].type != "checkbox" && y[i].validity.valid == false) {
             // add an "invalid" class to the field: 
             if (!y[i].classList.contains("invalid")) {
                 y[i].classList.remove("valid");
                 y[i].className += " invalid";
             }
 
-            if (y[i].type == "checkbox") {
-
-            }
-
             valid = false;
-            console.log('false')
+
+        } else if (y[i].type == "checkbox" && y[i].name == "projet") {
+
+            let projets = document.getElementsByName('projet');
+            let checked = []
+
+            projets.forEach(function(p) {
+                if (p.checked) {
+                    checked.push(p);
+                }
+            });
+
+            if (checked.length > 0) {
+                y[i].classList.remove("invalid");
+                y[i].className += " valid";
+                valid = true;
+            } else {
+                y[i].classList.remove("valid");
+                y[i].className += " invalid";
+                valid = false;
+            }
 
         } else if (!y[i].classList.contains("valid")) {
 
             y[i].classList.remove("invalid");
             y[i].className += " valid";
             valid = true;
-            console.log('true');
+
         }
 
     }

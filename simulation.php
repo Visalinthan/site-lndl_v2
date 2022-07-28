@@ -55,7 +55,7 @@
             </div>
             <form id="form-simule" class="form needs-validation " name="form" method="POST" novalidate>
 
-                <!-- <div class="row form-step">
+                 <div class="row form-step">
                     <h1 class="col-md-12">Mon type de logement :</h1>
                     <input type="radio" id="maison" name="logement" value="maison" required />
                     <label for="maison" class="case col-md-6 picto">
@@ -165,13 +165,12 @@
                             <input type="number" class="form-control" id="revenuFiscal">
                         </div>
                     </div>
-                </div>-->
+                </div>
 
 
                 <div class="row form-step">
-                    <h1 class="col-md-12">Votre Projet</h1>
+                    <h2 class="col-md-12">Votre Projet</h2>
 
-                    <h2 class="col-md-12">Isolation</h2>
                     <input type="checkbox" id="iso" name="projet" value="iso" required />
                     <label class="case col-md-3 picto" for="iso">
                         <h4>Isolation</h4>
@@ -190,7 +189,7 @@
                     </label>
 
                 </div>
-                <div class="row form-step">
+                <div class="row form-step isolation">
 
                     <h2 class="col-md-12">Isolation</h2>
                     <input type="radio" id="combles" name="isolation" value="combles" required />
@@ -215,7 +214,8 @@
                     </label>
 
                 </div>
-                <div class="row form-step">
+                <div class="row form-step chauffage">
+
                     <h2 class="col-md-12">Chauffage climatisation</h2>
                     <input type="radio" id="air-eau" name="pac" value="air-eau" required />
                     <label class="case col-md-4 picto" for="air-eau">
@@ -237,8 +237,9 @@
                     <label class="case col-md-4 picto" for="climatiseur">
                         <h4>Climatiseur</h4>
                     </label>
+
                 </div>
-                <div class="row form-step">
+                <div class="row form-step ventilation">
 
                     <h2 class="col-md-12">Ventilation</h2>
                     <input type="radio" id="vmc" name="ventilation" value="vmc" required />
@@ -251,7 +252,7 @@
                     </label>
 
                 </div>
-                <div class="row form-step">
+                <div class="row form-step tce">
 
                     <h2 class="col-md-12">TCE</h2>
                     <input type="radio" id="peinture" name="tce" value="peinture" required />
@@ -278,11 +279,11 @@
                     <label class="case col-md-4 picto" for="demolition">
                         <h4>Démolition</h4>
                     </label>
-
                     <input type="radio" id="autre-tce" name="tce" value="autre-tce" required />
                     <label class="case col-md-4 picto" for="autre-tce">
                         <h4>Autres</h4>
                     </label>
+
                 </div>
 
                 <div class="btn-form-step">

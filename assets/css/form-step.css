@@ -258,7 +258,7 @@ a {
 .form-step {
     display: none;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     animation: slideForm 2s;
 }
 
@@ -358,6 +358,13 @@ a {
 
 .btn-form-step button {
     margin: 15px;
+}
+
+.isolation,
+.chauffage,
+.ventilation,
+.tce {
+    display: none;
 }
 
 
