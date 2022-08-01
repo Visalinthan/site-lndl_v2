@@ -6,6 +6,30 @@ function showTab(n) {
 
     var x = document.getElementsByClassName("form-step");
 
+    var serv = document.getElementsByClassName("serv");
+
+    let projets = document.getElementsByName('projet');
+
+    projets.forEach(p => {
+        if (p.checked) {
+            for (var i = 0; i < serv.length; i++) {
+
+                if (serv[i].getElementsByClassName(p.value)) {
+                    serv[i].remove();
+                }
+
+            }
+
+        }
+
+        /* if (!document.getElementsByClassName(p.value)) {
+             // document.getElementsByClassName.style.display = "none"
+             console.log(x);
+         }*/
+        // console.log(x);
+
+    });
+
     x[n].style.display = "flex";
 
     if (n == 0) {
@@ -32,11 +56,9 @@ function showTab(n) {
 function nextPrev(n) {
     var x = document.getElementsByClassName("form-step");
 
+    var m = document.getElementsByClassName("serv");
+
     //let inputs = x[currentTab].querySelectorAll("input");
-
-    let projets = document.getElementsByName('projet');
-
-
 
     if (n == 1 && !validateForm()) return false;
     x[currentTab].style.display = "none";

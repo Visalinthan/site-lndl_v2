@@ -55,7 +55,7 @@
             </div>
             <form id="form-simule" class="form needs-validation " name="form" method="POST" novalidate>
 
-                 <div class="row form-step">
+                <!-- <div class="row form-step ">
                     <h1 class="col-md-12">Mon type de logement :</h1>
                     <input type="radio" id="maison" name="logement" value="maison" required />
                     <label for="maison" class="case col-md-6 picto">
@@ -69,21 +69,21 @@
                     </label>
                 </div>
 
-                <div class="row form-step">
+                <div class="row form-step ">
                     <h1 class="col-md-12">Votre statut :</h1>
                     <input type="radio" id="proprietaire" name="statut" value="proprietaire" required />
                     <label class="case col-md-6 picto" for="proprietaire">
-                        <img alt="propriétaire" src="assets/img/simuler/House.png">
+                        <img alt="propriétaire" src="assets/img/simuler/key">
                         <h6>Proprétaire</h6>
                     </label>
                     <input type="radio" id="locataire" name="statut" value="locataire" required />
                     <label class="case col-md-6 picto" for="locataire">
-                        <img alt="Locataire" src="assets/img/simuler/Building.png">
+                        <img alt="Locataire" src="assets/img/simuler/nokey.png">
                         <h6>Locataire</h6>
                     </label>
                 </div>
 
-                <div class="row form-step">
+                <div class="row form-step ">
                     <h1 class="col-md-12">Quelle est votre surface habitable ?</h1>
                     <div class="form-input">
                         <div class="col-md-6 mb-5">
@@ -151,21 +151,7 @@
                     <label class="case col-md-4 picto" for="autrechauffe">
                         <h6>Autre</h6>
                     </label>
-                </div>
-
-                <div class="row form-step">
-                    <h1 class="col-md-12">Quelle est la composition de votre foyer ?</h1>
-                    <div class="form-input">
-                        <div class="col-md-6 mb-5">
-                            <label for="nbFoyer" class="form-label">Nombre de personne dans votre foyer :</label>
-                            <input type="text" class="form-control" id="nbFoyer">
-                        </div>
-                        <div class="col-md-6 mb-5">
-                            <label for="revenuFiscal" class="form-label">Revenu fiscal de référence</label>
-                            <input type="number" class="form-control" id="revenuFiscal">
-                        </div>
-                    </div>
-                </div>
+                </div>-->
 
 
                 <div class="row form-step">
@@ -175,8 +161,8 @@
                     <label class="case col-md-3 picto" for="iso">
                         <h4>Isolation</h4>
                     </label>
-                    <input type="checkbox" id="chauffage" name="projet" value="chauffage" required />
-                    <label class="case col-md-3 picto" for="chauffage">
+                    <input type="checkbox" id="pac" name="projet" value="pac" required />
+                    <label class="case col-md-3 picto" for="pac">
                         <h4>Chauffage climatisation</h4>
                     </label>
                     <input type="checkbox" id="ventilation" name="projet" value="ventilation" required />
@@ -189,32 +175,32 @@
                     </label>
 
                 </div>
-                <div class="row form-step isolation">
+                <div class="row form-step serv iso">
 
                     <h2 class="col-md-12">Isolation</h2>
-                    <input type="radio" id="combles" name="isolation" value="combles" required />
+                    <input type="radio" id="combles" name="iso" value="combles" required />
                     <label class="case col-md-4 picto" for="combles">
                         <h4>Isolation des combles</h4>
                     </label>
-                    <input type="radio" id="toiture" name="isolation" value="toiture" required />
+                    <input type="radio" id="toiture" name="iso" value="toiture" required />
                     <label class="case col-md-4 picto" for="toiture">
                         <h4>Isolation de la toiture</h4>
                     </label>
-                    <input type="radio" id="sanitaires" name="isolation" value="sanitaires" required />
+                    <input type="radio" id="sanitaires" name="iso" value="sanitaires" required />
                     <label class="case col-md-4 picto" for="sanitaires">
                         <h4>Isolation des vides sanitaires</h4>
                     </label>
-                    <input type="radio" id="garages" name="isolation" value="garages" required />
+                    <input type="radio" id="garages" name="iso" value="garages" required />
                     <label class="case col-md-4 picto" for="garages">
                         <h4>Isolation des garages</h4>
                     </label>
-                    <input type="radio" id="caves" name="isolation" value="caves" required />
+                    <input type="radio" id="caves" name="iso" value="caves" required />
                     <label class="case col-md-4 picto" for="caves">
                         <h4>Isolation des caves et sous-sol</h4>
                     </label>
 
                 </div>
-                <div class="row form-step chauffage">
+                <div class="row form-step serv pac">
 
                     <h2 class="col-md-12">Chauffage climatisation</h2>
                     <input type="radio" id="air-eau" name="pac" value="air-eau" required />
@@ -239,7 +225,7 @@
                     </label>
 
                 </div>
-                <div class="row form-step ventilation">
+                <div class="row form-step serv ventilation">
 
                     <h2 class="col-md-12">Ventilation</h2>
                     <input type="radio" id="vmc" name="ventilation" value="vmc" required />
@@ -252,15 +238,15 @@
                     </label>
 
                 </div>
-                <div class="row form-step tce">
+                <div class="row form-step serv tce">
 
                     <h2 class="col-md-12">TCE</h2>
                     <input type="radio" id="peinture" name="tce" value="peinture" required />
                     <label class="case col-md-4 picto" for="peinture">
                         <h4>Peinture</h4>
                     </label>
-                    <input type="radio" id="electricite" name="tce" value="electricite" required />
-                    <label class="case col-md-4 picto" for="electricite">
+                    <input type="radio" id="electricity" name="tce" value="electricity" required />
+                    <label class="case col-md-4 picto" for="electricity">
                         <h4>Electricité</h4>
                     </label>
                     <input type="radio" id="plomberie" name="tce" value="plomberie" required />
@@ -285,6 +271,77 @@
                     </label>
 
                 </div>
+
+                <div class="row form-step">
+                    <h1 class="col-md-12">Vos coordonnées</h1>
+                    <div class="form-input">
+                        <div class="col-md-6 mb-5">
+                            <label for="name" class="form-label">Nom :</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <label for="surname" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" id="surname">
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <label for="phone" class="form-label">N° Tél</label>
+                            <input type="number" class="form-control" id="phone">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row form-step">
+                    <h1 class="col-md-12">Quelle est la composition de votre foyer ?</h1>
+                    <div class="form-input">
+                        <div class="col-md-6 mb-5">
+                            <label for="nbFoyer" class="form-label">Nombre de personne dans votre foyer :</label>
+                            <input type="text" class="form-control" id="nbFoyer">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row form-step">
+                    <h1 class="col-md-12">Quelle est l'adresse concernée par votre demande</h1>
+                    <div class="form-input">
+                        <div class="col-md-6 mb-5">
+                            <label for="road" class="form-label">N° de rue :</label>
+                            <input type="text" class="form-control" id="road">
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <label for="adress" class="form-label">Adresse :</label>
+                            <input type="text" class="form-control" id="adress">
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <label for="cp" class="form-label">Code Postale :</label>
+                            <input type="number" class="form-control" id="cp">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row form-step">
+                    <h1 class="col-md-12">Quel est votre revenu fiscal ? </h1>
+                    <input type="radio" id="inf26" name="revenu" value="inf26" required />
+                    <label for="inf26" class="case col-md-6 picto">
+                        <img alt="inf26" src="assets/img/simuler/cash.png">
+                        <h6>Inférieur à 26 844 € </h6>
+                    </label>
+                    <input type="radio" id="inf34" name="revenu" value="inf34" required />
+                    <label for="inf34" class="case col-md-6 picto">
+                        <img alt="inf34" src="assets/img/simuler/cash.png">
+                        <h6>Inférieur à 34 411 €</h6>
+                    </label>
+                    <input type="radio" id="inf42" name="revenu" value="inf42" required />
+                    <label for="inf42" class="case col-md-6 picto">
+                        <img alt="inf42" src="assets/img/simuler/cash.png">
+                        <h6>Inférieur à 42 848 €</h6>
+                    </label>
+                    <input type="radio" id="sup51" name="revenu" value="sup51" required />
+                    <label for="sup51" class="case col-md-6 picto">
+                        <img alt="sup51" src="assets/img/simuler/cash.png">
+                        <h6>Supérieur à 51 592 € </h6>
+                    </label>
+                </div>
+
 
                 <div class="btn-form-step">
                     <button type="button" id="prevBtn" class="btn btn-simuler" onclick="nextPrev(-1)">Précédent</button>
