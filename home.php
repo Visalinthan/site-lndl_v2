@@ -279,7 +279,7 @@
                     <div class="row padding-top-45 display-flex ">
 
                         <div class="col-md-3 padding-top-45">
-                            <div class="work-box active wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="work-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
                                     <div class="top item-shape item-shape2"></div>

@@ -154,7 +154,7 @@
                 </div>-->
 
 
-                <div class="row form-step">
+                <div class="row form-step projet">
                     <h2 class="col-md-12">Votre Projet</h2>
 
                     <input type="checkbox" id="iso" name="projet" value="iso" required />
@@ -175,7 +175,7 @@
                     </label>
 
                 </div>
-                <div class="row form-step serv iso">
+                <div class="row form-step serv" id="iso">
 
                     <h2 class="col-md-12">Isolation</h2>
                     <input type="radio" id="combles" name="iso" value="combles" required />
@@ -200,7 +200,7 @@
                     </label>
 
                 </div>
-                <div class="row form-step serv pac">
+                <div class="row form-step serv" id="pac">
 
                     <h2 class="col-md-12">Chauffage climatisation</h2>
                     <input type="radio" id="air-eau" name="pac" value="air-eau" required />
@@ -225,7 +225,7 @@
                     </label>
 
                 </div>
-                <div class="row form-step serv ventilation">
+                <div class="row form-step serv" id="ventilation">
 
                     <h2 class="col-md-12">Ventilation</h2>
                     <input type="radio" id="vmc" name="ventilation" value="vmc" required />
@@ -238,7 +238,7 @@
                     </label>
 
                 </div>
-                <div class="row form-step serv tce">
+                <div class="row form-step serv" id="tce">
 
                     <h2 class="col-md-12">TCE</h2>
                     <input type="radio" id="peinture" name="tce" value="peinture" required />

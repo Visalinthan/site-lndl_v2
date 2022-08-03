@@ -23,18 +23,6 @@
             <!-- Header Wrap -->
             <?php include("module/nav.php")?>
 
-            <!-- title page -->
-            <section class="flat-title-page parallax parallax-9 contact-page-title">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="breadcrumbs">
-                            <h2 class="section-title-page">Contact</h2>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <!-- flat contact -->
             <section class="tf-space flat-contact">
                 <div class="container">
@@ -125,7 +113,7 @@
                         <div class="inner">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.0203341422643!2d2.4721955158539872!3d48.876888907357774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e612c6c2e64f8f%3A0xce6d8c62340082e!2s1%20Rue%20de%20Rome%2C%2093110%20Rosny-sous-Bois!5e0!3m2!1sfr!2sfr!4v1658756278201!5m2!1sfr!2sfr"
-                                class="map-contact" allowfullscreen="" loading="lazy"></iframe>
+                                class="map-contact"  loading="lazy" width="300" height="300"></iframe>
                         </div>
                     </div>
                 </div>

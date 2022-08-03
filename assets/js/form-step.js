@@ -1,34 +1,52 @@
-var currentTab = 0; // Current tab is set to be the first tab (0)
-showTab(currentTab); // Display the current tab
+let currentTab = 0; // Current tab is set to be the first tab (0)
+// Display the current tab
+
+showTab(currentTab);
+
 
 //Affiche chaque partie de formulaire en fonction du paramètre 
 function showTab(n) {
 
-    var x = document.getElementsByClassName("form-step");
+    let x = document.querySelectorAll(".form-step");
 
-    var serv = document.getElementsByClassName("serv");
 
-    let projets = document.getElementsByName('projet');
+    if (x[n].classList.contains('projet')) {
 
-    projets.forEach(p => {
-        if (p.checked) {
-            for (var i = 0; i < serv.length; i++) {
+        let projets = document.getElementsByName('projet');
+        let serv = [];
 
-                if (serv[i].getElementsByClassName(p.value)) {
-                    serv[i].remove();
-                }
-
+        x.forEach(s => {
+            if (s.classList.contains('serv')) {
+                serv.push(s);
+                s.remove();
             }
+        });
 
-        }
+        let check = [];
 
-        /* if (!document.getElementsByClassName(p.value)) {
-             // document.getElementsByClassName.style.display = "none"
-             console.log(x);
-         }*/
-        // console.log(x);
+        $(".form-step").on('change', function(event) {
 
-    });
+            serv.forEach(s => {
+                projets.forEach(p => {
+                    if (p.value == s.id) {
+                        if (p.checked) {
+                            check.push(s);
+                        }
+                    }
+                });
+            });
+
+            check.reverse();
+
+            check.forEach(c => {
+                console.log(c);
+                $(".projet").after(c);
+            });
+
+        });
+
+
+    }
 
     x[n].style.display = "flex";
 
@@ -54,9 +72,8 @@ function showTab(n) {
 }
 
 function nextPrev(n) {
-    var x = document.getElementsByClassName("form-step");
 
-    var m = document.getElementsByClassName("serv");
+    let x = document.querySelectorAll(".form-step");
 
     //let inputs = x[currentTab].querySelectorAll("input");
 
