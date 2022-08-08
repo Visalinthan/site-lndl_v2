@@ -54,7 +54,7 @@
                         <div class="col-md-6">
                             <div class="about-2-content-right">
                                 <div data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <img src="assets/images/image-box/about-2-post@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/vehicules-LNDL.jpg" alt="images">
                                 </div>
 
                             </div>
@@ -86,7 +86,7 @@
                         <div class="col-md-6">
                             <div class="about-2-content-right">
                                 <div data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <img src="assets/images/image-box/about-2-post@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/vehicules-LNDL.jpg" alt="images">
                                 </div>
 
                             </div>
@@ -113,7 +113,7 @@
                         <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/images/image-box/team-post-1@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/direction.jpg" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>DIRECTION</h4>
@@ -126,7 +126,7 @@
                             <div class="team-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/images/image-box/team-post-2@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/marketing.jpg" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>MARKETING</h4>
@@ -136,10 +136,10 @@
                             </div>
                         </div>
                         <div class="col-md-3 padding-top-45">
-                            <div class="team-content-box slide-active wow fadeInUp" data-wow-delay="600ms"
+                            <div class="team-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/images/image-box/team-post-3@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/planification.jpg" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>PLANIFICATION</h4>
@@ -152,7 +152,7 @@
                             <div class="team-content-box wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/images/image-box/team-post-4@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/accompagnement_projet.jpg" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>ACCOMPAGNEMENT PROJET</h4>
@@ -165,7 +165,7 @@
                         <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/images/image-box/team-post-1@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/technique.jpg" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>TECHNIQUE</h4>
@@ -178,7 +178,7 @@
                             <div class="team-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/images/image-box/team-post-2@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/adv.jpg" alt="images">
 
                                 </div>
                                 <div class="team-info">
@@ -192,7 +192,7 @@
                             <div class="team-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/images/image-box/team-post-3@2x.jpg" alt="images">
+                                    <img src="assets/img/qsn/sav.jpg" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>SAV</h4>

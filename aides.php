@@ -102,7 +102,7 @@
                             <div class="about-2-content-right">
                                 <div class="about-2-post wow fadeInRight" data-wow-delay="0ms"
                                     data-wow-duration="1500ms">
-                                    <img src="assets/images/image-box/about-2-post@2x.jpg" alt="images">
+                                    <img src="assets/img/aides/header_aides.jpg" alt="images">
                                 </div>
                                 <div class="about-counter-box  wow fadeInUp" data-wow-delay="500ms"
                                     data-wow-duration="1500ms">

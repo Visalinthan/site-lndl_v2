@@ -51,8 +51,11 @@
                                             </div>
                                         </div>
                                         <div class="slider-right">
-                                            <div class="image-slider">
-                                                <img src="assets/images/image-slider/image-slider.png" alt="images">
+                                            <div class="image-slider part">
+                                                <img src="assets/img/home/home-header.jpeg" alt="images">
+                                            </div>
+                                            <div class="image-slider pro">
+                                                <img src="assets/img/home/header_home.jpg" alt="images">
                                             </div>
                                             <div class="mark-slider-1">
                                                 <img src="assets/images/mark-page/mark-slide-item-1.png" alt="images">
@@ -119,7 +122,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/images/image-box/features-img-1@2x.jpg" alt="images">
+                                        <img src="assets/img/home/assistance-complete.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -129,7 +132,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 padding-top-45">
-                            <div class="features-box active wow fadeInUp" data-wow-delay="300ms"
+                            <div class="features-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -139,9 +142,9 @@
                                     </div>
                                     <h3 class="headline">Des artisans partenaires certifiés RGE</h3>
                                 </div>
-                                <div class="box-content active">
+                                <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/images/image-box/features-img-2@2x.jpg" alt="images">
+                                        <img src="assets/img/home/artisans-RGE.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -162,7 +165,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/images/image-box/features-img-3@2x.jpg" alt="images">
+                                        <img src="assets/img/home/gararntie-decennale.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -186,7 +189,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/images/image-box/features-img-1@2x.jpg" alt="images">
+                                        <img src="assets/img/home/accompagnement.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -208,7 +211,7 @@
                                 </div>
                                 <div class="box-content active">
                                     <div class="content-post">
-                                        <img src="assets/images/image-box/features-img-2@2x.jpg" alt="images">
+                                        <img src="assets/img/home/savoir_faire.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -229,7 +232,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/images/image-box/features-img-3@2x.jpg" alt="images">
+                                        <img src="assets/img/home/artisans-RGE.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -279,7 +282,7 @@
                     <div class="row padding-top-45 display-flex ">
 
                         <div class="col-md-3 padding-top-45">
-                            <div class="work-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div id="serv1" class="work-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
                                     <div class="top item-shape item-shape2"></div>
@@ -298,7 +301,7 @@
                             </div>
                         </div>
                         <div class="col-md-3 padding-top-45">
-                            <div class="work-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div id="serv2" class="work-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
                                     <div class="top item-shape item-shape2"></div>
@@ -317,7 +320,7 @@
                             </div>
                         </div>
                         <div class="col-md-3 padding-top-45">
-                            <div class="work-box">
+                            <div id="serv3" class="work-box">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
                                     <div class="top item-shape item-shape2"></div>
@@ -336,7 +339,7 @@
                             </div>
                         </div>
                         <div class="col-md-3 padding-top-45">
-                            <div class="work-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div id="serv4" class="work-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
                                     <div class="top item-shape item-shape2"></div>

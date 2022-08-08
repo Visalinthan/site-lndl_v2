@@ -33,7 +33,7 @@
                             <div class="tf-col-6 tf-financial tf-solicitory">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/images/image-box/portfolio-post-1@2x.jpg" alt="images">
+                                        <img src="assets/img/services/services-pac.png" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
@@ -50,7 +50,7 @@
                             <div class="tf-col-6 tf-financial tf-strategy">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/images/image-box/portfolio-post-2@2x.jpg" alt="images">
+                                        <img src="assets/img/services/services-ite_iti.jpg" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
@@ -67,7 +67,7 @@
                             <div class="tf-col-6 tf-financial tf-strategy">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/images/image-box/portfolio-post-3@2x.jpg" alt="images">
+                                        <img src="assets/img/services/services-vmc.jpg" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
@@ -84,7 +84,7 @@
                             <div class="tf-col-6 tf-hr">
                                 <div class="portfolio-box box-gallery tf-startup">
                                     <div class="portfolio-media">
-                                        <img src="assets/images/image-box/portfolio-post-4@2x.jpg" alt="images">
+                                        <img src="assets/img/services/services-tce.jpg" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
@@ -103,7 +103,7 @@
                             <div class="tf-col-6 tf-financial tf-solicitory">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/images/image-box/portfolio-post-1@2x.jpg" alt="images">
+                                        <img src="assets/img/services/services-renovation.png" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
@@ -120,7 +120,7 @@
                             <div class="tf-col-6 tf-financial tf-strategy">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/images/image-box/portfolio-post-2@2x.jpg" alt="images">
+                                        <img src="assets/img/services/services-tce.jpg" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
@@ -137,7 +137,7 @@
                             <div class="tf-col-6 tf-financial tf-strategy">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/images/image-box/portfolio-post-3@2x.jpg" alt="images">
+                                        <img src="assets/img/services/services-demolition.png" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
