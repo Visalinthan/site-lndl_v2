@@ -107,7 +107,7 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="pac.php">Rénovation énergétique</a>
+                                            <a href="renovation.php">Rénovation énergétique</a>
                                             <p>La rénovation énergétique consiste à réaliser des travaux sur un bâtiment existant afin d’améliorer sa performance énergétique. Elle se définit par le rapport entre le niveau d'énergie absorbé par le bâtiment et l'énergie totale qu'il consomme réellement pour son fonctionnement.</p>
                                         </div>
                                     </div>
@@ -124,7 +124,7 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="ite-iti.php">Tous Corps d'État</a>
+                                            <a href="tce.php">Tous Corps d'État</a>
                                             <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers différents.</p>
                                         </div>
                                     </div>
@@ -141,7 +141,7 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="vmc.php">Démolition</a>
+                                            <a href="demolition.php">Démolition</a>
                                             <p>La Nationale Du Logement intervient dans toute la France pour prendre en charge vos différents travaux de démolition, jusqu’au tri et évacuation des déchets.</p>
                                         </div>
                                     </div>
@@ -150,9 +150,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
-                        
 
                         </div>
                         <!--/fl-gallery -->

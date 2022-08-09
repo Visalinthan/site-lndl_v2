@@ -99,6 +99,28 @@
 
         <a id="scroll-top"></a>
 
+
+        <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+        <script type="text/javascript" charset="UTF-8" src="../assert/js/cookie.js"></script>
+        <script type="text/javascript" charset="UTF-8">
+            document.addEventListener('DOMContentLoaded', function() {
+                cookieconsent.run({
+                    "notice_banner_type": "interstitial",
+                    "consent_type": "express",
+                    "palette": "light",
+                    "language": "fr",
+                    "page_load_consent_levels": ["strictly-necessary"],
+                    "notice_banner_reject_button_hide": false,
+                    "preferences_center_close_button_hide": false,
+                    "website_name": "La Nationale du Logement"
+                });
+            });
+        </script>
+
+        <noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/"
+                rel="nofollow noopener">Free Privacy Policy website</a></noscript>
+        <!-- End Cookie Consent -->
+
         <!-- Javascript -->
         <script src="../assets/js/jquery.min.js"></script>
         <script src="../assets/js/wow.min.js"></script>

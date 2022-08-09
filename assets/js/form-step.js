@@ -9,7 +9,6 @@ function showTab(n) {
 
     let x = document.querySelectorAll(".form-step");
 
-
     if (x[n].classList.contains('projet')) {
 
         let projets = document.getElementsByName('projet');
@@ -22,29 +21,24 @@ function showTab(n) {
             }
         });
 
-        let check = [];
+        $(".projet input").on('change', function(event) {
 
-        $(".form-step").on('change', function(event) {
-
-            serv.forEach(s => {
-                projets.forEach(p => {
-                    if (p.value == s.id) {
-                        if (p.checked) {
-                            check.push(s);
+            projets.forEach(p => {
+                serv.forEach(s => {
+                    if (p.checked) {
+                        if (p.value == s.id) {
+                            $(".projet").after(s);
+                        }
+                    } else if (!p.checked) {
+                        if (p.value == s.id) {
+                            s.remove();
                         }
                     }
                 });
-            });
 
-            check.reverse();
-
-            check.forEach(c => {
-                console.log(c);
-                $(".projet").after(c);
             });
 
         });
-
 
     }
 
@@ -75,6 +69,7 @@ function nextPrev(n) {
 
     let x = document.querySelectorAll(".form-step");
 
+
     //let inputs = x[currentTab].querySelectorAll("input");
 
     if (n == 1 && !validateForm()) return false;
@@ -82,7 +77,24 @@ function nextPrev(n) {
     currentTab = currentTab + n;
 
     if (currentTab >= x.length) {
-        document.getElementById("regForm").submit();
+        alert("fin");
+        // document.getElementById("regForm").submit();
+
+        let datastring = $("#form-simule").serialize();
+        console.log(datastring);
+
+        /* $("#form-simule").on('submit', function(event) {
+             event.preventDefault();
+             $.ajax({
+                 type: "post",
+                 url: "../form/post-simule.php",
+                 data: $(datastring).serialize(),
+             }).done(function() {
+                 setTimeout(() => {
+                     window.location.href = '../home.php';
+                 }, 5000);
+             });
+         });*/
         return false;
     }
     showTab(currentTab);

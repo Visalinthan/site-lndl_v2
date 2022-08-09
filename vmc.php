@@ -44,7 +44,7 @@
                         <div class="col-md-12">
                             <div class="main-content">
                                 <div class="post-media">
-                                    <img src="assets/images/image-box/portfolio-details-post-1@2x.jpg" alt="images">
+                                    <img src="assets/img/services/services-vmc.jpg" alt="images">
                                     <div class="content">
                                         <div class="top">
                                             <h2>Project Details</h2>
@@ -107,7 +107,7 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="post-media">
-                                            <img src="assets/images/image-box/portfolio-details-post-2@2x.jpg"
+                                            <img src="assets/img/services/services-vmc.jpg"
                                                 alt="images">
                                         </div>
                                     </div>

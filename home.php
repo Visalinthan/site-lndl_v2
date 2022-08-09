@@ -45,7 +45,7 @@
                                                     quelques années pour répondre aux besoins de tous.</h4>
 
                                                 <div class="button-slider">
-                                                    <a href="contact.html" class="button readmore">Tester votre
+                                                    <a href="simulation.php" class="button readmore">Tester votre
                                                         éligibité</a>
                                                 </div>
                                             </div>
@@ -294,7 +294,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">ITE/ITI</h3>
-                                            <a href="service-details.html" class="url-wrap readmore">En savoir +</a>
+                                            <a href="ite-iti.php" class="url-wrap readmore">En savoir +</a>
                                         </div>
                                     </div>
                                 </div>
@@ -313,7 +313,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">PAC</h3>
-                                            <a href="service-details.html" class="url-wrap readmore">En savoir +</a>
+                                            <a href="pac.php" class="url-wrap readmore">En savoir +</a>
                                         </div>
                                     </div>
                                 </div>
@@ -332,7 +332,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">VMC</h3>
-                                            <a href="service-details.html" class="url-wrap readmore">En savoir +</a>
+                                            <a href="vmc.php" class="url-wrap readmore">En savoir +</a>
                                         </div>
                                     </div>
                                 </div>
@@ -351,7 +351,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">TCE</h3>
-                                            <a href="service-details.html" class="url-wrap readmore">En savoir +</a>
+                                            <a href="tce.php" class="url-wrap readmore">En savoir +</a>
                                         </div>
                                     </div>
                                 </div>

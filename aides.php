@@ -107,7 +107,7 @@
                                 <div class="about-counter-box  wow fadeInUp" data-wow-delay="500ms"
                                     data-wow-duration="1500ms">
                                     <div class="button-slider">
-                                        <a href="contact.html" class="button readmore">Estimez vos droits</a>
+                                        <a href="simulation.php" class="button readmore">Estimez vos droits</a>
                                     </div>
                                 </div>
                                 <div class="mark-about-post wow fadeInDown" data-wow-delay="300ms"
