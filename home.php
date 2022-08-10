@@ -132,8 +132,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 padding-top-45">
-                            <div class="features-box wow fadeInUp" data-wow-delay="300ms"
-                                data-wow-duration="1000ms">
+                            <div class="features-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
@@ -272,17 +271,15 @@
                                 </div>
                             </div>
 
-                            <div class="section-title wow fadeInDown pro" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <h3 class="section-heading">Nos Prestations</h3>
-                            </div>
+
                         </div>
 
                     </div>
-                    <div class="row padding-top-45 display-flex ">
+                    <div class="row padding-top-45 display-flex part">
 
                         <div class="col-md-3 padding-top-45">
-                            <div id="serv1" class="work-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div id="serv1" class="work-box wow fadeInUp" data-wow-delay="300ms"
+                                data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
                                     <div class="top item-shape item-shape2"></div>
@@ -301,7 +298,8 @@
                             </div>
                         </div>
                         <div class="col-md-3 padding-top-45">
-                            <div id="serv2" class="work-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div id="serv2" class="work-box wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
                                     <div class="top item-shape item-shape2"></div>
@@ -339,7 +337,8 @@
                             </div>
                         </div>
                         <div class="col-md-3 padding-top-45">
-                            <div id="serv4" class="work-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div id="serv4" class="work-box wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
                                     <div class="top item-shape item-shape2"></div>
@@ -352,6 +351,73 @@
                                         <div class="text-wrap">
                                             <h3 class="headline">TCE</h3>
                                             <a href="tce.php" class="url-wrap readmore">En savoir +</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row padding-top-45 display-flex pro">
+
+                        <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <h3 class="section-heading">Nos Prestations</h3>
+                        </div>
+
+                        <div class="col-md-4 padding-top-45">
+                            <div id="serv5" class="work-box wow fadeInUp" data-wow-delay="300ms"
+                                data-wow-duration="1500ms">
+                                <div class="work-icon">
+                                    <div class="top item-shape item-shape1"></div>
+                                    <div class="top item-shape item-shape2"></div>
+                                    <div class="bottom item-shape item-shape1"></div>
+                                    <div class="bottom item-shape item-shape2"></div>
+                                    <div class="master-icon-box">
+                                        <div class="icon-wrap">
+                                            <span class="icon icon-data"></span>
+                                        </div>
+                                        <div class="text-wrap">
+                                            <h3 class="headline">Rénovation énergétique</h3>
+                                            <a href="renovation.php" class="url-wrap readmore">En savoir +</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padding-top-45">
+                            <div id="serv6" class="work-box wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="work-icon">
+                                    <div class="top item-shape item-shape1"></div>
+                                    <div class="top item-shape item-shape2"></div>
+                                    <div class="bottom item-shape item-shape1"></div>
+                                    <div class="bottom item-shape item-shape2"></div>
+                                    <div class="master-icon-box">
+                                        <div class="icon-wrap">
+                                            <span class="icon icon-tax"></span>
+                                        </div>
+                                        <div class="text-wrap">
+                                            <h3 class="headline">Tout corp d'état</h3>
+                                            <a href="tce.php" class="url-wrap readmore">En savoir +</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 padding-top-45">
+                            <div id="serv7" class="work-box">
+                                <div class="work-icon">
+                                    <div class="top item-shape item-shape1"></div>
+                                    <div class="top item-shape item-shape2"></div>
+                                    <div class="bottom item-shape item-shape1"></div>
+                                    <div class="bottom item-shape item-shape2"></div>
+                                    <div class="master-icon-box">
+                                        <div class="icon-wrap">
+                                            <span class="icon icon-high"></span>
+                                        </div>
+                                        <div class="text-wrap">
+                                            <h3 class="headline">Démolition</h3>
+                                            <a href="demolition.php" class="url-wrap readmore">En savoir +</a>
                                         </div>
                                     </div>
                                 </div>

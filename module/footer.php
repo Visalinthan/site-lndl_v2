@@ -66,6 +66,10 @@
                                     <li><a href="tel:0148551647" class="meta-phone">01 48 55 16 47</a></li>
                                 </ul>
                             </div>
+
+                            <div class="menu-4">
+                                <img src="../assets/img/QR_code-AVIS.jpg" alt="qr_code" width="180" height="180"/>
+                            </div>
                         </div>
                     </div>
                 </div>

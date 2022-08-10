@@ -3532,6 +3532,18 @@ a:focus {
     background-image: url('../img/home/expertises-TCE.jpg');
 }
 
+.flat-work #serv5.work-box:hover {
+    background-image: url('../img/home/services-renovation.png');
+}
+
+.flat-work #serv6.work-box:hover {
+    background-image: url('../img/home/services-tce.jpg');
+}
+
+.flat-work #serv7.work-box:hover {
+    background-image: url('../img/home/services-demolition.png');
+}
+
 .flat-work .work-box:hover,
 .flat-work .work-box.active {
     background-size: cover;
@@ -4380,14 +4392,8 @@ a:focus {
 }
 
 .flat-client .client-content-box .client-author img {
-    width: 144px;
-    height: 144px;
-    object-fit: cover;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    width: 250px;
+    height: 150px;
 }
 
 .flat-client .client-content-box .mark-client {
@@ -5642,6 +5648,14 @@ a:focus {
 #footer .menu-3 {
     width: 35%;
     padding: 15px 0px 10px 21px;
+}
+
+#footer .menu-4 {
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #footer .footer-widgets-nav-menu .widget-title-link-wrap {

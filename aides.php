@@ -173,7 +173,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-1.jpg" alt="images">
+                                    <img src="assets/img/aides/ma_prime_renov.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">MaPrimeRénov’</h3>
@@ -192,7 +192,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-2.jpg" alt="images">
+                                    <img src="assets/img/aides/certificats_eco.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Les certificats d’économies d’énergie</h3>
@@ -211,7 +211,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+                                    <img src="assets/img/aides/eco-pret-0.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Eco prêt CIC</h3>
@@ -231,8 +231,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
-
+                                    <img src="assets/img/aides/eco-pret-cite.jpeg" alt="images">
                                 </div>
                                 <h3 class="client-name">Prêt à taux réduit</h3>
                                 <p>Habituellement, la TVA appliquée lors de travaux de rénovation est de 10%.LNDL

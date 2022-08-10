@@ -29,7 +29,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="breadcrumbs">
-                            <h2 class="section-title-page">Marketing Research</h2>
+                            <h2 class="section-title-page">Démolition</h2>
                             <div class="breadcrumb-trail link-style-4">
                                 <a class="home" href="index.html">Home</a><span>Portfolio Details</span>
                             </div>
@@ -69,44 +69,36 @@
                                 <div class="section-title">
                                     <h2>Project Description</h2>
                                 </div>
-                                <p>To take a trivial example, which of us ever undertakes laborious physical exercise,
-                                    except to obtain some advantage from it? But who has any right to find fault with a
-                                    man who chooses to enjoy a pleasure that has no annoying consequences. Ever
-                                    undertakes laborious physical exercise, except to obtain some advantage from it? But
-                                    who has any right to find fault one who avoids a pain that produces no resultant
-                                    pleasure. Leverage agile frameworks to provide a robust synopsis for high level
-                                    overviews. Iterative approaches to corporate strategy foster collaborative thinking
-                                    to further the overall value proposition. Organically grow the holistic world view
-                                    of disruptive innovation via workplace diversity and empowerment.</p>
-                                <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="20"
-                                    data-smobile="10"></div>
-                                <p>European languages are members of the same family. The languages only differ in their
-                                    grammar, their pronunciation and their most common words. pronunciation and more
-                                    common words. If several languages coalesce, the grammar of the resulting. European
-                                    languages are members of the same family. The languages only differ in their
-                                    grammar, their pronunciation and their most common words. pronunciation and more
-                                    common words.</p>
+                                <p>La Nationale Du Logement intervient dans toute la France pour prendre en charge vos différents travaux de démolition, jusqu’au tri et évacuation des déchets.</p>
+
                                 <div class="section-wrap tf-row">
                                     <div class="tf-col-6">
                                         <div class="post-project-content">
-                                            <h3>Project Target</h3>
-                                            <p>To take a trivial example, which of us ever undertakes laborious physical
-                                                exercise, except to obtain some advantage from it? But who has any right
-                                                to find fault with a man who chooses to enjoy a pleasure that has no
-                                                annoying consequences. Ever undertakes laborious physical exercise,</p>
+                                            <h3>Nos Services</h3>
                                             <ul class="work-process">
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>who has any right to find fault with a man</h4>
+                                                    <h4>Désamiantage</h4>
                                                 </li>
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>European languages are members 0f the same familly.</h4>
+                                                    <h4>Déplombage</h4>
                                                 </li>
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>Ever undertakes laborious physical exercise, except to obtain.
-                                                    </h4>
+                                                    <h4>Curage</h4>
+                                                </li>
+                                                <li>
+                                                    <div class="icon-tick"></div>
+                                                    <h4>Déconstruction</h4>
+                                                </li>
+                                                <li>
+                                                    <div class="icon-tick"></div>
+                                                    <h4>Démolition</h4>
+                                                </li>
+                                                <li>
+                                                    <div class="icon-tick"></div>
+                                                    <h4>Recyclage</h4>
                                                 </li>
                                             </ul>
                                         </div>
