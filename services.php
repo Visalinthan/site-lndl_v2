@@ -50,7 +50,7 @@
                             <div class="tf-col-6 tf-financial tf-strategy">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/img/services/services-ite_iti.jpg" alt="images">
+                                        <img src="assets/img/services/services-ite_iti.png" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
@@ -103,7 +103,7 @@
                             <div class="tf-col-6 tf-financial tf-solicitory">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/img/services/services-renovation.png" alt="images">
+                                        <img src="assets/img/services/services-renovation.jpg" alt="images">
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">

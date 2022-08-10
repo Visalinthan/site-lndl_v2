@@ -44,7 +44,7 @@
                         <div class="col-md-12">
                             <div class="main-content">
                                 <div class="post-media">
-                                    <img src="assets/img/services/services-ite_iti.jpg" alt="images">
+                                    <img src="assets/img/services/services-ite_iti-2.jpg" alt="images">
                                     <div class="content">
                                         <div class="top">
                                             <h2>Project Details</h2>
@@ -71,15 +71,18 @@
                                 <p>Une isolation thermique par l’intérieur (ITI) consolide et isole les murs de vos
                                     pièces des déperditions de chaleur. L’isolation thermique par l’extérieur (ITE)
                                     concerne les parois de votre façade.</p>
-                                    
-                                    <h3>Comment choisir entre ITE et ITI ?</h3>
+
+                                <h3>Comment choisir entre ITE et ITI ?</h3>
                                 <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="20"
                                     data-smobile="10"></div>
                                 <div class="section-wrap tf-row">
                                     <div class="tf-col-6">
                                         <div class="post-project-content">
-                                           
                                             <h4>ITE</h4>
+                                            <div class="post-media">
+                                                <img src="assets/img/services/services-ite.png" alt="images">
+                                            </div>
+
                                             <ul class="work-process">
                                                 <li>
                                                     <div class="icon-tick"></div>
@@ -126,6 +129,9 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <h4>ITI</h4>
+                                        <div class="post-media">
+                                            <img src="assets/img/services/services-iti.jpeg" alt="images">
+                                        </div>
                                         <ul class="work-process">
                                             <li>
                                                 <div class="icon-tick"></div>

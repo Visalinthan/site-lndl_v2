@@ -3203,7 +3203,7 @@ a:focus {
 
 .flat-features .features-box {
     position: relative;
-    padding: 29px 20px 136px 20px;
+    padding: 29px 20px 50px 20px;
     border-radius: 8px;
     margin: 0px 10px;
     background-color: #fff;
@@ -3256,15 +3256,17 @@ a:focus {
 .flat-features .box-content {
     left: 0;
     right: 0;
+    width: 100%;
 }
 
 .flat-features .features-box .content-post img {
-    width: 100%;
+    width: 100% !important;
+    height: 300px;
     border-radius: 8px;
 }
 
 .flat-features .features-box .content-post {
-    margin: 0 39px;
+    margin: 0px;
 }
 
 .flat-features .box-content .post-readmore {
@@ -3516,44 +3518,51 @@ a:focus {
     content: '\e903';
 }
 
-.flat-work #serv1.work-box:hover {
-    background-image: url('../img/home/expertises-ite-iti.jpg');
+.flat-work #serv1.work-box {
+    background-image: url('../img/services/services-ite-iti.jpg');
 }
 
-.flat-work #serv2.work-box:hover {
-    background-image: url('../img/home/expertises-pac.jpg');
+.flat-work #serv2.work-box {
+    background-image: url('../img/services/services-pac.jpg');
 }
 
-.flat-work #serv3.work-box:hover {
-    background-image: url('../img/home/expertises-vmc.jpg');
+.flat-work #serv3.work-box {
+    background-image: url('../img/services/services-vmc.jpg');
 }
 
-.flat-work #serv4.work-box:hover {
-    background-image: url('../img/home/expertises-TCE.jpg');
+.flat-work #serv4.work-box {
+    background-image: url('../img/services/services-tce.jpg');
 }
 
-.flat-work #serv5.work-box:hover {
-    background-image: url('../img/home/services-renovation.png');
+.flat-work #serv5.work-box {
+    background-image: url('../img/services/services-renovation.jpg');
 }
 
-.flat-work #serv6.work-box:hover {
-    background-image: url('../img/home/services-tce.jpg');
+.flat-work #serv6.work-box {
+    background-image: url('../img/services/services-tce.jpg');
 }
 
-.flat-work #serv7.work-box:hover {
-    background-image: url('../img/home/services-demolition.png');
+.flat-work #serv7.work-box {
+    background-image: url('../img/services/services-demolition.png');
+}
+
+.flat-work .work-box,
+.flat-work .work-box a {
+    background-size: cover;
+    color: #fff !important;
 }
 
 .flat-work .work-box:hover,
 .flat-work .work-box.active {
-    background-size: cover;
-    color: #fff;
+    background-image: none !important;
+    background-color: #fff !important;
+    color: #000 !important;
     box-shadow: 0px 5px 17px #528B378c;
 }
 
 .flat-work .work-box:hover a,
 .flat-work .work-box.active a {
-    color: #fff;
+    color: #000!important;
 }
 
 .flat-work .work-box:hover .top.item-shape,
@@ -4383,12 +4392,13 @@ a:focus {
     text-align: center;
     box-shadow: 0px 7px 12px #77737347;
     overflow: hidden;
-    height: 700px;
+    height: 800px;
+    padding-top: 50px;
 }
 
 .flat-client .client-content-box .client-author {
     position: relative;
-    display: inline;
+    display: block;
 }
 
 .flat-client .client-content-box .client-author img {

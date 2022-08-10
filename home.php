@@ -52,10 +52,10 @@
                                         </div>
                                         <div class="slider-right">
                                             <div class="image-slider part">
-                                                <img src="assets/img/home/home-header.jpeg" alt="images">
+                                                <img src="assets/img/home/home-BtoC.jpeg" alt="images">
                                             </div>
                                             <div class="image-slider pro">
-                                                <img src="assets/img/home/header_home.jpg" alt="images">
+                                                <img src="assets/img/home/home-BtoB.jpg" alt="images">
                                             </div>
                                             <div class="mark-slider-1">
                                                 <img src="assets/images/mark-page/mark-slide-item-1.png" alt="images">
@@ -122,7 +122,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/assistance-complete.jpg" alt="images">
+                                        <img src="assets/img/home/home-BtoC-choice-assistance-complete.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -143,7 +143,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/artisans-RGE.jpg" alt="images">
+                                        <img src="assets/img/home/home-BtoC-choice-artisans-RGE.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/gararntie-decennale.jpg" alt="images">
+                                        <img src="assets/img/home/home-BtoC-choice-garantie-decennale.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -188,7 +188,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/accompagnement.jpg" alt="images">
+                                        <img src="assets/img/home/home-BtoB-choice-accompagnement.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -210,7 +210,7 @@
                                 </div>
                                 <div class="box-content active">
                                     <div class="content-post">
-                                        <img src="assets/img/home/savoir_faire.jpg" alt="images">
+                                        <img src="assets/img/home/home-BtoB-choice-savoir_faire.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>
@@ -231,7 +231,7 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/artisans-RGE.jpg" alt="images">
+                                        <img src="assets/img/home/home-BtoB-choice-RGE.jpg" alt="images">
                                         <div class="post-readmore">
                                             <a href="service-details.html" class="read-more"><span class="text">Read
                                                     More</span></a>

@@ -110,7 +110,7 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="post-media">
-                                            <img src="assets/img/services/services-pac.png"
+                                            <img src="assets/img/services/services-pac-2.jpg"
                                                 alt="images">
                                         </div>
                                     </div>

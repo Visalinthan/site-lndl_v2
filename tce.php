@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="post-media">
-                                            <img src="assets/img/services/services-tce.jpg"
+                                            <img src="assets/img/services/services-tce-2.jpg"
                                                 alt="images">
                                         </div>
                                     </div>

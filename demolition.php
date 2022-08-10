@@ -45,7 +45,7 @@
                         <div class="col-md-12">
                             <div class="main-content">
                                 <div class="post-media">
-                                    <img src="assets/img/services/services-demolition.png" alt="images">
+                                    <img src="assets/img/services/services-demolition-2.png" alt="images">
                                     <div class="content">
                                         <div class="top">
                                             <h2>Project Details</h2>
@@ -105,7 +105,7 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="post-media">
-                                            <img src="assets/img/services/services-demolition.png"
+                                            <img src="assets/img/services/services-demolition-3.jpg"
                                                 alt="images">
                                         </div>
                                     </div>
