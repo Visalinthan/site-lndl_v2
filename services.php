@@ -124,12 +124,12 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="tce.php">Tous Corps d'État</a>
+                                            <a href="tce-pro.php">Tous Corps d'État</a>
                                             <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers différents.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
-                                        <a href="tce.php" class="readmore"></a>
+                                        <a href="tce-pro.php" class="readmore"></a>
                                     </div>
                                 </div>
                             </div>

@@ -3519,31 +3519,31 @@ a:focus {
 }
 
 .flat-work #serv1.work-box {
-    background-image: url('../img/services/services-ite-iti.jpg');
+    background-image: url('../img/home/services-ite-iti.jpg');
 }
 
 .flat-work #serv2.work-box {
-    background-image: url('../img/services/services-pac.jpg');
+    background-image: url('../img/home/services-pac.jpg');
 }
 
 .flat-work #serv3.work-box {
-    background-image: url('../img/services/services-vmc.jpg');
+    background-image: url('../img/home/services-vmc.jpg');
 }
 
 .flat-work #serv4.work-box {
-    background-image: url('../img/services/services-tce.jpg');
+    background-image: url('../img/home/services-tce.jpg');
 }
 
 .flat-work #serv5.work-box {
-    background-image: url('../img/services/services-renovation.jpg');
+    background-image: url('../img/home/services-renovation.jpg');
 }
 
 .flat-work #serv6.work-box {
-    background-image: url('../img/services/services-tce.jpg');
+    background-image: url('../img/home/services-tce.jpg');
 }
 
 .flat-work #serv7.work-box {
-    background-image: url('../img/services/services-demolition.png');
+    background-image: url('../img/home/services-demolition.png');
 }
 
 .flat-work .work-box,
@@ -5140,6 +5140,7 @@ a:focus {
 
 .flat-portfolio .portfolio-box .portfolio-media img {
     width: 100%;
+    height: 350px;
 }
 
 .flat-portfolio .portfolio-box .portfolio-readmore {

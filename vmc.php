@@ -107,7 +107,7 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="post-media">
-                                            <img src="assets/img/services/services-vmc.jpg"
+                                            <img src="assets/img/services/services-vmc.jpeg"
                                                 alt="images">
                                         </div>
                                     </div>

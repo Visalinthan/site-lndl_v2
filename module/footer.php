@@ -68,7 +68,7 @@
                             </div>
 
                             <div class="menu-4">
-                                <img src="../assets/img/QR_code-AVIS.jpg" alt="qr_code" width="180" height="180"/>
+                                <img src="../assets/img/QR_CODE.svg" alt="qr_code" width="180" height="180"/>
                             </div>
                         </div>
                     </div>

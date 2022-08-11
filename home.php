@@ -398,7 +398,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">Tout corp d'état</h3>
-                                            <a href="tce.php" class="url-wrap readmore">En savoir +</a>
+                                            <a href="tce-pro.php" class="url-wrap readmore">En savoir +</a>
                                         </div>
                                     </div>
                                 </div>
