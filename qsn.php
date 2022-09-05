@@ -43,10 +43,9 @@
                                     <p>Sa motivation ?</p>
 
                                     <p class="padding-top-16">Partager des solutions, et apporter une satisfaction aux
-                                        français tout en les
+                                        ménages tout en les
                                         accompagnant dans leurs projets de A à Z. Pour ce faire, il s’entoure depuis 4
-                                        ans de professionnels dotés d’un savoir-faire, afin d’apporter une expertise aux
-                                        ménages.
+                                        ans de professionnels dotés d’un savoir-faire, afin d’apporter une expertise à ses clients.
                                     </p>
                                 </div>
                             </div>
@@ -113,7 +112,7 @@
                         <div class="col-md-3 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/img/qsn/nos-equipes-direction.jpg" alt="images">
+                                    <img src="assets/img/qsn/nos-equipes-la-direction.jpg" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>DIRECTION</h4>
@@ -139,7 +138,7 @@
                             <div class="team-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/img/qsn/nos-equipes-planification.jpg" alt="images">
+                                    <img src="assets/img/qsn/nos-equipes-planification.png" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>PLANIFICATION</h4>
@@ -214,6 +213,12 @@
                             <div class="section-title text-center">
                                 <div class="features-content">
                                     <h2>Nos engagements</h2>
+                                    <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés RGE. 
+                                        Cette qualification vous apporte en plus, la possibilité de bénéficier des aides telles que : les certificats d’économies 
+                                        d’énergie (CEE), les aides à la rénovation énergétique distribuée par l’ANAH et de MaPrimeRénov’, l’éco-prêt à taux zéro (Eco-PTZ)...*
+</p>
+
+                                    
                                 </div>
                             </div>
                         </div>
@@ -314,11 +319,11 @@
                         </div>
                     </div>
                     <div class="row  padding-top-45 part">
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">95</span>
+                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span>
                                     <span>%</span>
                                 </div>
                                 <div class="heading-count">
@@ -326,31 +331,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
                                     <span class="number" data-speed="4000" data-to="4" data-inviewport="yes">4</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>ANNÉES <br> EXPÉRIENCES</h3>
+                                    <h3>ANNÉES <br> D'EXPÉRIENCES</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="330"
-                                        data-inviewport="yes">330</span>
+                                    <span class="number" data-speed="4000" data-to="3264"
+                                        data-inviewport="yes">3264</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>FAMILLES <br>
-                                        ACCOMPAGNÉES</h3>
+                                    <h3> MÉNAGES <br>
+                                        ACCOMPAGNÉS</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -364,86 +369,85 @@
                         </div>
                     </div>
                     <div class="row padding-top-45 part">
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
                                     <span class="number" data-speed="4000" data-to="500"
-                                        data-inviewport="yes">500</span>
+                                        data-inviewport="yes">2208 </span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>PAC/ ISOLATION <br>
+                                    <h3>PAC <br>
                                         POSÉES</h3>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
                                     <span class="number" data-speed="4000" data-to="250"
-                                        data-inviewport="yes">250</span><span>€</span>
+                                        data-inviewport="yes">6000</span><span>€</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>ÉCONOMISÉ EN <br>
-                                        MOYENNE/FAMILE</h3>
+                                    <h3>ÉCONOMISÉ <br>
+                                        EN MOYENNE</h3>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
                                     <span class="number" data-speed="4000" data-to="240"
-                                        data-inviewport="yes">240</span>
+                                        data-inviewport="yes">2938</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>AIDES DÉBLOQUÉES<br>
-                                        SUR L'ANNÉE</h3>
+                                    <h3>AIDES DÉBLOQUÉES<br></h3>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span>3/4</span>
+                                    <span>49%</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>RÉPARTITIONS <br>
-                                        HOMMES/FEMMES</h3>
+                                    <h3> DE FEMMES <br> 
+                                   </h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row  padding-top-45 pro">
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">95</span>
+                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>PARTENAIRES <br /> RECONNU</h3>
+                                    <h3>CLIENTS <br /> SATISFAITS</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
                                     <span class="number" data-speed="4000" data-to="559"
-                                        data-inviewport="yes">559</span>
+                                        data-inviewport="yes">336</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>TRAVAUX <br> RÉALISÉS</h3>
+                                    <h3>PROJETS <br> RÉALISÉS</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -455,7 +459,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 padding-top-45">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
@@ -466,6 +470,61 @@
                                         DEDIÉS</h3>
                                 </div>
                             </div>
+                                            <div class="row  padding-top-45 part">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
+                            <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="number-counter">
+                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span>
+                                    <span>%</span>
+                                </div>
+                                <div class="heading-count">
+                                    <h3>CLIENTS <br /> SATISFAITS</h3>
+                                </div>
+                            </div>
+                        </div>    
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="row  padding-top-45 pro">
+                        <div class="col-lg-3 col-md-10 padding-top-45">
+                            <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="number-counter">
+                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">229</span>
+                                </div>
+                                <div class="heading-count">
+                                    <h3>TRAVAUX DE <br /> CALORIFUGEAGE</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-10 padding-top-45">
+                            <div class="about-counter-inner wow fadeInUp" data-wow-delay="300ms"
+                                data-wow-duration="1500ms">
+                                <div class="number-counter">
+                                    <span class="number" data-speed="4000" data-to="559"
+                                        data-inviewport="yes">271</span>
+                                </div>
+                                <div class="heading-count">
+                                    <h3>DOSSIER DE FINANCEMENT <br> MONTÉS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row  padding-top-45 part">
+                            <div class="col-lg-3 col-md-10 padding-top-45">
+                                <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                <div class="number-counter">
+                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span>
+                                    <span>%</span>
+                                </div>
+                                <div class="heading-count">
+                                    <h3>CLIENTS <br /> SATISFAITS</h3>
+                                </div>
+                            </div>
+                        </div>    
                         </div>
                     </div>
                 </div>

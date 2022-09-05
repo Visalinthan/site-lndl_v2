@@ -19,7 +19,7 @@
 .button {
     font-size: 16px;
     color: #fff;
-    background-color: var(--primary-color);
+    background-color: #F8A912;
     border-radius: 29px;
     font-weight: 500;
     line-height: 29px;
@@ -32,7 +32,7 @@
 }
 
 .button:hover {
-    background-color: var(--primary-color2);
+    background-color: #9D9D9C;
     color: #fff;
 }
 
@@ -150,7 +150,6 @@
 
 .flat-slider .slider-left-content h3,
 .section-heading {
-    font-size: 24px;
     font-weight: 700;
     border-left: 5px solid var(--primary-color);
     padding-left: 10px;
@@ -333,8 +332,8 @@
 .flat-features .box-content .post-readmore .read-more,
 .flat-latest .latest-content-bottom .post-readmore .read-more {
     position: relative;
-    border: 1px solid var(--primary-color);
-    background-color: var(--primary-color);
+    border: #F8A912;
+    background-color: #F8A912;
     color: #fff;
     line-height: 45px;
     width: 45px;
@@ -369,7 +368,7 @@
 
 .flat-features .box-content:hover .post-readmore .read-more,
 .flat-features .box-content.active .post-readmore .read-more {
-    width: 144px;
+    width: 164px;
 }
 
 .flat-features .box-content:hover .post-readmore .text,

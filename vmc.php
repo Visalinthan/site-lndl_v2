@@ -29,9 +29,6 @@
                     <div class="row">
                         <div class="breadcrumbs">
                             <h2 class="section-title-page">VMC</h2>
-                            <div class="breadcrumb-trail link-style-4">
-                                <a class="home" href="index.html">Home</a><span>Portfolio Details</span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -47,7 +44,7 @@
                                     <img src="assets/img/services/services-vmc.jpg" alt="images">
                                     <div class="content">
                                         <div class="top">
-                                            <h2>Project Details</h2>
+                                            <h2>Les détails de votre projet</h2>
                                         </div>
                                         <ul class="list">
                                             <li>
@@ -78,9 +75,9 @@
                                 <div class="section-wrap tf-row align-items-center">
                                     <div class="tf-col-6">
                                         <div class="post-project-content">
-                                            <h3>Les Bénéfices</h3>
+                                            <h3>Les bénéfices</h3>
                                             <p>Une VMC est le moyen le plus sûr de garantir un renouvellement de l’air à moindre coût. Elle est un indispensable pour le bien-être et la santé des occupants.</p>
-                                            <h3>Les Avantages</h3>
+                                            <h3>Les avantages</h3>
                                             <ul class="work-process">
                                                 <li>
                                                     <div class="icon-tick"></div>

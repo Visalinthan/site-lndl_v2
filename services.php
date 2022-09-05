@@ -24,6 +24,25 @@
             <!-- Header Wrap -->
             <?php include("module/nav.php")?>
             <!-- #site-header-wrap -->
+            <section class="tf-space flat-logo-slogan ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <h3 class="section-heading">Nos services</h3>
+                                <div class="features-content-left">
+                                        <h4>Nous faire confiance c'est...</h4>
+                                    </div>
+                                </div>
+                                <div class="features-content-right">
+                                    <p> 1 - Accompagnement de A à Z
+                                        2 - Un savoir faire reconnu
+                                        3 - Des artisans partenaires certifiés RGE 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
             <!-- flat portfolio -->
             <section class="tf-space flat-portfolio">
@@ -88,7 +107,7 @@
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="tce.php">Tout Corps d' Etat</a>
+                                            <a href="tce.php">Tout Corps d' État</a>
                                             <p>Un large champs d'expertise sur tous types de batiments et pour tous types d'interventions allié à une équipe performante.</p>
                                         </div>
                                     </div>
@@ -157,6 +176,53 @@
                 </div>
             </section>
             <!-- /flat portfolio -->
+
+                        <!-- flat logo slogan -->
+                        <section class="tf-space flat-logo-slogan ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <h3 class="section-heading">Nos Certifications</h3>
+                                <div class="features-content-left">
+                                        <h4>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et 
+                                        Ma Prime Renov’.</h4>
+                                    </div>
+                                </div>
+                                <div class="features-content-right">
+                                    <p> Pour éviter tout acte frauduleux, notre service d’Administration 
+                                        Des Ventes réalise vos démarches dans le respect des règles établies par l’ANAH et du gouvernement. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row margin-top-55 display-flex text-center">
+                        <div class="col-md-2 padding-top-45">
+                            <div class="slogan-logo">
+                                <img src="assets/img/home/lndl-certification-rge-qualibat.png" alt="images">
+                            </div>
+                        </div>
+                        <div class="col-md-2 padding-top-45">
+                            <div class="slogan-logo">
+                                <img src="assets/img/home/lndl-certification-rge-qualipac.png" alt="images">
+                            </div>
+                        </div>
+                        <div class="col-md-2 padding-top-45">
+                            <div class="slogan-logo">
+                                <img src="assets/img/home/lndl-certification-rge-ventilation-plus.png" alt="images">
+                            </div>
+                        </div>
+                        <div class="col-md-2 padding-top-45">
+                            <div class="slogan-logo">
+                                <img src="assets/img/home/lndl-certification-rge-chauffage.png" alt="images">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- /flat logo slogan -->
 
 
             <!-- Footer -->

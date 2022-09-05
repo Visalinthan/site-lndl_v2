@@ -30,9 +30,6 @@
                     <div class="row">
                         <div class="breadcrumbs">
                             <h2 class="section-title-page">Rénovation énergétique</h2>
-                            <div class="breadcrumb-trail link-style-4">
-                                <a class="home" href="index.html">Home</a><span>Portfolio Details</span>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -28,10 +28,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="breadcrumbs">
-                            <h2 class="section-title-page">Tout Corps d' Etat</h2>
-                            <div class="breadcrumb-trail link-style-4">
-                                <a class="home" href="index.html">Home</a><span>Portfolio Details</span>
-                            </div>
+                            <h2 class="section-title-page">Tout Corps d'État</h2>
                         </div>
                     </div>
                 </div>
@@ -47,14 +44,14 @@
                                     <img src="assets/img/services/services-tce.jpg" alt="images">
                                     <div class="content">
                                         <div class="top">
-                                            <h2>Project Details</h2>
+                                            <h2>Les détails de votre projet</h2>
                                         </div>
                                         <ul class="list">
                                             <li>
-                                                <h4>Category:</h4><span>Insurance Law</span>
+                                                <h4>Categorie:</h4><span>Insurance Law</span>
                                             </li>
                                             <li>
-                                                <h4>Client:</h4><span>Abraham smith</span>
+                                                <h4>Clients:</h4><span>Abraham smith</span>
                                             </li>
                                             <li>
                                                 <h4>Location:</h4><span>Sydni, Australia</span>
@@ -66,7 +63,7 @@
                                     </div>
                                 </div>
                                 <div class="section-title">
-                                    <h2>Tout Corps d' Etat</h2>
+                                    <h2>Tout Corps d' État</h2>
                                 </div>
                                 <p>Un large champs d'expertise sur tous types de batiments et pour tous types d'interventions allié à une équipe performante.</p>
                                 <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="20"
@@ -74,7 +71,7 @@
                                 <div class="section-wrap tf-row ">
                                     <div class="tf-col-6">
                                         <div class="post-project-content">
-                                            <h3>Les Avantages</h3>
+                                            <h3>Les avantages</h3>
                                             <ul class="work-process">
                                                 <li>
                                                     <div class="icon-tick"></div>

@@ -29,9 +29,6 @@
                     <div class="row">
                         <div class="breadcrumbs">
                             <h2 class="section-title-page">ITE / ITI</h2>
-                            <div class="breadcrumb-trail link-style-4">
-                                <a class="home" href="index.html">Home</a><span>Portfolio Details</span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -47,7 +44,7 @@
                                     <img src="assets/img/services/services-ite_iti-2.jpg" alt="images">
                                     <div class="content">
                                         <div class="top">
-                                            <h2>Project Details</h2>
+                                            <h2>Les détails de votre projet</h2>
                                         </div>
                                         <ul class="list">
                                             <li>

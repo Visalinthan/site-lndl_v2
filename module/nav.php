@@ -22,16 +22,19 @@
                      <!-- /.mobile-button -->
                      <nav id="main-nav" class="main-nav">
                          <ul id="menu-primary-menu" class="menu">
+                         <li class="menu-item">
+                                 <a href="home.php">Accueil</a>
+                             </li>
                              <li class="menu-item">
                                  <a href="qsn.php" class="part">Qui sommes-nous ?</a>
-                                 <a href="qsn.php" class="pro">A propos</a>
+                                 <a href="qsn.php" class="pro">À propos</a>
                              </li>
                              <li class="menu-item">
-                                 <a href="services.php" class="part">Nos Services </a>
-                                 <a href="services.php" class="pro">Nos Prestations </a>
+                                 <a href="services.php" class="part">Nos services </a>
+                                 <a href="services.php" class="pro">Nos prestations </a>
                              </li>
                              <li class="menu-item">
-                                 <a href="aides.php">Aides et Subventions</a>
+                                 <a href="aides.php">Aides et subventions</a>
                              </li>
 
                              <li class="menu-item">
@@ -89,9 +92,10 @@
              <div class="side-menu__top-category">
                  <div class="widget widget-category">
                      <ul>
+                        <li class="cat-item"><a href="home.php">Accueil</a> </li>
                          <li class="cat-item"><a href="qsn.php">Qui sommes-nous ?</a> </li>
-                         <li class="cat-item"><a href="services.php">Nos Services </a></li>
-                         <li class="cat-item"><a href="aides.php">Aides et Subventions</a></li>
+                         <li class="cat-item"><a href="services.php">Nos services </a></li>
+                         <li class="cat-item"><a href="aides.php">Aides et subventions</a></li>
                          <li class="cat-item"><a href="contact.php">Contact</a></li>
                      </ul>
                  </div>

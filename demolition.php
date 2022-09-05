@@ -29,10 +29,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="breadcrumbs">
-                            <h2 class="section-title-page">Démolition</h2>
-                            <div class="breadcrumb-trail link-style-4">
-                                <a class="home" href="index.html">Home</a><span>Portfolio Details</span>
-                            </div>
+                            <h2 class="section-title-page">Démolition</h2>                            
                         </div>
                     </div>
                 </div>
@@ -45,10 +42,10 @@
                         <div class="col-md-12">
                             <div class="main-content">
                                 <div class="post-media">
-                                    <img src="assets/img/services/services-demolition-2.png" alt="images">
+                                    <img src="assets/img/services/services-demolition-2.jpg" alt="images">
                                     <div class="content">
                                         <div class="top">
-                                            <h2>Project Details</h2>
+                                            <h2>Votre projet</h2>
                                         </div>
                                         <ul class="list">
                                             <li>

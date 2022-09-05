@@ -121,49 +121,6 @@
             </section>
             <!-- /flat about 2 -->
 
-
-            <section class="tf-space flat-about-2 part">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12" style="text-align:center">
-                            <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="section-title st-2">
-                                    <div class="features-content-left">
-                                        <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie</h3>
-                                    </div>
-                                    <p>Notre certification d’entreprise RGE nous permet de vous faire profiter des
-                                        différents dispositifs d’aides.</p>
-                                    <p>Pour y accéder, suivez ces 3 étapes :</p>
-                                </div>
-                                <div class="flex-column" style="align-items: center;">
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Etablissez votre devis par notre expert</h4>
-                                        </div>
-                                    </div>
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Réalisez vos travaux de rénovation </h4>
-                                        </div>
-                                    </div>
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Réalisez vos travaux de rénovation</h4>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
             <section class="tf-space flat-client ">
                 <div class="container">
 
@@ -214,7 +171,7 @@
                                     <img src="assets/img/aides/eco-pret-0.png" alt="images">
 
                                 </div>
-                                <h3 class="client-name">Eco prêt CIC</h3>
+                                <h3 class="client-name">Éco-prêt CIC</h3>
                                 <p>Afin d’encourager les propriétaires à la transition énergétique, L’Etat vous permet
                                     de bénéficier d’un prêt à taux zéro.</p>
                                 <p>Avec notre partenaire CIC, nous vous simplifions les démarches et réalisons pour
@@ -336,7 +293,46 @@
                         </div>
 
                     </div>
+                    <section class="tf-space flat-about-2 part">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align:center">
+                            <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="section-title st-2">
+                                    <div class="features-content-left">
+                                        <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie</h3>
+                                    </div>
+                                    <p>Notre certification d’entreprise RGE nous permet de vous faire profiter des
+                                        différents dispositifs d’aides.</p>
+                                    <p>Pour y accéder, suivez ces 3 étapes :</p>
+                                </div>
+                                <div class="flex-column" style="align-items: center;">
+                                    <div class="about-our-company">
+                                        <div class="icon-tick"></div>
+                                        <div class="content-box">
+                                            <h4>Établissez votre devis par notre expert</h4>
+                                        </div>
+                                    </div>
+                                    <div class="about-our-company">
+                                        <div class="icon-tick"></div>
+                                        <div class="content-box">
+                                            <h4>Réalisez vos travaux de rénovation </h4>
+                                        </div>
+                                    </div>
+                                    <div class="about-our-company">
+                                        <div class="icon-tick"></div>
+                                        <div class="content-box">
+                                            <h4>Percevez  le versement de vos aides</h4>
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
                 </div>
             </section>
 

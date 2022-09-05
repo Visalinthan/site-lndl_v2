@@ -45,7 +45,7 @@
                                                     quelques années pour répondre aux besoins de tous.</h4>
 
                                                 <div class="button-slider">
-                                                    <a href="simulation.php" class="button readmore">Tester votre
+                                                    <a href="simulation.php" class="button readmore">Testez votre
                                                         éligibité</a>
                                                 </div>
                                             </div>
@@ -116,7 +116,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-1.jpg" alt="images">
+                                        <img src="assets/images/image-box/features-icon-1.png" alt="images">
                                     </div>
                                     <h3 class="headline">Une assistance complète</h3>
                                 </div>
@@ -124,8 +124,7 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoC-choice-assistance-complete.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">Read
-                                                    More</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +136,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-2.jpg" alt="images">
+                                        <img src="assets/images/image-box/features-icon-2.png" alt="images">
                                     </div>
                                     <h3 class="headline">Des artisans partenaires certifiés RGE</h3>
                                 </div>
@@ -145,8 +144,7 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoC-choice-artisans-RGE.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">Read
-                                                    More</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -158,7 +156,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-3.jpg" alt="images">
+                                        <img src="assets/images/image-box/features-icon-4.png" alt="images">
                                     </div>
                                     <h3 class="headline">Garantie décénnale</h3>
                                 </div>
@@ -166,8 +164,7 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoC-choice-garantie-decennale.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">Read
-                                                    More</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -182,7 +179,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-1.jpg" alt="images">
+                                        <img src="assets/images/image-box/features-icon-1.png" alt="images">
                                     </div>
                                     <h3 class="headline">Accompagnement de A à Z</h3>
                                 </div>
@@ -190,8 +187,7 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-accompagnement.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">Read
-                                                    More</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -204,7 +200,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-2.jpg" alt="images">
+                                        <img src="assets/images/image-box/features-icon-2.png" alt="images">
                                     </div>
                                     <h3 class="headline">Un savoir faire reconnu</h3>
                                 </div>
@@ -212,8 +208,7 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-savoir_faire.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">Read
-                                                    More</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -225,7 +220,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-3.jpg" alt="images">
+                                        <img src="assets/images/image-box/features-icon-3.png" alt="images">
                                     </div>
                                     <h3 class="headline">RGE</h3>
                                 </div>
@@ -233,8 +228,7 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-RGE.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">Read
-                                                    More</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -255,7 +249,7 @@
                                 <h3 class="section-heading">Nos Expertises</h3>
                                 <div class="features-content-left">
                                     <h4>
-                                        Acteur de la rénovation énergétique en France, La Nationale du Logement vous
+                                        Acteur de la rénovation énergétique en France, La Nationale Du Logement vous
                                         accompagne dans vos projets de rénovation.
                                     </h4>
                                 </div>
@@ -263,10 +257,8 @@
                                 <div class="features-content-right">
                                     <p>
                                         Nous vous conseillons et nous réalisons vos projets sur-mesure, en restant
-                                        disponible
-                                        tout au long de vos travaux de rénovation. Votre confort est notre priorité et
-                                        c'est la
-                                        raison pour laquelle nous améliorons constamment la qualité de nos services
+                                        disponible  tout au long de vos travaux de rénovation.  
+                                        Votre confort est notre priorité, c'est la raison pour laquelle nous améliorons constamment la qualité de nos services.
                                     </p>
                                 </div>
                             </div>
@@ -291,7 +283,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">ITE/ITI</h3>
-                                            <a href="ite-iti.php" class="url-wrap readmore">En savoir +</a>
+                                            <a href="ite-iti.php" class="url-wrap readmore">Découvrir</a>
                                         </div>
                                     </div>
                                 </div>
@@ -311,7 +303,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">PAC</h3>
-                                            <a href="pac.php" class="url-wrap readmore">En savoir +</a>
+                                            <a href="pac.php" class="url-wrap readmore">Découvrir</a>
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +322,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">VMC</h3>
-                                            <a href="vmc.php" class="url-wrap readmore">En savoir +</a>
+                                            <a href="vmc.php" class="url-wrap readmore">Découvrir</a>
                                         </div>
                                     </div>
                                 </div>
@@ -350,7 +342,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">TCE</h3>
-                                            <a href="tce.php" class="url-wrap readmore">En savoir +</a>
+                                            <a href="tce.php" class="url-wrap readmore">Découvrir</a>
                                         </div>
                                     </div>
                                 </div>
@@ -378,7 +370,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">Rénovation énergétique</h3>
-                                            <a href="renovation.php" class="url-wrap readmore">En savoir +</a>
+                                            <a href="renovation.php" class="url-wrap readmore">Découvrir</a>
                                         </div>
                                     </div>
                                 </div>
@@ -397,8 +389,8 @@
                                             <span class="icon icon-tax"></span>
                                         </div>
                                         <div class="text-wrap">
-                                            <h3 class="headline">Tout corp d'état</h3>
-                                            <a href="tce-pro.php" class="url-wrap readmore">En savoir +</a>
+                                            <h3 class="headline">Tout corp d'État</h3>
+                                            <a href="tce-pro.php" class="url-wrap readmore">Découvrir</a>
                                         </div>
                                     </div>
                                 </div>
@@ -417,7 +409,7 @@
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">Démolition</h3>
-                                            <a href="demolition.php" class="url-wrap readmore">En savoir +</a>
+                                            <a href="demolition.php" class="url-wrap readmore">Découvrir</a>
                                         </div>
                                     </div>
                                 </div>
@@ -437,6 +429,16 @@
                         <div class="col-md-12">
                             <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <h3 class="section-heading">Nos Certifications</h3>
+                                <div class="features-content-left">
+                                        <h4>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et 
+                                        Ma Prime Renov’.</h4>
+                                    </div>
+                                </div>
+                                <div class="features-content-right">
+                                    <p> Pour éviter tout acte frauduleux, notre service d’Administration 
+                                        Des Ventes réalise vos démarches dans le respect des règles établies par l’ANAH et du gouvernement. 
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -489,18 +491,16 @@
                                 data-wow-duration="1500ms">
                                 <div class="latest-post">
                                     <img src="assets/images/image-box/latest-post-1@2x.jpg" alt="images">
-                                    <div class="post-date">25 JUN
-                                        2021</div>
+                                    <div class="post-date"> 10/09</div>
                                 </div>
                                 <div class="latest-content link-style-2">
                                     <a href="blog-details.html" class="heading">We would love to share a
                                         similar experience</a>
                                     <div class="latest-content-bottom">
                                         <div class="post-readmore">
-                                            <a href="blog-details.html" class="read-more"><span class="text">Read
-                                                    More</span></a>
+                                            <a href="blog-details.html" class="read-more"><span class="text">Lire l'article</span></a>
                                         </div>
-                                        <span class="post-tag">Digital</span>
+                                        <span class="post-tag">Démolition</span>
                                     </div>
                                 </div>
                             </div>
@@ -510,18 +510,16 @@
                                 data-wow-duration="1500ms">
                                 <div class="latest-post">
                                     <img src="assets/images/image-box/latest-post-2@2x.jpg" alt="images">
-                                    <div class="post-date">25 JUN
-                                        2021</div>
+                                    <div class="post-date">25/09</div>
                                 </div>
                                 <div class="latest-content link-style-2">
                                     <a href="blog-details.html" class="heading">In this context our main
                                         approach was to build</a>
                                     <div class="latest-content-bottom">
                                         <div class="post-readmore">
-                                            <a href="blog-details.html" class="read-more"><span class="text">Read
-                                                    More</span></a>
+                                            <a href="blog-details.html" class="read-more"><span class="text">Lire l'article</span></a>
                                         </div>
-                                        <span class="post-tag">Digital</span>
+                                        <span class="post-tag">Isolation</span>
                                     </div>
                                 </div>
                             </div>

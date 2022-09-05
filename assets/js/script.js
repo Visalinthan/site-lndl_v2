@@ -1,5 +1,14 @@
 $(document).ready(function() {
 
+    /*  $('#main-nav a').click(function() {
+          //removing the previous selected menu state
+          $('#main-nav').find('li.active').removeClass('active');
+          //adding the state for this parent menu
+          $(this).parents("li").addClass('active');
+
+      });*/
+
+
     if (sessionStorage.getItem('page') == "Particuliers" || sessionStorage.getItem('page') == "Professionnels") {
         if ($('#label-nav').text() != sessionStorage.getItem('page')) {
             $("#label-nav").append(sessionStorage.getItem('page'));
@@ -37,23 +46,26 @@ $(document).ready(function() {
 
 
 
-    $('.navbar .nav-list li').click(function(e) {
-        var click = $(this).children().attr("href");
-        localStorage.setItem('active', click);
-        var active = localStorage.getItem('active');
+    /* $('#main-nav li').click(function(e) {
+         var click = $(this).children().attr("href");
 
-        if (active == $('main').attr('id')) {
-            $(this).siblings().removeClass('active').end().addClass('active');
-        }
+         let path = window.location.pathname.replace(/\/$/, "");
+         alert(path);
+         localStorage.setItem('active', click);
+         var active = localStorage.getItem('active');
 
-        //e.preventDefault();
+         if (active == $('main').attr('id')) {
+             $(this).siblings().removeClass('active').end().addClass('active');
+         }
 
-        //$this.parent().siblings().removeClass('active').end().addClass('active');
+         //e.preventDefault();
 
-        //Load the page content in to element
-        //with id #content using ajax (There are other ways)
-        //$('#content').load($this.href());
-    });
+         //$this.parent().siblings().removeClass('active').end().addClass('active');
+
+         //Load the page content in to element
+         //with id #content using ajax (There are other ways)
+         //$('#content').load($this.href());
+     });*/
 
 
 

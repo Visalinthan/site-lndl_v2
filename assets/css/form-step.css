@@ -151,6 +151,10 @@ a {
 
 /*-- LES BUTTONS ---- LES BUTTONS ---- LES BUTTONS ---- LES BUTTONS ---- LES BUTTONS ---- LES BUTTONS ---- LES BUTTONS ---- LES BUTTONS -- */
 
+.button-slider {
+    background-color: #F8A912 !important;
+}
+
 .btn-simuler {
     max-width: 250px;
     padding: 10px;

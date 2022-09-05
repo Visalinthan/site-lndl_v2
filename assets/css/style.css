@@ -869,19 +869,21 @@ h6 {
 }
 
 p {
+    font-size: clamp(18px, 1.5vw, 20px);
     padding: 20px 10px;
+    text-align: justify;
 }
 
 h1 {
-    font-size: clamp(30px, 5vw, 45px);
+    font-size: clamp(40px, 5vw, 45px);
 }
 
 h2 {
-    font-size: clamp(25px, 4vw, 40px);
+    font-size: clamp(34px, 4vw, 40px);
 }
 
 h3 {
-    font-size: clamp(20px, 3vw, 35px);
+    font-size: clamp(34px, 3vw, 40px);
 }
 
 h4 {
@@ -900,7 +902,7 @@ button {
 p,
 a,
 li {
-    font-size: clamp(14px, 1.5vw, 16px);
+    font-size: clamp(18px, 1.5vw, 20px);
     line-height: 32px;
 }
 
@@ -1887,21 +1889,18 @@ a:focus {
     z-index: 99;
     display: flex;
     justify-content: right;
+    padding-right: 20px;
 }
 
 #site-header-right .button-header {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-size: 18px;
     font-weight: 700;
-    line-height: 80px;
-    padding: 0 59px;
-    background-color: var(--primary-color);
-    clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0% 100%);
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    line-height: 30px;
+    padding: 0 20px;
+    background-color: #F8A912;
+    border-radius: 50px;
 }
 
 #site-header-right .button-header a {
@@ -1909,7 +1908,7 @@ a:focus {
 }
 
 #site-header-right .button-header:hover {
-    background-color: var(--primary-color2);
+    background-color: #9D9D9C;
 }
 
 #site-header-right .button-header a::after {
@@ -1957,9 +1956,23 @@ a:focus {
     width: 300px;
 }
 
+.form-switch .form-check-input {
+    background-image: url("../img/rond-blanc.png") !important;
+}
+
 #mySwitch {
     width: 45px;
     height: 25px;
+}
+
+#mySwitch.form-check-input:checked {
+    background-color: #0A7F97 !important;
+    border-color: #0A7F97 !important;
+}
+
+#mySwitch.form-check-input {
+    background-color: #F9B233 !important;
+    border-color: #F9B233 !important;
 }
 
 .form-check {
@@ -3215,7 +3228,7 @@ a:focus {
     position: absolute;
     width: 75px;
     height: 61px;
-    background-color: #FEDAD6;
+    background-color: #518B36;
     top: 0;
     left: 23px;
     z-index: 20;
@@ -3228,19 +3241,19 @@ a:focus {
 }
 
 .flat-features .features-box .item-shape.item-shape2 {
-    background-color: #FFE5E2;
+    background-color: #CBE2C0;
     left: 68px;
     z-index: 1;
 }
 
 .flat-features .features-box:hover .item-shape,
 .flat-features .features-box.active .item-shape {
-    background-color: var(--primary-color);
+    background-color: #0456A3;
 }
 
 .flat-features .features-box:hover .item-shape.item-shape2,
 .flat-features .features-box.active .item-shape.item-shape2 {
-    background-color: #9cff6e;
+    background-color: #1992D0;
 }
 
 .flat-features .features-box .icon-features {
@@ -3375,13 +3388,10 @@ a:focus {
     position: absolute;
     bottom: -28px;
     left: 54px;
-    background-color: var(--primary-color);
     padding: 35px;
     border-radius: 8px;
-    background-image: url(../images/mark-page/mark-about-counter.png);
     background-repeat: no-repeat;
     background-position: center left;
-    box-shadow: 0px 5px 17px #528B378c;
 }
 
 .flat-about .about-right-content .about-counter-inner,
@@ -3454,13 +3464,13 @@ a:focus {
     width: 52px;
     height: 42px;
     left: 26px;
-    background-color: #FD8173;
+    background-color: #518B36;
 }
 
 .flat-work .work-box .item-shape2,
 .flat-team .bottom.item-shape2 {
     left: 58px;
-    background-color: #FE7262;
+    background-color: #CBE2C0;
     z-index: 1;
 }
 
@@ -3523,7 +3533,7 @@ a:focus {
 }
 
 .flat-work #serv2.work-box {
-    background-image: url('../img/home/services-pac.jpg');
+    background-image: url('../img/home/services-pac.png');
 }
 
 .flat-work #serv3.work-box {
@@ -3549,7 +3559,7 @@ a:focus {
 .flat-work .work-box,
 .flat-work .work-box a {
     background-size: cover;
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .flat-work .work-box:hover,
@@ -3885,13 +3895,13 @@ a:focus {
     right: 73px;
     width: 75px;
     height: 61px;
-    background-color: #F9E6E4;
+    background-color: #518B36;
     transform: rotate(60deg);
 }
 
 .flat-team .team-content-box .item-shape.item-shape2 {
     right: 28px;
-    background-color: #F9ECEA;
+    background-color: #CBE2C0;
 }
 
 .flat-team .bottom.item-shape,
@@ -3930,12 +3940,12 @@ a:focus {
 
 .flat-team .team-content-box:hover .item-shape,
 .flat-team .slide-active .item-shape {
-    background-color: var(--primary-color);
+    background-color: #0456A3;
 }
 
 .flat-team .team-content-box:hover .item-shape.item-shape2,
 .flat-team .slide-active .item-shape.item-shape2 {
-    background-color: #FB796A;
+    background-color: #1992D0;
 }
 
 .flat-team .carousel-2 {
@@ -5150,7 +5160,7 @@ a:focus {
     width: 133px;
     height: 104px;
     line-height: 36px;
-    background-color: var(--primary-color5);
+    background-color: #F8A912;
     clip-path: polygon(100% 100%, 100% 0, 0 100%);
     z-index: 100;
     -webkit-transition: all 0.3s ease;
@@ -5169,8 +5179,9 @@ a:focus {
     line-height: 36px;
     border-radius: 50%;
     text-align: center;
-    background-color: var(--primary-color);
     z-index: 100;
+    background-color: #F8A912;
+    border: 1px solid #9D9D9C;
 }
 
 .flat-portfolio .portfolio-box .portfolio-readmore .readmore::after {
@@ -5229,18 +5240,19 @@ a:focus {
 
 .flat-portfolio .portfolio-box:hover .portfolio-readmore,
 .flat-portfolio .portfolio-box.active .portfolio-readmore {
-    background-color: var(--primary-color);
+    background-color: #9D9D9C;
 }
 
 .flat-portfolio .portfolio-box:hover .portfolio-readmore .readmore,
 .flat-portfolio .portfolio-box.active .portfolio-readmore .readmore {
-    background-color: #fff;
-    color: var(--primary-color5);
+    background-color: #9D9D9C;
+    border: 1px solid #F8A912;
+    color: #fff;
 }
 
 .flat-portfolio .portfolio-box:hover .portfolio-readmore .readmore::after,
 .flat-portfolio .portfolio-box.active .portfolio-readmore .readmore::after {
-    color: var(--primary-color5);
+    color: #fff;
 }
 
 .flat-portfolio .portfolio-box:hover .portfolio-layer-content,
@@ -5514,16 +5526,12 @@ a:focus {
 -------------------------------------------------------------- */
 
 #footer {
-    background: url('../images/mark-page/mark-footer.png') no-repeat center center;
+    background: url('../img/footer.jpg') no-repeat center center;
     background-color: #1D1D1D;
     background-size: cover;
     position: relative;
     z-index: 1;
-    padding: 111px 0 44px 0;
-}
-
-#footer-top {
-    padding-bottom: 65px;
+    padding: 60px 0 44px 0;
 }
 
 #footer-top .footer-schedule {
@@ -5581,7 +5589,7 @@ a:focus {
 }
 
 #footer .text-widget {
-    color: #fff;
+    color: #000;
     line-height: 30px;
     margin-bottom: 24px;
 }
@@ -5609,7 +5617,7 @@ a:focus {
 }
 
 #footer .widget-social ul li a {
-    color: #fff;
+    color: #000;
 }
 
 #footer .widget-social ul li:hover a {
