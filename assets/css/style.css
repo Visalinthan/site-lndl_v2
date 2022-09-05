@@ -1876,6 +1876,7 @@ a:focus {
 #main-nav .sub-menu li a:hover,
 #main-nav .sub-menu li.current-item a,
 #main-nav>ul>li>a:hover,
+#main-nav>ul>li>.sub-menu>li.active>a,
 #main-nav>ul>li.active>a {
     color: var(--primary-color);
 }
@@ -4243,11 +4244,11 @@ a:focus {
 -------------------------------------------------------------- */
 
 .flat-about-2 {
-    margin-top: 0px;
-    margin-bottom: -8px;
-    background-image: url(../images/mark-page/mark-about.jpg);
+    padding: 116px 0;
+    background-image: url(../images/mark-page/mark-counter.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: cover;
 }
 
 .flat-about-2 .about-2-content-left {
@@ -4334,19 +4335,29 @@ a:focus {
     right: -29px;
 }
 
+.about-2-content-right img {
+    height: 400px !important;
+}
+
 
 /* flat counter
 -------------------------------------------------------------- */
 
 .flat-counter {
-    padding: 116px 0;
-    background-image: url(../images/mark-page/mark-counter.jpg);
-    background-position: center;
+    margin-top: 0px;
+    margin-bottom: -8px;
+    background-image: url(../images/mark-page/mark-about.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: right;
 }
 
 .flat-counter .about-counter-inner {
+    justify-content: center;
+}
+
+.flat-counter .container .row div {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 

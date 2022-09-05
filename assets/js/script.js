@@ -49,6 +49,7 @@ $(document).ready(function() {
     let links = document.querySelectorAll('#main-nav li a');
 
     for (const element of links) {
+
         if (element.pathname == path) {
             $("#main-nav li").siblings().removeClass('active');
             $(element.parentElement).addClass('active');
