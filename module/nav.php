@@ -22,7 +22,7 @@
                      <!-- /.mobile-button -->
                      <nav id="main-nav" class="main-nav">
                          <ul id="menu-primary-menu" class="menu">
-                         <li class="menu-item">
+                             <li class="menu-item active">
                                  <a href="home.php">Accueil</a>
                              </li>
                              <li class="menu-item">
@@ -32,6 +32,17 @@
                              <li class="menu-item">
                                  <a href="services.php" class="part">Nos services </a>
                                  <a href="services.php" class="pro">Nos prestations </a>
+                                 <ul class="sub-menu part">
+                                     <li class="menu-item"><a href="pac.php">Services</a></li>
+                                     <li class="menu-item"><a href="ite-iti.php">Service Details</a></li>
+                                     <li class="menu-item"><a href="vmc.php">Service Details</a></li>
+                                     <li class="menu-item"><a href="ite-iti.php">Service Details</a></li>
+                                 </ul>
+                                 <ul class="sub-menu pro">
+                                     <li class="menu-item"><a href="service.html">Services</a></li>
+                                     <li class="menu-item"><a href="service-details.html">Service Details</a>
+                                     </li>
+                                 </ul>
                              </li>
                              <li class="menu-item">
                                  <a href="aides.php">Aides et subventions</a>
@@ -92,7 +103,7 @@
              <div class="side-menu__top-category">
                  <div class="widget widget-category">
                      <ul>
-                        <li class="cat-item"><a href="home.php">Accueil</a> </li>
+                         <li class="cat-item"><a href="home.php">Accueil</a> </li>
                          <li class="cat-item"><a href="qsn.php">Qui sommes-nous ?</a> </li>
                          <li class="cat-item"><a href="services.php">Nos services </a></li>
                          <li class="cat-item"><a href="aides.php">Aides et subventions</a></li>

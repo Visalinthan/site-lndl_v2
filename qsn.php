@@ -215,10 +215,7 @@
                                     <h2>Nos engagements</h2>
                                     <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés RGE. 
                                         Cette qualification vous apporte en plus, la possibilité de bénéficier des aides telles que : les certificats d’économies 
-                                        d’énergie (CEE), les aides à la rénovation énergétique distribuée par l’ANAH et de MaPrimeRénov’, l’éco-prêt à taux zéro (Eco-PTZ)...*
-</p>
-
-                                    
+                                        d’énergie (CEE), les aides à la rénovation énergétique distribuée par l’ANAH et de MaPrimeRénov’, l’éco-prêt à taux zéro (Eco-PTZ)...*</p>
                                 </div>
                             </div>
                         </div>

@@ -57,7 +57,6 @@
                                     <div class="portfolio-layer-content">
                                         <div class="content">
                                             <a href="pac.php">Pompe à chaleur</a>
-                                            <p>La pompe à chaleur (PAC) est un appareil qui utilise un dispositif thermodynamique qui permet de transférer de la chaleur provenant d’un milieu froid (l’air ou le sol principalement) vers un lieu à chauffer.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
@@ -74,7 +73,6 @@
                                     <div class="portfolio-layer-content">
                                         <div class="content">
                                             <a href="ite-iti.php">ITE / ITI</a>
-                                            <p>Une isolation thermique par l’intérieur (ITI) consolide et isole les murs de vos pièces des déperditions de chaleur. L’isolation thermique par l’extérieur (ITE) concerne les parois de votre façade.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
@@ -91,7 +89,6 @@
                                     <div class="portfolio-layer-content">
                                         <div class="content">
                                             <a href="vmc.php">VMC</a>
-                                            <p>La ventilation mécanique contrôlée (VMC) est un équipement essentiel qui permet de renouveler l’air de votre bâtiment.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
@@ -108,7 +105,6 @@
                                     <div class="portfolio-layer-content">
                                         <div class="content">
                                             <a href="tce.php">Tout Corps d' État</a>
-                                            <p>Un large champs d'expertise sur tous types de batiments et pour tous types d'interventions allié à une équipe performante.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
@@ -127,7 +123,6 @@
                                     <div class="portfolio-layer-content">
                                         <div class="content">
                                             <a href="renovation.php">Rénovation énergétique</a>
-                                            <p>La rénovation énergétique consiste à réaliser des travaux sur un bâtiment existant afin d’améliorer sa performance énergétique. Elle se définit par le rapport entre le niveau d'énergie absorbé par le bâtiment et l'énergie totale qu'il consomme réellement pour son fonctionnement.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
@@ -144,7 +139,6 @@
                                     <div class="portfolio-layer-content">
                                         <div class="content">
                                             <a href="tce-pro.php">Tous Corps d'État</a>
-                                            <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers différents.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">
@@ -161,7 +155,6 @@
                                     <div class="portfolio-layer-content">
                                         <div class="content">
                                             <a href="demolition.php">Démolition</a>
-                                            <p>La Nationale Du Logement intervient dans toute la France pour prendre en charge vos différents travaux de démolition, jusqu’au tri et évacuation des déchets.</p>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">

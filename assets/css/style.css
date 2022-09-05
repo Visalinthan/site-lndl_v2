@@ -1795,7 +1795,8 @@ a:focus {
     transition: all 0.3s ease;
 }
 
-#main-nav>ul>li>a:hover::before {
+#main-nav>ul>li>a:hover::before,
+#main-nav>ul>li.active>a::before {
     opacity: 1;
     visibility: visible;
     width: 100%;
@@ -1874,7 +1875,8 @@ a:focus {
 
 #main-nav .sub-menu li a:hover,
 #main-nav .sub-menu li.current-item a,
-#main-nav>ul>li>a:hover {
+#main-nav>ul>li>a:hover,
+#main-nav>ul>li.active>a {
     color: var(--primary-color);
 }
 

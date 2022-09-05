@@ -44,31 +44,16 @@ $(document).ready(function() {
     });
 
 
+    let path = window.location.pathname;
 
+    let links = document.querySelectorAll('#main-nav li a');
 
-    /* $('#main-nav li').click(function(e) {
-         var click = $(this).children().attr("href");
-
-         let path = window.location.pathname.replace(/\/$/, "");
-         alert(path);
-         localStorage.setItem('active', click);
-         var active = localStorage.getItem('active');
-
-         if (active == $('main').attr('id')) {
-             $(this).siblings().removeClass('active').end().addClass('active');
-         }
-
-         //e.preventDefault();
-
-         //$this.parent().siblings().removeClass('active').end().addClass('active');
-
-         //Load the page content in to element
-         //with id #content using ajax (There are other ways)
-         //$('#content').load($this.href());
-     });*/
-
-
-
+    for (const element of links) {
+        if (element.pathname == path) {
+            $("#main-nav li").siblings().removeClass('active');
+            $(element.parentElement).addClass('active');
+        }
+    }
 
 
     $("#sous-menu ul li ").bind('click', function(e) {
