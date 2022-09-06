@@ -1397,7 +1397,11 @@ a {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
-    align-items: center !important;
+    align-items: flex-start !important;
+}
+
+.display-flex-top {
+    align-items: flex-start !important;
 }
 
 .flex-column {
@@ -1736,7 +1740,54 @@ a:focus {
 }
 
 
-/*-----Header------*/
+/*-----Header-Services------*/
+
+.header-services {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background: #0A7F97;
+    color: #fff;
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+}
+
+#header-renovation {
+    background-image: url('../img/services/renovation/header-renov.png');
+}
+
+.header-bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 70%;
+}
+
+@media only screen and (max-width: 900px) {
+    .header-bg-image img {
+        display: none;
+    }
+    .header-bg-image {
+        position: relative;
+        width: 100%;
+    }
+    .header-left-text {
+        position: absolute;
+        z-index: 10;
+        width: 70%;
+        height: 50%;
+    }
+}
 
 
 /* Site Logo */

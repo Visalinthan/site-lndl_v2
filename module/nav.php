@@ -39,7 +39,7 @@
                                      <li class="menu-item serv"><a href="tce.php">Tout Corps d'Etat</a></li>
                                  </ul>
                                  <ul class="sub-menu pro">
-                                     <li class="menu-item serv"><a href="renovation.php">Rénovation</a></li>
+                                     <li class="menu-item serv"><a href="renovation.php">Rénovation énergétique</a></li>
                                      <li class="menu-item serv"><a href="tce-pro.php">Tout Corps d'Etat</a></li>
                                      <li class="menu-item serv"><a href="demolition.php">Démolition</a></li>
                                  </ul>
