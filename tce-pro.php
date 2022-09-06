@@ -28,8 +28,13 @@
             <section class="header-services">
 
                 <div class="header-left-text">
-                    <h2>Tout Corps d' Etat</h2>
-                    <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers différents.</p>
+                    <div>
+                        <h2>Tout Corps d' Etat</h2>
+                        <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux
+                            publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers
+                            différents.</p>
+                    </div>
+
                 </div>
 
                 <div class="header-bg-image" id="header-tce">
@@ -128,8 +133,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/isolation-combles.png"
-                                    alt="Revetement de Sol">
+                                <img src="assets/img/services/renovation/isolation-combles.png" alt="Revetement de Sol">
                                 <p class="text-center">Revetement de Sol</p>
                             </div>
                         </div>

@@ -28,11 +28,14 @@
             <section class="header-services">
 
                 <div class="header-left-text">
-                    <h2>Rénovation énergétique</h2>
-                    <p>La rénovation énergétique consiste à réaliser des travaux sur un bâtiment existant
-                        afin d’améliorer sa performance énergétique. Elle se définit par le rapport entre le
-                        niveau d'énergie absorbé par le bâtiment et l'énergie totale qu'il consomme
-                        réellement pour son fonctionnement.</p>
+                    <div>
+                        <h2>Rénovation énergétique</h2>
+                        <p>La rénovation énergétique consiste à réaliser des travaux sur un bâtiment existant
+                            afin d’améliorer sa performance énergétique. Elle se définit par le rapport entre le
+                            niveau d'énergie absorbé par le bâtiment et l'énergie totale qu'il consomme
+                            réellement pour son fonctionnement.</p>
+                    </div>
+
                 </div>
 
                 <div class="header-bg-image" id="header-renovation">

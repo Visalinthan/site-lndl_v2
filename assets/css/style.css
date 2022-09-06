@@ -1769,14 +1769,17 @@ a:focus {
 
 .header-left-text {
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    align-items: center;
+    justify-content: right;
     background: #0A7F97;
     color: #fff;
-    width: 30%;
+    width: 35%;
     height: 100%;
     padding: 20px;
+}
+
+.header-left-text div {
+    max-width: 400px;
 }
 
 #header-home-btoc {
@@ -1816,7 +1819,7 @@ a:focus {
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
-    width: 70%;
+    width: 65%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -1998,7 +2001,6 @@ a:focus {
 #site-header-right .button-header {
     display: flex;
     align-items: center;
-    font-size: 18px;
     font-weight: 700;
     line-height: 30px;
     padding: 0 20px;
@@ -2008,6 +2010,7 @@ a:focus {
 
 #site-header-right .button-header a {
     color: #fff;
+    font-size: 14px;
 }
 
 #site-header-right .button-header:hover {

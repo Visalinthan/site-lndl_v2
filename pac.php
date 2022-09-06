@@ -28,12 +28,19 @@
             <section class="header-services">
 
                 <div class="header-left-text">
-                    <h2>Pompe à chaleur</h2>
-                    <p>La pompe à chaleur (PAC) est un appareil qui utilise un dispositif thermodynamique qui permet de
-                        transférer de la chaleur provenant d’un milieu froid (l’air ou le sol principalement) vers un
-                        lieu à chauffer. Elle collecte donc l’énergie nécessaire au bon fonctionnement du chauffage, de
-                        la climatisation et de l'eau chaude sanitaire. Il s'agit d'une technologie polyvalente qui peut
-                        être utilisée dans tous les types de bâtiments, tant résidentiels que commerciaux.</p>
+                    <div>
+                        <h2>Pompe à chaleur</h2>
+                        <p>La pompe à chaleur (PAC) est un appareil qui utilise un dispositif thermodynamique qui permet
+                            de
+                            transférer de la chaleur provenant d’un milieu froid (l’air ou le sol principalement) vers
+                            un
+                            lieu à chauffer. Elle collecte donc l’énergie nécessaire au bon fonctionnement du chauffage,
+                            de
+                            la climatisation et de l'eau chaude sanitaire. Il s'agit d'une technologie polyvalente qui
+                            peut
+                            être utilisée dans tous les types de bâtiments, tant résidentiels que commerciaux.</p>
+                    </div>
+
                 </div>
 
                 <div class="header-bg-image" id="header-pac">

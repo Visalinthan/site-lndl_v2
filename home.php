@@ -28,11 +28,13 @@
             <section class="header-home part">
 
                 <div class="header-left-text header-btoc">
-                    <h4>La Nationale Du Logement</h4>
-                    <h2>Réalisez des économies, gagnez en confort et agissez la planète. </h2>
-                    <div class="button-slider margin-top-22">
-                        <a href="simulation.php" class="button readmore">Testez votre
-                            éligibité</a>
+                    <div>
+                        <h4>La Nationale Du Logement</h4>
+                        <h2>Réalisez des économies, gagnez en confort et agissez la planète. </h2>
+                        <div class="button-slider margin-top-22">
+                            <a href="simulation.php" class="button">Testez votre
+                                éligibité</a>
+                        </div>
                     </div>
                 </div>
 
@@ -45,11 +47,14 @@
             <section class="header-home pro">
 
                 <div class="header-left-text header-btob">
-                    <h4>La Nationale Du Logement</h4>
-                    <h2>Votre partenaire dans la réalisation de vos projets de construction et de rénovation énergétique.  </h2>
-                    <div class="button-slider margin-top-22">
-                        <a href="simulation.php" class="button readmore">Testez votre
-                            éligibité</a>
+                    <div>
+                        <h4>La Nationale Du Logement</h4>
+                        <h2>Votre partenaire dans la réalisation de vos projets de construction et de rénovation
+                            énergétique. </h2>
+                        <div class="button-slider margin-top-22">
+                            <a href="simulation.php" class="button readmore">Testez votre
+                                éligibité</a>
+                        </div>
                     </div>
                 </div>
 
@@ -181,8 +186,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 padding-top-45">
-                            <div class="features-box active wow fadeInUp" data-wow-delay="300ms"
-                                data-wow-duration="1000ms">
+                            <div class="features-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
@@ -191,7 +195,7 @@
                                     </div>
                                     <h3 class="headline">Un savoir faire reconnu</h3>
                                 </div>
-                                <div class="box-content active">
+                                <div class="box-content">
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-savoir_faire.jpg" alt="images">
                                         <div class="post-readmore">

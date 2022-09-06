@@ -28,10 +28,14 @@
             <section class="header-services">
 
                 <div class="header-left-text">
-                    <h2>VMC</h2>
-                    <p>La ventilation mécanique contrôlée (VMC) est un équipement essentiel qui permet de renouveler
-                        l’air de votre bâtiment. Il évacue l’air vicié et fait pénétrer l’air frais issu de l’extérieur
-                        via des bouches d’extraction situées dans les différentes pièces.</p>
+                    <div>
+                        <h2>VMC</h2>
+                        <p>La ventilation mécanique contrôlée (VMC) est un équipement essentiel qui permet de renouveler
+                            l’air de votre bâtiment. Il évacue l’air vicié et fait pénétrer l’air frais issu de
+                            l’extérieur
+                            via des bouches d’extraction situées dans les différentes pièces.</p>
+                    </div>
+
                 </div>
 
                 <div class="header-bg-image" id="header-vmc">

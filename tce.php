@@ -28,8 +28,12 @@
             <section class="header-services">
 
                 <div class="header-left-text">
-                    <h2>Tout Corps d' État</h2>
-                    <p>Un large champs d'expertise sur tous types de batiments et pour tous types d'interventions allié à une équipe performante.</p>
+                    <div>
+                        <h2>Tout Corps d' État</h2>
+                        <p>Un large champs d'expertise sur tous types de batiments et pour tous types d'interventions
+                            allié à une équipe performante.</p>
+                    </div>
+
                 </div>
 
                 <div class="header-bg-image" id="header-tce">

@@ -28,9 +28,12 @@
             <section class="header-services">
 
                 <div class="header-left-text">
-                    <h2>Démolition</h2>
-                    <p>La Nationale Du Logement intervient dans toute la France pour prendre en charge vos différents
-                        travaux de démolition, jusqu’au tri et évacuation des déchets.</p>
+                    <div>
+                        <h2>Démolition</h2>
+                        <p>La Nationale Du Logement intervient dans toute la France pour prendre en charge vos
+                            différents
+                            travaux de démolition, jusqu’au tri et évacuation des déchets.</p>
+                    </div>
                 </div>
 
                 <div class="header-bg-image" id="header-demolition">
