@@ -23,15 +23,19 @@
             <!-- Header Wrap -->
             <?php include("module/nav.php")?>
 
+
             <!-- title page -->
-            <section class="flat-title-page parallax parallax-8">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="breadcrumbs">
-                            <h2 class="section-title-page">Tout Corps d' Etat</h2>
-                        </div>
-                    </div>
+            <section class="header-services">
+
+                <div class="header-left-text">
+                    <h2>Tout Corps d' Etat</h2>
+                    <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers différents.</p>
                 </div>
+
+                <div class="header-bg-image" id="header-tce">
+                    <img src="assets/img/Vector.png" alt="vector">
+                </div>
+
             </section>
 
             <!-- flat portfolio details -->
@@ -40,87 +44,183 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="main-content">
-                                <div class="post-media">
-                                    <img src="assets/img/services/services-tce-pro.png" alt="images">
-                                    <div class="content">
-                                        <div class="top">
-                                            <h2>Project Details</h2>
+
+                                <div class="section-wrap tf-row">
+                                    <div class="tf-col-6">
+                                        <div class="post-media">
+                                            <img src="assets/img/services/services-benefices.png" alt="images">
                                         </div>
-                                        <ul class="list">
-                                            <li>
-                                                <h4>Category:</h4><span>Insurance Law</span>
-                                            </li>
-                                            <li>
-                                                <h4>Client:</h4><span>Abraham smith</span>
-                                            </li>
-                                            <li>
-                                                <h4>Location:</h4><span>Sydni, Australia</span>
-                                            </li>
-                                            <li>
-                                                <h4>Date:</h4><span>25 JUN, 2020</span>
-                                            </li>
-                                        </ul>
+                                    </div>
+                                    <div class="tf-col-6">
+                                        <div class="section-title">
+                                            <h2>Les bénéfices</h2>
+                                        </div>
+                                        <p>Le tout corps d’état peut prendre en charge l’intégralité des travaux </p>
+                                    </div>
+
+                                </div>
+                                <div class="row margin-top-55">
+                                    <div class="section-title ">
+                                        <h2>Les avantages</h2>
                                     </div>
                                 </div>
-                                <div class="section-title">
-                                    <h2>Tout Corps d' Etat</h2>
-                                </div>
-                                <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers différents.</p>
-                                <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="20"
-                                    data-smobile="10"></div>
-                                <div class="section-wrap tf-row ">
-                                    <div class="tf-col-6">
+
+                                <div class="section-wrap tf-row">
+
+                                    <div class="tf-col-12">
                                         <div class="post-project-content">
-                                            <h3>Nos Services</h3>
                                             <ul class="work-process">
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>Ventilation</h4>
+                                                    <h4>Économies réalisées
+                                                    </h4>
                                                 </li>
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>Ravalement</h4>
+                                                    <h4>Gain de temps</h4>
                                                 </li>
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>Couverture étanchéité</h4>
+                                                    <h4>Communication plus facile </h4>
                                                 </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Peinture</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Revetement de Sol</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Plomberie</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Electricté</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Maçonnerie Platrerie</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Gros œuvre</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Second oeuvre</h4>
-                                                </li>
+
                                             </ul>
+
                                         </div>
                                     </div>
-                                    <div class="tf-col-6">
-                                        <div class="post-media">
-                                            <img src="assets/img/services/services-tce-2.jpg"
-                                                alt="images">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row margin-top-55">
+                        <div class="section-title ">
+                            <h2>Les services</h2>
+                        </div>
+                    </div>
+
+                    <div class="row margin-top-55 display-flex display-flex-top">
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/calorifugeage.png" alt="Ventilation">
+                                <p class="text-center">Ventilation</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/points-singulier.png" alt="Ravalement">
+                                <p class="text-center">Ravalement</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/reequilibrage-reseau.png"
+                                    alt="Couverture étanchéité">
+                                <p class="text-center">Couverture étanchéité</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/ite.png" alt="Peinture">
+                                <p class="text-center">Peinture</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/isolation-combles.png"
+                                    alt="Revetement de Sol">
+                                <p class="text-center">Revetement de Sol</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/pac.png" alt="Plomberie">
+                                <p class="text-center">Plomberie</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/vmc.png" alt="Electricté">
+                                <p class="text-center">Electricté</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/vmc.png" alt="Maçonnerie Platrerie">
+                                <p class="text-center">Maçonnerie Platrerie</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/vmc.png" alt="Gros œuvre">
+                                <p class="text-center">Gros œuvre</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/vmc.png" alt="Second oeuvre">
+                                <p class="text-center">Second oeuvre</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /flat portfolio details -->
+
+            <!-- flat latest -->
+            <section class="tf-space flat-latest">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <div class="latest-content-wrap wow fadeInLeft" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="section-title">
+                                    <h3 class="section-heading">Le meilleur de l'info</h3>
+                                    <div class="features-content-left">
+                                        <h2>Les derniers articles de nos experts LNDL</h2>
+                                    </div>
+
+                                    <a href="blog.html" class="button readmore">Voir notre blog</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="latest-content-box wow fadeInUp" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="latest-post">
+                                    <img src="assets/images/image-box/latest-post-1@2x.jpg" alt="images">
+                                    <div class="post-date"> 10/09</div>
+                                </div>
+                                <div class="latest-content link-style-2">
+                                    <a href="blog-details.html" class="heading">We would love to share a
+                                        similar experience</a>
+                                    <div class="latest-content-bottom">
+                                        <div class="post-readmore">
+                                            <a href="blog-details.html" class="read-more"><span class="text">Lire
+                                                    l'article</span></a>
                                         </div>
+                                        <span class="post-tag">Démolition</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="latest-content-box wow fadeInUp" data-wow-delay="300ms"
+                                data-wow-duration="1500ms">
+                                <div class="latest-post">
+                                    <img src="assets/images/image-box/latest-post-2@2x.jpg" alt="images">
+                                    <div class="post-date">25/09</div>
+                                </div>
+                                <div class="latest-content link-style-2">
+                                    <a href="blog-details.html" class="heading">In this context our main
+                                        approach was to build</a>
+                                    <div class="latest-content-bottom">
+                                        <div class="post-readmore">
+                                            <a href="blog-details.html" class="read-more"><span class="text">Lire
+                                                    l'article</span></a>
+                                        </div>
+                                        <span class="post-tag">Isolation</span>
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +228,8 @@
                     </div>
                 </div>
             </section>
-            <!-- /flat portfolio details -->
+            <!-- /flat latest -->
+
 
             <!-- Footer -->
             <?php include("module/footer.php") ?>

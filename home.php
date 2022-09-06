@@ -25,57 +25,39 @@
             <?php include("module/nav.php")?>
             <!-- #site-header-wrap -->
 
-            <!-- flat slider -->
-            <section class="flat-slider">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="swiper-container mainslider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="slider-item">
-                                        <div class="slider-left">
-                                            <div class="slider-left-content">
-                                                <h3>La Nationale du Logement</h3>
-                                                <h2 class="part">Réalisez des économies, gagnez en confort et agissez
-                                                    pour la
-                                                    planète.</h2>
+            <section class="header-home part">
 
-                                                <h4 class="pro">La Nationale Du Logement s’est diversifiée et qualifiée
-                                                    dans le secteur de la rénovation depuis
-                                                    quelques années pour répondre aux besoins de tous.</h4>
-
-                                                <div class="button-slider">
-                                                    <a href="simulation.php" class="button readmore">Testez votre
-                                                        éligibité</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="slider-right">
-                                            <div class="image-slider part">
-                                                <img src="assets/img/home/home-BtoC.jpeg" alt="images">
-                                            </div>
-                                            <div class="image-slider pro">
-                                                <img src="assets/img/home/home-BtoB.jpg" alt="images">
-                                            </div>
-                                            <div class="mark-slider-1">
-                                                <img src="assets/images/mark-page/mark-slide-item-1.png" alt="images">
-                                            </div>
-                                            <div class="mark-slider-2">
-                                                <img src="assets/images/mark-page/mark-slide-item-2.png" alt="images">
-                                            </div>
-                                            <div class="mark-slider-3">
-                                                <img src="assets/images/mark-page/mark-slider-item-3.png" alt="images">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                <div class="header-left-text header-btoc">
+                    <h4>La Nationale Du Logement</h4>
+                    <h2>Réalisez des économies, gagnez en confort et agissez la planète. </h2>
+                    <div class="button-slider margin-top-22">
+                        <a href="simulation.php" class="button readmore">Testez votre
+                            éligibité</a>
                     </div>
                 </div>
+
+                <div class="header-bg-image" id="header-home-btoc">
+                    <img src="assets/img/Vector-btoc.png" alt="vector">
+                </div>
+
             </section>
-            <!-- /flat slider -->
+
+            <section class="header-home pro">
+
+                <div class="header-left-text header-btob">
+                    <h4>La Nationale Du Logement</h4>
+                    <h2>Votre partenaire dans la réalisation de vos projets de construction et de rénovation énergétique.  </h2>
+                    <div class="button-slider margin-top-22">
+                        <a href="simulation.php" class="button readmore">Testez votre
+                            éligibité</a>
+                    </div>
+                </div>
+
+                <div class="header-bg-image" id="header-home-btob">
+                    <img src="assets/img/Vector-btob.png" alt="vector">
+                </div>
+
+            </section>
 
             <!-- flat features -->
             <section class="tf-space flat-features">
@@ -122,9 +104,11 @@
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/home-BtoC-choice-assistance-complete.jpg" alt="images">
+                                        <img src="assets/img/home/home-BtoC-choice-assistance-complete.jpg"
+                                            alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En
+                                                    savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +128,8 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoC-choice-artisans-RGE.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En
+                                                    savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -164,7 +149,8 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoC-choice-garantie-decennale.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En
+                                                    savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -187,7 +173,8 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-accompagnement.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En
+                                                    savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +195,8 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-savoir_faire.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En
+                                                    savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +216,8 @@
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-RGE.jpg" alt="images">
                                         <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En savoir plus</span></a>
+                                            <a href="service-details.html" class="read-more"><span class="text">En
+                                                    savoir plus</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -256,8 +245,9 @@
                                 <div class="features-content-right">
                                     <p>
                                         Nous vous conseillons et nous réalisons vos projets sur-mesure, en restant
-                                        disponible  tout au long de vos travaux de rénovation.  
-                                        Votre confort est notre priorité, c'est la raison pour laquelle nous améliorons constamment la qualité de nos services.
+                                        disponible tout au long de vos travaux de rénovation.
+                                        Votre confort est notre priorité, c'est la raison pour laquelle nous améliorons
+                                        constamment la qualité de nos services.
                                     </p>
                                 </div>
                             </div>
@@ -429,110 +419,110 @@
                             <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <h3 class="section-heading">Nos Certifications</h3>
                                 <div class="features-content-left">
-                                        <h4>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et 
+                                    <h4>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et
                                         Ma Prime Renov’.</h4>
-                                    </div>
-                                </div>
-                                <div class="features-content-right">
-                                    <p> Pour éviter tout acte frauduleux, notre service d’Administration 
-                                        Des Ventes réalise vos démarches dans le respect des règles établies par l’ANAH et du gouvernement. 
-                                    </p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row margin-top-55 display-flex text-center">
-                        <div class="col-md-2 padding-top-45">
-                            <div class="slogan-logo">
-                                <img src="assets/img/home/lndl-certification-rge-qualibat.png" alt="images">
-                            </div>
-                        </div>
-                        <div class="col-md-2 padding-top-45">
-                            <div class="slogan-logo">
-                                <img src="assets/img/home/lndl-certification-rge-qualipac.png" alt="images">
-                            </div>
-                        </div>
-                        <div class="col-md-2 padding-top-45">
-                            <div class="slogan-logo">
-                                <img src="assets/img/home/lndl-certification-rge-ventilation-plus.png" alt="images">
-                            </div>
-                        </div>
-                        <div class="col-md-2 padding-top-45">
-                            <div class="slogan-logo">
-                                <img src="assets/img/home/lndl-certification-rge-chauffage.png" alt="images">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <!-- /flat logo slogan -->
-
-            <!-- flat latest -->
-            <section class="tf-space flat-latest">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <div class="latest-content-wrap wow fadeInLeft" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="section-title">
-                                    <h3 class="section-heading">Le meilleur de l'info</h3>
-                                    <div class="features-content-left">
-                                        <h2>Les derniers articles de nos experts LNDL</h2>
-                                    </div>
-
-                                    <a href="blog.html" class="button readmore">Voir notre blog</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="latest-content-box wow fadeInUp" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="latest-post">
-                                    <img src="assets/images/image-box/latest-post-1@2x.jpg" alt="images">
-                                    <div class="post-date"> 10/09</div>
-                                </div>
-                                <div class="latest-content link-style-2">
-                                    <a href="blog-details.html" class="heading">We would love to share a
-                                        similar experience</a>
-                                    <div class="latest-content-bottom">
-                                        <div class="post-readmore">
-                                            <a href="blog-details.html" class="read-more"><span class="text">Lire l'article</span></a>
-                                        </div>
-                                        <span class="post-tag">Démolition</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="latest-content-box wow fadeInUp" data-wow-delay="300ms"
-                                data-wow-duration="1500ms">
-                                <div class="latest-post">
-                                    <img src="assets/images/image-box/latest-post-2@2x.jpg" alt="images">
-                                    <div class="post-date">25/09</div>
-                                </div>
-                                <div class="latest-content link-style-2">
-                                    <a href="blog-details.html" class="heading">In this context our main
-                                        approach was to build</a>
-                                    <div class="latest-content-bottom">
-                                        <div class="post-readmore">
-                                            <a href="blog-details.html" class="read-more"><span class="text">Lire l'article</span></a>
-                                        </div>
-                                        <span class="post-tag">Isolation</span>
-                                    </div>
-                                </div>
+                            <div class="features-content-right">
+                                <p> Pour éviter tout acte frauduleux, notre service d’Administration
+                                    Des Ventes réalise vos démarches dans le respect des règles établies par l’ANAH et
+                                    du gouvernement.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- /flat latest -->
+                <div class="row margin-top-55 display-flex text-center">
+                    <div class="col-md-2 padding-top-45">
+                        <div class="slogan-logo">
+                            <img src="assets/img/home/lndl-certification-rge-qualibat.png" alt="images">
+                        </div>
+                    </div>
+                    <div class="col-md-2 padding-top-45">
+                        <div class="slogan-logo">
+                            <img src="assets/img/home/lndl-certification-rge-qualipac.png" alt="images">
+                        </div>
+                    </div>
+                    <div class="col-md-2 padding-top-45">
+                        <div class="slogan-logo">
+                            <img src="assets/img/home/lndl-certification-rge-ventilation-plus.png" alt="images">
+                        </div>
+                    </div>
+                    <div class="col-md-2 padding-top-45">
+                        <div class="slogan-logo">
+                            <img src="assets/img/home/lndl-certification-rge-chauffage.png" alt="images">
+                        </div>
+                    </div>
 
-
-            <!-- Footer -->
-            <?php include("module/footer.php") ?>
-            <!-- /#footer -->
+                </div>
         </div>
+        </section>
+        <!-- /flat logo slogan -->
+
+        <!-- flat latest -->
+        <section class="tf-space flat-latest">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <div class="latest-content-wrap wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="section-title">
+                                <h3 class="section-heading">Le meilleur de l'info</h3>
+                                <div class="features-content-left">
+                                    <h2>Les derniers articles de nos experts LNDL</h2>
+                                </div>
+
+                                <a href="blog.html" class="button readmore">Voir notre blog</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="latest-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="latest-post">
+                                <img src="assets/images/image-box/latest-post-1@2x.jpg" alt="images">
+                                <div class="post-date"> 10/09</div>
+                            </div>
+                            <div class="latest-content link-style-2">
+                                <a href="blog-details.html" class="heading">We would love to share a
+                                    similar experience</a>
+                                <div class="latest-content-bottom">
+                                    <div class="post-readmore">
+                                        <a href="blog-details.html" class="read-more"><span class="text">Lire
+                                                l'article</span></a>
+                                    </div>
+                                    <span class="post-tag">Démolition</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="latest-content-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="latest-post">
+                                <img src="assets/images/image-box/latest-post-2@2x.jpg" alt="images">
+                                <div class="post-date">25/09</div>
+                            </div>
+                            <div class="latest-content link-style-2">
+                                <a href="blog-details.html" class="heading">In this context our main
+                                    approach was to build</a>
+                                <div class="latest-content-bottom">
+                                    <div class="post-readmore">
+                                        <a href="blog-details.html" class="read-more"><span class="text">Lire
+                                                l'article</span></a>
+                                    </div>
+                                    <span class="post-tag">Isolation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /flat latest -->
+
+
+        <!-- Footer -->
+        <?php include("module/footer.php") ?>
+        <!-- /#footer -->
+    </div>
     </div>
 </body>
 

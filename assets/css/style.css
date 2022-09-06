@@ -1397,7 +1397,7 @@ a {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
-    align-items: flex-start !important;
+    align-items: center !important;
 }
 
 .display-flex-top {
@@ -1740,6 +1740,24 @@ a:focus {
 }
 
 
+/*-----Header-home------*/
+
+.header-home {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-btoc {
+    background: #0A7F97;
+}
+
+.header-btob {
+    background: #616160 !important;
+}
+
+
 /*-----Header-Services------*/
 
 .header-services {
@@ -1761,8 +1779,36 @@ a:focus {
     padding: 20px;
 }
 
+#header-home-btoc {
+    background-image: url('../img/home/home-BtoC.png');
+}
+
+#header-home-btob {
+    background-image: url('../img/home/home-BtoB.png');
+}
+
 #header-renovation {
     background-image: url('../img/services/renovation/header-renov.png');
+}
+
+#header-demolition {
+    background-image: url('../img/services/header-demolition.png');
+}
+
+#header-tce {
+    background-image: url('../img/services/header-tce.png');
+}
+
+#header-vmc {
+    background-image: url('../img/services/header-vmc.png');
+}
+
+#header-isolation {
+    background-image: url('../img/services/header-isolation.png');
+}
+
+#header-pac {
+    background-image: url('../img/services/header-pac.png');
 }
 
 .header-bg-image {
@@ -4797,8 +4843,9 @@ a:focus {
 .flat-service-details .post-inner .work-process h4,
 .flat-portfolio-details .work-process h4 {
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
+    padding: 0px;
 }
 
 .flat-portfolio-details .work-process h4 {

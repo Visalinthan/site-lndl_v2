@@ -48,7 +48,6 @@
                         <div class="col-md-12">
                             <div class="main-content">
 
-
                                 <div class="section-wrap tf-row">
                                     <div class="tf-col-6">
                                         <div class="post-media">
@@ -97,8 +96,6 @@
                                                 </li>
                                             </ul>
 
-
-
                                         </div>
                                     </div>
                                     <div class="tf-col-6">
@@ -144,7 +141,8 @@
                         </div>
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/reequilibrage-reseau.png" alt="rééquilibrage du réseau hydraulique">
+                                <img src="assets/img/services/renovation/reequilibrage-reseau.png"
+                                    alt="rééquilibrage du réseau hydraulique">
                                 <p class="text-center">Rééquilibrage du réseau hydraulique</p>
                             </div>
                         </div>
@@ -156,7 +154,8 @@
                         </div>
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/isolation-combles.png" alt="isolations des combles">
+                                <img src="assets/img/services/renovation/isolation-combles.png"
+                                    alt="isolations des combles">
                                 <p class="text-center">Isolation des combles</p>
                             </div>
                         </div>
@@ -177,8 +176,8 @@
             </section>
             <!-- /flat portfolio details -->
 
-                        <!-- flat latest -->
-                        <section class="tf-space flat-latest">
+            <!-- flat latest -->
+            <section class="tf-space flat-latest">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-4">
@@ -206,7 +205,8 @@
                                         similar experience</a>
                                     <div class="latest-content-bottom">
                                         <div class="post-readmore">
-                                            <a href="blog-details.html" class="read-more"><span class="text">Lire l'article</span></a>
+                                            <a href="blog-details.html" class="read-more"><span class="text">Lire
+                                                    l'article</span></a>
                                         </div>
                                         <span class="post-tag">Démolition</span>
                                     </div>
@@ -225,7 +225,8 @@
                                         approach was to build</a>
                                     <div class="latest-content-bottom">
                                         <div class="post-readmore">
-                                            <a href="blog-details.html" class="read-more"><span class="text">Lire l'article</span></a>
+                                            <a href="blog-details.html" class="read-more"><span class="text">Lire
+                                                    l'article</span></a>
                                         </div>
                                         <span class="post-tag">Isolation</span>
                                     </div>
