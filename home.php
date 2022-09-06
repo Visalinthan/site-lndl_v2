@@ -249,8 +249,7 @@
                                 <h3 class="section-heading">Nos Expertises</h3>
                                 <div class="features-content-left">
                                     <h4>
-                                        Acteur de la rénovation énergétique en France, La Nationale Du Logement vous
-                                        accompagne dans vos projets de rénovation.
+                                        Améliorez vos performances énergétiques avec La Nationale Du Logement.
                                     </h4>
                                 </div>
 

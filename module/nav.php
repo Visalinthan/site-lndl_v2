@@ -29,7 +29,7 @@
                                  <a href="qsn.php" class="part">Qui sommes-nous ?</a>
                                  <a href="qsn.php" class="pro">À propos</a>
                              </li>
-                             <li class="menu-item">
+                             <li class="menu-item menu-item-has-children">
                                  <a href="services.php" class="part">Nos services </a>
                                  <a href="services.php" class="pro">Nos prestations </a>
                                  <ul class="sub-menu part">
