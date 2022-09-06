@@ -8,7 +8,7 @@
                                 <h2 class="section-40px-barlow font-weight-500">Besoin de renseignement ?</h2>
                             </div>
                             <div class="button-footer">
-                                <a href="contact.php" class="button readmore">Contacter</a>
+                                <a href="contact.php" class="button">Contacter</a>
                             </div>
                         </div>
                     </div>

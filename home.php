@@ -89,7 +89,7 @@
                                 data-wow-duration="1500ms">
                                 <div class="section-title">
                                     <h3 class="section-heading">Nous faire confiance</h3>
-                                    <div class="features-content-left">
+                                    <div class="features-content">
                                         <h4>Confier vos travaux à des professionnels experts en rénovation.</h4>
                                     </div>
                                 </div>
@@ -193,7 +193,7 @@
                                     <div class="icon-features">
                                         <img src="assets/images/image-box/features-icon-2.png" alt="images">
                                     </div>
-                                    <h3 class="headline">Un savoir faire reconnu</h3>
+                                    <h3 class="headline">Un savoir-faire reconnu</h3>
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
@@ -212,7 +212,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-3.png" alt="images">
+                                        <img src="assets/images/image-box/features-icon-3.jpg" alt="images">
                                     </div>
                                     <h3 class="headline">RGE</h3>
                                 </div>
@@ -346,7 +346,7 @@
                     <div class="row padding-top-45 display-flex pro">
 
                         <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <h3 class="section-heading">Nos Prestations</h3>
+                            <h3 class="section-heading">Nos prestations</h3>
                         </div>
 
                         <div class="col-md-4 padding-top-45">
@@ -475,7 +475,7 @@
                                     <h2>Les derniers articles de nos experts LNDL</h2>
                                 </div>
 
-                                <a href="blog.html" class="button readmore">Voir notre blog</a>
+                                <a href="blog.html" class="button">Voir notre blog</a>
                             </div>
                         </div>
                     </div>
