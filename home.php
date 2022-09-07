@@ -29,7 +29,7 @@
 
                 <div class="header-left-text header-btoc">
                     <div>
-                        <h4>La Nationale Du Logement</h4>
+                        <h4 class="section-heading" style="color: #fff;">La Nationale Du Logement</h4>
                         <h2>Réalisez des économies, gagnez en confort et agissez pour la planète. </h2>
                         <div class="button-slider margin-top-22">
                             <a href="simulation.php" class="button">Testez votre
@@ -48,7 +48,7 @@
 
                 <div class="header-left-text header-btob">
                     <div>
-                        <h4>La Nationale Du Logement</h4>
+                        <h4 class="section-heading" style="color: #fff;">La Nationale Du Logement</h4>
                         <h2>Votre partenaire dans la réalisation de vos projets de construction et de rénovation
                             énergétique. </h2>
                         <div class="button-slider margin-top-22">

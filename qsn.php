@@ -33,10 +33,10 @@
                                 data-wow-duration="1500ms">
                                 <div class="section-title st-2">
                                     <div class="features-content-left">
-                                        <h3 class="section-heading">Notre Histoire</h3>
+                                        <h3 class="section-heading">Notre histoire</h3>
                                     </div>
                                     <p>Au cours de ses expériences, Diafara GARY a pu aiguiser sa sensibilité face à la
-                                        précarité énergétique<br />
+                                        précarité énergétique.<br />
                                         Conscient des nombreuses fraudes et arnaques dans le secteur de la rénovation
                                         énergétique, il a à cœur de pallier l’ampleur de cette problématique. <br />
                                         Pour ce faire, il s’entoure depuis 4 ans de professionnels dotés d’un
@@ -46,8 +46,8 @@
 
                                     <p class="padding-top-16">Vous apporter une pleine satisfaction, en partageant nos
                                         solutions sur des prestations variées, tout en vous accompagnant dans vos
-                                        projets de A à Z.
-                                        C’est à travers cet enthousiasme, que la Nationale du Logement a été fondée.
+                                        projets de A à Z.<br/>
+                                        C’est à travers cet enthousiasme, que La Nationale Du Logement a été fondée.
 
                                     </p>
                                 </div>
@@ -70,7 +70,7 @@
                                     <div class="features-content-left">
                                         <h3 class="section-heading">Qui sommes-nous ?</h3>
                                     </div>
-                                    <p>La Nationale du Logement accompagne depuis 4 ans particuliers et professionnels
+                                    <p>La Nationale Du Logement accompagne depuis 4 ans particuliers et professionnels
                                         dans leur projet de rénovation sur toute la France.<br />
                                         LNDL a son siège situé à Rosny-sous-bois en région parisienne, et dispose de 2
                                         agences situées en Ile-de-France et Centre-Val-de-Loire. Par conséquent, nos
