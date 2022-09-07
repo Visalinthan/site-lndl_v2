@@ -66,7 +66,7 @@
                                         <ul class="work-process">
                                             <li>
                                                 <div class="icon-tick"></div>
-                                                <h4>Jusqu’à 30 % d’économies sur votre consommation totale d’énergie
+                                                <h4>Jusqu’à 30% d’économies sur votre consommation totale d’énergie
                                                 </h4>
                                             </li>
                                             <li>

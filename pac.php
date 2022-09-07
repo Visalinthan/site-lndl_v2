@@ -66,10 +66,11 @@
                                         <div class="section-title">
                                             <h2>Les bénéfices</h2>
                                         </div>
-                                        <p>L’installation pompe à chaleur est un véritable gain en confort pour ses
-                                            utilisateurs. En effet, ce seul dispositif permet le fonctionnement de
-                                            plusieurs appareils. Le client aura donc moins de système à gérer grâce à
-                                            l’installation d’une PAC, en plus de réaliser des économies.</p>
+                                        <p>L’installation d’une pompe à chaleur est un véritable gain en confort pour
+                                            ses utilisateurs. En effet, ce seul dispositif permet le fonctionnement de
+                                            plusieurs appareils.<br />Le client aura donc moins de systèmes à gérer
+                                            grâce à l’installation d’une PAC, en plus de réaliser des économies.
+                                        </p>
                                     </div>
 
                                 </div>
@@ -86,7 +87,7 @@
                                             <ul class="work-process">
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>Coût moindre en comparaison aux autres systèmes de chauffage
+                                                    <h4>Coût moindre comparé à d'autres systèmes de chauffage
                                                     </h4>
                                                 </li>
                                                 <li>

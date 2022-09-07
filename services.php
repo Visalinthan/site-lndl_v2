@@ -46,8 +46,7 @@
                             </div>
                             <div class="features-content ">
                                 <h5>LNDL est un partenaire privilégié pour la réalisation de vos travaux</h5>
-                                <div class="features-content ">
-                                <h5>LNDL est un partenaire privilégié pour la réalisation de vos travaux</h5>
+
                                 <div class="row process display-flex">
                                     <div class="col-lg-2 col-md-3 col-sx-12 content-process">
                                         <div class="img-process">
@@ -100,7 +99,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -184,10 +182,10 @@
 
 
             <!-- flat portfolio -->
-            <section class="tf-space flat-portfolio">
+            <section class="tf-space flat-portfolio part">
                 <div class="container">
                     <div class="row">
-                        <div class="fl-gallery isotope-gl part  display-flex">
+                        <div class="fl-gallery isotope-gl display-flex">
                             <div class="tf-col-6 tf-financial tf-solicitory">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
@@ -253,7 +251,17 @@
                             </div>
                         </div>
 
-                        <div class="fl-gallery isotope-gl display-flex pro">
+
+
+                    </div>
+                    <!--/fl-gallery -->
+                </div>
+            </section>
+            <section class="tf-space flat-portfolio pro">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="fl-gallery isotope-gl display-flex ">
                             <div class="tf-col-6 tf-financial tf-solicitory">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
@@ -301,14 +309,11 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <!-- /flat portfolio -->
                         </div>
-                        <!--/fl-gallery -->
                     </div>
                 </div>
             </section>
-            <!-- /flat portfolio -->
-
             <!-- Footer -->
             <?php include("module/footer.php") ?>
             <!-- /#footer -->

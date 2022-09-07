@@ -1778,6 +1778,10 @@ a:focus {
     padding: 20px;
 }
 
+.header-left-text p {
+    text-align: left !important;
+}
+
 .header-left-text div {
     max-width: 400px;
 }
@@ -4901,20 +4905,9 @@ a:focus {
 
 .flat-service-details .post-inner .work-process h4,
 .flat-portfolio-details .work-process h4 {
-    display: inline-block;
     font-size: 18px;
     font-weight: 500;
     padding: 0px;
-}
-
-.flat-portfolio-details .work-process h4 {
-    font-weight: 700;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-break: break-word;
 }
 
 .flat-service-details .side-bar .list-menu {
@@ -5568,10 +5561,6 @@ a:focus {
     margin-right: 16px;
     background-color: var(--primary-color);
     flex-shrink: 0;
-}
-
-.flat-portfolio-details .icon-tick::after {
-    font-size: 15px;
 }
 
 
