@@ -67,9 +67,9 @@
                                     rénovation depuis quelques années pour répondre aux besoins de tous.
                                 </p>
                                 <div class="features-content">
-                                    <h4>Nous faire confiance c'est...</h4>
+                                    <h4>Nous faire confiance</h4>
                                     <p>
-                                        bénéficier d’un large champ d'expertises, sur tous types de bâtiments et pour
+                                        Bénéficiez d’un large champ d'expertises, sur tous types de bâtiments et pour
                                         tous types d’interventions, allié à une équipe performante et à l’écoute de vos
                                         besoins.
                                     </p>
@@ -77,14 +77,58 @@
                             </div>
                             <div class="features-content ">
                                 <h5>LNDL est un partenaire privilégié pour la réalisation de vos travaux</h5>
-                                <ul>
-                                    <li>1 - Déplacements et devis gratuits sans engagement </li>
-                                    <li>2 - Accompagnement de A à Z</li>
-                                    <li>3 - Un savoir faire reconnu</li>
-                                    <li>4 - Des artisans partenaires certifiés RGE </li>
-                                    <li>5 - Traçabilité des déchets</li>
-                                    <li>6 - Respect de l'environnement</li>
-                                </ul>
+                                <div class="row process display-flex">
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/1.png" alt="">
+                                        </div>
+
+                                        <div class="text-process">
+                                            <p>Déplacements et devis gratuits sans engagement</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/2.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Accompagnement de A à Z</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/3.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Un savoir faire reconnu</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/4.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Des artisans partenaires certifiés RGE</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/5.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Traçabilité des déchets</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/6.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Respect de l'environnement</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -217,55 +261,6 @@
                 </div>
             </section>
             <!-- /flat portfolio -->
-
-            <!-- flat logo slogan -->
-            <section class="tf-space flat-logo-slogan ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <h3 class="section-heading">Nos Certifications</h3>
-                                <div class="features-content-left">
-                                    <h4>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et
-                                        Ma Prime Renov’.</h4>
-                                </div>
-                            </div>
-                            <div class="features-content-right">
-                                <p> Pour éviter tout acte frauduleux, notre service d’Administration
-                                    Des Ventes réalise vos démarches dans le respect des règles établies par l’ANAH
-                                    et du gouvernement.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row margin-top-55 display-flex text-center">
-                    <div class="col-md-2 padding-top-45">
-                        <div class="slogan-logo">
-                            <img src="assets/img/home/lndl-certification-rge-qualibat.png" alt="images">
-                        </div>
-                    </div>
-                    <div class="col-md-2 padding-top-45">
-                        <div class="slogan-logo">
-                            <img src="assets/img/home/lndl-certification-rge-qualipac.png" alt="images">
-                        </div>
-                    </div>
-                    <div class="col-md-2 padding-top-45">
-                        <div class="slogan-logo">
-                            <img src="assets/img/home/lndl-certification-rge-ventilation-plus.png" alt="images">
-                        </div>
-                    </div>
-                    <div class="col-md-2 padding-top-45">
-                        <div class="slogan-logo">
-                            <img src="assets/img/home/lndl-certification-rge-chauffage.png" alt="images">
-                        </div>
-                    </div>
-
-                </div>
-
-            </section>
-            <!-- /flat logo slogan -->
-
 
             <!-- Footer -->
             <?php include("module/footer.php") ?>

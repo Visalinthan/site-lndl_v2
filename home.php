@@ -30,7 +30,7 @@
                 <div class="header-left-text header-btoc">
                     <div>
                         <h4>La Nationale Du Logement</h4>
-                        <h2>Réalisez des économies, gagnez en confort et agissez la planète. </h2>
+                        <h2>Réalisez des économies, gagnez en confort et agissez pour la planète. </h2>
                         <div class="button-slider margin-top-22">
                             <a href="simulation.php" class="button">Testez votre
                                 éligibité</a>
@@ -148,7 +148,7 @@
                                     <div class="icon-features">
                                         <img src="assets/images/image-box/features-icon-4.png" alt="images">
                                     </div>
-                                    <h3 class="headline">Garantie décénnale</h3>
+                                    <h3 class="headline">Garantie décennale</h3>
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
@@ -239,19 +239,18 @@
                         <div class="col-md-12">
                             <div class="section-title wow fadeInDown part" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
-                                <h3 class="section-heading">Nos Expertises</h3>
+                                <h3 class="section-heading">Nos expertises</h3>
                                 <div class="features-content-left">
                                     <h4>
-                                        Améliorez vos performances énergétiques avec La Nationale Du Logement.
+                                        Améliorez vos performances énergétiques avec <br/> La Nationale Du Logement.
                                     </h4>
                                 </div>
 
                                 <div class="features-content-right">
                                     <p>
-                                        Nous vous conseillons et nous réalisons vos projets sur-mesure, en restant
-                                        disponible tout au long de vos travaux de rénovation.
-                                        Votre confort est notre priorité, c'est la raison pour laquelle nous améliorons
-                                        constamment la qualité de nos services.
+                                    Nous vous conseillons et nous réalisons vos projets sur-mesure, en restant disponible tout au long de vos travaux de rénovation.<br/>
+                                    Votre confort est notre priorité, c'est la raison pour laquelle nous améliorons constamment la qualité de nos services.
+
                                     </p>
                                 </div>
                             </div>
@@ -421,10 +420,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <h3 class="section-heading">Nos Certifications</h3>
+                                <h3 class="section-heading">Nos certifications</h3>
                                 <div class="features-content-left">
-                                    <h4>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et
-                                        Ma Prime Renov’.</h4>
+                                    <h5>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et Ma Prime Renov’.</h5>
                                 </div>
                             </div>
                             <div class="features-content-right">

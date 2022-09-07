@@ -71,9 +71,11 @@
                                     <p>Afin de réaliser vos travaux, il existe de nombreuses aides de l'État, ces
                                         dispositifs vous permettent de bénéficier de réductions considérables sur
                                         l’ensemble de vos projets.</p>
-                                    <p>Ces aides sont uniquement valables lorsque les travaux sont effectués par des
-                                        artisans certifiés RGE (Reconnu Garant de l'Environnement). Avec La Nationale du
-                                        Logement, renouveler et moderniser vos structures en toute sérénité.</p>
+                                    <p>Ces aides sont valables uniquement lorsque les travaux sont effectués par des
+                                        artisans certifiés RGE (Reconnu Garant de l'Environnement).<br />
+                                        Avec La Nationale Du Logement, renouvelez et modernisez vos structures en toute
+                                        sérénité.
+                                    </p>
                                 </div>
                                 <div class="flex-column">
                                     <div class="about-our-company">
@@ -215,8 +217,13 @@
                                     <img src="assets/images/image-box/clients-post-1.jpg" alt="images">
 
                                 </div>
-                                <h3 class="client-name">Le crédit d'impôt pour la transition énergétique des entreprises</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, commodi minima ab in accusamus et cupiditate voluptatem neque? Porro quas, dolor ratione ducimus inventore quasi exercitationem aliquam accusamus quia ullam.
+                                <h3 class="client-name">Le crédit d'impôt pour la transition énergétique des entreprises
+                                </h3>
+                                <p>Les petites et moyennes entreprises, tous secteurs d’activité confondus, qui engagent
+                                    des travaux de rénovation énergétique, peuvent bénéficier depuis le 1er octobre 2020
+                                    d’un crédit d’impôt. La Nationale du Logement vous accompagne dans les démarches en
+                                    constituant votre dossier.
+
                                 </p>
                                 <div class="top item-shape item-shape1"></div>
                                 <div class="top item-shape item-shape2"></div>
@@ -232,7 +239,9 @@
 
                                 </div>
                                 <h3 class="client-name">Les aides de l'ADEME</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium esse voluptatem officia sint quae dignissimos. Dolorem necessitatibus consectetur eveniet at officia est, nisi voluptates atque pariatur maxime nulla aut odit!
+                                <p>LNDL vous aide à fixer les modalités de soutien en fonction de votre projet. Vous
+                                    pourrez également bénéficier d’un grand réseau d’acteurs de la transition
+                                    énergétique.
                                 </p>
                                 <div class="top item-shape item-shape1"></div>
                                 <div class="top item-shape item-shape2"></div>
@@ -248,7 +257,12 @@
 
                                 </div>
                                 <h3 class="client-name">Le prêt Eco-Energie (PEE)</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium unde voluptate quas sed quia iure assumenda sit at neque, dignissimos obcaecati magnam officia ut ea nisi illo? Sed, ut.</p>
+                                <p>Les PME de plus de 3 ans d’existence et saines financièrement sont concernées par le
+                                    dispositif du Prêt Eco-Energie (PEE). Cette aide permet aux entreprises de financer
+                                    des projets d'investissement en matière d'économie d'énergie et de protection de
+                                    l'environnement.
+                                    Découvrez nos solutions adaptées à votre projet.
+                                </p>
 
                                 <div class="top item-shape item-shape1"></div>
                                 <div class="top item-shape item-shape2"></div>
@@ -263,8 +277,11 @@
                                     <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
 
                                 </div>
-                                <h3 class="client-name">Le dispositif des certificats d’économies d’énergie</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis veritatis neque! Sequi et incidunt earum eius. Aut doloribus voluptas perferendis nostrum quia et aliquid repellat eligendi accusamus. Obcaecati, numquam.
+                                <h3 class="client-name">Le dispositif CEE</h3>
+                                <p>Aide privée de l’Etat, cette prime est le premier système d’aide à l’investissement
+                                    pour des travaux d’amélioration énergétique et de développement durable.
+                                    La Nationale Du Logement accompagne les initiatives en faveur de la transition
+                                    écologique pour tous les professionnels en France.
                                 </p>
 
                                 <div class="top item-shape item-shape1"></div>
@@ -281,8 +298,35 @@
                                     <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
 
                                 </div>
-                                <h3 class="client-name">Le guichet de subvention pour l'efficacité énergétique des entreprises</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis veritatis neque! Sequi et incidunt earum eius. Aut doloribus voluptas perferendis nostrum quia et aliquid repellat eligendi accusamus. Obcaecati, numquam.
+                                <h3 class="client-name">Le guichet de subvention pour l'efficacité énergétique des
+                                    entreprises</h3>
+                                <p>Dans le cadre du plan France Relance, l’Etat a mis en place un dispositif d’aides
+                                    pour les entreprises du secteur industriel, peu importe leur taille.
+                                    Ce guichet de subvention pour l’efficacité énergétique des entreprises sera ouvert
+                                    jusqu’au 31 décembre 2022
+
+                                </p>
+
+                                <div class="top item-shape item-shape1"></div>
+                                <div class="top item-shape item-shape2"></div>
+                                <div class="bottom item-shape item-shape1"></div>
+                                <div class="bottom item-shape item-shape2"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 padding-top-45">
+                            <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <div class="client-author">
+                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+
+                                </div>
+                                <h3 class="client-name">MAPRIME RÉNOV' COPROPRIÉTÉS</h3>
+                                <p>MaPrimeRénov’ Copropriétés est une aide collective pour tous travaux de rénovation
+                                    globale sur les parties communes des copropriétés comprenant trois quart de
+                                    logements principaux.
+                                    La Nationale du Logement vous aide à garantir les 35% minimum de gain d’énergie post
+                                    travaux, nécessaires pour bénéficier de cette subvention.
                                 </p>
 
                                 <div class="top item-shape item-shape1"></div>
@@ -294,45 +338,47 @@
 
                     </div>
                     <section class="tf-space flat-about-2 part">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12" style="text-align:center">
-                            <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="section-title st-2">
-                                    <div class="features-content-left">
-                                        <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie</h3>
-                                    </div>
-                                    <p>Notre certification d’entreprise RGE nous permet de vous faire profiter des
-                                        différents dispositifs d’aides.</p>
-                                    <p>Pour y accéder, suivez ces 3 étapes :</p>
-                                </div>
-                                <div class="flex-column" style="align-items: center;">
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Établissez votre devis par notre expert</h4>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12" style="text-align:center">
+                                    <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
+                                        data-wow-duration="1500ms">
+                                        <div class="section-title st-2">
+                                            <div class="features-content-left">
+                                                <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie
+                                                </h3>
+                                            </div>
+                                            <p>Notre certification d’entreprise RGE nous permet de vous faire profiter
+                                                des
+                                                différents dispositifs d’aides.</p>
+                                            <p>Pour y accéder, suivez ces 3 étapes :</p>
                                         </div>
-                                    </div>
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Réalisez vos travaux de rénovation </h4>
+                                        <div class="flex-column" style="align-items: center;">
+                                            <div class="about-our-company">
+                                                <div class="icon-tick"></div>
+                                                <div class="content-box">
+                                                    <h4>Établissez votre devis par notre expert</h4>
+                                                </div>
+                                            </div>
+                                            <div class="about-our-company">
+                                                <div class="icon-tick"></div>
+                                                <div class="content-box">
+                                                    <h4>Réalisez vos travaux de rénovation </h4>
+                                                </div>
+                                            </div>
+                                            <div class="about-our-company">
+                                                <div class="icon-tick"></div>
+                                                <div class="content-box">
+                                                    <h4>Percevez le versement de vos aides</h4>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Percevez  le versement de vos aides</h4>
-                                        </div>
-                                    </div>
-                                </div>
 
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </section>
                 </div>
             </section>
 

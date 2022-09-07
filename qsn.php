@@ -45,7 +45,8 @@
                                     <p class="padding-top-16">Partager des solutions, et apporter une satisfaction aux
                                         ménages tout en les
                                         accompagnant dans leurs projets de A à Z. Pour ce faire, il s’entoure depuis 4
-                                        ans de professionnels dotés d’un savoir-faire, afin d’apporter une expertise à ses clients.
+                                        ans de professionnels dotés d’un savoir-faire, afin d’apporter une expertise à
+                                        ses clients.
                                     </p>
                                 </div>
                             </div>
@@ -68,13 +69,16 @@
                                         <h3>Qui sommes-nous ?</h3>
                                     </div>
                                     <p>La Nationale du Logement accompagne depuis 4 ans particuliers et professionnels
-                                        dans leur projet de rénovation. Situé à Rosny-sous-bois en région parisienne,
-                                        nos équipes opèrent dans toute la France afin de répondre à la demande de tous.
+                                        dans leur projet de rénovation sur toute la France.<br />
+                                        LNDL a son siège situé à Rosny-sous-bois en région parisienne, et dispose de 2
+                                        agences situées en Ile-de-France et Centre-Val-de-Loire. Par conséquent, nos
+                                        équipes opèrent principalement dans ces régions.<br />
                                         Le BTP représente un enjeu majeur, c’est pourquoi nous avons décidé d’agir en
                                         apportant des solutions qui visent des niveaux de performances énergétiques
-                                        élevés.</p>
+                                        élevés.
+                                    </p>
 
-                                    <p>Notre philosophie ?</p>
+                                    <p><strong>Notre philosophie ?</strong></p>
 
                                     <p class="padding-top-16">S'entourer de professionnels engagés, proposer des
                                         services de qualité, s’assurer de la satisfaction de nos clients.
@@ -206,16 +210,20 @@
             </section>
             <!-- /flat team 2 -->
 
-            <section class="tf-space flat-about-2">
+
+            <section class="tf-space flat-about-2 part">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-title text-center">
                                 <div class="features-content">
                                     <h2>Nos engagements</h2>
-                                    <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés RGE. 
-                                        Cette qualification vous apporte en plus, la possibilité de bénéficier des aides telles que : les certificats d’économies 
-                                        d’énergie (CEE), les aides à la rénovation énergétique distribuée par l’ANAH et de MaPrimeRénov’, l’éco-prêt à taux zéro (Eco-PTZ)...*</p>
+                                    <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés
+                                        RGE.
+                                        Cette qualification vous apporte en plus, la possibilité de bénéficier des aides
+                                        telles que : les certificats d’économies
+                                        d’énergie (CEE), les aides à la rénovation énergétique distribuée par l’ANAH et
+                                        de MaPrimeRénov’, l’éco-prêt à taux zéro (Eco-PTZ)...*</p>
                                 </div>
                             </div>
                         </div>
@@ -223,6 +231,106 @@
                     <div class="row margin-top-55 align-items-center">
                         <div class="about-2-content-left wow fadeInLeft col-md-6" data-wow-delay="0ms"
                             data-wow-duration="1500ms">
+                            <div class="flex-column">
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Synchronisation des travaux</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Respect des normes et délais</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Gain de temps</h4>
+                                    </div>
+                                </div>
+
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Communication plus facile</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Économies</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Personnel expérimenté et formé</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-2-content-left wow fadeInLeft col-md-6" data-wow-delay="0ms"
+                            data-wow-duration="1500ms">
+                            <div class="flex-column">
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Suivi rigoureux et maintien à jour des habilitations</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Matériel adapté</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Réalisation des prestations dans de bonnes conditions</h4>
+                                    </div>
+                                </div>
+
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Excellente supervision des travaux</h4>
+                                    </div>
+                                </div>
+                                <div class="about-our-company">
+                                    <div class="icon-tick"></div>
+                                    <div class="content-box">
+                                        <h4>Méthodologie de travail maîtrisée</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tf-space flat-about-2 pro">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title text-center">
+                                <div class="features-content">
+                                    <h2>Nos engagements</h2>
+                                    <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés
+                                        RGE. Cette qualification vous apporte en plus, la possibilité de bénéficier des
+                                        aides telles que les certificats d’économies d’énergie (CEE) et les aides et
+                                        subventions pour la transition énergétique.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="text-center">NOUS CHOISIR C’EST</h4>
+                    <div class="row margin-top-55 align-items-center">
+                        <div class="about-2-content-left wow fadeInLeft col-md-6" data-wow-delay="0ms"
+                            data-wow-duration="1500ms">
+                            
                             <div class="flex-column">
                                 <div class="about-our-company">
                                     <div class="icon-tick"></div>
@@ -370,8 +478,8 @@
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="500"
-                                        data-inviewport="yes">2208 </span>
+                                    <span class="number" data-speed="4000" data-to="500" data-inviewport="yes">2208
+                                    </span>
                                 </div>
                                 <div class="heading-count">
                                     <h3>PAC <br>
@@ -414,8 +522,8 @@
                                     <span>49%</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3> DE FEMMES <br> 
-                                   </h3>
+                                    <h3> DE FEMMES <br>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -425,7 +533,7 @@
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span>
+                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span><span>%</span>
                                 </div>
                                 <div class="heading-count">
                                     <h3>CLIENTS <br /> SATISFAITS</h3>
@@ -449,10 +557,10 @@
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
                                     <span class="number" data-speed="4000" data-to="4"
-                                        data-inviewport="yes">4</span><span>ans</span>
+                                        data-inviewport="yes">4</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>EXPÉRIENCES</h3>
+                                    <h3>ANNÉES D'EXPÉRIENCES</h3>
                                 </div>
                             </div>
                         </div>
@@ -463,29 +571,16 @@
                                     <span class="number" data-speed="4000" data-to="7" data-inviewport="yes">7</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>POLE <br>
+                                    <h3>PÔLES <br>
                                         DEDIÉS</h3>
                                 </div>
                             </div>
-                                            <div class="row  padding-top-45 part">
-                        <div class="col-lg-3 col-md-10 padding-top-45">
-                            <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span>
-                                    <span>%</span>
-                                </div>
-                                <div class="heading-count">
-                                    <h3>CLIENTS <br /> SATISFAITS</h3>
-                                </div>
-                            </div>
-                        </div>    
+
                         </div>
                     </div>
-                </div>
 
 
-                    <div class="row  padding-top-45 pro">
+                    <div class="row padding-top-45 display-flex  pro">
                         <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
@@ -505,7 +600,7 @@
                                         data-inviewport="yes">271</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>DOSSIER DE FINANCEMENT <br> MONTÉS</h3>
+                                    <h3>DOSSIERS DE FINANCEMENT</h3>
                                 </div>
                             </div>
                         </div>
@@ -513,15 +608,16 @@
                             <div class="col-lg-3 col-md-10 padding-top-45">
                                 <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
                                     data-wow-duration="1500ms">
-                                <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span>
-                                    <span>%</span>
-                                </div>
-                                <div class="heading-count">
-                                    <h3>CLIENTS <br /> SATISFAITS</h3>
+                                    <div class="number-counter">
+                                        <span class="number" data-speed="4000" data-to="95"
+                                            data-inviewport="yes">99</span>
+                                        <span>%</span>
+                                    </div>
+                                    <div class="heading-count">
+                                        <h3>CLIENTS <br /> SATISFAITS</h3>
+                                    </div>
                                 </div>
                             </div>
-                        </div>    
                         </div>
                     </div>
                 </div>

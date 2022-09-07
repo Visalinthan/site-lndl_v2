@@ -61,40 +61,39 @@
                                             <h2>Les bénéfices</h2>
                                         </div>
                                         <p>Le tout corps d’état peut prendre en charge l’intégralité des travaux </p>
-                                    </div>
 
-                                </div>
-                                <div class="row margin-top-55">
-                                    <div class="section-title ">
-                                        <h2>Les avantages</h2>
-                                    </div>
-                                </div>
-
-                                <div class="section-wrap tf-row">
-
-                                    <div class="tf-col-12">
-                                        <div class="post-project-content">
-                                            <ul class="work-process">
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Économies réalisées
-                                                    </h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Gain de temps</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Communication plus facile </h4>
-                                                </li>
-
-                                            </ul>
-
+                                        <div class="section-title ">
+                                            <h2>Les avantages</h2>
                                         </div>
+
+
+                                        <div class="tf-col-12">
+                                            <div class="post-project-content">
+                                                <ul class="work-process">
+                                                    <li>
+                                                        <div class="icon-tick"></div>
+                                                        <h4>Économies réalisées
+                                                        </h4>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon-tick"></div>
+                                                        <h4>Gain de temps</h4>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon-tick"></div>
+                                                        <h4>Communication plus facile </h4>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+
                                     </div>
 
                                 </div>
+
                             </div>
                         </div>
                     </div>
