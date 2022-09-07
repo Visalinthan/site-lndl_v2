@@ -48,7 +48,8 @@
             <div class="row bloc_3">
                 <div class="col-md-12">
                     <h5>En quelques minutes, estimez le montant de votre projet !</h5>
-                    <h5>Nos experts reviendront par la suite vers vous pour vous donner une estimation plus précise !</h5>
+                    <h5>Nos experts reviendront par la suite vers vous pour vous donner une estimation plus précise !
+                    </h5>
                 </div>
 
             </div>
@@ -109,7 +110,8 @@
                     <label class="case col-md-4 picto" for="inf2">
                         <h4>Moins de 2 ans</h4>
                     </label>
-                    <input type="radio" id="inf15" name="construction" value="plus de 2 ans / moins de 15 ans" required />
+                    <input type="radio" id="inf15" name="construction" value="plus de 2 ans / moins de 15 ans"
+                        required />
                     <label class="case col-md-4 picto" for="inf15">
                         <h4>Entre 2 et 15 ans</h4>
                     </label>
@@ -152,7 +154,6 @@
                     </label>
                 </div>
 
-
                 <div class="row form-step projet">
                     <h2 class="col-md-12">Votre Projet</h2>
 
@@ -160,7 +161,7 @@
                     <label class="case col-md-3 picto" for="iso">
                         <h4>Isolation</h4>
                     </label>
-                    <input type="checkbox" id="pac" name="projet" value="pompe à chaleur" required />
+                    <input type="checkbox" id="pac" name="projet" value="pac" required />
                     <label class="case col-md-3 picto" for="pac">
                         <h4>Chauffage climatisation</h4>
                     </label>
@@ -168,13 +169,13 @@
                     <label class="case col-md-3 picto" for="ventilation">
                         <h4>Ventilation</h4>
                     </label>
-                    <input type="checkbox" id="tce" name="projet" value="tout corps d'état" required />
+                    <input type="checkbox" id="tce" name="projet" value="tce" required />
                     <label class="case col-md-3 picto" for="tce">
                         <h4>TCE</h4>
                     </label>
 
                 </div>
-                <div class="row form-step serv" id="iso">
+                <div class="row form-step serv" id="isolation">
 
                     <h2 class="col-md-12">Isolation</h2>
                     <input type="radio" id="combles" name="iso" value="isolation des combles" required />
@@ -304,8 +305,8 @@
                     <div class="form-input">
                         <div class="col-md-6 mb-5">
                             <label for="road" class="form-label">N° de rue :</label>
-                            <input type="text" class="form-control" id="road" name="road" required> 
-                        </div>                        
+                            <input type="text" class="form-control" id="road" name="road" required>
+                        </div>
                         <div class="col-md-6 mb-5">
                             <label for="cp" class="form-label">Code Postale :</label>
                             <input type="number" class="form-control" id="cp" name="cp" required>

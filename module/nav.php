@@ -33,15 +33,15 @@
                                  <a href="services.php" class="part">Nos services </a>
                                  <a href="services.php" class="pro">Nos prestations </a>
                                  <ul class="sub-menu part">
-                                     <li class="menu-item serv"><a href="pac.php">Pompe à Chaleur</a></li>
-                                     <li class="menu-item serv"><a href="ite-iti.php">ITE / ITI</a></li>
-                                     <li class="menu-item serv"><a href="vmc.php">VMC</a></li>
-                                     <li class="menu-item serv"><a href="tce.php">Tout Corps d'Etat</a></li>
+                                     <li class="menu-item"><a href="pac.php">Pompe à Chaleur</a></li>
+                                     <li class="menu-item"><a href="ite-iti.php">ITE / ITI</a></li>
+                                     <li class="menu-item"><a href="vmc.php">VMC</a></li>
+                                     <li class="menu-item"><a href="tce.php">Tout Corps d'Etat</a></li>
                                  </ul>
                                  <ul class="sub-menu pro">
-                                     <li class="menu-item serv"><a href="renovation.php">Rénovation énergétique</a></li>
-                                     <li class="menu-item serv"><a href="tce-pro.php">Tout Corps d'Etat</a></li>
-                                     <li class="menu-item serv"><a href="demolition.php">Démolition</a></li>
+                                     <li class="menu-item"><a href="renovation.php">Rénovation énergétique</a></li>
+                                     <li class="menu-item"><a href="tce-pro.php">Tout Corps d'Etat</a></li>
+                                     <li class="menu-item"><a href="demolition.php">Démolition</a></li>
                                  </ul>
                              </li>
                              <li class="menu-item">

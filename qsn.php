@@ -33,20 +33,22 @@
                                 data-wow-duration="1500ms">
                                 <div class="section-title st-2">
                                     <div class="features-content-left">
-                                        <h3>Notre Histoire</h3>
+                                        <h3 class="section-heading">Notre Histoire</h3>
                                     </div>
-                                    <p>Au cours de ses expériences, Diafara GARY a pu aiguiser une sensibilité face à la
-                                        précarité énergétique. Conscient des nombreuses fraudes et arnaques dans le
-                                        secteur de la rénovation énergétique, il a à cœur de pallier l’ampleur de cette
-                                        problématique. C’est ainsi qu’il fonde la Nationale du Logement.</p>
+                                    <p>Au cours de ses expériences, Diafara GARY a pu aiguiser sa sensibilité face à la
+                                        précarité énergétique<br />
+                                        Conscient des nombreuses fraudes et arnaques dans le secteur de la rénovation
+                                        énergétique, il a à cœur de pallier l’ampleur de cette problématique. <br />
+                                        Pour ce faire, il s’entoure depuis 4 ans de professionnels dotés d’un
+                                        savoir-faire, afin d’apporter la meilleure expertise à ses clients. </p>
 
-                                    <p>Sa motivation ?</p>
+                                    <h4>Notre philosophie</h4>
 
-                                    <p class="padding-top-16">Partager des solutions, et apporter une satisfaction aux
-                                        ménages tout en les
-                                        accompagnant dans leurs projets de A à Z. Pour ce faire, il s’entoure depuis 4
-                                        ans de professionnels dotés d’un savoir-faire, afin d’apporter une expertise à
-                                        ses clients.
+                                    <p class="padding-top-16">Vous apporter une pleine satisfaction, en partageant nos
+                                        solutions sur des prestations variées, tout en vous accompagnant dans vos
+                                        projets de A à Z.
+                                        C’est à travers cet enthousiasme, que la Nationale du Logement a été fondée.
+
                                     </p>
                                 </div>
                             </div>
@@ -66,7 +68,7 @@
                                 data-wow-duration="1500ms">
                                 <div class="section-title st-2">
                                     <div class="features-content-left">
-                                        <h3>Qui sommes-nous ?</h3>
+                                        <h3 class="section-heading">Qui sommes-nous ?</h3>
                                     </div>
                                     <p>La Nationale du Logement accompagne depuis 4 ans particuliers et professionnels
                                         dans leur projet de rénovation sur toute la France.<br />
@@ -78,7 +80,7 @@
                                         élevés.
                                     </p>
 
-                                    <p><strong>Notre philosophie ?</strong></p>
+                                    <h4>Notre philosophie</h4>
 
                                     <p class="padding-top-16">S'entourer de professionnels engagés, proposer des
                                         services de qualité, s’assurer de la satisfaction de nos clients.
@@ -219,11 +221,12 @@
                                 <div class="features-content">
                                     <h2>Nos engagements</h2>
                                     <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés
-                                        RGE.
+                                        RGE.<br />
                                         Cette qualification vous apporte en plus, la possibilité de bénéficier des aides
-                                        telles que : les certificats d’économies
-                                        d’énergie (CEE), les aides à la rénovation énergétique distribuée par l’ANAH et
-                                        de MaPrimeRénov’, l’éco-prêt à taux zéro (Eco-PTZ)...*</p>
+                                        telles que : les certificats d’économies d’énergie (CEE), les aides à la
+                                        rénovation énergétique distribuée par l’ANAH et de MaPrimeRénov’, l’éco-prêt à
+                                        taux zéro (Eco-PTZ)...
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -330,7 +333,7 @@
                     <div class="row margin-top-55 align-items-center">
                         <div class="about-2-content-left wow fadeInLeft col-md-6" data-wow-delay="0ms"
                             data-wow-duration="1500ms">
-                            
+
                             <div class="flex-column">
                                 <div class="about-our-company">
                                     <div class="icon-tick"></div>
@@ -533,7 +536,8 @@
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span><span>%</span>
+                                    <span class="number" data-speed="4000" data-to="95"
+                                        data-inviewport="yes">99</span><span>%</span>
                                 </div>
                                 <div class="heading-count">
                                     <h3>CLIENTS <br /> SATISFAITS</h3>
@@ -556,8 +560,7 @@
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="4"
-                                        data-inviewport="yes">4</span>
+                                    <span class="number" data-speed="4000" data-to="4" data-inviewport="yes">4</span>
                                 </div>
                                 <div class="heading-count">
                                     <h3>ANNÉES D'EXPÉRIENCES</h3>

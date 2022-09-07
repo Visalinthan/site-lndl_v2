@@ -22,7 +22,6 @@ function showTab(n) {
         });
 
         $(".projet input").on('change', function(event) {
-
             projets.forEach(p => {
                 serv.forEach(s => {
                     if (p.checked) {
@@ -35,9 +34,7 @@ function showTab(n) {
                         }
                     }
                 });
-
             });
-
         });
 
     }
@@ -77,7 +74,6 @@ function nextPrev(n) {
     currentTab = currentTab + n;
 
     if (currentTab >= x.length) {
-        alert("fin");
         // document.getElementById("regForm").submit();
 
         let datastring = $("#form-simule").serialize();
@@ -94,8 +90,8 @@ function nextPrev(n) {
                      window.location.href = '../home.php';
                  }, 5000);
              });
-         });*/
-        return false;
+         });
+         return false;*/
     }
     showTab(currentTab);
 }
