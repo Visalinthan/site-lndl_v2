@@ -39,21 +39,68 @@
                                 <div class="features-content">
                                     <h4>Nous faire confiance c'est...</h4>
                                     <p>
-                                        bénéficier d’un large champ d'expertises, allié à une équipe performante et à
+                                        ...bénéficier d’un large champ d'expertises, allié à une équipe performante et à
                                         l’écoute de vos besoins.
                                     </p>
                                 </div>
                             </div>
                             <div class="features-content ">
                                 <h5>LNDL est un partenaire privilégié pour la réalisation de vos travaux</h5>
-                                <ul>
-                                    <li>1 - Déplacements et devis gratuits sans engagement </li>
-                                    <li>2 - Accompagnement de A à Z</li>
-                                    <li>3 - Un savoir faire reconnu</li>
-                                    <li>4 - Des artisans partenaires certifiés RGE </li>
-                                    <li>5 - Traçabilité des déchets</li>
-                                    <li>6 - Respect de l'environnement</li>
-                                </ul>
+                                <div class="features-content ">
+                                <h5>LNDL est un partenaire privilégié pour la réalisation de vos travaux</h5>
+                                <div class="row process display-flex">
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/1.png" alt="">
+                                        </div>
+
+                                        <div class="text-process">
+                                            <p>Déplacements et devis gratuits sans engagement</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/2.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Accompagnement de A à Z</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/3.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Un savoir faire reconnu</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/4.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Des artisans partenaires certifiés RGE</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/5.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Traçabilité des déchets</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sx-12 content-process">
+                                        <div class="img-process">
+                                            <img src="assets/img/services/process/6.png" alt="">
+                                        </div>
+                                        <div class="text-process">
+                                            <p>Respect de l'environnement</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
