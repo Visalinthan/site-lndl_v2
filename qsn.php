@@ -223,7 +223,7 @@
                                     <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés
                                         RGE.<br />
                                         Cette qualification vous apporte en plus, la possibilité de bénéficier des aides
-                                        telles que : les certificats d’économies d’énergie (CEE), les aides à la
+                                        telles que les certificats d’économies d’énergie (CEE), les aides à la
                                         rénovation énergétique distribuée par l’ANAH et de MaPrimeRénov’, l’éco-prêt à
                                         taux zéro (Eco-PTZ)...
                                     </p>
@@ -470,7 +470,7 @@
                                     <span class="number" data-speed="4000" data-to="7" data-inviewport="yes">7</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>POLE <br>
+                                    <h3>PÔLES <br>
                                         DEDIÉS</h3>
                                 </div>
                             </div>
@@ -485,7 +485,7 @@
                                     </span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>PAC <br>
+                                    <h3>POMPE À CHALEUR <br>
                                         POSÉES</h3>
                                 </div>
                             </div>
@@ -499,7 +499,7 @@
                                         data-inviewport="yes">6000</span><span>€</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>ÉCONOMISÉ <br>
+                                    <h3>ÉCONOMISÉS <br>
                                         EN MOYENNE</h3>
                                 </div>
                             </div>
