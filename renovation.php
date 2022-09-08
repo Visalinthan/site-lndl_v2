@@ -59,7 +59,7 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="section-title">
-                                            <h2>Les bénéfices</h2>
+                                            <h3 class="section-heading">Les bénéfices</h3>
                                         </div>
                                         <p>En rénovant énergétiquement votre bâtiment, et donc en améliorant l'isolation
                                             du bâti, vous évitez d'importantes pertes thermiques.<br/> Les dépenses
@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="row margin-top-55">
                                     <div class="section-title ">
-                                        <h2>Les avantages</h2>
+                                        <h3 class="section-heading">Les avantages</h3>
                                     </div>
                                 </div>
 
@@ -125,7 +125,7 @@
 
                     <div class="row margin-top-55">
                         <div class="section-title ">
-                            <h2>Les services</h2>
+                            <h3 class="section-heading">Les services</h3>
                         </div>
                     </div>
 

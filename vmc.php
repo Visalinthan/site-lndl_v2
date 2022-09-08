@@ -58,7 +58,7 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="section-title">
-                                            <h2>Les bénéfices</h2>
+                                            <h3 class="section-heading">Les bénéfices</h3>
                                         </div>
                                         <p>Une VMC est le moyen le plus sûr de garantir un renouvellement de l’air à
                                             moindre coût.<br>Elle est un indispensable pour le bien-être et la santé des
@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="row margin-top-55">
                                     <div class="section-title ">
-                                        <h2>Les avantages</h2>
+                                        <h3 class="section-heading">Les avantages</h3>
                                     </div>
                                 </div>
 

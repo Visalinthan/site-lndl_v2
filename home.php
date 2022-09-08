@@ -106,7 +106,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-1.png" alt="images">
+                                        <img src="assets/img/home/picto/assistance-complete.png" alt="images">
                                     </div>
                                     <h3 class="headline">Une assistance complète</h3>
                                 </div>
@@ -128,7 +128,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-2.png" alt="images">
+                                        <img src="assets/img/home/picto/certifies.png" alt="images">
                                     </div>
                                     <h3 class="headline">Des artisans partenaires certifiés RGE</h3>
                                 </div>
@@ -149,7 +149,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-4.png" alt="images">
+                                        <img src="assets/img/home/picto/decenale.png" alt="images">
                                     </div>
                                     <h3 class="headline">Garantie décennale</h3>
                                 </div>
@@ -404,8 +404,7 @@
                                     <div class="bottom item-shape item-shape2"></div>
                                     <div class="master-icon-box">
                                         <div class="icon-wrap">
-                                            <img src="assets/img/home/picto/demolition.png"
-                                                alt="démolition" />
+                                            <img src="assets/img/home/picto/demolition.png" alt="démolition" />
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">Démolition</h3>

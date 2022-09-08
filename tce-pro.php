@@ -58,12 +58,12 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="section-title">
-                                            <h2>Les bénéfices</h2>
+                                            <h3 class="section-heading">Les bénéfices</h3>
                                         </div>
                                         <p>Le Tout Corps d'État peut prendre en charge l’intégralité des travaux. </p>
 
                                         <div class="section-title ">
-                                            <h2>Les avantages</h2>
+                                            <h3 class="section-heading">Les avantages</h3>
                                         </div>
 
 
@@ -100,7 +100,7 @@
 
                     <div class="row margin-top-55">
                         <div class="section-title ">
-                            <h2>Les services</h2>
+                            <h3 class="section-heading">Les services</h3>
                         </div>
                     </div>
 

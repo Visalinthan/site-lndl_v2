@@ -31,14 +31,8 @@
                     <div>
                         <h2>Pompe à chaleur</h2>
                         <p>La pompe à chaleur (PAC) est un appareil qui utilise un dispositif thermodynamique qui permet
-                            de
-                            transférer de la chaleur provenant d’un milieu froid (l’air ou le sol principalement) vers
-                            un
-                            lieu à chauffer. Elle collecte donc l’énergie nécessaire au bon fonctionnement du chauffage,
-                            de
-                            la climatisation et de l'eau chaude sanitaire. Il s'agit d'une technologie polyvalente qui
-                            peut
-                            être utilisée dans tous les types de bâtiments, tant résidentiels que commerciaux.</p>
+                            de transférer de la chaleur provenant d’un milieu froid (l’air ou le sol principalement)
+                            vers un lieu à chauffer.</p>
                     </div>
 
                 </div>
@@ -64,19 +58,19 @@
                                     </div>
                                     <div class="tf-col-6">
                                         <div class="section-title">
-                                            <h2>Les bénéfices</h2>
+                                            <h3 class="section-heading">Les bénéfices</h3>
                                         </div>
-                                        <p>L’installation d’une pompe à chaleur est un véritable gain en confort pour
-                                            ses utilisateurs. En effet, ce seul dispositif permet le fonctionnement de
-                                            plusieurs appareils.<br />Le client aura donc moins de systèmes à gérer
-                                            grâce à l’installation d’une PAC, en plus de réaliser des économies.
+                                        <p>Une pompe à chaleur collecte l’énergie nécessaire au bon fonctionnement du
+                                            chauffage, de la climatisation et de l'eau chaude sanitaire. Il s'agit d'une
+                                            technologie polyvalente qui peut être utilisée dans tous les types de
+                                            bâtiments, tant résidentiels que commerciaux.
                                         </p>
                                     </div>
 
                                 </div>
                                 <div class="row margin-top-55">
                                     <div class="section-title ">
-                                        <h2>Les avantages</h2>
+                                        <h3 class="section-heading">Les avantages</h3>
                                     </div>
                                 </div>
 
@@ -94,6 +88,10 @@
                                                     <div class="icon-tick"></div>
                                                     <h4>Plus sûr que d’autres systèmes à combustion</h4>
                                                 </li>
+                                                <li>
+                                                    <div class="icon-tick"></div>
+                                                    <h4>Subventions gouvernementales</h4>
+                                                </li>
                                             </ul>
 
                                         </div>
@@ -104,11 +102,17 @@
                                             <ul class="work-process">
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>Subventions gouvernementales</h4>
+                                                    <h4>Réduit l’empreinte carbone</h4>
                                                 </li>
+
                                                 <li>
                                                     <div class="icon-tick"></div>
-                                                    <h4>Réduit l’empreinte carbone</h4>
+                                                    <h4>Gain de confort</h4>
+                                                </li>
+
+                                                <li>
+                                                    <div class="icon-tick"></div>
+                                                    <h4>Permet le fonctionnement de plusieurs systèmes de chauffe</h4>
                                                 </li>
                                             </ul>
 

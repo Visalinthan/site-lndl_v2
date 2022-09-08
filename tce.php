@@ -51,7 +51,7 @@
 
                                 <div class="row margin-top-55">
                                     <div class="section-title ">
-                                        <h2>Les avantages</h2>
+                                        <h3 class="section-heading">Les avantages</h3>
                                     </div>
                                 </div>
 

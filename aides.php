@@ -33,7 +33,7 @@
                                 data-wow-duration="1500ms">
                                 <div class="section-title st-2">
                                     <div class="features-content-left">
-                                        <h3>Aides et subventions</h3>
+                                        <h3 class="section-heading">Aides et subventions</h3>
                                     </div>
                                     <p>LNDL prend en charge toutes vos démarches, de la création de votre dossier à
                                         l’obtention de vos aides.</p>
@@ -65,7 +65,7 @@
                                 data-wow-duration="1500ms">
                                 <div class="section-title st-2">
                                     <div class="features-content-left">
-                                        <h3>LNDL vous accompagne pour bénéficier d’aides afin de favoriser votre
+                                        <h3 class="section-heading">LNDL vous accompagne pour bénéficier d’aides afin de favoriser votre
                                             transition écologique</h3>
                                     </div>
                                     <p>Afin de réaliser vos travaux, il existe de nombreuses aides de l'État, ces

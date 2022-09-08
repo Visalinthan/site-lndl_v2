@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="main-content">
-                                <h3>Comment choisir entre ITE et ITI ?</h3>
+                                <h2 class="section-heading">Comment choisir entre ITE et ITI ?</h2>
                                 <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="20"
                                     data-smobile="10"></div>
                                 <div class="section-wrap tf-row display-flex">
@@ -57,7 +57,7 @@
                                         <div class="post-project-content">
 
                                             <div class="post-media">
-                                                <img src="assets/img/services/services-ite.png" alt="images">
+                                                <img src="assets/img/services/services-ite.jpg" alt="images">
                                             </div>
                                         </div>
                                     </div>

@@ -224,7 +224,7 @@
                             <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
 
                                 <div class="features-content">
-                                    <h4>Nous faire confiance c'est...</h4>
+                                    <h3 class="section-heading">Nous faire confiance c'est...</h3>
                                     <p>
                                         ...bénéficier d’un large champ d'expertises, allié à une équipe performante et à
                                         l’écoute de vos besoins.
@@ -295,7 +295,7 @@
                             <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
 
                                 <div class="features-content">
-                                    <h4>Nous faire confiance</h4>
+                                    <h3 class="section-heading">Nous faire confiance</h3>
                                     <p>
                                         Bénéficiez d’un large champ d'expertises, sur tous types de bâtiments et pour
                                         tous types d’interventions, allié à une équipe performante et à l’écoute de vos
