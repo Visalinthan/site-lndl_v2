@@ -5720,9 +5720,8 @@ a:focus {
 -------------------------------------------------------------- */
 
 #footer {
-    background: url('../img/footer.jpg') no-repeat center center;
     background-color: #1D1D1D;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     z-index: 1;
     padding: 60px 0 44px 0;
@@ -5856,6 +5855,14 @@ a:focus {
     display: -webkit-flex;
 }
 
+.footer-widgets-nav-menu ul li a {
+    color: #000 !important;
+}
+
+.footer-widgets-nav-menu ul li span {
+    color: #000 !important;
+}
+
 #footer .menu-1 {
     width: 35%;
     padding: 15px 10px 10px 7px;
@@ -5928,7 +5935,7 @@ a:focus {
 }
 
 .widget-list-contact li {
-    color: #fff;
+    color: #000;
     font-size: 16px;
     font-weight: 300;
 }
@@ -5937,11 +5944,12 @@ a:focus {
     position: relative;
     font-size: 16px;
     line-height: 30px;
-    color: #fff;
+    color: #000;
 }
 
 #footer .link-wrap li {
     margin-bottom: 5px;
+    color: #000;
 }
 
 #footer .link-wrap li a::before {
@@ -6007,14 +6015,14 @@ a:focus {
 #bottom {
     background-color: #1D1D1D;
     font-size: 16px;
-    line-height: 38px;
+    line-height: 28px;
     color: #fff;
     letter-spacing: 1.6px;
 }
 
 #bottom .bottom-bar-inner-wrap {
     position: relative;
-    padding: 43px 0;
+    padding: 20px 0;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;

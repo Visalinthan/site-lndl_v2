@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <div class="footer-widgets-nav-menu text-white">
+                        <div class="footer-widgets-nav-menu">
                             <div class="menu-2">
                                 <h3 class="widget-title-link-wrap">Liens</h3>
                                 <div class="widget-links">

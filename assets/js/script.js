@@ -27,11 +27,12 @@ $(document).ready(function() {
         $(".pro").remove();
         $('.part').show();
         switchPage.attr("checked", true);
-        $('#footer').addClass('part')
+        $('#footer').addClass('part').removeClass('pro');
     } else if (sessionStorage.getItem('page') == "Professionnels") {
         $(".part").remove();
         $('.pro').show();
         switchPage.attr("checked", false);
+        $('#footer').addClass('pro').removeClass('part');
     }
 
     switchPage.click(function() {
