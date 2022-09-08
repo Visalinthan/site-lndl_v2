@@ -62,7 +62,7 @@
                                             <h2>Les bénéfices</h2>
                                         </div>
                                         <p>En rénovant énergétiquement votre bâtiment, et donc en améliorant l'isolation
-                                            du bâti, vous évitez d'importantes pertes thermiques. Les dépenses
+                                            du bâti, vous évitez d'importantes pertes thermiques.<br/> Les dépenses
                                             énergétiques sont ainsi limitées à 50 kWh/m²/an.</p>
                                     </div>
 

@@ -24,7 +24,7 @@
             <!-- Header Wrap -->
             <?php include("module/nav.php")?>
             <!-- #site-header-wrap -->
-            <section class="tf-space flat-about-2 ">
+            <section class="flat-about-2 ">
                 <div class="container">
 
                     <div class="row part">
@@ -34,8 +34,195 @@
                                 <p>
                                     Acteur de la rénovation énergétique en France, La Nationale Du Logement vous
                                     accompagne dans vos projets de rénovation.
-
                                 </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row pro">
+                        <div class="col-md-12">
+                            <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <h3 class="section-heading">Nos services</h3>
+                                <p>
+                                    La Nationale Du Logement s’est diversifiée et qualifiée dans le secteur de la
+                                    rénovation depuis quelques années pour répondre aux besoins de tous.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- flat portfolio -->
+            <section class="flat-portfolio part">
+                <div class="container">
+                    <div class="row">
+                        <div class="fl-gallery isotope-gl display-flex">
+                            <div class="tf-col-6 tf-financial tf-solicitory">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/img/services/services-pac.png" alt="images">
+                                        <div class="title-services">
+                                            <h3>Pompe à chaleur</h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="pac.php">Pompe à chaleur</a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="pac.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tf-col-6 tf-financial tf-strategy">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/img/services/services-ite_iti.png" alt="images">
+                                        <div class="title-services">
+                                            <h3>ITE / ITI</h3>
+                                        </div>
+
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="ite-iti.php">ITE / ITI</a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="ite-iti.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tf-col-6 tf-financial tf-strategy">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/img/services/services-vmc.jpg" alt="images">
+                                        <div class="title-services">
+                                            <h3>VMC</h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="vmc.php">VMC</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="vmc.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tf-col-6 tf-hr">
+                                <div class="portfolio-box box-gallery tf-startup">
+                                    <div class="portfolio-media">
+                                        <img src="assets/img/services/services-tce.jpg" alt="images">
+                                        <div class="title-services">
+                                            <h3>Tout Corps d' État</h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="tce.php">Tout Corps d' État</a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="tce.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <!--/fl-gallery -->
+                </div>
+            </section>
+            <section class=" flat-portfolio pro">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="fl-gallery isotope-gl display-flex ">
+                            <div class="tf-col-6 tf-financial tf-solicitory">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/img/services/services-renovation.jpg" alt="images">
+                                        <div class="title-services">
+                                            <h3>Rénovation énergétique</h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="renovation.php">Rénovation énergétique</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="renovation.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tf-col-6 tf-financial tf-strategy">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/img/services/services-tce.jpg" alt="images">
+                                        <div class="title-services">
+                                            <h3>Tout Corps d'État</h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="tce-pro.php">Tout Corps d'État</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="tce-pro.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tf-col-6 tf-financial tf-strategy">
+                                <div class="portfolio-box box-gallery">
+                                    <div class="portfolio-media">
+                                        <img src="assets/img/services/services-demolition.png" alt="images">
+                                        <div class="title-services">
+                                            <h3>Démolition</h3>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-layer-content">
+                                        <div class="content">
+                                            <a href="demolition.php">Démolition</a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-readmore">
+                                        <a href="demolition.php" class="readmore"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /flat portfolio -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class=" flat-about-2 ">
+                <div class="container">
+
+                    <div class="row part">
+                        <div class="col-md-12">
+                            <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
+
                                 <div class="features-content">
                                     <h4>Nous faire confiance c'est...</h4>
                                     <p>
@@ -54,7 +241,7 @@
                                         </div>
 
                                         <div class="text-process">
-                                            <p>Déplacements et devis gratuits sans engagement</p>
+                                            <p>Déplacements <br /> et devis gratuits <br /> sans engagement</p>
                                         </div>
 
                                     </div>
@@ -63,7 +250,7 @@
                                             <img src="assets/img/services/process/2.png" alt="">
                                         </div>
                                         <div class="text-process">
-                                            <p>Accompagnement de A à Z</p>
+                                            <p>Accompagnement<br /> de A à Z</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sx-12 content-process">
@@ -71,7 +258,7 @@
                                             <img src="assets/img/services/process/3.png" alt="">
                                         </div>
                                         <div class="text-process">
-                                            <p>Un savoir faire reconnu</p>
+                                            <p> Savoir-faire reconnu</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sx-12 content-process">
@@ -79,7 +266,7 @@
                                             <img src="assets/img/services/process/4.png" alt="">
                                         </div>
                                         <div class="text-process">
-                                            <p>Des artisans partenaires certifiés RGE</p>
+                                            <p> Artisans partenaires certifiés RGE</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-2 col-md-3 col-sx-12 content-process">
@@ -106,11 +293,7 @@
                     <div class="row pro">
                         <div class="col-md-12">
                             <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <h3 class="section-heading">Nos services</h3>
-                                <p>
-                                    La Nationale Du Logement s’est diversifiée et qualifiée dans le secteur de la
-                                    rénovation depuis quelques années pour répondre aux besoins de tous.
-                                </p>
+
                                 <div class="features-content">
                                     <h4>Nous faire confiance</h4>
                                     <p>
@@ -180,140 +363,6 @@
                 </div>
             </section>
 
-
-            <!-- flat portfolio -->
-            <section class="tf-space flat-portfolio part">
-                <div class="container">
-                    <div class="row">
-                        <div class="fl-gallery isotope-gl display-flex">
-                            <div class="tf-col-6 tf-financial tf-solicitory">
-                                <div class="portfolio-box box-gallery">
-                                    <div class="portfolio-media">
-                                        <img src="assets/img/services/services-pac.png" alt="images">
-                                    </div>
-                                    <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="pac.php">Pompe à chaleur</a>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-readmore">
-                                        <a href="pac.php" class="readmore"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tf-col-6 tf-financial tf-strategy">
-                                <div class="portfolio-box box-gallery">
-                                    <div class="portfolio-media">
-                                        <img src="assets/img/services/services-ite_iti.png" alt="images">
-                                    </div>
-                                    <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="ite-iti.php">ITE / ITI</a>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-readmore">
-                                        <a href="ite-iti.php" class="readmore"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tf-col-6 tf-financial tf-strategy">
-                                <div class="portfolio-box box-gallery">
-                                    <div class="portfolio-media">
-                                        <img src="assets/img/services/services-vmc.jpg" alt="images">
-                                    </div>
-                                    <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="vmc.php">VMC</a>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-readmore">
-                                        <a href="vmc.php" class="readmore"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tf-col-6 tf-hr">
-                                <div class="portfolio-box box-gallery tf-startup">
-                                    <div class="portfolio-media">
-                                        <img src="assets/img/services/services-tce.jpg" alt="images">
-                                    </div>
-                                    <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="tce.php">Tout Corps d' État</a>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-readmore">
-                                        <a href="tce.php" class="readmore"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                    <!--/fl-gallery -->
-                </div>
-            </section>
-            <section class="tf-space flat-portfolio pro">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="fl-gallery isotope-gl display-flex ">
-                            <div class="tf-col-6 tf-financial tf-solicitory">
-                                <div class="portfolio-box box-gallery">
-                                    <div class="portfolio-media">
-                                        <img src="assets/img/services/services-renovation.jpg" alt="images">
-                                    </div>
-                                    <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="renovation.php">Rénovation énergétique</a>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-readmore">
-                                        <a href="renovation.php" class="readmore"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tf-col-6 tf-financial tf-strategy">
-                                <div class="portfolio-box box-gallery">
-                                    <div class="portfolio-media">
-                                        <img src="assets/img/services/services-tce.jpg" alt="images">
-                                    </div>
-                                    <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="tce-pro.php">Tous Corps d'État</a>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-readmore">
-                                        <a href="tce-pro.php" class="readmore"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tf-col-6 tf-financial tf-strategy">
-                                <div class="portfolio-box box-gallery">
-                                    <div class="portfolio-media">
-                                        <img src="assets/img/services/services-demolition.png" alt="images">
-                                    </div>
-                                    <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="demolition.php">Démolition</a>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-readmore">
-                                        <a href="demolition.php" class="readmore"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /flat portfolio -->
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!-- Footer -->
             <?php include("module/footer.php") ?>
             <!-- /#footer -->

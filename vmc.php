@@ -30,8 +30,9 @@
                 <div class="header-left-text">
                     <div>
                         <h2>VMC</h2>
-                        <p>Une VMC est le moyen le plus sûr de garantir un renouvellement de l’air à moindre coût<br />
-                            Elle est un indispensable pour le bien-être et la santé des occupants.</p>
+                        <p>La Ventilation Mécanique Contôlée (VMC) est un équipement essentiel qui permet de renouveler
+                            l'air de votre bâtiment. <br /> Il évacue l'air vicié et fait pénétrer l'air frais issu de
+                            l'extérieur via des bouches d'extraction situées dans les différentes pièces. </p>
                     </div>
 
                 </div>
@@ -60,7 +61,7 @@
                                             <h2>Les bénéfices</h2>
                                         </div>
                                         <p>Une VMC est le moyen le plus sûr de garantir un renouvellement de l’air à
-                                            moindre coût. Elle est un indispensable pour le bien-être et la santé des
+                                            moindre coût.<br>Elle est un indispensable pour le bien-être et la santé des
                                             occupants.</p>
                                     </div>
 

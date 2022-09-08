@@ -29,8 +29,8 @@
 
                 <div class="header-left-text">
                     <div>
-                        <h2>Tout Corps d' Etat</h2>
-                        <p>Le TCE (Tous Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux
+                        <h2>Tout Corps d'État</h2>
+                        <p>Le TCE (Tout Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux
                             publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers
                             différents.</p>
                     </div>
@@ -60,7 +60,7 @@
                                         <div class="section-title">
                                             <h2>Les bénéfices</h2>
                                         </div>
-                                        <p>Le tout corps d’état peut prendre en charge l’intégralité des travaux </p>
+                                        <p>Le Tout Corps d'État peut prendre en charge l’intégralité des travaux. </p>
 
                                         <div class="section-title ">
                                             <h2>Les avantages</h2>

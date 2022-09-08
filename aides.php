@@ -178,7 +178,7 @@
                                     de bénéficier d’un prêt à taux zéro.<br />Avec notre partenaire CIC, nous vous
                                     simplifions les démarches et réalisons pour
                                     vous, votre dossier de financement sans intérêt, ce qui vous permettra de financer
-                                    votre « reste à charge ».</p>
+                                    votre reste à charge.</p>
 
                                 <div class="top item-shape item-shape1"></div>
                                 <div class="top item-shape item-shape2"></div>
@@ -193,9 +193,9 @@
                                     <img src="assets/img/aides/eco-pret-cite.jpeg" alt="images">
                                 </div>
                                 <h3 class="client-name">Prêt à taux réduit</h3>
-                                <p>Habituellement, la TVA appliquée lors de travaux de rénovation est de 10%.LNDL
-                                    appliquera pour vous, une TVA à 5,5% sur vos travaux d’amélioration de la
-                                    performance énergétique.
+                                <p>Habituellement, la TVA appliquée lors de travaux de rénovation est de 10%.<br />
+                                    LNDL appliquera pour vous, une TVA à 5,5% sur vos travaux d’amélioration pour une
+                                    meilleure performance énergétique.
                                 </p>
 
                                 <div class="top item-shape item-shape1"></div>
@@ -345,7 +345,7 @@
                                         data-wow-duration="1500ms">
                                         <div class="section-title st-2">
                                             <div class="features-content-left">
-                                                <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie
+                                                <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie.
                                                 </h3>
                                             </div>
                                             <p class="text-center">Notre certification d’entreprise RGE nous permet de
@@ -353,10 +353,10 @@
                                                 profiter
                                                 des
                                                 différents dispositifs d’aides.</p>
-                                            <p class="text-center">Pour y accéder, suivez ces 3 étapes :</p>
+                                            <p class="text-center" style="font-weight: bold;">Pour y accéder, suivez ces 3 étapes :</p>
 
                                         </div>
-                                        <div class="flex-column" style="align-items: center;">
+                                        <div class="flex-column" style="align-items: center; text-align:left">
                                             <div class="about-our-company">
                                                 <div class="icon-tick"></div>
                                                 <div class="content-box">

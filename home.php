@@ -29,7 +29,8 @@
 
                 <div class="header-left-text header-btoc">
                     <div>
-                        <h4 class="section-heading" style="color: #fff; border-left: 5px solid #fff">La Nationale Du Logement</h4>
+                        <h4 class="section-heading" style="color: #fff; border-left: 5px solid #fff">La Nationale Du
+                            Logement</h4>
                         <h2>Réalisez des économies, gagnez en confort et agissez pour la planète. </h2>
                         <div class="button-slider margin-top-22">
                             <a href="simulation.php" class="button">Testez votre
@@ -48,7 +49,8 @@
 
                 <div class="header-left-text header-btob">
                     <div>
-                        <h4 class="section-heading" style="color: #fff; border-left: 5px solid #fff">La Nationale Du Logement</h4>
+                        <h4 class="section-heading" style="color: #fff; border-left: 5px solid #fff">La Nationale Du
+                            Logement</h4>
                         <h2>Votre partenaire dans la réalisation de vos projets de construction et de rénovation
                             énergétique. </h2>
                         <div class="button-slider margin-top-22">
@@ -78,7 +80,8 @@
                                     </div>
                                 </div>
                                 <div class="features-content-right">
-                                    <p>La Nationale Du Logement respecte une charte de qualité et possède toutes les
+                                    <p style="text-align: left">La Nationale Du Logement respecte une charte de qualité
+                                        et possède toutes les
                                         certifications et labels permettant d’être Reconnu Garant de l'Environnement
                                         (RGE).
 
@@ -242,14 +245,16 @@
                                 <h3 class="section-heading">Nos expertises</h3>
                                 <div class="features-content-left">
                                     <h4>
-                                        Améliorez vos performances énergétiques avec <br/> La Nationale Du Logement.
+                                        Améliorez vos performances énergétiques avec <br /> La Nationale Du Logement.
                                     </h4>
                                 </div>
 
                                 <div class="features-content-right">
                                     <p>
-                                    Nous vous conseillons et nous réalisons vos projets sur-mesure, en restant disponible tout au long de vos travaux de rénovation.<br/>
-                                    Votre confort est notre priorité, c'est la raison pour laquelle nous améliorons constamment la qualité de nos services.
+                                        Nous vous conseillons et nous réalisons vos projets sur-mesure, en restant
+                                        disponible tout au long de vos travaux de rénovation.<br />
+                                        Votre confort est notre priorité, c'est la raison pour laquelle nous améliorons
+                                        constamment la qualité de nos services.
 
                                     </p>
                                 </div>
@@ -271,7 +276,7 @@
                                     <div class="bottom item-shape item-shape2"></div>
                                     <div class="master-icon-box">
                                         <div class="icon-wrap">
-                                            <span class="icon icon-data"></span>
+                                            <img src="assets/img/home/picto/isolation.png" alt="ite iti" />
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">ITE/ITI</h3>
@@ -291,7 +296,8 @@
                                     <div class="bottom item-shape item-shape2"></div>
                                     <div class="master-icon-box">
                                         <div class="icon-wrap">
-                                            <span class="icon icon-tax"></span>
+                                            <img src="assets/img/home/picto/pompe-a-chaleur.png"
+                                                alt="pac pompe à chaleur" />
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">PAC</h3>
@@ -310,7 +316,7 @@
                                     <div class="bottom item-shape item-shape2"></div>
                                     <div class="master-icon-box">
                                         <div class="icon-wrap">
-                                            <span class="icon icon-high"></span>
+                                            <img src="assets/img/home/picto/ventilation.png" alt="ventilation" />
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">VMC</h3>
@@ -330,7 +336,7 @@
                                     <div class="bottom item-shape item-shape2"></div>
                                     <div class="master-icon-box">
                                         <div class="icon-wrap">
-                                            <span class="icon icon-programer"></span>
+                                            <img src="assets/img/home/picto/tce.png" alt="tce tout corps d'état" />
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">TCE</h3>
@@ -358,7 +364,8 @@
                                     <div class="bottom item-shape item-shape2"></div>
                                     <div class="master-icon-box">
                                         <div class="icon-wrap">
-                                            <span class="icon icon-data"></span>
+                                            <img src="assets/img/home/picto/renovation_energetique.png"
+                                                alt="rénovation énérgétique" />
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">Rénovation énergétique</h3>
@@ -378,10 +385,10 @@
                                     <div class="bottom item-shape item-shape2"></div>
                                     <div class="master-icon-box">
                                         <div class="icon-wrap">
-                                            <span class="icon icon-tax"></span>
+                                            <img src="assets/img/home/picto/tce.png" alt="tout corps d'état" />
                                         </div>
                                         <div class="text-wrap">
-                                            <h3 class="headline">Tout corp d'État</h3>
+                                            <h3 class="headline">Tout Corps d'État</h3>
                                             <a href="tce-pro.php" class="url-wrap readmore">Découvrir</a>
                                         </div>
                                     </div>
@@ -397,7 +404,8 @@
                                     <div class="bottom item-shape item-shape2"></div>
                                     <div class="master-icon-box">
                                         <div class="icon-wrap">
-                                            <span class="icon icon-high"></span>
+                                            <img src="assets/img/home/picto/demolition.png"
+                                                alt="démolition" />
                                         </div>
                                         <div class="text-wrap">
                                             <h3 class="headline">Démolition</h3>
@@ -422,7 +430,8 @@
                             <div class="section-title wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <h3 class="section-heading">Nos certifications</h3>
                                 <div class="features-content-left">
-                                    <h5>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et Ma Prime Renov’.</h5>
+                                    <h5>La Nationale Du Logement est une entreprise RGE mandatée par des CEE et Ma Prime
+                                        Renov’.</h5>
                                 </div>
                             </div>
                             <div class="features-content-right">

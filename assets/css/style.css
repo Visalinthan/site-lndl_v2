@@ -1753,6 +1753,10 @@ a:focus {
     background: #0A7F97;
 }
 
+.header-btoc h2 {
+    font-size: clamp(34px, 5vw, 45px)
+}
+
 .header-btob {
     background: #616160 !important;
 }
@@ -1872,7 +1876,7 @@ a:focus {
 }
 
 .process p {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     padding: 0;
     justify-content: center !important;
@@ -3417,6 +3421,10 @@ a:focus {
     margin-bottom: 23px;
 }
 
+.flat-features .features-box .icon-features img {
+    height: 80px;
+}
+
 .flat-features .features-box .headline {
     font-family: 'Barlow', sans-serif;
     font-size: 24px;
@@ -3431,7 +3439,7 @@ a:focus {
 
 .flat-features .features-box .content-post img {
     width: 100% !important;
-    height: 300px;
+    height: 280px;
     border-radius: 8px;
 }
 
@@ -3653,6 +3661,10 @@ a:focus {
 
 .flat-work .master-icon-box .icon-wrap {
     margin-bottom: 23px;
+}
+
+.flat-work .master-icon-box .icon-wrap img {
+    height: 60px;
 }
 
 .flat-work .work-icon .icon {
@@ -4297,10 +4309,6 @@ a:focus {
 /* flat slogan solo
 -------------------------------------------------------------- */
 
-.flat-logo-slogan {
-    background-color: #F6F6F6;
-}
-
 .flat-logo-slogan .slogan-logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4408,10 +4416,6 @@ a:focus {
 
 .flat-about-2 {
     padding: 116px 0;
-    background-image: url(../images/mark-page/mark-counter.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .flat-about-2 .about-2-content-left {
@@ -5316,6 +5320,20 @@ a:focus {
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 30px;
+}
+
+.flat-portfolio .portfolio-box .title-services {
+    position: absolute;
+    bottom: -20px;
+    right: 35%;
+    text-align: center;
+    z-index: 1;
+}
+
+.flat-portfolio .portfolio-box .title-services h3 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000;
 }
 
 .flat-portfolio .portfolio-box .portfolio-media img {

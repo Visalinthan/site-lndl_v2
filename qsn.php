@@ -46,7 +46,7 @@
 
                                     <p class="padding-top-16">Vous apporter une pleine satisfaction, en partageant nos
                                         solutions sur des prestations variées, tout en vous accompagnant dans vos
-                                        projets de A à Z.<br/>
+                                        projets de A à Z.<br />
                                         C’est à travers cet enthousiasme, que La Nationale Du Logement a été fondée.
 
                                     </p>
@@ -103,16 +103,14 @@
 
 
             <!-- flat team 2 -->
-            <section class="tf-space flat-team flat-team-2">
+            <section class="tf-space flat-team ">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title text-center">
-                                <div class="features-content-left">
-                                    <h2>Nos équipes</h2>
-                                </div>
-                            </div>
+
+                    <div class="section-title">
+                        <div class="features-content-left">
+                            <h3 class="section-heading">Nos équipes</h3>
                         </div>
+
                     </div>
                     <div class="row padding-top-45 display-flex">
                         <div class="col-md-3 padding-top-45">
@@ -217,13 +215,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="section-title text-center">
+                            <div class="section-title">
                                 <div class="features-content">
-                                    <h2>Nos engagements</h2>
+                                    <h3 class="section-heading">Nos engagements</h3>
                                     <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés
                                         RGE.<br />
                                         Cette qualification vous apporte en plus, la possibilité de bénéficier des aides
-                                        telles que les certificats d’économies d’énergie (CEE), les aides à la
+                                        telles que les Certificats d’Économies d’Énergie (CEE), les aides à la
                                         rénovation énergétique distribuée par l’ANAH et de MaPrimeRénov’, l’éco-prêt à
                                         taux zéro (Eco-PTZ)...
                                     </p>
@@ -318,19 +316,20 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="section-title text-center">
+                            <div class="section-title">
                                 <div class="features-content">
-                                    <h2>Nos engagements</h2>
+                                    <h3 class="section-heading">Nos engagements</h3>
                                     <p> Pour vous assurer la garantie d'un service de qualité nous sommes labellisés
                                         RGE. Cette qualification vous apporte en plus, la possibilité de bénéficier des
-                                        aides telles que les certificats d’économies d’énergie (CEE) et les aides et
+                                        aides telles que les Certificats d’Économies d’Énergie (CEE) et les aides et
                                         subventions pour la transition énergétique.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <h4 class="text-center">NOUS CHOISIR C’EST</h4>
-                    <div class="row margin-top-55 align-items-center">
+                    <h4>Nous choisir c'est</h4>
+                    <div class="row align-items-center">
+
                         <div class="about-2-content-left wow fadeInLeft col-md-6" data-wow-delay="0ms"
                             data-wow-duration="1500ms">
 
@@ -417,15 +416,12 @@
             <!-- flat counter -->
             <section class="tf-space flat-counter tf-counter">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title text-center">
-                                <div class="features-content">
-                                    <h2>LNDL en quelques chiffres</h2>
-                                </div>
-                            </div>
-                        </div>
+
+
+                    <div class="section-title">
+                        <h3 class="section-heading">LNDL en quelques chiffres</h3>
                     </div>
+
                     <div class="row  padding-top-45 part">
                         <div class="col-lg-3 col-md-10 padding-top-45">
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
@@ -471,7 +467,7 @@
                                 </div>
                                 <div class="heading-count">
                                     <h3>PÔLES <br>
-                                        DEDIÉS</h3>
+                                        DÉDIÉS</h3>
                                 </div>
                             </div>
                         </div>
@@ -485,7 +481,7 @@
                                     </span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>POMPE À CHALEUR <br>
+                                    <h3>POMPES À CHALEUR <br>
                                         POSÉES</h3>
                                 </div>
                             </div>
@@ -563,7 +559,7 @@
                                     <span class="number" data-speed="4000" data-to="4" data-inviewport="yes">4</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>ANNÉES D'EXPÉRIENCES</h3>
+                                    <h3>ANNÉES <br />D'EXPÉRIENCES</h3>
                                 </div>
                             </div>
                         </div>
@@ -574,8 +570,8 @@
                                     <span class="number" data-speed="4000" data-to="7" data-inviewport="yes">7</span>
                                 </div>
                                 <div class="heading-count">
-                                    <h3>PÔLES <br>
-                                        DEDIÉS</h3>
+                                    <h3>PÔLES
+                                        DÉDIÉS</h3>
                                 </div>
                             </div>
 
@@ -633,9 +629,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="section-title text-center">
+                            <div class="section-title">
                                 <div class="features-content">
-                                    <h2>Nos références</h2>
+                                    <h3 class="section-heading">Nos références</h3>
                                 </div>
                             </div>
                         </div>
