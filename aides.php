@@ -137,7 +137,7 @@
                                 </div>
                                 <h3 class="client-name">MaPrimeRénov’</h3>
                                 <p>MaPrimeRénov’ est l’aide financière de l’Etat destinée aux propriétaires pour les
-                                    travaux de rénovation énergétique. La Nationale du Logement vous accompagne dans les
+                                    travaux de rénovation énergétique. La Nationale Du Logement vous accompagne dans les
                                     démarches en constituant votre dossier, pour bénéficier de subventions calculées en
                                     fonction des revenus.
                                 </p>
@@ -154,8 +154,8 @@
                                     <img src="assets/img/aides/certificats_eco.png" alt="images">
 
                                 </div>
-                                <h3 class="client-name">Les certificats d’économies d’énergie</h3>
-                                <p>Les certificats d’économies d’énergies (CEE) est un dispositif de l’Etat qui propose
+                                <h3 class="client-name">Les Certificats d’Économies d’Énergie</h3>
+                                <p>Les Certificats d’Économies d’Énergie (CEE) est un dispositif de l’Etat qui propose
                                     des aides financières aux ménages pour des travaux liés aux économies d’énergies. En
                                     fonction de vos projets, LNDL et ses partenaires vous permettent de bénéficier de
                                     primes “Coup de pouce”.
@@ -175,8 +175,8 @@
                                 </div>
                                 <h3 class="client-name">Éco-prêt CIC</h3>
                                 <p>Afin d’encourager les propriétaires à la transition énergétique, L’Etat vous permet
-                                    de bénéficier d’un prêt à taux zéro.</p>
-                                <p>Avec notre partenaire CIC, nous vous simplifions les démarches et réalisons pour
+                                    de bénéficier d’un prêt à taux zéro.<br />Avec notre partenaire CIC, nous vous
+                                    simplifions les démarches et réalisons pour
                                     vous, votre dossier de financement sans intérêt, ce qui vous permettra de financer
                                     votre « reste à charge ».</p>
 
@@ -348,10 +348,13 @@
                                                 <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie
                                                 </h3>
                                             </div>
-                                            <p>Notre certification d’entreprise RGE nous permet de vous faire profiter
+                                            <p class="text-center">Notre certification d’entreprise RGE nous permet de
+                                                vous faire
+                                                profiter
                                                 des
                                                 différents dispositifs d’aides.</p>
-                                            <p>Pour y accéder, suivez ces 3 étapes :</p>
+                                            <p class="text-center">Pour y accéder, suivez ces 3 étapes :</p>
+
                                         </div>
                                         <div class="flex-column" style="align-items: center;">
                                             <div class="about-our-company">

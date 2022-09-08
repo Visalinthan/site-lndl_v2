@@ -4566,6 +4566,10 @@ a:focus {
     background-repeat: no-repeat;
 }
 
+.flat-client .client-content-box p {
+    text-align: left;
+}
+
 .flat-client .client-title-left {
     margin-top: 4px;
 }
