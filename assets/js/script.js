@@ -26,12 +26,12 @@ $(document).ready(function() {
     if (sessionStorage.getItem('page') == "Particuliers") {
         $(".pro").remove();
         $('.part').show();
-        switchPage.attr("checked", true)
-
+        switchPage.attr("checked", true);
+        $('#footer').addClass('part')
     } else if (sessionStorage.getItem('page') == "Professionnels") {
         $(".part").remove();
         $('.pro').show();
-        switchPage.attr("checked", false)
+        switchPage.attr("checked", false);
     }
 
     switchPage.click(function() {

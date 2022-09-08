@@ -58,46 +58,47 @@
                                 <div class="row margin-top-55 display-flex display-flex-top">
                                     <div class="col-md-3">
                                         <div class="text-center">
-                                            <img src="assets/img/services/renovation/calorifugeage.png"
+                                            <img src="assets/img/services/demolition/desamiantage.png"
                                                 alt="désamiantage">
                                             <p class="text-center">Désamiantage</p>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="text-center">
-                                            <img src="assets/img/services/renovation/points-singulier.png"
-                                                alt="déplombage">
+                                            <img src="assets/img/services/demolition/deplombage.png" alt="déplombage">
                                             <p class="text-center">Déplombage</p>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="text-center">
-                                            <img src="assets/img/services/renovation/reequilibrage-reseau.png"
-                                                alt="curage">
+                                            <img src="assets/img/services/demolition/curage.png" alt="curage">
                                             <p class="text-center">Curage</p>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="text-center">
-                                            <img src="assets/img/services/renovation/ite.png" alt="déconstruction">
+                                            <img src="assets/img/services/demolition/deconstruction.png"
+                                                alt="déconstruction">
                                             <p class="text-center">Déconstruction</p>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="text-center">
-                                            <img src="assets/img/services/renovation/isolation-combles.png"
-                                                alt="démolitions">
+                                            <img src="assets/img/services/demolition/demolition.png" alt="démolitions">
                                             <p class="text-center">Démolition</p>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="text-center">
-                                            <img src="assets/img/services/renovation/pac.png" alt="recyclage">
+                                            <img src="assets/img/services/demolition/recyclage.png" alt="recyclage">
                                             <p class="text-center">Recyclage</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- /flat portfolio details -->
 

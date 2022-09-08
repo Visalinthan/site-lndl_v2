@@ -418,6 +418,11 @@ html {
     box-sizing: border-box;
 }
 
+.container {
+    width: 1440px;
+    max-width: 100%;
+}
+
 *,
 *:before,
 *:after {
@@ -1795,7 +1800,7 @@ a:focus {
 }
 
 #header-home-btob {
-    background-image: url('../img/home/home-BtoB.png');
+    background-image: url('../img/home/home-BtoB.jpg');
 }
 
 #header-renovation {
@@ -1905,7 +1910,11 @@ a:focus {
 
 #site-logo {
     width: 20%;
-    line-height: 132px;
+    padding: 10px;
+}
+
+#site-logo img {
+    height: 70px;
 }
 
 #site-logo-inner {
@@ -3363,7 +3372,7 @@ a:focus {
 .flat-contact-request .section-title h2 {
     margin-top: 28px;
     font-family: 'Barlow', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 42px;
 }
 
@@ -5717,6 +5726,14 @@ a:focus {
     position: relative;
     z-index: 1;
     padding: 60px 0 44px 0;
+}
+
+#footer.part {
+    background: url('../img/BtoC-footer.jpg') no-repeat center center;
+}
+
+#footer.pro {
+    background: url('../img/BtoB-footer.jpg') no-repeat center center;
 }
 
 #footer-top .footer-schedule {

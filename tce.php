@@ -30,8 +30,10 @@
                 <div class="header-left-text">
                     <div>
                         <h2>Tout Corps d'État</h2>
-                        <p>Un large champ d'expertise sur tous types de batiments et pour tous types d'interventions
-                            allié à une équipe performante.</p>
+                        <p>Le TCE (Tout Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux
+                            publics.<br /> Les corps d’états se divisent en six catégories et regroupent plus de 60
+                            métiers
+                            différents.</p>
                     </div>
 
                 </div>
@@ -49,72 +51,107 @@
                         <div class="col-md-12">
                             <div class="main-content">
 
-                                <div class="row margin-top-55">
-                                    <div class="section-title ">
-                                        <h3 class="section-heading">Les avantages</h3>
-                                    </div>
-                                </div>
-
                                 <div class="section-wrap tf-row">
-
                                     <div class="tf-col-6">
-                                        <div class="post-project-content">
-                                            <ul class="work-process">
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Synchronisation des travaux
-                                                    </h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Respect des normes et délais</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Gain de temps
-                                                    </h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Économies</h4>
-                                                </li>
-                                                <li>
-                                                    <div class="icon-tick"></div>
-                                                    <h4>Personnel expérimenté et formé</h4>
-                                                </li>
-                                            </ul>
-
+                                        <div class="post-media">
+                                            <img src="assets/img/services/services-tce-2.jpg" alt="images">
                                         </div>
                                     </div>
                                     <div class="tf-col-6">
-                                        <ul class="work-process">
-                                            <li>
-                                                <div class="icon-tick"></div>
-                                                <h4>Suivi rigoureux et maintien à jour des habilitations</h4>
-                                            </li>
-                                            <li>
-                                                <div class="icon-tick"></div>
-                                                <h4>Matériel adapté</h4>
-                                            </li>
-                                            <li>
-                                                <div class="icon-tick"></div>
-                                                <h4>Réalisation des prestations dans de bonnes conditions</h4>
-                                            </li>
-                                            <li>
-                                                <div class="icon-tick"></div>
-                                                <h4>Excellente supervision des travaux</h4>
-                                            </li>
-                                            <li>
-                                                <div class="icon-tick"></div>
-                                                <h4>Méthodologie de travail maîtrisée</h4>
-                                            </li>
-                                        </ul>
+                                        <div class="section-title">
+                                            <h3 class="section-heading">Les bénéfices</h3>
+                                        </div>
+                                        <p>Le Tout Corps d'État peut prendre en charge l’intégralité des travaux. </p>
+
+                                        <div class="section-title ">
+                                            <h3 class="section-heading">Les avantages</h3>
+                                        </div>
+
+
+                                        <div class="tf-col-12">
+                                            <div class="post-project-content">
+                                                <ul class="work-process">
+                                                    <li>
+                                                        <div class="icon-tick"></div>
+                                                        <h4>Économies réalisées
+                                                        </h4>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon-tick"></div>
+                                                        <h4>Gain de temps</h4>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon-tick"></div>
+                                                        <h4>Communication plus facile </h4>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                        </div>
+
+
                                     </div>
+
                                 </div>
+
                             </div>
                         </div>
                     </div>
 
+                    <div class="row margin-top-55">
+                        <div class="section-title ">
+                            <h3 class="section-heading">Nos services</h3>
+                        </div>
+                    </div>
+
+                    <div class="row margin-top-55 display-flex display-flex-top">
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/couverture.png"
+                                    alt="Couverture étanchéité">
+                                <p class="text-center">Couverture étanchéité</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/electricite.png" alt="Electricté">
+                                <p class="text-center">Electricté</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/platrerie.png" alt="Maçonnerie Platrerie">
+                                <p class="text-center">Maçonnerie Platrerie</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/peinture.png" alt="Peinture">
+                                <p class="text-center">Peinture</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/plomberie.png" alt="Plomberie">
+                                <p class="text-center">Plomberie</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/ravalement.png" alt="Ravalement">
+                                <p class="text-center">Ravalement</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/revetement.png" alt="Revetement de Sol">
+                                <p class="text-center">Revetement de Sol</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- /flat portfolio details -->

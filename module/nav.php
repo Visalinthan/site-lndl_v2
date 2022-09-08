@@ -3,14 +3,11 @@
      <!-- /#site-logo -->
      <!-- Header -->
      <header id="site-header">
-         <div id="site-logo" class="clearfix">
-             <div id="site-logo-inner">
-                 <a href="home.php" rel="home" class="main-logo">
-                     <img src="assets/img/logo.png" alt="lndl" width="150" height="48" data-retina="assets/img/logo.png"
-                         data-width="150" data-height="48">
-                 </a>
-             </div>
 
+         <div id="site-logo">
+             <a href="home.php" rel="home" class="main-logo">
+                 <img src="assets/img/Logo-LNDL.png" alt="lndl"  >
+             </a>
          </div>
 
          <div class="header-box">

@@ -31,7 +31,8 @@
                     <div>
                         <h2>Tout Corps d'État</h2>
                         <p>Le TCE (Tout Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux
-                            publics. Les corps d’états se divisent en six catégories et regroupent plus de 60 métiers
+                            publics.<br /> Les corps d’états se divisent en six catégories et regroupent plus de 60
+                            métiers
                             différents.</p>
                     </div>
 
@@ -100,70 +101,53 @@
 
                     <div class="row margin-top-55">
                         <div class="section-title ">
-                            <h3 class="section-heading">Les services</h3>
+                            <h3 class="section-heading">Nos services</h3>
                         </div>
                     </div>
 
                     <div class="row margin-top-55 display-flex display-flex-top">
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/calorifugeage.png" alt="Ventilation">
-                                <p class="text-center">Ventilation</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="text-center">
-                                <img src="assets/img/services/renovation/points-singulier.png" alt="Ravalement">
-                                <p class="text-center">Ravalement</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="text-center">
-                                <img src="assets/img/services/renovation/reequilibrage-reseau.png"
-                                    alt="Couverture étanchéité">
+                                <img src="assets/img/services/tce/couverture.png" alt="Couverture étanchéité">
                                 <p class="text-center">Couverture étanchéité</p>
                             </div>
                         </div>
+
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/ite.png" alt="Peinture">
-                                <p class="text-center">Peinture</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="text-center">
-                                <img src="assets/img/services/renovation/isolation-combles.png" alt="Revetement de Sol">
-                                <p class="text-center">Revetement de Sol</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="text-center">
-                                <img src="assets/img/services/renovation/pac.png" alt="Plomberie">
-                                <p class="text-center">Plomberie</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="text-center">
-                                <img src="assets/img/services/renovation/vmc.png" alt="Electricté">
+                                <img src="assets/img/services/tce/electricite.png" alt="Electricté">
                                 <p class="text-center">Electricté</p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/vmc.png" alt="Maçonnerie Platrerie">
+                                <img src="assets/img/services/tce/platrerie.png" alt="Maçonnerie Platrerie">
                                 <p class="text-center">Maçonnerie Platrerie</p>
                             </div>
                         </div>
+
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/vmc.png" alt="Gros œuvre">
-                                <p class="text-center">Gros œuvre</p>
+                                <img src="assets/img/services/tce/peinture.png" alt="Peinture">
+                                <p class="text-center">Peinture</p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/vmc.png" alt="Second oeuvre">
-                                <p class="text-center">Second oeuvre</p>
+                                <img src="assets/img/services/tce/plomberie.png" alt="Plomberie">
+                                <p class="text-center">Plomberie</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/ravalement.png" alt="Ravalement">
+                                <p class="text-center">Ravalement</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/tce/revetement.png" alt="Revetement de Sol">
+                                <p class="text-center">Revetement de Sol</p>
                             </div>
                         </div>
                     </div>

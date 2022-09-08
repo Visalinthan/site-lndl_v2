@@ -108,7 +108,7 @@
 
                     <div class="section-title">
                         <div class="features-content-left">
-                            <h3 class="section-heading">Nos équipes</h3>
+                            <h3 class="section-heading" font-size="15px">Nos équipes</h3>
                         </div>
 
                     </div>
