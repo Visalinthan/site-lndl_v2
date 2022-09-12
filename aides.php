@@ -65,7 +65,8 @@
                                 data-wow-duration="1500ms">
                                 <div class="section-title st-2">
                                     <div class="features-content-left">
-                                        <h3 class="section-heading">LNDL vous accompagne pour bénéficier d’aides afin de favoriser votre
+                                        <h3 class="section-heading">LNDL vous accompagne pour bénéficier d’aides afin de
+                                            favoriser votre
                                             transition écologique</h3>
                                     </div>
                                     <p>Afin de réaliser vos travaux, il existe de nombreuses aides de l'État, ces
@@ -221,9 +222,8 @@
                                 </h3>
                                 <p>Les petites et moyennes entreprises, tous secteurs d’activité confondus, qui engagent
                                     des travaux de rénovation énergétique, peuvent bénéficier depuis le 1er octobre 2020
-                                    d’un crédit d’impôt. La Nationale du Logement vous accompagne dans les démarches en
-                                    constituant votre dossier.
-
+                                    d’un crédit d’impôt. <br /> La Nationale du Logement vous accompagne dans les
+                                    démarches en constituant votre dossier.
                                 </p>
                                 <div class="top item-shape item-shape1"></div>
                                 <div class="top item-shape item-shape2"></div>
@@ -239,8 +239,8 @@
 
                                 </div>
                                 <h3 class="client-name">Les aides de l'ADEME</h3>
-                                <p>LNDL vous aide à fixer les modalités de soutien en fonction de votre projet. Vous
-                                    pourrez également bénéficier d’un grand réseau d’acteurs de la transition
+                                <p>LNDL vous aide à fixer les modalités de soutien en fonction de votre projet. <br />
+                                    Vous pourrez également bénéficier d’un grand réseau d’acteurs de la transition
                                     énergétique.
                                 </p>
                                 <div class="top item-shape item-shape1"></div>
@@ -256,11 +256,11 @@
                                     <img src="assets/img/aides/btob-PEE.png" alt="images">
 
                                 </div>
-                                <h3 class="client-name">Le prêt Eco-Energie (PEE)</h3>
+                                <h3 class="client-name">Le prêt Éco-Énergie (PEE)</h3>
                                 <p>Les PME de plus de 3 ans d’existence et saines financièrement sont concernées par le
                                     dispositif du Prêt Eco-Energie (PEE). Cette aide permet aux entreprises de financer
                                     des projets d'investissement en matière d'économie d'énergie et de protection de
-                                    l'environnement.
+                                    l'environnement.<br/>
                                     Découvrez nos solutions adaptées à votre projet.
                                 </p>
 
@@ -279,7 +279,7 @@
                                 </div>
                                 <h3 class="client-name">Le dispositif CEE</h3>
                                 <p>Aide privée de l’Etat, cette prime est le premier système d’aide à l’investissement
-                                    pour des travaux d’amélioration énergétique et de développement durable.
+                                    pour des travaux d’amélioration énergétique et de développement durable.<br/>
                                     La Nationale Du Logement accompagne les initiatives en faveur de la transition
                                     écologique pour tous les professionnels en France.
                                 </p>
@@ -301,9 +301,9 @@
                                 <h3 class="client-name">Le guichet de subvention pour l'efficacité énergétique des
                                     entreprises</h3>
                                 <p>Dans le cadre du plan France Relance, l’Etat a mis en place un dispositif d’aides
-                                    pour les entreprises du secteur industriel, peu importe leur taille.
+                                    pour les entreprises du secteur industriel, peu importe leur taille.<br/>
                                     Ce guichet de subvention pour l’efficacité énergétique des entreprises sera ouvert
-                                    jusqu’au 31 décembre 2022
+                                    jusqu’au 31 décembre 2022.
 
                                 </p>
 
@@ -324,7 +324,7 @@
                                 <h3 class="client-name">MAPRIME RÉNOV' COPROPRIÉTÉS</h3>
                                 <p>MaPrimeRénov’ Copropriétés est une aide collective pour tous travaux de rénovation
                                     globale sur les parties communes des copropriétés comprenant trois quart de
-                                    logements principaux.
+                                    logements principaux.<br/>
                                     La Nationale du Logement vous aide à garantir les 35% minimum de gain d’énergie post
                                     travaux, nécessaires pour bénéficier de cette subvention.
                                 </p>
@@ -353,7 +353,8 @@
                                                 profiter
                                                 des
                                                 différents dispositifs d’aides.</p>
-                                            <p class="text-center" style="font-weight: bold;">Pour y accéder, suivez ces 3 étapes :</p>
+                                            <p class="text-center" style="font-weight: bold;">Pour y accéder, suivez ces
+                                                3 étapes :</p>
 
                                         </div>
                                         <div class="flex-column" style="align-items: center; text-align:left">

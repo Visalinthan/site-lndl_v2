@@ -47,7 +47,7 @@ function showTab(n) {
         document.getElementById("prevBtn").style.display = "inline";
     }
 
-    if (n == (x.length - 1)) {
+    if (n == (x.length - 2)) {
         document.getElementById("nextBtn").innerHTML = "Envoyer";
     } else {
         document.getElementById("nextBtn").innerHTML = "Continuer";
@@ -65,35 +65,42 @@ function showTab(n) {
 function nextPrev(n) {
 
     let x = document.querySelectorAll(".form-step");
-
-
     //let inputs = x[currentTab].querySelectorAll("input");
 
     if (n == 1 && !validateForm()) return false;
     x[currentTab].style.display = "none";
     currentTab = currentTab + n;
 
-    if (currentTab >= x.length) {
-        // document.getElementById("regForm").submit();
+    if (currentTab == (x.length - 1)) {
 
-        let datastring = $("#form-simule").serialize();
+        let datastring = $("#form-simule").serializeArray();
+        document.getElementById("nextBtn").setAttribute('type', 'submit');
+
         console.log(datastring);
 
-        /* $("#form-simule").on('submit', function(event) {
-             event.preventDefault();
-             $.ajax({
-                 type: "post",
-                 url: "../form/post-simule.php",
-                 data: $(datastring).serialize(),
-             }).done(function() {
-                 setTimeout(() => {
-                     window.location.href = '../home.php';
-                 }, 5000);
-             });
-         });
-         return false;*/
+        $(".btn-form-step").css("display", "none");
+
+        $("#form-simule").on('submit', function(event) {
+
+            event.preventDefault();
+            $.ajax({
+                type: "post",
+                url: "../form/post-simule.php",
+                contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+                data: $(datastring),
+            }).done(function() {
+                setTimeout(() => {
+                    window.location.href = '../home.php';
+                }, 5000);
+            });
+        });
+
+        showTab(currentTab);
+
+    } else {
+        showTab(currentTab);
     }
-    showTab(currentTab);
+
 }
 
 

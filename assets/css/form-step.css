@@ -350,8 +350,14 @@ a {
     font-weight: bold;
 }
 
-.form-step input {
+.form-step input,
+.form-step select {
     padding: 10px;
+    font-size: 1.5em;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: 40px;
 }
 
 .btn-form-step {

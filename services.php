@@ -103,7 +103,7 @@
                             <div class="tf-col-6 tf-financial tf-strategy">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/img/services/services-vmc.jpg" alt="images">
+                                        <img src="assets/img/services/services-vmc.png" alt="images">
                                         <div class="title-services">
                                             <h3>VMC</h3>
                                         </div>
@@ -123,7 +123,7 @@
                             <div class="tf-col-6 tf-hr">
                                 <div class="portfolio-box box-gallery tf-startup">
                                     <div class="portfolio-media">
-                                        <img src="assets/img/services/services-tce.jpg" alt="images">
+                                        <img src="assets/img/services/services-tce.png" alt="images">
                                         <div class="title-services">
                                             <h3>Tout Corps d' État</h3>
                                         </div>
@@ -174,7 +174,7 @@
                             <div class="tf-col-6 tf-financial tf-strategy">
                                 <div class="portfolio-box box-gallery">
                                     <div class="portfolio-media">
-                                        <img src="assets/img/services/services-tce.jpg" alt="images">
+                                        <img src="assets/img/services/services-tce.png" alt="images">
                                         <div class="title-services">
                                             <h3>Tout Corps d'État</h3>
                                         </div>

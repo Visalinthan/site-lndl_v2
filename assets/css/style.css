@@ -4515,9 +4515,11 @@ a:focus {
     right: -29px;
 }
 
+
+/*
 .about-2-content-right img {
     height: 400px !important;
-}
+}*/
 
 
 /* flat counter
@@ -5367,7 +5369,7 @@ a:focus {
 
 .flat-portfolio .portfolio-box .title-services {
     position: absolute;
-    bottom: -25px;
+    bottom: -20px;
     right: 25%;
     left: 25%;
     text-align: center;
@@ -5382,7 +5384,7 @@ a:focus {
 
 .flat-portfolio .portfolio-box .portfolio-media img {
     width: 100%;
-    height: 350px;
+    height: 400px;
 }
 
 .flat-portfolio .portfolio-box .portfolio-readmore {

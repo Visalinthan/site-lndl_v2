@@ -53,7 +53,7 @@
                                 <div class="section-wrap tf-row">
                                     <div class="tf-col-6">
                                         <div class="post-media">
-                                            <img src="assets/img/services/services-vmc.jpeg" alt="images">
+                                            <img src="assets/img/services/services-vmc-2.jpg" alt="images">
                                         </div>
                                     </div>
                                     <div class="tf-col-6">

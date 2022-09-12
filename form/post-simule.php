@@ -3,18 +3,52 @@
 require_once "../phpmailer/Config.php";
 include "recaptcha.php";
 
-$type = $_POST['type'];
-$mail = $_POST['mail'];
-$nom = $_POST['nom'];
-$prenom = $_POST['prenom'];
-$tel = $_POST['tel'];
+$logement = $_POST['logement'];
 $statut = $_POST['statut'];
-$projet = $_POST['projet'];
-$ville = $_POST['ville'];
 $surface = $_POST['surface'];
-$dateConstruct = $_POST['construction'];
+$ville = $_POST['ville'];
+$construction = $_POST['construction'];
 $chauffage = $_POST['chauffage'];
+$projet = $_POST['projet'];
+$name = $_POST['name'];
+$surname = $_POST['surname'];
+$phone = $_POST['phone'];
+$nbFoyer = $_POST['nbFoyer'];
+$road = $_POST['road'];
+$cp = $_POST['cp'];
+$address = $_POST['revenu'];
 
+
+
+$mailto = 'vishal@lndl.fr';
+$addCC = $mail;
+$subject = "Simulation projet pour " . $nom . " " . $prenom;
+$msg = "<h3> Logement </h3>";
+$msg .= "<ul><li>Type de logement : <strong>" . $logement . "</strong></li>";
+$msg .= "<li> Statut : <strong>" . $statut . "</strong></li>";
+$msg .= "<li> Ville : <strong>" . $ville . "</strong></li>";
+$msg .= "<li> Date de construction : <strong>" . $construction . "</strong></li>";
+$msg .= "<li> Type de chauffage : <strong>" . $chauffage . "</strong></li>";
+$msg .= "<li>Nombre de personne au foyer <strong>: " . $nbFoyer . "</strong></li>";
+$msg .= "<h3> Projet </h3><ul>";
+/*foreach ($projet as $value) {
+    $msg .= "<li>" . $value;
+    if (!empty($_POST[$value])) {
+        $serv = $_POST[$value];
+        $msg .= " : ";
+        foreach ($serv as $val) {
+            $msg .= "<strong>" . $val . "</strong>, ";
+        }
+    }
+    $msg .= "</li>";
+}*/
+
+$msg .= "</ul><h3> Coordonnées </h3>";
+$msg .= "<ul><li>Nom : <strong>" . $name . "</strong></li>";
+$msg .= "<li>Prénom : <strong>" . $surname . "</strong></li>";
+$msg .= "<li> Tél : <strong>" . $phone . "</strong></li></ul>";
+
+/*
 if ($type == 'part') {
     $logement = $_POST['logement'];
     $persFoyer = $_POST['nombrePersonne'];
@@ -107,6 +141,6 @@ if ($type == 'part') {
     $msg .= "<li>Fonction : <strong>" . $fonction . "</strong></li>";
     $msg .= "<li>Adresse mail : <strong>" . $mail . "</strong></li>";
     $msg .= "<li> Tél : <strong>" . $tel . "</strong></li></ul>";
-}
+}*/
 
 sendmail($mailto,$addCC, $subject, $msg);

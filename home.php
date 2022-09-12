@@ -128,7 +128,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/img/home/picto/certifies.png" alt="images">
+                                        <img src="assets/img/home/picto/artisans-rge.png" alt="images">
                                     </div>
                                     <h3 class="headline">Des artisans partenaires certifiés RGE</h3>
                                 </div>
@@ -173,7 +173,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-1.png" alt="images">
+                                        <img src="assets/img/home/picto/accompagement.png" alt="images">
                                     </div>
                                     <h3 class="headline">Accompagnement de A à Z</h3>
                                 </div>
@@ -194,7 +194,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-2.png" alt="images">
+                                        <img src="assets/img/home/picto/savoir-faire.png" alt="images">
                                     </div>
                                     <h3 class="headline">Un savoir-faire reconnu</h3>
                                 </div>
@@ -215,7 +215,7 @@
                                 <div class="item-shape item-shape2"></div>
                                 <div class="features-box-inner">
                                     <div class="icon-features">
-                                        <img src="assets/images/image-box/features-icon-3.jpg" alt="images">
+                                        <img src="assets/img/home/picto/artisans-rge.png" alt="images">
                                     </div>
                                     <h3 class="headline">RGE</h3>
                                 </div>
@@ -434,9 +434,9 @@
                                 </div>
                             </div>
                             <div class="features-content-right">
-                                <p> Pour éviter tout acte frauduleux, notre service d’Administration
-                                    Des Ventes réalise vos démarches dans le respect des règles établies par l’ANAH et
-                                    du gouvernement.
+                                <p> Pour éviter tout acte frauduleux, notre service d’Administration Des Ventes réalise
+                                    vos démarches dans le respect des règles établies par <br /> l’ANAH et du
+                                    gouvernement.
                                 </p>
                             </div>
                         </div>

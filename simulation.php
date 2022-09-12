@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>La Nationnale Du Logement</title>
     <meta name="description"
         content="Découvrez l'ensemble des travaux de rénovation énergétique à réaliser et réduisez le coût de vos factures énergie ">
@@ -341,6 +341,12 @@
                         <img alt="sup51" src="assets/img/simuler/cash.png">
                         <h6>Supérieur à 51 592 € </h6>
                     </label>
+                </div>
+
+                <div class="row form-step">
+                    <h1 class="col-md-12">Votre simulation a été prise en compte avec succès !</h1>
+                    <p>Nous vous remercions pour vitre confiance !
+                        Vous recevrez dans quelques instants un email de confirmation.</p>
                 </div>
 
 
