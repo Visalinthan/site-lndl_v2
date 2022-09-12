@@ -91,7 +91,7 @@
                         <div class="col-md-6">
                             <div class="about-2-content-right">
                                 <div data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <img src="assets/img/qsn/BtoB-qui-sommes-nous.jpg" alt="images">
+                                    <img src="assets/img/qsn/BtoB-qui-sommes-nous.png" alt="images">
                                 </div>
 
                             </div>

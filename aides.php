@@ -132,7 +132,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/img/aides/ma_prime_renov.png" alt="images">
+                                    <img src="assets/img/aides/btoc-ma_prime_renov.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">MaPrimeRénov’</h3>
@@ -151,7 +151,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/img/aides/certificats_eco.png" alt="images">
+                                    <img src="assets/img/aides/btoc-certificats_eco.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Les Certificats d’Économies d’Énergie</h3>
@@ -170,7 +170,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/img/aides/eco-pret-0.png" alt="images">
+                                    <img src="assets/img/aides/btoc-eco-pret-0.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Éco-prêt CIC</h3>
@@ -190,7 +190,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/img/aides/eco-pret-cite.jpeg" alt="images">
+                                    <img src="assets/img/aides/btoc-eco-pret-cite.jpeg" alt="images">
                                 </div>
                                 <h3 class="client-name">Prêt à taux réduit</h3>
                                 <p>Habituellement, la TVA appliquée lors de travaux de rénovation est de 10%.<br />
@@ -214,7 +214,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-1.jpg" alt="images">
+                                    <img src="assets/img/aides/btob-CITE.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Le crédit d'impôt pour la transition énergétique des entreprises
@@ -235,7 +235,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-2.jpg" alt="images">
+                                    <img src="assets/img/aides/btob-ademe.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Les aides de l'ADEME</h3>
@@ -253,7 +253,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+                                    <img src="assets/img/aides/btob-PEE.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Le prêt Eco-Energie (PEE)</h3>
@@ -274,7 +274,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+                                    <img src="assets/img/aides/btob-CEE.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Le dispositif CEE</h3>
@@ -295,7 +295,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+                                    <img src="assets/img/aides/btob-GUICHET_AIDES.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">Le guichet de subvention pour l'efficacité énergétique des
@@ -318,7 +318,7 @@
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
-                                    <img src="assets/images/image-box/clients-post-3.jpg" alt="images">
+                                    <img src="assets/img/aides/btob-MPRC.png" alt="images">
 
                                 </div>
                                 <h3 class="client-name">MAPRIME RÉNOV' COPROPRIÉTÉS</h3>

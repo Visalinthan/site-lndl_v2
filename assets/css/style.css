@@ -4808,6 +4808,37 @@ a:focus {
     opacity: 0.6;
 }
 
+.tce-contact {
+    border-radius: 25px;
+    text-align: center;
+    padding: 50px 10px;
+    color: #fff;
+    position: relative;
+}
+
+.tce-contact .phone {
+    position: absolute;
+    z-index: 10;
+    left: -50px;
+    top: -50px;
+}
+
+.tce-contact h3 {
+    color: #F9B233;
+}
+
+.tce-contact small {
+    font-size: 1em;
+}
+
+.tce-contact.part {
+    background-color: #0A7F97;
+}
+
+.tce-contact.pro {
+    background-color: #626260;
+}
+
 
 /* flat contact request
 -------------------------------------------------------------- */
