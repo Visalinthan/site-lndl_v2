@@ -142,7 +142,7 @@
                             <div class="team-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
-                                    <img src="assets/img/qsn/nos-equipes-planification.png" alt="images">
+                                    <img src="assets/img/qsn/nos-equipes-planification.jpg" alt="images">
                                 </div>
                                 <div class="team-info">
                                     <h4>PLANIFICATION</h4>

@@ -4061,6 +4061,10 @@ a:focus {
     transition: all 0.3s ease;
 }
 
+.flat-team .team-content-box img {
+    height: 230px;
+}
+
 .flat-team .team-content-box .team-post {
     position: relative;
     border-radius: 8px;

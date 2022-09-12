@@ -59,7 +59,7 @@
                                 <h3 class="widget-title-link-wrap style-2">Contact</h3>
                                 <ul class="widget-list-contact link-style-4">
                                     <li>
-                                        <span class="meta-address">1 rue de Rome 93110 Rosny-Sous-Bois</span>
+                                        <span class="meta-address" content="#000">1 rue de Rome 93110 Rosny-Sous-Bois</span>
                                     </li>
                                     <li><a href="mailto:infos@lndl.fr" class="meta-mail">infos@lndl.fr</a>
                                     </li>
