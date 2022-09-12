@@ -5369,7 +5369,7 @@ a:focus {
 
 .flat-portfolio .portfolio-box .title-services {
     position: absolute;
-    bottom: -20px;
+    bottom: 0px;
     right: 25%;
     left: 25%;
     text-align: center;

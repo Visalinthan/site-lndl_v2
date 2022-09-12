@@ -1,14 +1,5 @@
 $(document).ready(function() {
 
-    /*  $('#main-nav a').click(function() {
-          //removing the previous selected menu state
-          $('#main-nav').find('li.active').removeClass('active');
-          //adding the state for this parent menu
-          $(this).parents("li").addClass('active');
-
-      });*/
-
-
     if (sessionStorage.getItem('page') == "Particuliers" || sessionStorage.getItem('page') == "Professionnels") {
         if ($('#label-nav').text() != sessionStorage.getItem('page')) {
             $("#label-nav").append(sessionStorage.getItem('page'));
@@ -26,13 +17,26 @@ $(document).ready(function() {
     if (sessionStorage.getItem('page') == "Particuliers") {
         $(".pro").remove();
         $('.part').show();
-        switchPage.attr("checked", true);
+
         $('#footer').addClass('part').removeClass('pro');
+
+        if ($("#simulation")) {
+            $("#simulation").addClass('part').removeClass('pro')
+        }
+
+        switchPage.attr("checked", true);
+
     } else if (sessionStorage.getItem('page') == "Professionnels") {
         $(".part").remove();
         $('.pro').show();
-        switchPage.attr("checked", false);
+
         $('#footer').addClass('pro').removeClass('part');
+
+        if ($("#simulation")) {
+            $("#simulation").addClass('pro').removeClass('part')
+        }
+        switchPage.attr("checked", false);
+
     }
 
     switchPage.click(function() {
@@ -41,7 +45,7 @@ $(document).ready(function() {
         } else {
             sessionStorage.setItem('page', 'Professionnels');
         }
-        location.reload();
+        location.href = "home.php";
     });
 
 

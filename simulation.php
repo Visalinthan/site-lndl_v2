@@ -55,7 +55,7 @@
             </div>
             <form id="form-simule" class="form needs-validation " name="form" method="POST" novalidate>
 
-                <div class="row form-step ">
+                <div class="row form-step part">
                     <h1 class="col-md-12">Mon type de logement :</h1>
                     <input type="radio" id="maison" name="logement" value="maison" required />
                     <label for="maison" class="case col-md-6 picto">
@@ -66,6 +66,26 @@
                     <label for="appartement" class="case col-md-6 picto">
                         <img alt="appartement" src="assets/img/simuler/Building.png">
                         <h6>Appartement</h6>
+                    </label>
+                </div>
+
+                <div class="row form-step pro">
+                    <h1 class="col-md-12">Type de structure :</h1>
+                    <input type="radio" id="commerce" name="logement" value="commerce" required />
+                    <label for="commerce" class="case col-md-6 picto">
+                        <img alt="commerce" src="assets/img/simuler/House.png">
+                        <h6>Commerce</h6>
+                    </label>
+                    <input type="radio" id="bureaux" name="logement" value="bureaux" required />
+                    <label for="bureaux" class="case col-md-6 picto">
+                        <img alt="bureaux" src="assets/img/simuler/Building.png">
+                        <h6>Bureaux</h6>
+                    </label>
+
+                    <input type="radio" id="bureaux" name="logement" value="bureaux" required />
+                    <label for="bureaux" class="case col-md-6 picto">
+                        <img alt="bureaux" src="assets/img/simuler/Building.png">
+                        <h6>Bureaux</h6>
                     </label>
                 </div>
 
