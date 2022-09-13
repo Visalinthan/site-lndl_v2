@@ -104,6 +104,11 @@
                             <h3 class="section-heading">Nos services</h3>
                         </div>
                     </div>
+                    <div class="row margin-top-55">
+                        <div class="section-title ">
+                            <h4>Second oeuvre</h4>
+                        </div>
+                    </div>
 
                     <div class="row margin-top-55 display-flex display-flex-top">
                         <div class="col-md-3">
@@ -151,9 +156,27 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row margin-top-55">
+                        <div class="section-title ">
+                            <h4>Gros oeuvre</h4>
+                        </div>
+                    </div>
+
+                    <div class="row margin-top-55 display-flex">
+
+                        <div class="col-md-10 tce-contact pro">
+                            <img src="assets/img/services/tce/phone.png" class="phone" alt="phone" />
+                            <h5>Toujours à votre écoute, LNDL se fera un plaisir de prendre en charge vos demandes et
+                                s’engage à fournir un travail de qualité.</h5>
+                            <h3>01 48 55 16 47</h3>
+                            <small>Service gratuit + prix appel </small>
+                        </div>
+                    </div>
                 </div>
+
             </section>
             <!-- /flat portfolio details -->
+
 
             <!-- flat latest -->
             <section class="tf-space flat-latest">

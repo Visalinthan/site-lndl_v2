@@ -658,7 +658,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-    color: #565872;
+    color: #fff;
     border: 1px solid #e7e7e700;
     padding: 16px 23px;
     letter-spacing: 0.4px;
@@ -3060,9 +3060,19 @@ a:focus {
 
 #comments .name-wrap input:focus,
 #comments .email-wrap input:focus,
+#comments .select-wrap input:focus,
 #comments .surname-wrap input:focus,
 #comments .tel-wrap input:focus {
     border: 1px solid rgba(204, 204, 204, 0);
+}
+
+#comments .select-wrap {
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+#comments .select-wrap select {
+    color: #000;
 }
 
 #comments .message-wrap textarea {
@@ -5325,6 +5335,7 @@ a:focus {
 .flat-faq-contact .faq-contact-form .name-wrap,
 .flat-faq-contact .faq-contact-form .surname-wrap,
 .flat-faq-contact .faq-contact-form .email-wrap,
+.flat-faq-contact .faq-contact-form .select-wrap,
 .flat-faq-contact .faq-contact-form .tel-wrap,
 .flat-faq-contact .faq-contact-form .phone-wrap,
 .flat-faq-contact .faq-contact-form .subject-wrap {

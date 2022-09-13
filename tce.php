@@ -165,13 +165,6 @@
                     </div>
 
                     <div class="row margin-top-55 display-flex">
-                        <div class="col-md-10 tce-contact pro">
-                            <img src="assets/img/services/tce/phone.png" class="phone"  alt="phone"/>
-                            <h5>Toujours à votre écoute, LNDL se fera un plaisir de prendre en charge vos demandes et
-                                s’engage à fournir un travail de qualité.</h5>
-                            <h3>01 48 55 16 47</h3>
-                            <small>Service gratuit + prix appel </small>
-                        </div>
 
                         <div class="col-md-10 tce-contact part">
                         <img src="assets/img/services/tce/phone.png" class="phone" alt="phone"/>

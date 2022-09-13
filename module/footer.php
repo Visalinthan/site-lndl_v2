@@ -105,8 +105,8 @@
 
 
         <!-- Javascript -->
-        <script src="../assets/js/jquery.min.js"></script>
-        <script src="../assets/js/wow.min.js"></script>
+       <script src="../assets/js/jquery.min.js"></script>
+       <script src="../assets/js/wow.min.js"></script>
         <script src="../assets/js/plugin.js"></script>
         <script src="../assets/js/jquery-validate.js"></script>
         <script src="../assets/js/countto.js"></script>

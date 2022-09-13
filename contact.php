@@ -68,34 +68,45 @@
                             <div class="contact-form wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
                                 id="comments">
                                 <form method="post" id="contactform" class="comment-form form-submit"
-                                    action="./contact/contact-process.php" accept-charset="utf-8"
-                                    novalidate="novalidate">
+                                    accept-charset="utf-8">
                                     <div class="text-wrap clearfix">
                                         <fieldset class="name-wrap">
-                                            <input type="text" id="name" class="tb-my-input" name="name" tabindex="1"
-                                                placeholder="Nom*" value="" size="32" aria-required="true" required="">
+                                            <input type="text" id="nom" class="tb-my-input" name="nom" tabindex="1"
+                                                placeholder="Nom*" value="" size="32">
                                         </fieldset>
                                         <fieldset class="tel-wrap">
-                                            <input type="number" id="email" class="tb-my-input" name="tel" tabindex="2"
-                                                placeholder="Téléphone*" value="" size="32" aria-required="true"
-                                                required="">
+                                            <input type="number" id="tel" class="tb-my-input" name="tel" tabindex="2"
+                                                placeholder="Téléphone*" value="" size="32">
                                         </fieldset>
                                     </div>
                                     <div class="text-wrap clearfix">
                                         <fieldset class="surname-wrap">
-                                            <input type="text" id="surname" class="tb-my-input" name="surname" tabindex="1"
-                                                placeholder="Prénom*" value="" size="32" aria-required="true" required="">
+                                            <input type="text" id="prenom" class="tb-my-input" name="prenom"
+                                                tabindex="1" placeholder="Prénom*" value="" size="32">
                                         </fieldset>
                                         <fieldset class="email-wrap">
-                                            <input type="email" id="email" class="tb-my-input" name="email" tabindex="2"
-                                                placeholder="Email*" value="" size="32" aria-required="true"
-                                                required="">
+                                            <input type="email" id="mail" class="tb-my-input" name="mail" tabindex="2"
+                                                placeholder="Email*" value="" size="32">
                                         </fieldset>
                                     </div>
+
+                                    <fieldset class="select-wrap">
+                                        <h5 for="choose" style="color: #fff">Vous souhaitez :</h5>
+                                        <select name="objet" id="choose">
+                                            <option value="">--Choisissez --</option>
+                                            <option value="rdv">prendre rendez-vous</option>
+                                            <option value="contact">être recontacté</option>
+                                            <option value="documentation">recevoir une documentation</option>
+                                            <option value="postuler">nous rejoindre</option>
+                                            <option value="autre">autre</option>
+                                        </select>
+                                    </fieldset>
+
                                     <fieldset class="message-wrap">
                                         <textarea id="comment-message" name="message" rows="13" tabindex="4"
-                                            placeholder="Ecrivez votre demande" aria-required="true"></textarea>
+                                            placeholder="Ecrivez votre demande" style="color: #000"></textarea>
                                     </fieldset>
+
                                     <button name="submit" type="submit" id="comment-reply"
                                         class="button btn-style4 btn-submit-comment">Envoyer</button>
                                 </form>
@@ -120,9 +131,20 @@
             </div>
             <!-- /map -->
 
+            <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <?php include "module/modal.php"?>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+            <script src="assets/js/validation.js"></script>
+            <script src="assets/js/contact.js"></script>
+            <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
             <!-- Footer -->
             <?php include("module/footer.php") ?>
             <!-- /#footer -->
+
+
         </div>
     </div>
 </body>
