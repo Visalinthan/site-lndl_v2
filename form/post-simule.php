@@ -4,21 +4,68 @@ require_once "../phpmailer/Config.php";
 include "recaptcha.php";
 
 $logement = $_POST['logement'];
+
 $statut = $_POST['statut'];
+
 $surface = $_POST['surface'];
+$cp = $_POST['codepostale'];
 $ville = $_POST['ville'];
+
 $construction = $_POST['construction'];
+
 $chauffage = $_POST['chauffage'];
+
 $projet = $_POST['projet'];
+
+if (!empty($_POST['iso'])) {
+    $iso = $_POST['iso'];
+}
+
+if (!empty($_POST['pac'])) {
+    $pac = $_POST['pac'];
+}
+
+if (!empty($_POST['ventilation'])) {
+    $ventilation = $_POST['ventilation'];
+}
+
+if (!empty($_POST['tce'])) {
+    $tce = $_POST['tce'];
+}
+
+if (!empty($_POST['renov'])) {
+    $renov = $_POST['renov'];
+}
+
 $name = $_POST['name'];
 $surname = $_POST['surname'];
 $phone = $_POST['phone'];
-$nbFoyer = $_POST['nbFoyer'];
+$mail = $_POST['mail'];
+$phone = $_POST['phone'];
+if (!empty($_POST['fonction'])) {
+    $fonction = $_POST['fonction'];
+}
+
+
+if (!empty($_POST['nbFoyer'])) {
+    $nbFoyer = $_POST['nbFoyer'];
+}
+
+if (!empty($_POST['company'])) {
+    $company = $_POST['company'];
+}
+if (!empty($_POST['siret'])) {
+    $siret = $_POST['siret'];
+}
+if (!empty($_POST['impot'])) {
+    $impot = $_POST['impot'];
+}
+
 $road = $_POST['road'];
 $cp = $_POST['cp'];
-$address = $_POST['revenu'];
+$address = $_POST['address'];
 
-
+$revenu = $_POST['revenu'];
 
 $mailto = 'vishal@lndl.fr';
 $addCC = $mail;
@@ -29,7 +76,7 @@ $msg .= "<li> Statut : <strong>" . $statut . "</strong></li>";
 $msg .= "<li> Ville : <strong>" . $ville . "</strong></li>";
 $msg .= "<li> Date de construction : <strong>" . $construction . "</strong></li>";
 $msg .= "<li> Type de chauffage : <strong>" . $chauffage . "</strong></li>";
-$msg .= "<li>Nombre de personne au foyer <strong>: " . $nbFoyer . "</strong></li>";
+$msg .= "<li>Nombre de personne au foyer <strong>: " . $nbFoyer . "</strong></li></ul>";
 $msg .= "<h3> Projet </h3><ul>";
 /*foreach ($projet as $value) {
     $msg .= "<li>" . $value;

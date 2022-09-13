@@ -33,7 +33,7 @@ $(document).ready(function() {
         $('#footer').addClass('pro').removeClass('part');
 
         if ($("#simulation")) {
-            $("#simulation").addClass('pro').removeClass('part')
+            $("#simulation").addClass('pro').removeClass('part');
         }
         switchPage.attr("checked", false);
 

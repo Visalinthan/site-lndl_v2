@@ -5764,11 +5764,11 @@ a:focus {
 }
 
 #footer.part {
-    background: url('../img/BtoC-footer.jpg') no-repeat center center;
+    background: url('../img/BtoC-footer.png') no-repeat center center;
 }
 
 #footer.pro {
-    background: url('../img/BtoB-footer.jpg') no-repeat center center;
+    background: url('../img/BtoB-footer.png') no-repeat center center;
 }
 
 #footer-top .footer-schedule {
