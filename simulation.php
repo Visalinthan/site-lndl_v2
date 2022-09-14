@@ -47,8 +47,9 @@
         <div class="bloc">
             <div class="row bloc_3">
                 <div class="col-md-12">
-                    <h5>En quelques minutes, estimez le montant de votre projet !</h5>
-                    <h5>Nos experts reviendront par la suite vers vous pour vous donner une estimation plus précise !
+                    <h5>Renseigner les informations de votre projet vous prendra moins de 2 minutes.<br /> Essentiel
+                        pour que l’on puisse vous conseiller et vous accompagner au plus près de la réalité, un
+                        interlocuteur spécialisé vous contactera dans les 24h ouvrées.
                     </h5>
                 </div>
 
@@ -56,23 +57,21 @@
             <form id="form-simule" class="form needs-validation " name="form" method="POST" novalidate>
 
                 <div class="row form-step">
-                    <h1 class="col-md-12">Mon type de logement :</h1>
+                    <h2 class="col-md-12">Quel est votre type de logement ?</h2>
+
                     <input type="radio" id="maison" name="logement" value="maison" required />
                     <label for="maison" class="case col-md-6 picto">
                         <img alt="maison" src="assets/img/simuler/House.png">
                         <h6>Maison</h6>
                     </label>
+
                     <input type="radio" id="appartement" name="logement" value="appartement" required />
                     <label for="appartement" class="case col-md-6 picto">
                         <img alt="appartement" src="assets/img/simuler/Building.png">
                         <h6>Appartement</h6>
                     </label>
-                </div>
 
-
-                <div class="row form-step">
-
-                    <h1 class="col-md-12">Votre statut :</h1>
+                    <h2 class="col-md-12">Votre statut :</h2>
 
                     <input type="radio" id="proprietaire" name="statut" value="propriétaire" required />
                     <label class="case col-md-6 picto" for="proprietaire">
@@ -88,12 +87,15 @@
                 </div>
 
                 <div class="row form-step">
-                    <h1 class="col-md-12">Quelle est votre surface habitable ?</h1>
+                    <h2 class="col-md-12">Quelle est votre surface habitable ?</h2>
                     <div class="form-input">
                         <div class="col-md-6 mb-5">
                             <label for="surface" class="form-label">Surface habitable m²</label>
                             <input type="text" class="form-control" id="surface" name="surface" required>
                         </div>
+                    </div>
+                    <h2 class="col-md-12">Quelle est votre code postal ? </h2>
+                    <div class="form-input">
                         <div class="col-md-6 mb-5">
                             <label for="codepostale" class="form-label">Code Postale</label>
                             <input type="number" class="form-control" id="codepostale" name="codepostale" required>
@@ -101,15 +103,11 @@
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="ville" class="form-label">Ville</label>
-
                             <select class="form-control" name="ville" id="ville"></select>
                         </div>
                     </div>
-                </div>
 
-
-                <div class="row form-step">
-                    <h1 class="col-md-12">Quelle est la date de construction de votre logement ?</h1>
+                    <h2 class="col-md-12">Quelle est la date de construction de votre logement ?</h2>
                     <input type="radio" id="inf2" name="construction" value="moins de 2 ans" required />
                     <label class="case col-md-4 picto" for="inf2">
                         <h4>Moins de 2 ans</h4>
@@ -125,8 +123,21 @@
                     </label>
                 </div>
 
+
                 <div class="row form-step">
-                    <h1 class="col-md-12">Quelle est l'énergie de chauffage actuelle de votre logement ?</h1>
+
+                    <h2 class="col-md-12">Quelle est la composition de votre foyer ?</h2>
+                    <div class="form-input">
+                        <div class="col-md-6 mb-5">
+                            <label for="nbFoyer" class="form-label">Nombre de personne dans votre foyer :</label>
+                            <input type="text" class="form-control" id="nbFoyer" name="nbFoyer" required>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row form-step">
+                    <h2 class="col-md-12">Quelle est l'énergie de chauffage actuelle de votre logement ?</h2>
                     <input type="radio" id="electricite" name="chauffage" value="électricité" required />
                     <label class="case col-md-4 picto" for="electricite">
                         <img alt="électricité" src="assets/img/simuler/light-bulb.png">
@@ -155,6 +166,30 @@
                     <input type="radio" id="autrechauffe" name="chauffage" value="autre chauffage" required />
                     <label class="case col-md-4 picto" for="autrechauffe">
                         <h6>Autre</h6>
+                    </label>
+                </div>
+
+                <div class="row form-step">
+                    <h2 class="col-md-12">Quel est votre revenu fiscal ? </h2>
+                    <input type="radio" id="inf26" name="revenu" value="inférieur à 26 844 €" required />
+                    <label for="inf26" class="case col-md-6 picto">
+                        <img alt="inf26" src="assets/img/simuler/cash.png">
+                        <h6>Inférieur à 26 844 € </h6>
+                    </label>
+                    <input type="radio" id="inf34" name="revenu" value="inférieur à 34 411 €" required />
+                    <label for="inf34" class="case col-md-6 picto">
+                        <img alt="inf34" src="assets/img/simuler/cash.png">
+                        <h6>Inférieur à 34 411 €</h6>
+                    </label>
+                    <input type="radio" id="inf42" name="revenu" value="inférieur à 42 848 €" required />
+                    <label for="inf42" class="case col-md-6 picto">
+                        <img alt="inf42" src="assets/img/simuler/cash.png">
+                        <h6>Inférieur à 42 848 €</h6>
+                    </label>
+                    <input type="radio" id="sup51" name="revenu" value="supérieur à 51 592 €" required />
+                    <label for="sup51" class="case col-md-6 picto">
+                        <img alt="sup51" src="assets/img/simuler/cash.png">
+                        <h6>Supérieur à 51 592 € </h6>
                     </label>
                 </div>
 
@@ -289,7 +324,7 @@
 
 
                 <div class="row form-step">
-                    <h1 class="col-md-12">Vos coordonnées</h1>
+                    <h2 class="col-md-12">Vos coordonnées</h2>
                     <div class="form-input">
                         <div class="col-md-6 mb-5">
                             <label for="name" class="form-label">Nom :</label>
@@ -311,61 +346,6 @@
                 </div>
 
                 <div class="row form-step">
-
-                    <h1 class="col-md-12">Quelle est la composition de votre foyer ?</h1>
-                    <div class="form-input">
-                        <div class="col-md-6 mb-5">
-                            <label for="nbFoyer" class="form-label">Nombre de personne dans votre foyer :</label>
-                            <input type="text" class="form-control" id="nbFoyer" name="nbFoyer" required>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row form-step">
-                    <h1 class="col-md-12">Quelle est l'adresse concernée par votre demande</h1>
-                    <div class="form-input">
-                        <div class="col-md-6 mb-5">
-                            <label for="road" class="form-label">N° de rue :</label>
-                            <input type="text" class="form-control" id="road" name="road" required>
-                        </div>
-                        <div class="col-md-6 mb-5">
-                            <label for="cp" class="form-label">Code Postale :</label>
-                            <input type="number" class="form-control" id="cp" name="cp" required>
-                        </div>
-                        <div class="col-md-6 mb-5">
-                            <label for="adress" class="form-label">Adresse :</label>
-                            <input type="text" class="form-control" id="address" name="address" required>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="row form-step">
-                    <h1 class="col-md-12">Quel est votre revenu fiscal ? </h1>
-                    <input type="radio" id="inf26" name="revenu" value="inférieur à 26 844 €" required />
-                    <label for="inf26" class="case col-md-6 picto">
-                        <img alt="inf26" src="assets/img/simuler/cash.png">
-                        <h6>Inférieur à 26 844 € </h6>
-                    </label>
-                    <input type="radio" id="inf34" name="revenu" value="inférieur à 34 411 €" required />
-                    <label for="inf34" class="case col-md-6 picto">
-                        <img alt="inf34" src="assets/img/simuler/cash.png">
-                        <h6>Inférieur à 34 411 €</h6>
-                    </label>
-                    <input type="radio" id="inf42" name="revenu" value="inférieur à 42 848 €" required />
-                    <label for="inf42" class="case col-md-6 picto">
-                        <img alt="inf42" src="assets/img/simuler/cash.png">
-                        <h6>Inférieur à 42 848 €</h6>
-                    </label>
-                    <input type="radio" id="sup51" name="revenu" value="supérieur à 51 592 €" required />
-                    <label for="sup51" class="case col-md-6 picto">
-                        <img alt="sup51" src="assets/img/simuler/cash.png">
-                        <h6>Supérieur à 51 592 € </h6>
-                    </label>
-                </div>
-
-                <div class="row form-step">
                     <h1 class="col-md-12 text-center">Votre simulation a été prise en compte avec succès !</h1>
                     <p class="text-center">Nous vous remercions pour vitre confiance !
                         Vous recevrez dans quelques instants un email de confirmation.</p>
@@ -383,6 +363,7 @@
 
     </main>
     <?php include("module/footer.php"); ?>
+    <script src="assets/js/validation.js"></script>
     <script src="assets/js/form-step.js"></script>
     <script src="assets/js/api-zipcode.js"></script>
 

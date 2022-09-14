@@ -28,7 +28,7 @@
                 <div class="container">
                     <div class="row">
                         <h3 class="section-heading part">Vous avez un projet ou une réflexion?<br/> Nos interlocuteurs
-                            spécialisés LNDL sont à votre écoute pour construire ensemble la meilleure expertise.
+                            spécialisés LNDL sont à votre écoute<br/> pour construire ensemble la meilleure expertise.
                         </h3>
                         <h3 class="section-heading pro">Nos interlocuteurs spécialisés LNDL sont à votre écoute pour construire ensemble la meilleure expertise.</h3>
                         <div class="col-md-4">

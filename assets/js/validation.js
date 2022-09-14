@@ -47,11 +47,16 @@ function ValidationRulesAndMessage(formulaire, champs) {
     addRegexValidator();
 
     jQuery.each(champs, function(index, value) {
+        console.log(value);
 
         validation.rules[value.attr('name')] = { required: true };
 
         if (value.attr('type') == "text") {
-            validation.messages[value.attr('name')] = "Veuillez entrer votre " + value.attr('name');
+            validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
+        }
+
+        if (value.attr('type') == "number") {
+            validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
         }
 
         if (value.attr('type') == "email") {
@@ -99,8 +104,11 @@ function backend_API_challenge() {
 
 $(function() {
     var inputs = [];
-    var form = $("#contactform");
-    ValidationRulesAndMessage(form, inputs);
-    form.validate(validation);
+    var form = $("form");
+    if (form) {
+        ValidationRulesAndMessage(form, inputs);
+        form.validate(validation);
+    }
+
 
 });

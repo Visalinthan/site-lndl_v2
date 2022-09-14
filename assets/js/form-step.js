@@ -48,9 +48,9 @@ function showTab(n) {
     }
 
     if (n == (x.length - 2)) {
-        document.getElementById("nextBtn").innerHTML = "Envoyer";
+        document.getElementById("nextBtn").innerHTML = "Valider";
     } else {
-        document.getElementById("nextBtn").innerHTML = "Continuer";
+        document.getElementById("nextBtn").innerHTML = "Suivant";
     }
 
     x[currentTab].querySelectorAll("input").forEach(item => {
@@ -65,40 +65,43 @@ function showTab(n) {
 function nextPrev(n) {
 
     let x = document.querySelectorAll(".form-step");
+    var form = $("form");
     //let inputs = x[currentTab].querySelectorAll("input");
+    if (form.valid()) {
+        if (n == 1 && !validateForm()) return false;
+        x[currentTab].style.display = "none";
+        currentTab = currentTab + n;
 
-    if (n == 1 && !validateForm()) return false;
-    x[currentTab].style.display = "none";
-    currentTab = currentTab + n;
+        if (currentTab == (x.length - 1)) {
 
-    if (currentTab == (x.length - 1)) {
+            let datastring = $("#form-simule").serializeArray();
+            document.getElementById("nextBtn").setAttribute('type', 'submit');
 
-        let datastring = $("#form-simule").serializeArray();
-        document.getElementById("nextBtn").setAttribute('type', 'submit');
+            console.log(datastring);
 
-        console.log(datastring);
+            $(".btn-form-step").css("display", "none");
 
-        $(".btn-form-step").css("display", "none");
+            $("#form-simule").on('submit', function(event) {
 
-        $("#form-simule").on('submit', function(event) {
-
-            event.preventDefault();
-            $.ajax({
-                type: "post",
-                url: "../form/post-simule.php",
-                contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
-                data: $(datastring),
-            }).done(function() {
-                setTimeout(() => {
-                    window.location.href = '../home.php';
-                }, 5000);
+                event.preventDefault();
+                $.ajax({
+                    type: "post",
+                    url: "../form/post-simule.php",
+                    contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+                    data: $(datastring),
+                }).done(function() {
+                    setTimeout(() => {
+                        window.location.href = '../home.php';
+                    }, 5000);
+                });
             });
-        });
 
-        showTab(currentTab);
+            showTab(currentTab);
 
-    } else {
-        showTab(currentTab);
+        } else {
+            showTab(currentTab);
+        }
+
     }
 
 }

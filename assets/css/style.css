@@ -783,6 +783,10 @@ input[type="submit"]:focus {
 }
 
 .error {
+    border: 1px solid red;
+}
+
+label.error {
     font-size: 16px;
     color: #fff;
     padding: 10px;
@@ -790,8 +794,8 @@ input[type="submit"]:focus {
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     transition: all ease 0.3s;
-    border: 1px solid red;
-    background-color: rgb(184, 73, 73);
+    border-radius: 10px;
+    background-color: rgb(255, 173, 173);
 }
 
 
@@ -1713,8 +1717,8 @@ a:focus {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    max-width: 1920px;
     margin: 0 auto;
     background-color: #fff;
     border-bottom: solid 1px #dcdcdc7a;
@@ -5765,7 +5769,7 @@ a:focus {
 }
 
 body.part .flat-contact .contact-form {
-    background-color: var(--primary-color);
+    background-color: #0A7F97;
 }
 
 body.pro .flat-contact .contact-form {
@@ -5801,7 +5805,7 @@ body.pro .flat-contact .contact-form {
     background-size: contain;
     position: relative;
     z-index: 1;
-    padding: 60px 0 44px 0;
+    padding: 40px 0 44px 0;
 }
 
 body.part #footer {

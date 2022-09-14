@@ -138,12 +138,3 @@ document.addEventListener('DOMContentLoaded', function() {
         <noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/"
                 rel="nofollow noopener">Free Privacy Policy website</a></noscript>
         <!-- End Cookie Consent -->
-
-
-
-
-
-        <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
-
-        <a href=" #" id="open_preferences_center">
-Update cookies preferences < /a>
