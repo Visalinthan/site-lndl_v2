@@ -71,8 +71,12 @@
                          <label id="label-nav" class="form-check-label" for="mySwitch"></label>
                      </div>
 
-                     <div class="button-header">
-                         <a href="simulation.php">FAIRE UNE SIMULATION</a>
+                     <div class="button-header part">
+                         <a href="simulation.php">Démarrez votre projet</a>
+                     </div>
+
+                     <div class="button-header pro">
+                         <a href="tel:0148551647">Rappel immédiat et gratuit</a>
                      </div>
 
                  </div>

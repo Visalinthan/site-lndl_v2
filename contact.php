@@ -27,11 +27,16 @@
             <section class="tf-space flat-contact">
                 <div class="container">
                     <div class="row">
+                        <h3 class="section-heading part">Vous avez un projet ou une réflexion?<br/> Nos interlocuteurs
+                            spécialisés LNDL sont à votre écoute pour construire ensemble la meilleure expertise.
+                        </h3>
+                        <h3 class="section-heading pro">Nos interlocuteurs spécialisés LNDL sont à votre écoute pour construire ensemble la meilleure expertise.</h3>
                         <div class="col-md-4">
+
                             <div class="section-title link-style-2">
-                                <h3 class="section-heading">Echangeons</h3>
+
                                 <div class="features-content-left">
-                                    <h2>Nous répondons...</h2>
+                                    <h2> Échangeons</h2>
                                 </div>
                                 <div class="contact-icon-box wow fadeInUp" data-wow-delay="0ms"
                                     data-wow-duration="1500ms">
@@ -62,8 +67,8 @@
                         </div>
                         <div class="col-md-8">
                             <div class="title">
-                                <h3>N'hésitez pas<br />
-                                    Pour nous envoyer votre message</h3>
+                                <h3 class="part">Avec la hausse des prix de l'énergie, ne rien faire coûte souvent plus cher ! </h3>
+                                <h3 class="pro">Réserver aux professionnels </h3>
                             </div>
                             <div class="contact-form wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
                                 id="comments">
@@ -72,21 +77,21 @@
                                     <div class="text-wrap clearfix">
                                         <fieldset class="name-wrap">
                                             <input type="text" id="nom" class="tb-my-input" name="nom" tabindex="1"
-                                                placeholder="Nom*" value="" size="32">
+                                                placeholder="Nom*" value="">
                                         </fieldset>
                                         <fieldset class="tel-wrap">
                                             <input type="number" id="tel" class="tb-my-input" name="tel" tabindex="2"
-                                                placeholder="Téléphone*" value="" size="32">
+                                                placeholder="Téléphone*" value="">
                                         </fieldset>
                                     </div>
                                     <div class="text-wrap clearfix">
                                         <fieldset class="surname-wrap">
                                             <input type="text" id="prenom" class="tb-my-input" name="prenom"
-                                                tabindex="1" placeholder="Prénom*" value="" size="32">
+                                                tabindex="1" placeholder="Prénom*" value="">
                                         </fieldset>
                                         <fieldset class="email-wrap">
                                             <input type="email" id="mail" class="tb-my-input" name="mail" tabindex="2"
-                                                placeholder="Email*" value="" size="32">
+                                                placeholder="Email*" value="">
                                         </fieldset>
                                     </div>
 
@@ -94,10 +99,11 @@
                                         <h5 for="choose" style="color: #fff">Vous souhaitez :</h5>
                                         <select name="objet" id="choose">
                                             <option value="">--Choisissez --</option>
-                                            <option value="rdv">prendre rendez-vous</option>
-                                            <option value="contact">être recontacté</option>
-                                            <option value="documentation">recevoir une documentation</option>
-                                            <option value="postuler">nous rejoindre</option>
+                                            <option value="prendre rendez-vous">prendre rendez-vous</option>
+                                            <option value="être recontacté">être recontacté</option>
+                                            <option value="recevoir une documentation">recevoir une documentation</option>
+                                            <option class="part" value="nous rejoindre">nous rejoindre</option>
+                                            <option class="pro" value="rejoindre notre réseau de professionnels">rejoindre notre réseau de professionnels</option>
                                             <option value="autre">autre</option>
                                         </select>
                                     </fieldset>
@@ -106,6 +112,14 @@
                                         <textarea id="comment-message" name="message" rows="13" tabindex="4"
                                             placeholder="Ecrivez votre demande" style="color: #000"></textarea>
                                     </fieldset>
+
+                                    <fieldset class="checkbox-wrap">
+                                        <input type="checkbox" name="accept" id="accept">
+                                        <label for="accept">J'accepte de recevoir vos e-mails et confirme avoir pris
+                                            connaissance de votre politique de confidentialité et mentions légales.
+                                            *</label>
+                                    </fieldset>
+
 
                                     <button name="submit" type="submit" id="comment-reply"
                                         class="button btn-style4 btn-submit-comment">Envoyer</button>

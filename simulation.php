@@ -55,7 +55,7 @@
             </div>
             <form id="form-simule" class="form needs-validation " name="form" method="POST" novalidate>
 
-                <!--  <div class="row form-step part">
+                <div class="row form-step">
                     <h1 class="col-md-12">Mon type de logement :</h1>
                     <input type="radio" id="maison" name="logement" value="maison" required />
                     <label for="maison" class="case col-md-6 picto">
@@ -69,89 +69,22 @@
                     </label>
                 </div>
 
-                <div class="row form-step pro">
-                    <h1 class="col-md-12">Type de structure :</h1>
-
-                    <div class="row display-flex">
-                        <input type="radio" id="commerce" name="logement" value="commerce" required />
-                        <label for="commerce" class="case col-md-4 picto">
-                            <img alt="commerce" src="assets/img/simuler/Building.png">
-                            <h6>Commerce</h6>
-                        </label>
-
-                        <input type="radio" id="bureaux" name="logement" value="bureaux" required />
-                        <label for="bureaux" class="case col-md-4 picto">
-                            <img alt="bureaux" src="assets/img/simuler/Building.png">
-                            <h6>Bureaux</h6>
-                        </label>
-
-                        <input type="radio" id="industrie" name="logement" value="industrie" required />
-                        <label for="industrie" class="case col-md-4 picto">
-                            <img alt="industrie" src="assets/img/simuler/Building.png">
-                            <h6>Industrie / Entrepot</h6>
-                        </label>
-
-                        <input type="radio" id="activite" name="logement" value="activite" required />
-                        <label for="activite" class="case col-md-4 picto">
-                            <img alt="activite" src="assets/img/simuler/Building.png">
-                            <h6>Local d'activité (loisirs)</h6>
-                        </label>
-
-                        <input type="radio" id="medical" name="logement" value="medical" required />
-                        <label for="medical" class="case col-md-4 picto">
-                            <img alt="medical" src="assets/img/simuler/Building.png">
-                            <h6>Structures médicalisées</h6>
-                        </label>
-
-                        <input type="radio" id="copro" name="logement" value="copro" required />
-                        <label for="copro" class="case col-md-4 picto">
-                            <img alt="copro" src="assets/img/simuler/Building.png">
-                            <h6>Copropriétés</h6>
-                        </label>
-                    </div>
-
-                </div>
 
                 <div class="row form-step">
 
                     <h1 class="col-md-12">Votre statut :</h1>
 
-                    <div class="row display-flex part">
+                    <input type="radio" id="proprietaire" name="statut" value="propriétaire" required />
+                    <label class="case col-md-6 picto" for="proprietaire">
+                        <img alt="propriétaire" src="assets/img/simuler/key">
+                        <h6>Proprétaire</h6>
+                    </label>
+                    <input type="radio" id="locataire" name="statut" value="locataire" required />
+                    <label class="case col-md-6 picto" for="locataire">
+                        <img alt="Locataire" src="assets/img/simuler/nokey.png">
+                        <h6>Locataire</h6>
+                    </label>
 
-                        <input type="radio" id="proprietaire" name="statut" value="propriétaire" required />
-                        <label class="case col-md-6 picto" for="proprietaire">
-                            <img alt="propriétaire" src="assets/img/simuler/key">
-                            <h6>Proprétaire</h6>
-                        </label>
-                        <input type="radio" id="locataire" name="statut" value="locataire" required />
-                        <label class="case col-md-6 picto" for="locataire">
-                            <img alt="Locataire" src="assets/img/simuler/nokey.png">
-                            <h6>Locataire</h6>
-                        </label>
-
-                    </div>
-
-                    <div class="row display-flex pro">
-
-                        <input type="radio" id="locataire" name="statut" value="locataire" required />
-                        <label class="case col-md-4 picto" for="locataire">
-                            <img alt="Locataire" src="assets/img/simuler/nokey.png">
-                            <h6>Locataire</h6>
-                        </label>
-
-                        <input type="radio" id="proprietaire" name="statut" value="propriétaire" required />
-                        <label class="case col-md-4 picto" for="proprietaire">
-                            <img alt="propriétaire" src="assets/img/simuler/key">
-                            <h6>Proprétaire</h6>
-                        </label>
-
-                        <input type="radio" id="syndic" name="statut" value="syndic" required />
-                        <label class="case col-md-4 picto" for="syndic">
-                            <img alt="syndic" src="assets/img/simuler/key">
-                            <h6>Syndic</h6>
-                        </label>
-
-                    </div>
                 </div>
 
                 <div class="row form-step">
@@ -223,48 +156,39 @@
                     <label class="case col-md-4 picto" for="autrechauffe">
                         <h6>Autre</h6>
                     </label>
-                </div>-->
+                </div>
 
                 <div class="row form-step projet">
                     <h2 class="col-md-12">Votre Projet</h2>
-                    <div class="row display-flex">
 
-                        <div class="pro col-md-3">
-                            <input type="checkbox" id="renov" name="projet" value="rénovation énergétique" required />
-                            <label class="case col-md-3 picto" for="renov">
-                                <h4>Rénovation énergétique</h4>
-                            </label>
-                        </div>
-
-                        <div class="col-md-3">
-                            <input type="checkbox" id="iso" name="projet" value="isolation" required />
-                            <label class="case col-md-3 picto" for="iso">
-                                <h4>Isolation</h4>
-                            </label>
-                        </div>
-
-                        <div class="col-md-3">
-                            <input type="checkbox" id="pac" name="projet" value="pac" required />
-                            <label class="case col-md-3 picto" for="pac">
-                                <h4>Chauffage climatisation</h4>
-                            </label>
-                        </div>
-
-                        <div class="col-md-3">
-                            <input type="checkbox" id="ventilation" name="projet" value="ventilation" required />
-                            <label class="case col-md-3 picto" for="ventilation">
-                                <h4>Ventilation</h4>
-                            </label>
-                        </div>
-
-                        <div class="col-md-3">
-                            <input type="checkbox" id="tce" name="projet" value="tce" required />
-                            <label class="case col-md-3 picto" for="tce">
-                                <h4>TCE</h4>
-                            </label>
-                        </div>
-
+                    <div class="col-md-3">
+                        <input type="checkbox" id="iso" name="projet" value="isolation" required />
+                        <label class="case col-md-3 picto" for="iso">
+                            <h4>Isolation</h4>
+                        </label>
                     </div>
+
+                    <div class="col-md-3">
+                        <input type="checkbox" id="pac" name="projet" value="pac" required />
+                        <label class="case col-md-3 picto" for="pac">
+                            <h4>Chauffage climatisation</h4>
+                        </label>
+                    </div>
+
+                    <div class="col-md-3">
+                        <input type="checkbox" id="ventilation" name="projet" value="ventilation" required />
+                        <label class="case col-md-3 picto" for="ventilation">
+                            <h4>Ventilation</h4>
+                        </label>
+                    </div>
+
+                    <div class="col-md-3">
+                        <input type="checkbox" id="tce" name="projet" value="tce" required />
+                        <label class="case col-md-3 picto" for="tce">
+                            <h4>TCE</h4>
+                        </label>
+                    </div>
+
                 </div>
                 <div class="row form-step serv" id="isolation">
 
@@ -363,24 +287,6 @@
 
                 </div>
 
-                <div class="row form-step serv" id="renov">
-
-                    <h2 class="col-md-12">Rénovation énergétique</h2>
-                    <input type="radio" id="points-singuliers" name="renov" value="points singuliers" required />
-                    <label class="case col-md-4 picto" for="points-singuliers">
-                        <h4>Points Singuliers</h4>
-                    </label>
-                    <input type="radio" id="hydraulique" name="renov" value="rééquilibrage du réseau hydraulique"
-                        required />
-                    <label class="case col-md-4 picto" for="hydraulique">
-                        <h4>Rééquilibrage du réseau hydraulique</h4>
-                    </label>
-                    <input type="radio" id="calorifugeage" name="renov" value="calorifugeage" required />
-                    <label class="case col-md-4 picto" for="calorifugeage">
-                        <h4>Calorifugeage</h4>
-                    </label>
-
-                </div>
 
                 <div class="row form-step">
                     <h1 class="col-md-12">Vos coordonnées</h1>
@@ -392,10 +298,6 @@
                         <div class="col-md-6 mb-5">
                             <label for="surname" class="form-label">Prénom</label>
                             <input type="text" class="form-control" id="surname" name="surname" required>
-                        </div>
-                        <div class="col-md-6 mb-5 pro">
-                            <label for="fonction" class="form-label">Fonction</label>
-                            <input type="text" class="form-control" id="fonction" name="fonction" required>
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="mail" class="form-label">Mail</label>
@@ -410,33 +312,14 @@
 
                 <div class="row form-step">
 
-                    <div class="row display-flex part">
-                        <h1 class="col-md-12">Quelle est la composition de votre foyer ?</h1>
-                        <div class="form-input">
-                            <div class="col-md-6 mb-5">
-                                <label for="nbFoyer" class="form-label">Nombre de personne dans votre foyer :</label>
-                                <input type="text" class="form-control" id="nbFoyer" name="nbFoyer" required>
-                            </div>
+                    <h1 class="col-md-12">Quelle est la composition de votre foyer ?</h1>
+                    <div class="form-input">
+                        <div class="col-md-6 mb-5">
+                            <label for="nbFoyer" class="form-label">Nombre de personne dans votre foyer :</label>
+                            <input type="text" class="form-control" id="nbFoyer" name="nbFoyer" required>
                         </div>
                     </div>
-                    <div class="row display-flex pro">
-                        <h1 class="col-md-12">Votre société</h1>
-                        <div class="form-input">
-                            <div class="col-md-6 mb-5">
-                                <label for="company" class="form-label">Nom de l'organisation :</label>
-                                <input type="text" class="form-control" id="company" name="company" required>
-                            </div>
-                            <div class="col-md-6 mb-5">
-                                <label for="siret" class="form-label">Numéro de SIRET :</label>
-                                <input type="number" class="form-control" id="siret" name="siret" required>
-                            </div>
 
-                            <div class="col-md-6 mb-5">
-                                <label for="impot" class="form-label">Impot sur les sociétés</label>
-                                <input type="number" class="form-control" id="impot" name="impot" required>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="row form-step">

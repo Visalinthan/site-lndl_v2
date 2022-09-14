@@ -59,7 +59,8 @@
                                 <h3 class="widget-title-link-wrap style-2">Contact</h3>
                                 <ul class="widget-list-contact link-style-4">
                                     <li>
-                                        <span class="meta-address" content="#000">1 rue de Rome 93110 Rosny-Sous-Bois</span>
+                                        <span class="meta-address" content="#000">1 rue de Rome 93110
+                                            Rosny-Sous-Bois</span>
                                     </li>
                                     <li><a href="mailto:infos@lndl.fr" class="meta-mail">infos@lndl.fr</a>
                                     </li>
@@ -68,7 +69,7 @@
                             </div>
 
                             <div class="menu-4">
-                                <img src="../assets/img/QR_CODE.svg" alt="qr_code" width="180" height="180"/>
+                                <img src="../assets/img/QR_CODE.svg" alt="qr_code" width="180" height="180" />
                             </div>
                         </div>
                     </div>
@@ -105,8 +106,8 @@
 
 
         <!-- Javascript -->
-       <script src="../assets/js/jquery.min.js"></script>
-       <script src="../assets/js/wow.min.js"></script>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/wow.min.js"></script>
         <script src="../assets/js/plugin.js"></script>
         <script src="../assets/js/jquery-validate.js"></script>
         <script src="../assets/js/countto.js"></script>
@@ -116,3 +117,33 @@
         <script src="../assets/js/swiper.js"></script>
         <script src="../assets/js/main.js"></script>
         <script src="../assets/js/script.js"></script>
+
+        <!-- Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
+        <script type="text/javascript" src="../assets/js/cookie.js"></script>
+        <script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function() {
+    cookieconsent.run({
+        "notice_banner_type": "interstitial",
+        "consent_type": "express",
+        "palette": "light",
+        "language": "fr",
+        "page_load_consent_levels": ["strictly-necessary"],
+        "notice_banner_reject_button_hide": false,
+        "preferences_center_close_button_hide": false,
+        "website_name": "La Nationale du Logement"
+    });
+});
+        </script>
+
+        <noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/"
+                rel="nofollow noopener">Free Privacy Policy website</a></noscript>
+        <!-- End Cookie Consent -->
+
+
+
+
+
+        <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
+        <a href=" #" id="open_preferences_center">
+Update cookies preferences < /a>

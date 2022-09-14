@@ -3,7 +3,8 @@ var validation = {
     messages: {},
     errorPlacement: function(error, element) {
         if (element.is(":radio") || element.is(":checkbox")) {
-            error.appendTo(element.parents('ul'));
+            let label = $('label[for="' + $(element).attr("id") + '"]');
+            error.appendTo(label);
         } else { // This is the default behavior 
             error.insertAfter(element);
         }
@@ -46,17 +47,7 @@ function ValidationRulesAndMessage(formulaire, champs) {
     addRegexValidator();
 
     jQuery.each(champs, function(index, value) {
-        /*
-                if (value.attr("name") == "nom") {
-                    validation.rules[value.attr('name')] = { required: true };
-                    validation.messages[value.attr('name')] = "Veuillez entrer votre " + value.attr('name');
-                }
-                if (value.attr("name") == "prenom") {
-                    validation.rules[value.attr('name')] = { required: true };
-                    validation.messages[value.attr('name')] = "Veuillez entrer votre " + value.attr('name');
-                }
 
-        */
         validation.rules[value.attr('name')] = { required: true };
 
         if (value.attr('type') == "text") {
@@ -72,9 +63,6 @@ function ValidationRulesAndMessage(formulaire, champs) {
             if (value.attr("name") == "tel") {
                 validation.rules[value.attr('name')] = { required: true, regex: /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/gmi };
                 validation.messages[value.attr('name')] = { required: "Veuillez entrer votre numéro de téléphone", regex: "Veuillez entrer un numéro de téléphone valide !" };
-            } else if (value.attr("name") == "tel_filleul") {
-                validation.rules[value.attr('name')] = { required: true, regex: /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/gmi };
-                validation.messages[value.attr('name')] = { required: "Veuillez entrer le numéro de téléphone du filleul", regex: "Veuillez entrer un numéro de téléphone valide !" };
             } else {
                 validation.messages[value.attr('name')] = "Veuillez entrer votre " + value.attr('name');
             }
@@ -86,10 +74,10 @@ function ValidationRulesAndMessage(formulaire, champs) {
 
         if (value.attr('type') == "checkbox") {
             validation.rules[value.attr('name')] = { required: true, minlength: 1 };
-            if (value.attr('name') == "projet[]") {
-                validation.messages[value.attr('name')] = "Veuillez sélectionnez un ou plusieurs projet(s)";
+            if (value.attr('name') == "accept") {
+                validation.messages[value.attr('name')] = "Veuillez cocher la case ";
             } else {
-                validation.messages[value.attr('name')] = "Veuillez sélectionnez un ou plusieurs type de projet(s)";
+                validation.messages[value.attr('name')] = "Veuillez sélectionnez un ou plusieurs" + value.attr('name');
             }
         }
 

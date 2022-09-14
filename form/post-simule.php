@@ -33,33 +33,14 @@ if (!empty($_POST['tce'])) {
     $tce = $_POST['tce'];
 }
 
-if (!empty($_POST['renov'])) {
-    $renov = $_POST['renov'];
-}
-
 $name = $_POST['name'];
 $surname = $_POST['surname'];
 $phone = $_POST['phone'];
 $mail = $_POST['mail'];
 $phone = $_POST['phone'];
-if (!empty($_POST['fonction'])) {
-    $fonction = $_POST['fonction'];
-}
 
+$nbFoyer = $_POST['nbFoyer'];
 
-if (!empty($_POST['nbFoyer'])) {
-    $nbFoyer = $_POST['nbFoyer'];
-}
-
-if (!empty($_POST['company'])) {
-    $company = $_POST['company'];
-}
-if (!empty($_POST['siret'])) {
-    $siret = $_POST['siret'];
-}
-if (!empty($_POST['impot'])) {
-    $impot = $_POST['impot'];
-}
 
 $road = $_POST['road'];
 $cp = $_POST['cp'];

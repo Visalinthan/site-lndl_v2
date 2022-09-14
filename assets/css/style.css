@@ -784,11 +784,14 @@ input[type="submit"]:focus {
 
 .error {
     font-size: 16px;
-    color: var(--primary-color5);
-    margin-bottom: 10px;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     transition: all ease 0.3s;
+    border: 1px solid red;
+    background-color: rgb(184, 73, 73);
 }
 
 
@@ -1688,6 +1691,7 @@ a:focus {
     --primary-color5: #262626;
     --primary-color6: #181818;
     --primary-color7: #FCE9E7;
+    --pro-color: #616160;
 }
 
 
@@ -1710,6 +1714,8 @@ a:focus {
     display: flex;
     align-items: center;
     width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     background-color: #fff;
     border-bottom: solid 1px #dcdcdc7a;
     border-top: solid 1px #dcdcdc7a;
@@ -2056,6 +2062,17 @@ a:focus {
 }
 
 
+/*Modal*/
+
+#successModal {
+    z-index: 100;
+}
+
+#successModal .btn-success {
+    font-size: 1.4em;
+}
+
+
 /* site header right */
 
 #site-header-right {
@@ -2399,7 +2416,7 @@ a:focus {
     left: 0;
     width: 100%;
     box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 20%);
-    z-index: 9999;
+    z-index: 50;
 }
 
 
@@ -3048,7 +3065,6 @@ a:focus {
     float: left;
     margin-left: 30px;
     width: calc(50% - 30px);
-    border-bottom: 3px solid #EBEBEB;
 }
 
 #comments .name-wrap input,
@@ -3078,6 +3094,17 @@ a:focus {
 #comments .message-wrap textarea {
     background-color: #ebebeb40;
     border: 1px solid #EBEBEB;
+}
+
+#comments .checkbox-wrap {
+    padding: 25px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#comments .checkbox-wrap label {
+    font-size: 1.3em;
 }
 
 #comments .btn-submit-comment {
@@ -5407,7 +5434,7 @@ a:focus {
     line-height: 36px;
     background-color: #F8A912;
     clip-path: polygon(100% 100%, 100% 0, 0 100%);
-    z-index: 100;
+    z-index: 20;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -5730,7 +5757,6 @@ a:focus {
 }
 
 .flat-contact .contact-form {
-    background-color: var(--primary-color);
     background-image: url(../images/mark-page/mark-contact-form.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -5738,14 +5764,18 @@ a:focus {
     padding: 35px 67px 45px 67px;
 }
 
+body.part .flat-contact .contact-form {
+    background-color: var(--primary-color);
+}
+
+body.pro .flat-contact .contact-form {
+    background-color: var(--pro-color);
+}
+
 .flat-contact .contact-form input {
     background-color: rgba(255, 255, 255, 0);
     padding: 13px 0px !important;
-}
-
-.flat-contact #comments .name-wrap,
-#comments .email-wrap {
-    border-bottom: 2px solid #EBEBEB;
+    border-bottom: 3px solid #EBEBEB;
 }
 
 .flat-contact #comments .text-wrap {
@@ -5774,11 +5804,11 @@ a:focus {
     padding: 60px 0 44px 0;
 }
 
-#footer.part {
+body.part #footer {
     background: url('../img/BtoC-footer.png') no-repeat center center;
 }
 
-#footer.pro {
+body.pro #footer {
     background: url('../img/BtoB-footer.png') no-repeat center center;
 }
 
@@ -6053,6 +6083,44 @@ a:focus {
     top: 50%;
     right: 2%;
     color: var(--primary-color6);
+}
+
+
+/*Cookies --  Cookies --Cookies --Cookies --Cookies --Cookies --Cookies*/
+
+.freeprivacypolicy-com---nb-interstitial-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto!important;
+    width: 100%;
+    background: rgba(0, 0, 0, 0)!important;
+    z-index: 30!important;
+}
+
+.freeprivacypolicy-com---nb-interstitial {
+    right: 0vw !important;
+    bottom: 0vh !important;
+    left: 0vw !important;
+    top: auto!important;
+    border: 1px solid #dbdbdb!important;
+}
+
+.freeprivacypolicy-com---nb .cc-nb-main-container {
+    padding: 20px 50px !important;
+}
+
+.freeprivacypolicy-com---palette-light .cc-nb-reject {
+    color: #111 !important;
+    background-color: #eaeaea !important;
+}
+
+.freeprivacypolicy-com---nb .cc-nb-title {
+    font-size: 1em !important;
+}
+
+.freeprivacypolicy-com---nb .cc-nb-text {
+    font-size: 0.9em !important;
 }
 
 

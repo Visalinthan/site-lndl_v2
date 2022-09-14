@@ -10,7 +10,7 @@
     <?php include("module/links.php"); ?>
 </head>
 
-<body class="header-fixed">
+<body class="header-fixed" id="services">
 
     <!-- preloader -->
     <div class="preload preload-container">

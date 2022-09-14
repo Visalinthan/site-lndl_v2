@@ -18,11 +18,7 @@ $(document).ready(function() {
         $(".pro").remove();
         $('.part').show();
 
-        $('#footer').addClass('part').removeClass('pro');
-
-        if ($("#simulation")) {
-            $("#simulation").addClass('part').removeClass('pro')
-        }
+        $("body").addClass('part').removeClass('pro')
 
         switchPage.attr("checked", true);
 
@@ -30,11 +26,8 @@ $(document).ready(function() {
         $(".part").remove();
         $('.pro').show();
 
-        $('#footer').addClass('pro').removeClass('part');
+        $("body").addClass('pro').removeClass('part');
 
-        if ($("#simulation")) {
-            $("#simulation").addClass('pro').removeClass('part');
-        }
         switchPage.attr("checked", false);
 
     }
@@ -45,7 +38,13 @@ $(document).ready(function() {
         } else {
             sessionStorage.setItem('page', 'Professionnels');
         }
-        location.href = "home.php";
+
+        if (document.getElementById("services")) {
+            location.href = "services.php";
+        } else {
+            location.reload();
+        }
+
     });
 
 
