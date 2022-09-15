@@ -65,7 +65,7 @@
 
                     <input type="radio" id="proprietaire" name="statut" value="propriétaire" required />
                     <label class="case col-md-6 picto" for="proprietaire">
-                        <img alt="propriétaire" src="assets/img/simuler/key">
+                        <img alt="propriétaire" src="assets/img/simuler/key.png">
                         <h6>Proprétaire</h6>
                     </label>
                     <input type="radio" id="locataire" name="statut" value="locataire" required />
