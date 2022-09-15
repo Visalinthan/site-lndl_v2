@@ -264,6 +264,10 @@ a {
     align-items: center;
     justify-content: space-evenly;
     animation: slideForm 2s;
+    box-shadow: 0px 10px 30px rgba(53, 125, 148, 0.34);
+    border-radius: 76px;
+    padding: 50px 10px;
+    margin: 30px auto;
 }
 
 @keyframes slideForm {
@@ -276,19 +280,32 @@ a {
     }
 }
 
+.progress {
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: #528B37
+}
+
 .form-step.active {
     display: flex;
 }
 
-.form-step h1 {
-    padding: 5vh 0;
+.bloc h2 {
+    color: #528B37 !important;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.bloc h5 {
+    font-style: italic;
 }
 
 .form-step h2 {
-    font-weight: bold;
-    font-size: 4em;
-    padding: 40px 0px;
-    color: #357D94;
+    font-weight: bold !important;
+    padding: 40px 0px !important;
+    color: #357D94 !important;
 }
 
 .form-step .case {
@@ -344,16 +361,22 @@ a {
 }
 
 .form-step .form-input {
-    background-color: #F8F8F8;
     border-radius: 10px;
     padding: 10px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     text-align: left;
     color: #444;
+}
+
+.form-step .form-input div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 .form-step .form-input label {
@@ -364,6 +387,11 @@ a {
 .form-step select {
     padding: 10px;
     font-size: 1.5em;
+    background: #F8F8F8;
+    border: 1px solid #357D94;
+    border-radius: 15px;
+    max-width: 500px;
+    color: #444;
 }
 
 select.form-control:not([size]):not([multiple]) {
@@ -392,6 +420,20 @@ select.form-control:not([size]):not([multiple]) {
 .ventilation,
 .tce {
     display: none;
+}
+
+.img-success {
+    width: 150px;
+}
+
+#accept {
+    display: flex;
+}
+
+.checkbox-accept {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

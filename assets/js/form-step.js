@@ -11,7 +11,7 @@ function showTab(n) {
 
     if (x[n].classList.contains('projet')) {
 
-        let projets = document.getElementsByName('projet');
+        let projets = document.getElementsByName('projet[]');
         let serv = [];
 
         x.forEach(s => {
@@ -22,8 +22,11 @@ function showTab(n) {
         });
 
         $(".projet input").on('change', function(event) {
+
             projets.forEach(p => {
+
                 serv.forEach(s => {
+
                     if (p.checked) {
                         if (p.value == s.id) {
                             $(".projet").after(s);
@@ -66,9 +69,16 @@ function nextPrev(n) {
 
     let x = document.querySelectorAll(".form-step");
     var form = $("form");
-    //let inputs = x[currentTab].querySelectorAll("input");
-    if (form.valid()) {
+    var response = grecaptcha.getResponse();
+
+    if (currentTab == (x.length - 2) && response.length == 0) {
+        alert("Veuillez valider le captcha !");
+        //evt.preventDefault();
+        return false;
+    } else if (form.valid()) {
+        //let inputs = x[currentTab].querySelectorAll("input");
         if (n == 1 && !validateForm()) return false;
+
         x[currentTab].style.display = "none";
         currentTab = currentTab + n;
 
@@ -76,8 +86,6 @@ function nextPrev(n) {
 
             let datastring = $("#form-simule").serializeArray();
             document.getElementById("nextBtn").setAttribute('type', 'submit');
-
-            console.log(datastring);
 
             $(".btn-form-step").css("display", "none");
 
@@ -95,6 +103,7 @@ function nextPrev(n) {
                     }, 5000);
                 });
             });
+
 
             showTab(currentTab);
 

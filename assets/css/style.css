@@ -782,11 +782,17 @@ input[type="submit"]:focus {
     opacity: 1;
 }
 
-.error {
+.error,
+#error-message {
     border: 1px solid red;
 }
 
-label.error {
+#error-message {
+    display: none;
+}
+
+label.error,
+#error-message {
     font-size: 16px;
     color: #fff;
     padding: 10px;
@@ -6245,4 +6251,11 @@ body.pro #footer {
     color: green;
     font-size: 16px;
     line-height: 30px;
+}
+
+.g-recaptcha {
+    margin: 20px auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

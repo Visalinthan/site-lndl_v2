@@ -42,12 +42,9 @@ function ValidationRulesAndMessage(formulaire, champs) {
 
     initForm(formulaire, champs);
 
-    console.log(champs);
-
     addRegexValidator();
 
     jQuery.each(champs, function(index, value) {
-        console.log(value);
 
         validation.rules[value.attr('name')] = { required: true };
 
@@ -65,7 +62,7 @@ function ValidationRulesAndMessage(formulaire, champs) {
         }
 
         if (value.attr('type') == "number") {
-            if (value.attr("name") == "tel") {
+            if (value.attr("name") == "tel" || value.attr("name") == "phone") {
                 validation.rules[value.attr('name')] = { required: true, regex: /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/gmi };
                 validation.messages[value.attr('name')] = { required: "Veuillez entrer votre numéro de téléphone", regex: "Veuillez entrer un numéro de téléphone valide !" };
             } else {

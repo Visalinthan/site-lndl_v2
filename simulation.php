@@ -11,6 +11,7 @@
 
 
     <link rel="stylesheet" type="text/css" href="assets/css/form-step.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -27,28 +28,17 @@
                 <img class="logo-lndl" alt="logo LNDL" src="assets/img/logo.png" />
             </a>
         </div>
-        <div class="progressbar">
-            <div class="progress-step active">
-                <div class="point"></div>
-            </div>
-            <div class="progress-step">
-                <div class="point"></div>
-            </div>
-            <div class="progress-step">
-                <div class="point"></div>
-            </div>
-            <div class="progress-step">
-                <div class="point"></div>
-            </div>
-        </div>
     </nav>
-
+    <div class="progress">
+        <div class="progress-bar"></div>
+    </div>
     <main id="simulation">
         <div class="bloc">
             <div class="row bloc_3">
                 <div class="col-md-12">
-                    <h5>Renseigner les informations de votre projet vous prendra moins de 2 minutes.<br /> Essentiel
-                        pour que l’on puisse vous conseiller et vous accompagner au plus près de la réalité, un
+                    <h2>Renseigner les informations de votre projet<br /> vous prendra moins de 2 minutes.</h2>
+                    <h5> Essentiel pour que l’on puisse vous conseiller et vous accompagner au plus près de la
+                        réalité,<br /> un
                         interlocuteur spécialisé vous contactera dans les 24h ouvrées.
                     </h5>
                 </div>
@@ -89,19 +79,19 @@
                 <div class="row form-step">
                     <h2 class="col-md-12">Quelle est votre surface habitable ?</h2>
                     <div class="form-input">
-                        <div class="col-md-6 mb-5">
+                        <div class="col-md-4 mb-5">
                             <label for="surface" class="form-label">Surface habitable m²</label>
-                            <input type="text" class="form-control" id="surface" name="surface" required>
+                            <input type="number" class="form-control" id="surface" name="surface" required>
                         </div>
                     </div>
                     <h2 class="col-md-12">Quelle est votre code postal ? </h2>
-                    <div class="form-input">
-                        <div class="col-md-6 mb-5">
+                    <div class="row form-input">
+                        <div class="col-md-4 mb-5">
                             <label for="codepostale" class="form-label">Code Postale</label>
                             <input type="number" class="form-control" id="codepostale" name="codepostale" required>
-                            <div style="display: none; color: #f55;" id="error-message"></div>
+                            <div id="error-message"></div>
                         </div>
-                        <div class="col-md-6 mb-5">
+                        <div class="col-md-4 mb-5">
                             <label for="ville" class="form-label">Ville</label>
                             <select class="form-control" name="ville" id="ville"></select>
                         </div>
@@ -197,30 +187,30 @@
                     <h2 class="col-md-12">Votre Projet</h2>
 
                     <div class="col-md-3">
-                        <input type="checkbox" id="iso" name="projet" value="isolation" required />
+                        <input type="checkbox" id="iso" name="projet[]" value="isolation" required />
                         <label class="case col-md-3 picto" for="iso">
                             <h4>Isolation</h4>
                         </label>
                     </div>
 
                     <div class="col-md-3">
-                        <input type="checkbox" id="pac" name="projet" value="pac" required />
+                        <input type="checkbox" id="pac" name="projet[]" value="pac" required />
                         <label class="case col-md-3 picto" for="pac">
-                            <h4>Chauffage climatisation</h4>
+                            <h4>Pompe à chaleur</h4>
                         </label>
                     </div>
 
                     <div class="col-md-3">
-                        <input type="checkbox" id="ventilation" name="projet" value="ventilation" required />
+                        <input type="checkbox" id="ventilation" name="projet[]" value="ventilation" required />
                         <label class="case col-md-3 picto" for="ventilation">
                             <h4>Ventilation</h4>
                         </label>
                     </div>
 
                     <div class="col-md-3">
-                        <input type="checkbox" id="tce" name="projet" value="tce" required />
+                        <input type="checkbox" id="tce" name="projet[]" value="tce" required />
                         <label class="case col-md-3 picto" for="tce">
-                            <h4>TCE</h4>
+                            <h4>Tous Corps d'Etat</h4>
                         </label>
                     </div>
 
@@ -228,94 +218,45 @@
                 <div class="row form-step serv" id="isolation">
 
                     <h2 class="col-md-12">Isolation</h2>
-                    <input type="radio" id="combles" name="iso" value="isolation des combles" required />
-                    <label class="case col-md-4 picto" for="combles">
-                        <h4>Isolation des combles</h4>
+                    <input type="checkbox" id="ite" name="isolation[]" value="isolation thermique extérieur" required />
+                    <label class="case col-md-4 picto" for="ite">
+                        <h4>Isolation thermique extérieur</h4>
                     </label>
-                    <input type="radio" id="toiture" name="iso" value="isolation de la toiture" required />
-                    <label class="case col-md-4 picto" for="toiture">
-                        <h4>Isolation de la toiture</h4>
-                    </label>
-                    <input type="radio" id="sanitaires" name="iso" value="isolation des vides sanitaires" required />
-                    <label class="case col-md-4 picto" for="sanitaires">
-                        <h4>Isolation des vides sanitaires</h4>
-                    </label>
-                    <input type="radio" id="garages" name="iso" value="isolation des garages" required />
-                    <label class="case col-md-4 picto" for="garages">
-                        <h4>Isolation des garages</h4>
-                    </label>
-                    <input type="radio" id="caves" name="iso" value="isolation des caves et sous-sol" required />
-                    <label class="case col-md-4 picto" for="caves">
-                        <h4>Isolation des caves et sous-sol</h4>
+                    <input type="checkbox" id="iti" name="isolation[]" value="isolation thermique intérieur" required />
+                    <label class="case col-md-4 picto" for="iti">
+                        <h4>Isolation thermique intérieur</h4>
                     </label>
 
                 </div>
-                <div class="row form-step serv" id="pac">
 
-                    <h2 class="col-md-12">Chauffage climatisation</h2>
-                    <input type="radio" id="air-eau" name="pac" value="pompe à chaleur air-eau" required />
-                    <label class="case col-md-4 picto" for="air-eau">
-                        <h4>Pompe à chaleur air-eau</h4>
-                    </label>
-                    <input type="radio" id="air-air" name="pac" value="pompe à chaleur air-air" required />
-                    <label class="case col-md-4 picto" for="air-air">
-                        <h4>Pompe à chaleur air-air</h4>
-                    </label>
-                    <input type="radio" id="thermo" name="pac" value="chauffe-eau thermodynamique" required />
-                    <label class="case col-md-4 picto" for="thermo">
-                        <h4>Chauffe-eau thermodynamique</h4>
-                    </label>
-                    <input type="radio" id="geothermique" name="pac" value="pompe à chaleur géothermique" required />
-                    <label class="case col-md-4 picto" for="geothermique">
-                        <h4>Pompe à chaleur géothermique</h4>
-                    </label>
-                    <input type="radio" id="climatiseur" name="pac" value="climatiseur" required />
-                    <label class="case col-md-4 picto" for="climatiseur">
-                        <h4>Climatiseur</h4>
-                    </label>
-
-                </div>
-                <div class="row form-step serv" id="ventilation">
-
-                    <h2 class="col-md-12">Ventilation</h2>
-                    <input type="radio" id="vmc" name="ventilation" value="vmc" required />
-                    <label class="case col-md-4 picto" for="vmc">
-                        <h4>VMC</h4>
-                    </label>
-                    <input type="radio" id="vmr" name="ventilation" value="vmr" required />
-                    <label class="case col-md-4 picto" for="vmr">
-                        <h4>VMR</h4>
-                    </label>
-
-                </div>
                 <div class="row form-step serv" id="tce">
 
-                    <h2 class="col-md-12">TCE</h2>
-                    <input type="radio" id="peinture" name="tce" value="peinture" required />
+                    <h2 class="col-md-12">Tout Corps d'Etat</h2>
+                    <input type="checkbox" id="peinture" name="tce[]" value="peinture" required />
                     <label class="case col-md-4 picto" for="peinture">
                         <h4>Peinture</h4>
                     </label>
-                    <input type="radio" id="electricity" name="tce" value="électricité" required />
+                    <input type="checkbox" id="electricity" name="tce[]" value="électricité" required />
                     <label class="case col-md-4 picto" for="electricity">
                         <h4>Electricité</h4>
                     </label>
-                    <input type="radio" id="plomberie" name="tce" value="plomberie" required />
+                    <input type="checkbox" id="plomberie" name="tce[]" value="plomberie" required />
                     <label class="case col-md-4 picto" for="plomberie">
                         <h4>Plomberie</h4>
                     </label>
-                    <input type="radio" id="maconnerie" name="tce" value="maçonnerie" required />
+                    <input type="checkbox" id="maconnerie" name="tce[]" value="maçonnerie" required />
                     <label class="case col-md-4 picto" for="maconnerie">
                         <h4>Maçonnerie</h4>
                     </label>
-                    <input type="radio" id="placo" name="tce" value="placoplatre" required />
+                    <input type="checkbox" id="placo" name="tce[]" value="placoplatre" required />
                     <label class="case col-md-4 picto" for="placo">
                         <h4>Placoplatre</h4>
                     </label>
-                    <input type="radio" id="demolition" name="tce" value="démolition" required />
+                    <input type="checkbox" id="demolition" name="tce[]" value="démolition" required />
                     <label class="case col-md-4 picto" for="demolition">
                         <h4>Démolition</h4>
                     </label>
-                    <input type="radio" id="autre-tce" name="tce" value="autre-tce" required />
+                    <input type="checkbox" id="autre-tce" name="tce[]" value="autre-tce" required />
                     <label class="case col-md-4 picto" for="autre-tce">
                         <h4>Autres</h4>
                     </label>
@@ -325,31 +266,44 @@
 
                 <div class="row form-step">
                     <h2 class="col-md-12">Vos coordonnées</h2>
-                    <div class="form-input">
+                    <div class="form-input row">
                         <div class="col-md-6 mb-5">
                             <label for="name" class="form-label">Nom :</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
+                            <input type="text" class="form-control" id="name" name="nom" required>
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="surname" class="form-label">Prénom</label>
-                            <input type="text" class="form-control" id="surname" name="surname" required>
+                            <input type="text" class="form-control" id="surname" name="prenom" required>
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="mail" class="form-label">Mail</label>
-                            <input type="text" class="form-control" id="mail" name="mail" required>
+                            <input type="text" class="form-control" id="mail" name="email" required>
                         </div>
                         <div class="col-md-6 mb-5">
                             <label for="phone" class="form-label">N° Tél</label>
-                            <input type="number" class="form-control" id="phone" name="phone" required>
+                            <input type="number" class="form-control" id="phone" name="tel" required>
                         </div>
+                    </div>
+
+                    <div class="checkbox-accept">
+                        <input type="checkbox" name="accept" id="accept">
+                        <label for="accept"> J'accepte que mes informations soient recueillies par La Nationale du
+                            Logement pour pouvoir
+                            être contacté.</label>
+                    </div>
+                    <div class="form-group row g-recaptcha" data-sitekey="6LdfVB8dAAAAAAc9dXHFkLND44qnPFV8NbQUmwsc">
                     </div>
                 </div>
 
                 <div class="row form-step">
-                    <h1 class="col-md-12 text-center">Votre simulation a été prise en compte avec succès !</h1>
-                    <p class="text-center">Nous vous remercions pour vitre confiance !
-                        Vous recevrez dans quelques instants un email de confirmation.</p>
+                    <h2>Votre simulation a été prise en compte avec succès !</h2>
+                    <h6>Merci pour ces informations !</h6>
+                    <h6>Notre équipe s’efforce de vous contacter dans les 24h ouvrées pour vous faire la meilleure
+                        proposition d’accompagnement.</h6>
+                    <img src="assets/img/simuler/success.png" alt="success" class="img-success">
                 </div>
+
+
 
 
                 <div class="btn-form-step">

@@ -4,17 +4,18 @@ require_once "../phpmailer/Config.php";
 include "recaptcha.php";
 
 $logement = $_POST['logement'];
-
 $statut = $_POST['statut'];
-
-$construction = $_POST['construction'];
-
-$chauffage = $_POST['chauffage'];
 
 $surface = $_POST['surface'];
 $cp = $_POST['codepostale'];
 $ville = $_POST['ville'];
+$construction = $_POST['construction'];
 
+$nbFoyer = $_POST['nbFoyer'];
+
+$chauffage = $_POST['chauffage'];
+
+$revenu = $_POST['revenu'];
 
 $projet = $_POST['projet'];
 
@@ -22,43 +23,32 @@ if (!empty($_POST['iso'])) {
     $iso = $_POST['iso'];
 }
 
-if (!empty($_POST['pac'])) {
-    $pac = $_POST['pac'];
-}
-
-if (!empty($_POST['ventilation'])) {
-    $ventilation = $_POST['ventilation'];
-}
-
 if (!empty($_POST['tce'])) {
     $tce = $_POST['tce'];
 }
 
-$name = $_POST['name'];
-$surname = $_POST['surname'];
-$phone = $_POST['phone'];
-$mail = $_POST['mail'];
-$phone = $_POST['phone'];
-
-$nbFoyer = $_POST['nbFoyer'];
+$name = $_POST['nom'];
+$surname = $_POST['prenom'];
+$mail = $_POST['email'];
+$phone = $_POST['tel'];
 
 
-$road = $_POST['road'];
-$cp = $_POST['cp'];
-$address = $_POST['address'];
-
-$revenu = $_POST['revenu'];
 
 $mailto = 'vishal@lndl.fr';
 $addCC = $mail;
-$subject = "Simulation projet pour " . $nom . " " . $prenom;
+$subject = "Simulation projet pour " . $name . " " . $surname;
 $msg = "<h3> Logement </h3>";
 $msg .= "<ul><li>Type de logement : <strong>" . $logement . "</strong></li>";
 $msg .= "<li> Statut : <strong>" . $statut . "</strong></li>";
+$msg .= "<li> Surface habitable : <strong>" . $surface . "</strong></li>";
+$msg .= "<li> Code Postale : <strong>" . $cp . "</strong></li>";
 $msg .= "<li> Ville : <strong>" . $ville . "</strong></li>";
 $msg .= "<li> Date de construction : <strong>" . $construction . "</strong></li>";
+$msg .= "<li> Nombre de personne au foyer <strong>: " . $nbFoyer . "</strong></li>";
 $msg .= "<li> Type de chauffage : <strong>" . $chauffage . "</strong></li>";
-$msg .= "<li>Nombre de personne au foyer <strong>: " . $nbFoyer . "</strong></li></ul>";
+$msg .= "<li> Revenu fiscal : <strong>" . $revenu . "</strong></li></ul>";
+
+
 $msg .= "<h3> Projet </h3><ul>";
 
 foreach ($projet as $value) {
@@ -76,6 +66,7 @@ foreach ($projet as $value) {
 $msg .= "</ul><h3> Coordonnées </h3>";
 $msg .= "<ul><li>Nom : <strong>" . $name . "</strong></li>";
 $msg .= "<li>Prénom : <strong>" . $surname . "</strong></li>";
+$msg .= "<li>Mail : <strong>" . $mail . "</strong></li>";
 $msg .= "<li> Tél : <strong>" . $phone . "</strong></li></ul>";
 
 
