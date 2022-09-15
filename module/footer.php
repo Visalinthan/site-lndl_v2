@@ -1,6 +1,6 @@
         <!-- Footer -->
         <footer id="footer" class="clearfix">
-            <div id="footer-top" class="container">
+          <!--  <div id="footer-top" class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="footer-schedule">
@@ -13,7 +13,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <div id="footer-widgets" class="container">
                 <div class="row">
                     <div class="col-md-4">

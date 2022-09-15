@@ -87,7 +87,7 @@
                     <h2 class="col-md-12">Quelle est votre code postal ? </h2>
                     <div class="row form-input">
                         <div class="col-md-4 mb-5">
-                            <label for="codepostale" class="form-label">Code Postale</label>
+                            <label for="codepostale" class="form-label">Code Postal</label>
                             <input type="number" class="form-control" id="codepostale" name="codepostale" required>
                             <div id="error-message"></div>
                         </div>
@@ -119,19 +119,19 @@
                     <h2 class="col-md-12">Quelle est la composition de votre foyer ?</h2>
                     <div class="form-input">
                         <div class="col-md-6 mb-5">
-                            <label for="nbFoyer" class="form-label">Nombre de personne dans votre foyer :</label>
-                            <input type="text" class="form-control" id="nbFoyer" name="nbFoyer" required>
+                            <label for="nbFoyer" class="form-label">Nombre de personne dans votre foyer</label>
+                            <input type="number" class="form-control" id="nbFoyer" name="nbFoyer" required>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="row form-step">
+                <div class="row form-step chauffage">
                     <h2 class="col-md-12">Quelle est l'énergie de chauffage actuelle de votre logement ?</h2>
                     <input type="radio" id="electricite" name="chauffage" value="électricité" required />
                     <label class="case col-md-4 picto" for="electricite">
                         <img alt="électricité" src="assets/img/simuler/light-bulb.png">
-                        <h6>électricite</h6>
+                        <h6>électricité</h6>
                     </label>
                     <input type="radio" id="chauffegaz" name="chauffage" value="chauffage au gaz" required />
                     <label class="case col-md-4 picto" for="chauffegaz">
@@ -157,30 +157,49 @@
                     <label class="case col-md-4 picto" for="autrechauffe">
                         <h6>Autre</h6>
                     </label>
+
+                    <!--<div class="form-input" id="input-other-chauffe">
+                        <div class="col-md-6 mb-5">
+                            <label for="other-chauffe" class="form-label">Autre chauffage</label>
+                            <input type="text" class="form-control" id="other-chauffe" name="other-chauffe" required>
+                        </div>
+                    </div>-->
                 </div>
 
                 <div class="row form-step">
                     <h2 class="col-md-12">Quel est votre revenu fiscal ? </h2>
-                    <input type="radio" id="inf26" name="revenu" value="inférieur à 26 844 €" required />
-                    <label for="inf26" class="case col-md-6 picto">
-                        <img alt="inf26" src="assets/img/simuler/cash.png">
-                        <h6>Inférieur à 26 844 € </h6>
-                    </label>
-                    <input type="radio" id="inf34" name="revenu" value="inférieur à 34 411 €" required />
-                    <label for="inf34" class="case col-md-6 picto">
-                        <img alt="inf34" src="assets/img/simuler/cash.png">
-                        <h6>Inférieur à 34 411 €</h6>
-                    </label>
-                    <input type="radio" id="inf42" name="revenu" value="inférieur à 42 848 €" required />
-                    <label for="inf42" class="case col-md-6 picto">
-                        <img alt="inf42" src="assets/img/simuler/cash.png">
-                        <h6>Inférieur à 42 848 €</h6>
-                    </label>
-                    <input type="radio" id="sup51" name="revenu" value="supérieur à 51 592 €" required />
-                    <label for="sup51" class="case col-md-6 picto">
-                        <img alt="sup51" src="assets/img/simuler/cash.png">
-                        <h6>Supérieur à 51 592 € </h6>
-                    </label>
+                    <div class="row display-flex">
+                        <div class="col-md-6  display-flex">
+                            <input type="radio" id="inf26" name="revenu" value="inférieur à 26 844 €" required />
+                            <label for="inf26" class="case col-md-6 picto">
+                                <img alt="inf26" src="assets/img/simuler/cash.png">
+                                <h6>Inférieur à 26 844 € </h6>
+                            </label>
+                        </div>
+                        <div class="col-md-6  display-flex">
+                            <input type="radio" id="inf34" name="revenu" value="inférieur à 34 411 €" required />
+                            <label for="inf34" class="case col-md-6 picto">
+                                <img alt="inf34" src="assets/img/simuler/cash.png">
+                                <h6>Inférieur à 34 411 €</h6>
+                            </label>
+                        </div>
+                        <div class="col-md-6  display-flex">
+                            <input type="radio" id="inf42" name="revenu" value="inférieur à 42 848 €" required />
+                            <label for="inf42" class="case col-md-6 picto">
+                                <img alt="inf42" src="assets/img/simuler/cash.png">
+                                <h6>Inférieur à 42 848 €</h6>
+                            </label>
+                        </div>
+                        <div class="col-md-6  display-flex">
+                            <input type="radio" id="sup51" name="revenu" value="supérieur à 51 592 €" required />
+                            <label for="sup51" class="case col-md-6 picto">
+                                <img alt="sup51" src="assets/img/simuler/cash.png">
+                                <h6>Supérieur à 51 592 € </h6>
+                            </label>
+                        </div>
+
+                    </div>
+
                 </div>
 
                 <div class="row form-step projet">
@@ -189,6 +208,7 @@
                     <div class="col-md-3">
                         <input type="checkbox" id="iso" name="projet[]" value="isolation" required />
                         <label class="case col-md-3 picto" for="iso">
+                            <img alt="isolation" src="assets/img/simuler/isolation.png">
                             <h4>Isolation</h4>
                         </label>
                     </div>
@@ -196,6 +216,7 @@
                     <div class="col-md-3">
                         <input type="checkbox" id="pac" name="projet[]" value="pac" required />
                         <label class="case col-md-3 picto" for="pac">
+                            <img alt="pompe à chaleur" src="assets/img/simuler/pac.png">
                             <h4>Pompe à chaleur</h4>
                         </label>
                     </div>
@@ -203,6 +224,7 @@
                     <div class="col-md-3">
                         <input type="checkbox" id="ventilation" name="projet[]" value="ventilation" required />
                         <label class="case col-md-3 picto" for="ventilation">
+                            <img alt="ventilation" src="assets/img/simuler/vmc.png">
                             <h4>Ventilation</h4>
                         </label>
                     </div>
@@ -210,7 +232,8 @@
                     <div class="col-md-3">
                         <input type="checkbox" id="tce" name="projet[]" value="tce" required />
                         <label class="case col-md-3 picto" for="tce">
-                            <h4>Tous Corps d'Etat</h4>
+                            <img alt="tout corps d'état" src="assets/img/simuler/tce.png">
+                            <h4>Tout Corps d'Etat</h4>
                         </label>
                     </div>
 
@@ -231,14 +254,14 @@
 
                 <div class="row form-step serv" id="tce">
 
-                    <h2 class="col-md-12">Tout Corps d'Etat</h2>
+                    <h2 class="col-md-12">Tout Corps d'État</h2>
                     <input type="checkbox" id="peinture" name="tce[]" value="peinture" required />
                     <label class="case col-md-4 picto" for="peinture">
                         <h4>Peinture</h4>
                     </label>
                     <input type="checkbox" id="electricity" name="tce[]" value="électricité" required />
                     <label class="case col-md-4 picto" for="electricity">
-                        <h4>Electricité</h4>
+                        <h4>Électricité</h4>
                     </label>
                     <input type="checkbox" id="plomberie" name="tce[]" value="plomberie" required />
                     <label class="case col-md-4 picto" for="plomberie">
@@ -260,7 +283,12 @@
                     <label class="case col-md-4 picto" for="autre-tce">
                         <h4>Autres</h4>
                     </label>
-
+                    <div class="form-input" id="input-other-chauffe">
+                        <div class="col-md-6 mb-5">
+                            <label for="other-tce" class="form-label">Autre</label>
+                            <input type="text" class="form-control" id="other-tce" name="other-tce" required>
+                        </div>
+                    </div>
                 </div>
 
 
@@ -268,7 +296,7 @@
                     <h2 class="col-md-12">Vos coordonnées</h2>
                     <div class="form-input row">
                         <div class="col-md-6 mb-5">
-                            <label for="name" class="form-label">Nom :</label>
+                            <label for="name" class="form-label">Nom</label>
                             <input type="text" class="form-control" id="name" name="nom" required>
                         </div>
                         <div class="col-md-6 mb-5">
@@ -303,9 +331,6 @@
                     <img src="assets/img/simuler/success.png" alt="success" class="img-success">
                 </div>
 
-
-
-
                 <div class="btn-form-step">
                     <button type="button" id="prevBtn" class="btn btn-simuler" onclick="nextPrev(-1)">Précédent</button>
                     <button type="button" id="nextBtn" class="btn btn-simuler" onclick="nextPrev(1)">Suivant</button>
@@ -321,6 +346,18 @@
     <script src="assets/js/form-step.js"></script>
     <script src="assets/js/api-zipcode.js"></script>
 
+    <script>
+    /* let otherChauffe = $('#input-other-chauffe');
+
+    $("input").on('change', function(event) {
+        if (document.getElementById("autrechauffe").checked) {
+            console.log($(this));
+            $(this).after(otherChauffe);
+        } else {
+            $('#input-other-chauffe').remove();
+        }
+    });*/
+    </script>
 </body>
 
 </html>
