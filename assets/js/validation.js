@@ -70,6 +70,11 @@ function ValidationRulesAndMessage(formulaire, champs) {
             }
         }
 
+        if (value.attr('type') == "select") {
+            validation.messages[value.attr('name')] = { required: "Veuillez sélectionner" };
+
+        }
+
         if (value.attr('type') == "radio") {
             validation.messages[value.attr('name')] = "Veuillez sélectionnez votre " + value.attr('name');
         }

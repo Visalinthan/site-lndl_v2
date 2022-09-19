@@ -260,7 +260,7 @@
                                 <p>Les PME de plus de 3 ans d’existence et saines financièrement sont concernées par le
                                     dispositif du Prêt Eco-Energie (PEE). Cette aide permet aux entreprises de financer
                                     des projets d'investissement en matière d'économie d'énergie et de protection de
-                                    l'environnement.<br/>
+                                    l'environnement.<br />
                                     Découvrez nos solutions adaptées à votre projet.
                                 </p>
 
@@ -279,7 +279,7 @@
                                 </div>
                                 <h3 class="client-name">Le dispositif CEE</h3>
                                 <p>Aide privée de l’Etat, cette prime est le premier système d’aide à l’investissement
-                                    pour des travaux d’amélioration énergétique et de développement durable.<br/>
+                                    pour des travaux d’amélioration énergétique et de développement durable.<br />
                                     La Nationale Du Logement accompagne les initiatives en faveur de la transition
                                     écologique pour tous les professionnels en France.
                                 </p>
@@ -301,7 +301,7 @@
                                 <h3 class="client-name">Le guichet de subvention pour l'efficacité énergétique des
                                     entreprises</h3>
                                 <p>Dans le cadre du plan France Relance, l’Etat a mis en place un dispositif d’aides
-                                    pour les entreprises du secteur industriel, peu importe leur taille.<br/>
+                                    pour les entreprises du secteur industriel, peu importe leur taille.<br />
                                     Ce guichet de subvention pour l’efficacité énergétique des entreprises sera ouvert
                                     jusqu’au 31 décembre 2022.
 
@@ -324,7 +324,7 @@
                                 <h3 class="client-name">MAPRIME RÉNOV' COPROPRIÉTÉS</h3>
                                 <p>MaPrimeRénov’ Copropriétés est une aide collective pour tous travaux de rénovation
                                     globale sur les parties communes des copropriétés comprenant trois quart de
-                                    logements principaux.<br/>
+                                    logements principaux.<br />
                                     La Nationale du Logement vous aide à garantir les 35% minimum de gain d’énergie post
                                     travaux, nécessaires pour bénéficier de cette subvention.
                                 </p>
@@ -353,31 +353,33 @@
                                                 profiter
                                                 des
                                                 différents dispositifs d’aides.</p>
-                                            <p class="text-center" style="font-weight: bold;">Pour y accéder, suivez ces
-                                                3 étapes :</p>
+                                            <h4 class="text-center" style="font-weight: bold;">Pour y accéder, suivez
+                                                ces
+                                                3 étapes :</h4>
 
                                         </div>
-                                        <div class="flex-column" style="align-items: center; text-align:left">
-                                            <div class="about-our-company">
-                                                <div class="icon-tick"></div>
-                                                <div class="content-box">
-                                                    <h4>Établissez votre devis par notre expert</h4>
+                                        <div class="col-md-12 display-flex">
+                                            <div class="flex-column">
+                                                <div class="about-our-company">
+                                                    <div class="icon-tick"></div>
+                                                    <div class="content-box">
+                                                        <h4>Établissez votre devis par notre expert</h4>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="about-our-company">
-                                                <div class="icon-tick"></div>
-                                                <div class="content-box">
-                                                    <h4>Réalisez vos travaux de rénovation </h4>
+                                                <div class="about-our-company">
+                                                    <div class="icon-tick"></div>
+                                                    <div class="content-box">
+                                                        <h4>Réalisez vos travaux de rénovation </h4>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="about-our-company">
-                                                <div class="icon-tick"></div>
-                                                <div class="content-box">
-                                                    <h4>Percevez le versement de vos aides</h4>
+                                                <div class="about-our-company">
+                                                    <div class="icon-tick"></div>
+                                                    <div class="content-box">
+                                                        <h4>Percevez le versement de vos aides</h4>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>

@@ -152,6 +152,12 @@
                         <div class="col-md-3">
                             <div class="text-center">
                                 <img src="assets/img/services/renovation/ite.png" alt="ite">
+                                <p class="text-center">ITI</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="text-center">
+                                <img src="assets/img/services/renovation/ite.png" alt="ite">
                                 <p class="text-center">ITE</p>
                             </div>
                         </div>

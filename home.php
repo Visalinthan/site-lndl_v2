@@ -93,7 +93,7 @@
                                 <div class="section-title">
                                     <h3 class="section-heading">Nous faire confiance</h3>
                                     <div class="features-content">
-                                        <h4>Confier vos travaux à des professionnels experts en rénovation.</h4>
+                                        <h4>Confiez vos travaux à des professionnels experts en rénovation.</h4>
                                     </div>
                                 </div>
                             </div>
@@ -108,16 +108,12 @@
                                     <div class="icon-features">
                                         <img src="assets/img/home/picto/assistance-complete.png" alt="images">
                                     </div>
-                                    <h3 class="headline">Une assistance complète</h3>
+                                    <h3 class="headline"><br/>Une assistance complète</h3>
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoC-choice-assistance-complete.jpg"
                                             alt="images">
-                                        <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En
-                                                    savoir plus</span></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -135,10 +131,6 @@
                                 <div class="box-content">
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoC-choice-artisans-RGE.jpg" alt="images">
-                                        <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En
-                                                    savoir plus</span></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -151,15 +143,11 @@
                                     <div class="icon-features">
                                         <img src="assets/img/home/picto/decenale.png" alt="images">
                                     </div>
-                                    <h3 class="headline">Garantie décennale</h3>
+                                    <h3 class="headline"><br/>Garantie décennale</h3>
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoC-choice-garantie-decennale.jpg" alt="images">
-                                        <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En
-                                                    savoir plus</span></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -180,10 +168,6 @@
                                 <div class="box-content">
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-accompagnement.jpg" alt="images">
-                                        <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En
-                                                    savoir plus</span></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -201,10 +185,6 @@
                                 <div class="box-content">
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-savoir_faire.jpg" alt="images">
-                                        <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En
-                                                    savoir plus</span></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -222,10 +202,6 @@
                                 <div class="box-content">
                                     <div class="content-post">
                                         <img src="assets/img/home/home-BtoB-choice-RGE.jpg" alt="images">
-                                        <div class="post-readmore">
-                                            <a href="service-details.html" class="read-more"><span class="text">En
-                                                    savoir plus</span></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

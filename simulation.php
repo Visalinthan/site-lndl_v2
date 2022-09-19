@@ -276,7 +276,7 @@
                     </label>
                     <input type="checkbox" id="placo" name="tce[]" value="placoplatre" required />
                     <label class="case col-md-4 picto" for="placo">
-                        <h4>Placoplatre</h4>
+                        <h4>Placoplâtre</h4>
                     </label>
                     <input type="checkbox" id="demolition" name="tce[]" value="démolition" required />
                     <label class="case col-md-4 picto" for="demolition">

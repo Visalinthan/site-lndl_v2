@@ -62,7 +62,7 @@
                                         </div>
                                     </div>
                                     <div class="tf-col-6">
-                                        <h4 class="text-center display-flex">ITI</h4>
+                                        <h4 class="text-center display-flex">ITE</h4>
                                         <ul class="work-process">
                                             <li>
                                                 <div class="icon-tick"></div>
@@ -107,7 +107,7 @@
                                 <div class="section-wrap tf-row display-flex margin-top-55">
                                     <div class="tf-col-6 display-flex">
                                         <div class="post-project-content">
-                                            <h4 class="text-center ">ITE</h4>
+                                            <h4 class="text-center ">ITI</h4>
 
                                             <ul class="work-process">
                                                 <li>

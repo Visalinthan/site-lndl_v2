@@ -3776,7 +3776,7 @@ a:focus {
 }
 
 .flat-work #serv3.work-box {
-    background-image: url('../img/home/services-vmc.jpg');
+    background-image: url('../img/home/services-vmc.png');
 }
 
 .flat-work #serv4.work-box {
@@ -4123,7 +4123,8 @@ a:focus {
 }
 
 .flat-team .team-content-box img {
-    height: 230px;
+    height: 200px;
+    width: 290px;
 }
 
 .flat-team .team-content-box .team-post {
@@ -5839,6 +5840,10 @@ body.part #footer {
 
 body.pro #footer {
     background: url('../img/BtoB-footer.png') no-repeat center center;
+}
+
+#footer .container {
+    max-width: 1200px;
 }
 
 @media only screen and (max-width: 990px) {

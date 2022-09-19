@@ -12,7 +12,7 @@ $(function() {
                 $("#contactform")[0].reset();
                 $('#successModal').modal('show');
                 $('#successModal .modal-title').append('Contact');
-                $('#successModal .modal-body').append('<p> Votre de demande a bien été envoyé ! </p>');
+                $('#successModal .modal-body').append('<p> Votre de demande a bien été envoyée ! </p>');
             });
 
         }
