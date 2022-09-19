@@ -470,7 +470,7 @@
         <!-- /flat logo slogan -->
 
         <!-- flat latest -->
-        <section class="tf-space flat-latest">
+       <!-- <section class="tf-space flat-latest">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-4">
@@ -525,7 +525,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- /flat latest -->
 
 
