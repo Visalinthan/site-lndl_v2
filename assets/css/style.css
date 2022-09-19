@@ -5741,6 +5741,8 @@ a:focus {
     border-radius: 6px;
     padding: 40px 30px;
     margin-bottom: 21px;
+    display: flex;
+    align-items: center;
 }
 
 .flat-contact .contact-icon-box .icon {
@@ -5907,9 +5909,11 @@ body.pro #footer {
 }
 
 .widget-social ul li {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     line-height: 28px;
     background-color: var(--primary-color);
@@ -5921,6 +5925,18 @@ body.pro #footer {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+
+.linked-icon::after {
+    content: '\f0e1';
+    color: #fff;
+    font-size: 20px;
+}
+
+.facebook-icon::after {
+    content: '\f09a';
+    color: #fff;
+    font-size: 20px!important;
 }
 
 #footer .widget-social ul li a {
@@ -6042,8 +6058,19 @@ body.pro #footer {
 
 .widget-list-contact li {
     color: #000;
-    font-size: 16px;
     font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.widget-list-contact li img {
+    padding: 0px 8px;
+}
+
+.widget-list-contact li span,
+.widget-list-contact li span a {
+    font-size: 16px !important;
 }
 
 #footer .link-wrap li a {

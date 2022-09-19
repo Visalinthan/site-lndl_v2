@@ -26,10 +26,12 @@
                             ménages et les entreprises à la rénovation énergétique.</p>
                         <div class="widget-social">
                             <ul>
-                                <li><a href="#" class="facebook-icon"></a></li>
-                                <li><a href="#" class="twitter-icon"></a></li>
-                                <li><a href="#" class="linked-icon"></a></li>
-                                <li><a href="#" class="instagram-icon"></a></li>
+                                <li>
+                                    <a href="#" class="linked-icon"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="facebook-icon"></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +59,7 @@
                             </div>
                             <div class="menu-3">
                                 <h3 class="widget-title-link-wrap style-2">Contact</h3>
-                                <ul class="widget-list-contact link-style-4 " >
+                                <ul class="widget-list-contact link-style-4 ">
                                     <li>
                                         <img src="../assets/img/picto-footer/Location.png" alt="location" />
                                         <span>1 rue de Rome 93110
@@ -65,11 +67,11 @@
                                     </li>
                                     <li>
                                         <img src="../assets/img/picto-footer/Mail.png" alt="mail" />
-                                        <a href="mailto:infos@lndl.fr">infos@lndl.fr</a>
+                                        <span><a href="mailto:infos@lndl.fr">infos@lndl.fr</a></span>
                                     </li>
                                     <li>
                                         <img src="../assets/img/picto-footer/Phone.png" alt="phone" />
-                                        <a href="tel:0148551647">01 48 55 16 47</a>
+                                        <span><a href="tel:0148551647">01 48 55 16 47</a></span>
                                     </li>
                                 </ul>
                             </div>
