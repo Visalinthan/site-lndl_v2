@@ -28,6 +28,9 @@
                 <img class="logo-lndl" alt="logo LNDL" src="assets/img/logo.png" />
             </a>
         </div>
+        <div class="title-step">
+            <h4>Formulaire</h4>
+        </div>
     </nav>
     <div class="progress">
         <div class="progress-bar"></div>
@@ -126,7 +129,7 @@
 
                 </div>
 
-                <div class="row form-step chauffage">
+                <div class="row form-step" id="chauffage">
                     <h2 class="col-md-12">Quelle est l'énergie de chauffage actuelle de votre logement ?</h2>
                     <input type="radio" id="electricite" name="chauffage" value="électricité" required />
                     <label class="case col-md-4 picto" for="electricite">
@@ -158,12 +161,12 @@
                         <h6>Autre</h6>
                     </label>
 
-                    <!--<div class="form-input" id="input-other-chauffe">
+                    <div class="form-input" id="input-other-chauffe">
                         <div class="col-md-6 mb-5">
                             <label for="other-chauffe" class="form-label">Autre chauffage</label>
                             <input type="text" class="form-control" id="other-chauffe" name="other-chauffe" required>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
 
                 <div class="row form-step">
@@ -283,16 +286,16 @@
                     <label class="case col-md-4 picto" for="autre-tce">
                         <h4>Autres</h4>
                     </label>
-                    <div class="form-input" id="input-other-chauffe">
+                    <div class="form-input" id="input-other-tce">
                         <div class="col-md-6 mb-5">
                             <label for="other-tce" class="form-label">Autre</label>
-                            <input type="text" class="form-control" id="other-tce" name="other-tce" required>
+                            <input type="text" class="form-control" id="other-tce" name="tce[]" required>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="row form-step">
+                <div class="row form-step infos">
                     <h2 class="col-md-12">Vos coordonnées</h2>
                     <div class="form-input row">
                         <div class="col-md-6 mb-5">
@@ -342,22 +345,45 @@
 
     </main>
     <?php include("module/footer.php"); ?>
+
+    <script>
+    let otherChauffe = $('#input-other-chauffe');
+    $(otherChauffe).remove();
+
+    $("#chauffage input").on('change', function(event) {
+        if (document.getElementById("autrechauffe").checked) {
+            var label = $('label[for="' + $(this).attr('id') + '"]');
+            $(label).after(otherChauffe);
+        } else {
+            $(otherChauffe).remove();
+        }
+
+        if (document.getElementById("other-tce").checked) {
+            var label = $('label[for="' + $(this).attr('id') + '"]');
+            $(label).after(otherTce);
+        } else {
+            $(otherTce).remove();
+        }
+    });
+
+    let otherTce = $('#input-other-tce');
+    $(otherTce).remove();
+
+    $(".serv#tce input[type=checkbox]").on('change', function(event) {
+
+        if (document.getElementById("autre-tce").checked) {
+            var label = $('label[for="autre-tce"]');
+            $(label).after(otherTce);
+        } else {
+            $(otherTce).remove();
+        }
+    });
+    </script>
+
     <script src="assets/js/validation.js"></script>
     <script src="assets/js/form-step.js"></script>
     <script src="assets/js/api-zipcode.js"></script>
 
-    <script>
-    /* let otherChauffe = $('#input-other-chauffe');
-
-    $("input").on('change', function(event) {
-        if (document.getElementById("autrechauffe").checked) {
-            console.log($(this));
-            $(this).after(otherChauffe);
-        } else {
-            $('#input-other-chauffe').remove();
-        }
-    });*/
-    </script>
 </body>
 
 </html>

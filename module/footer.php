@@ -1,6 +1,6 @@
         <!-- Footer -->
         <footer id="footer" class="clearfix">
-          <!--  <div id="footer-top" class="container">
+            <!--  <div id="footer-top" class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="footer-schedule">
@@ -57,19 +57,25 @@
                             </div>
                             <div class="menu-3">
                                 <h3 class="widget-title-link-wrap style-2">Contact</h3>
-                                <ul class="widget-list-contact link-style-4">
+                                <ul class="widget-list-contact link-style-4 " >
                                     <li>
-                                        <span class="meta-address" content="#000">1 rue de Rome 93110
+                                        <img src="../assets/img/picto-footer/Location.png" alt="location" />
+                                        <span>1 rue de Rome 93110
                                             Rosny-Sous-Bois</span>
                                     </li>
-                                    <li><a href="mailto:infos@lndl.fr" class="meta-mail">infos@lndl.fr</a>
+                                    <li>
+                                        <img src="../assets/img/picto-footer/Mail.png" alt="mail" />
+                                        <a href="mailto:infos@lndl.fr">infos@lndl.fr</a>
                                     </li>
-                                    <li><a href="tel:0148551647" class="meta-phone">01 48 55 16 47</a></li>
+                                    <li>
+                                        <img src="../assets/img/picto-footer/Phone.png" alt="phone" />
+                                        <a href="tel:0148551647">01 48 55 16 47</a>
+                                    </li>
                                 </ul>
                             </div>
 
                             <div class="menu-4">
-                                <img src="../assets/img/QR_CODE.svg" alt="qr_code" width="180" height="180" />
+                                <img src="../assets/img/qrcode.png" alt="qr_code" width="200" height="250" />
                             </div>
                         </div>
                     </div>
@@ -88,8 +94,7 @@
                     <div class="bottom-bar-content-right">
                         <div class="widget-links-bottom link-style-4">
                             <ul>
-                                <li><a href="#">Mentions légales </a></li>
-                                <li><a href="#">Politique de cookies</a></li>
+                                <li><a href="../mentions-legales.php">Mentions légales </a></li>
                             </ul>
                         </div>
                     </div>

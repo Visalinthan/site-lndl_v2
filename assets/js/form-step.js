@@ -9,6 +9,14 @@ function showTab(n) {
 
     let x = document.querySelectorAll(".form-step");
 
+    if (n <= 4) {
+        $('.title-step h4').text("Étape 1 / 3 : Votre logement");
+    } else if (x[n].classList.contains('projet') || x[n].classList.contains('serv')) {
+        $('.title-step h4').text("Étape 2 / 3 : Votre projet");
+    } else if (x[n].classList.contains('infos')) {
+        $('.title-step h4').text("Étape 3 / 3 : Vos cordonnées");
+    }
+
     if (x[n].classList.contains('projet')) {
 
         let projets = document.getElementsByName('projet[]');
