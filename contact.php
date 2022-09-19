@@ -74,22 +74,22 @@
                                 id="comments">
                                 <form method="post" id="contactform" class="comment-form form-submit"
                                     accept-charset="utf-8">
-                                    <div class="text-wrap clearfix">
-                                        <fieldset class="name-wrap">
+                                    <div class="text-wrap row">
+                                        <fieldset class="name-wrap col-md-6">
                                             <input type="text" id="nom" class="tb-my-input" name="nom" tabindex="1"
                                                 placeholder="Nom*" value="">
                                         </fieldset>
-                                        <fieldset class="tel-wrap">
+                                        <fieldset class="tel-wrap col-md-6">
                                             <input type="number" id="tel" class="tb-my-input" name="tel" tabindex="2"
                                                 placeholder="Téléphone*" value="">
                                         </fieldset>
                                     </div>
-                                    <div class="text-wrap clearfix">
-                                        <fieldset class="surname-wrap">
+                                    <div class="text-wrap row">
+                                        <fieldset class="surname-wrap col-md-6">
                                             <input type="text" id="prenom" class="tb-my-input" name="prenom"
                                                 tabindex="1" placeholder="Prénom*" value="">
                                         </fieldset>
-                                        <fieldset class="email-wrap">
+                                        <fieldset class="email-wrap col-md-6">
                                             <input type="email" id="mail" class="tb-my-input" name="mail" tabindex="2"
                                                 placeholder="Email*" value="">
                                         </fieldset>

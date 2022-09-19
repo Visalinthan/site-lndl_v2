@@ -24,16 +24,7 @@
                         </div>
                         <p class="text-widget">La Nationale du Logement a pour mission principale d'accompagner les
                             ménages et les entreprises à la rénovation énergétique.</p>
-                        <div class="widget-social">
-                            <ul>
-                                <li>
-                                    <a href="#" class="linked-icon"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="facebook-icon"></a>
-                                </li>
-                            </ul>
-                        </div>
+
                     </div>
                     <div class="col-md-8">
                         <div class="footer-widgets-nav-menu">
@@ -81,6 +72,33 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row footer-end">
+                            <div class="newsletter col-md-6">
+                                <form class="row g-3 ">
+                                    <div class="col-auto">
+                                        <label for="newsletter">Newsletter</label>
+                                        <input type="email" class="form-control" id="newsletter"
+                                            placeholder="Newsletter">
+                                    </div>
+                                    <button type="submit" class="button">S'inscrire</button>
+                                </form>
+                            </div>
+
+                            <div class="widget-social col-md-6">
+                                <h5>Suivez-nous </h5>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="linked-icon"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="facebook-icon"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                    </div>
+
                 </div>
             </div>
         </footer><!-- /#footer -->

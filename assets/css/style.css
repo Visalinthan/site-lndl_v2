@@ -1791,7 +1791,7 @@ a:focus {
 }
 
 .header-btoc h2 {
-    font-size: clamp(34px, 5vw, 45px)
+    font-size: clamp(12px, 4vw, 45px)
 }
 
 .header-btob {
@@ -1933,7 +1933,8 @@ a:focus {
         position: absolute;
         z-index: 10;
         width: 70%;
-        height: 50%;
+        max-height: 600px;
+        height: auto;
     }
 }
 
@@ -2166,7 +2167,6 @@ a:focus {
     cursor: pointer !important;
     padding-left: 0em;
     line-height: 50px;
-    width: 300px;
 }
 
 .form-switch .form-check-input {
@@ -3084,20 +3084,18 @@ a:focus {
     margin-bottom: 68px;
 }
 
-#comments .name-wrap,
-#comments .email-wrap,
-#comments .tel-wrap,
-#comments .surname-wrap {
-    float: left;
-    margin-left: 30px;
-    width: calc(50% - 30px);
+#comments .text-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#comments .name-wrap input,
-#comments .email-wrap input,
-#comments .surname-wrap input,
-#comments .tel-wrap input {
-    padding: 23px;
+#comments .text-wrap fieldset {
+    padding: 23px !important;
+}
+
+#comments .text-wrap input {
+    width: 250px;
 }
 
 #comments .name-wrap input:focus,
@@ -5832,7 +5830,7 @@ body.pro .flat-contact .contact-form {
     background-size: contain;
     position: relative;
     z-index: 1;
-    padding: 40px 0 44px 0;
+    padding: 20px 0;
 }
 
 body.part #footer {
@@ -5841,6 +5839,16 @@ body.part #footer {
 
 body.pro #footer {
     background: url('../img/BtoB-footer.png') no-repeat center center;
+}
+
+@media only screen and (max-width: 990px) {
+    #footer {
+        background: none !important;
+        background-color: #ccc!important;
+    }
+    #footer .menu-2 {
+        display: none;
+    }
 }
 
 #footer-top .footer-schedule {
@@ -5901,6 +5909,28 @@ body.pro #footer {
     color: #000;
     line-height: 30px;
     margin-bottom: 24px;
+}
+
+.footer-end,
+.widget-social {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter form label {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.newsletter form button {
+    margin-top: 50px;
+    max-width: 150px;
+    line-height: 10px;
 }
 
 .widget-social ul {

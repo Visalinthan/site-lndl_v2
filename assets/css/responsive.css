@@ -20,7 +20,7 @@
 
 @media only screen and (max-width: 1199px) {
     #site-header .mobile-button {
-        display: block;
+        display: flex;
         z-index: 200;
     }
     #site-header #main-nav,
