@@ -440,6 +440,9 @@ select.form-control:not([size]):not([multiple]) {
         display: flex;
         align-items: flex-end;
     }
+    .bloc {
+        width: 95%;
+    }
     .title-step h4 {
         font-size: 12px;
     }

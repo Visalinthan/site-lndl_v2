@@ -53,10 +53,6 @@
                             Logement</h4>
                         <h2>Votre partenaire dans la réalisation de vos projets de construction et de rénovation
                             énergétique. </h2>
-                        <div class="button-slider margin-top-22">
-                            <a href="simulation.php" class="button readmore">Testez votre
-                                éligibité</a>
-                        </div>
                     </div>
                 </div>
 

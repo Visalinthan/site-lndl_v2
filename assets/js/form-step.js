@@ -9,6 +9,8 @@ function showTab(n) {
 
     let x = document.querySelectorAll(".form-step");
 
+    $(".form-step").scrollTop();
+
     if (n <= 4) {
         $('.title-step h4').text("Étape 1 / 3 : Votre logement");
     } else if (x[n].classList.contains('projet') || x[n].classList.contains('serv')) {
@@ -75,16 +77,19 @@ function showTab(n) {
 
 function nextPrev(n) {
 
+    $(".form-step").scrollTop();
+
     let x = document.querySelectorAll(".form-step");
     var form = $("form");
     var response = grecaptcha.getResponse();
+
 
     if (currentTab == (x.length - 2) && response.length == 0) {
         alert("Veuillez valider le captcha !");
         //evt.preventDefault();
         return false;
     } else if (form.valid()) {
-        //let inputs = x[currentTab].querySelectorAll("input");
+
         if (n == 1 && !validateForm()) return false;
 
         x[currentTab].style.display = "none";
