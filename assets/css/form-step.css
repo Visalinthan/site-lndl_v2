@@ -106,7 +106,7 @@ a {
 }
 
 .navbar.simule .nav-logo {
-    left: 30px;
+    left: 5px;
     top: 5px;
     position: absolute;
 }
@@ -300,6 +300,7 @@ a {
 
 .bloc h5 {
     font-style: italic;
+    line-height: 40px;
 }
 
 .form-step h2 {
@@ -434,5 +435,19 @@ select.form-control:not([size]):not([multiple]) {
     justify-content: center;
 }
 
-
-/*Footer  -- Footer  -- Footer  -- Footer  -- Footer  -- Footer  -- Footer  -- Footer*/
+@media only screen and (max-width: 700px) {
+    .navbar.simule {
+        display: flex;
+        align-items: flex-end;
+    }
+    .title-step h4 {
+        font-size: 12px;
+    }
+    .form-step {
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .btn-form-step {
+        display: block;
+    }
+}
