@@ -1,19 +1,6 @@
         <!-- Footer -->
         <footer id="footer" class="clearfix">
-            <!--  <div id="footer-top" class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="footer-schedule">
-                            <div class="heading-schedule">
-                                <h2 class="section-40px-barlow font-weight-500">Besoin de renseignement ?</h2>
-                            </div>
-                            <div class="button-footer">
-                                <a href="contact.php" class="button">Contacter</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
+
             <div id="footer-widgets" class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -73,32 +60,28 @@
                         </div>
                     </div>
                     <div class="row footer-end">
-                            <div class="newsletter col-md-6">
-                                <form class="row g-3 ">
-                                    <div class="col-auto">
-                                        <label for="newsletter">Newsletter</label>
-                                        <input type="email" class="form-control" id="newsletter"
-                                            placeholder="Newsletter">
-                                    </div>
-                                    <button type="submit" class="button">S'inscrire</button>
-                                </form>
-                            </div>
+                        <div class="newsletter col-md-6">
+                            <form class="row g-3 ">
+                                <div class="col-auto">
+                                    <label for="newsletter">Newsletter</label>
+                                    <input type="email" class="form-control" id="newsletter" placeholder="Newsletter">
+                                </div>
+                                <button type="submit" class="button">S'inscrire</button>
+                            </form>
+                        </div>
 
-                            <div class="widget-social col-md-6">
-                                <h5>Suivez-nous </h5>
-                                <ul>
-                                    <li>
-                                        <a href="#" class="linked-icon"></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="facebook-icon"></a>
-                                    </li>
-                                </ul>
-                            </div>
-
-
+                        <div class="widget-social col-md-6">
+                            <h5>Suivez-nous </h5>
+                            <ul>
+                                <li>
+                                    <a href="#" class="linked-icon"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="facebook-icon"></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </footer><!-- /#footer -->

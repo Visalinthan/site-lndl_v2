@@ -3509,6 +3509,7 @@ a:focus {
 
 .flat-features .features-box .content-post img {
     width: 100% !important;
+    max-width: 400px;
     height: 280px;
     border-radius: 8px;
 }
@@ -5843,7 +5844,7 @@ body.pro #footer {
 }
 
 #footer .container {
-    max-width: 1200px;
+    margin-left: 2% !important;
 }
 
 @media only screen and (max-width: 990px) {
@@ -5853,6 +5854,9 @@ body.pro #footer {
     }
     #footer .menu-2 {
         display: none;
+    }
+    #footer .container {
+        margin-left: 0% !important;
     }
 }
 

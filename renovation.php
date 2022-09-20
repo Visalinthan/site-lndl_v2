@@ -151,7 +151,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="text-center">
-                                <img src="assets/img/services/renovation/ite.png" alt="ite">
+                                <img src="assets/img/services/renovation/iti.png" alt="iti">
                                 <p class="text-center">ITI</p>
                             </div>
                         </div>

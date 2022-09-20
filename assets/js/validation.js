@@ -48,6 +48,8 @@ function ValidationRulesAndMessage(formulaire, champs) {
 
         validation.rules[value.attr('name')] = { required: true };
 
+        console.log(value);
+
         if (value.attr('type') == "text") {
             validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
         }
@@ -68,11 +70,6 @@ function ValidationRulesAndMessage(formulaire, champs) {
             } else {
                 validation.messages[value.attr('name')] = "Veuillez entrer votre " + value.attr('name');
             }
-        }
-
-        if (value.attr('type') == "select") {
-            validation.messages[value.attr('name')] = { required: "Veuillez sélectionner" };
-
         }
 
         if (value.attr('type') == "radio") {

@@ -97,6 +97,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row padding-top-45">
+                        <div class="col-md-12">
+                            <div class="ratio ratio-16x9">
+                                <iframe class="embed-responsive-item" title="Présentation de la Nationale du Logement"
+                                    src="https://www.youtube.com/embed/tOKuGz5hpmA" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- /flat about 2 -->
