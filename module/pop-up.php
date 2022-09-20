@@ -103,7 +103,7 @@ function openPopUp() {
         $("#help-pop").removeClass("close").addClass("open");
     }
 }
-
+closePopUp();
 setTimeout(() => {
     closePopUp()
 }, 10000);

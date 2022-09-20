@@ -6304,7 +6304,7 @@ body.pro #footer {
     border-radius: 4px;
     text-align: center;
     z-index: 1;
-    right: 150px;
+    left: 24px;
     bottom: 23px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -6318,7 +6318,7 @@ body.pro #footer {
 }
 
 #scroll-top.show {
-    right: 150px;
+    left: 24px;
     opacity: 1;
     visibility: visible;
 }
