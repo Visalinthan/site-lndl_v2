@@ -612,9 +612,8 @@ input[type="radio"] {
     padding: 0;
     width: 30px;
     height: 30px;
-    margin-right: 11px;
+    margin-right: 5px;
     cursor: pointer;
-    vertical-align: sub;
     /* Addresses excess padding in IE8/9 */
 }
 
@@ -6305,7 +6304,7 @@ body.pro #footer {
     border-radius: 4px;
     text-align: center;
     z-index: 1;
-    right: 14px;
+    right: 150px;
     bottom: 23px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -6319,7 +6318,7 @@ body.pro #footer {
 }
 
 #scroll-top.show {
-    right: 24px;
+    right: 150px;
     opacity: 1;
     visibility: visible;
 }

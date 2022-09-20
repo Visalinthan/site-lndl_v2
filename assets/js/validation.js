@@ -48,8 +48,6 @@ function ValidationRulesAndMessage(formulaire, champs) {
 
         validation.rules[value.attr('name')] = { required: true };
 
-        console.log(value);
-
         if (value.attr('type') == "text") {
             validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
         }

@@ -77,12 +77,12 @@ function showTab(n) {
 
 function nextPrev(n) {
 
-    $(".form-step").scrollTop();
-
     let x = document.querySelectorAll(".form-step");
     var form = $("form");
     var response = grecaptcha.getResponse();
 
+    //console.log();
+    //x[currentTab].getElementsBy.scrollTop();
 
     if (currentTab == (x.length - 2) && response.length == 0) {
         alert("Veuillez valider le captcha !");

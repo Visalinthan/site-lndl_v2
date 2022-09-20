@@ -1,4 +1,6 @@
-        <!-- Footer -->
+
+     
+     <!-- Footer -->
         <footer id="footer" class="clearfix">
 
             <div id="footer-widgets" class="container">
@@ -146,3 +148,5 @@ document.addEventListener('DOMContentLoaded', function() {
         <noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/"
                 rel="nofollow noopener">Free Privacy Policy website</a></noscript>
         <!-- End Cookie Consent -->
+
+        <?php include("module/pop-up.php"); ?>
