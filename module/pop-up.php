@@ -17,15 +17,12 @@
 }
 
 #help-pop.close {
-    padding: 15px 15px;
+    padding: 20px;
     border-radius: 50px;
     cursor: pointer;
-    opacity:1;
+    opacity: 1;
 }
 
-#help-pop #pop-up-phone img{
-    width: 40px;
-}
 
 #help-pop #pop-up-phone {
     display: none;
@@ -66,51 +63,13 @@
     font-size: 2em;
 }
 
-.mention {
-    margin-top: 100px;
-    text-align: center;
-}
 
-.title-mention {
-    background-color: #528B37;
-    max-height: 120px;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 180px;
-}
-
-.title-mention h1 {
-    color: #fff;
-    font-weight: 600;
-}
-
-.mention h2 {
-    padding: 25px;
-    color: #528B37;
-}
-
-.mention p {
-    padding: 10px;
-    font-style: italic;
-    font-size: 1.1em;
-}
-
-.mention a {
-    font-size: 1.1em;
-    color: #528B37;
-}
 </style>
 
 
 <div id="help-pop" class="open" data-aos='fade-up' data-aos-duration="2000">
     <div id="pop-up-phone">
-        <img src="../assets/img/picto-footer/Phone.png" alt="lndl contacter">
+        <i class="fas fa-phone-alt fa-2xl"></i>
     </div>
 
     <div id="pop-up-contact">
