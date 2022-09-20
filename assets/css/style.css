@@ -3509,7 +3509,7 @@ a:focus {
 
 .flat-features .features-box .content-post img {
     width: 100% !important;
-    max-width: 380px;
+    max-width: 320px;
     height: 280px;
     border-radius: 8px;
 }
