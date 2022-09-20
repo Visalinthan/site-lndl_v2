@@ -125,12 +125,12 @@
                                     <div class="portfolio-media">
                                         <img src="assets/img/services/services-tce.png" alt="images">
                                         <div class="title-services">
-                                            <h3>Tout Corps d' État</h3>
+                                            <h3>Tout corps d' état</h3>
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
                                         <div class="content">
-                                            <a href="tce.php">Tout Corps d' État</a>
+                                            <a href="tce.php">Tout corps d' état</a>
                                         </div>
                                     </div>
                                     <div class="portfolio-readmore">

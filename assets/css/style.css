@@ -2203,6 +2203,12 @@ a:focus {
     font-weight: bold;
 }
 
+@media (max-width: 700px) {
+    .form-check label {
+        font-size: 1.5em;
+    }
+}
+
 .mobile-nav-toggler {
     cursor: pointer;
     display: inline-block;
@@ -3447,6 +3453,10 @@ a:focus {
     font-family: 'Barlow', sans-serif;
     font-size: 40px;
     line-height: 42px;
+}
+
+.flat-contact h3 {
+    line-height: 50px;
 }
 
 .flat-features .features-content-right {
