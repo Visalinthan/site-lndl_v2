@@ -35,9 +35,6 @@
     justify-content: center;
 }
 
-#help-pop .pop-up-contain h5 {
-    margin: 25px 0px;
-}
 
 #help-pop .pop-up-contain img {
     width: 100px;

@@ -96,7 +96,7 @@
                         </div>
                     </div>
                     <div class="row padding-top-45 display-flex part">
-                        <div class="col-lg-4 col-md-12 padding-top-45">
+                        <div class="col-xl-4 col-lg-6 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -114,7 +114,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 padding-top-45">
+                        <div class="col-xl-4 col-lg-6 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -131,7 +131,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 padding-top-45">
+                        <div class="col-xl-4 col-lg-6 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
