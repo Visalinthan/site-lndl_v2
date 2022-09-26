@@ -4025,9 +4025,14 @@
         margin-top: -42px;
     }
     
+    .flat-team {
+        margin: 0 auto;
+    }
+    
     .flat-team .team-content-box {
         position: relative;
         overflow: hidden;
+        max-width: 350px;
         padding: 19px 19px 42px 19px;
         background-color: #F9F9F9;
         border-radius: 8px;
@@ -5848,6 +5853,16 @@
         font-size: 20px !important;
     }
     
+    #footer .widget-social,
+    #footer .widget-social ul {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
     #footer .widget-social ul li a {
         color: #fff;
     }
@@ -6130,7 +6145,7 @@
         text-align: center;
         z-index: 1;
         left: 24px;
-        bottom: 100px;
+        bottom: 10px;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
