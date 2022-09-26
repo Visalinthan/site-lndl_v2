@@ -97,14 +97,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row padding-top-45">
-                        <div class="col-md-12">
-                            <div class="ratio ratio-16x9">
-                                <iframe class="embed-responsive-item" title="Présentation de la Nationale du Logement"
-                                    src="https://www.youtube.com/embed/tOKuGz5hpmA" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </section>
             <!-- /flat about 2 -->
@@ -121,7 +114,7 @@
 
                     </div>
                     <div class="row padding-top-45 display-flex">
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="team-post">
                                     <img src="assets/img/qsn/nos-equipes-la-direction.jpg" alt="images">
@@ -133,7 +126,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -146,7 +139,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -159,7 +152,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="900ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -173,7 +166,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="team-post">
                                     <img src="assets/img/qsn/nos-equipes-technique.jpg" alt="images">
@@ -185,7 +178,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">
@@ -199,7 +192,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="team-post">

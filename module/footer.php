@@ -25,7 +25,7 @@
                         <div class="widget-links">
                             <ul class="link-wrap menu2">
                                 <li>
-                                    <a href="qsn.php">Qui sommes-nous</a>
+                                    <a href="qsn.php">Qui sommes-nous ?</a>
                                 </li>
                                 <li>
                                     <a href="services.php">Nos Services </a>
@@ -93,7 +93,7 @@
     <div id="bottom-bar-inner" class="container">
         <div class="bottom-bar-inner-wrap">
             <div class="bottom-bar-content-left link-style-4">
-                <div id="copyright"><span class="text">Copyright © 2022 - La Nationale du Logement - 1 rue de
+                <div id="copyright"><span class="text">Copyright © 2022 - La Nationale Du Logement - 1 rue de
                         Rome - 93110 Rosny-sous-Bois
                 </div>
             </div>

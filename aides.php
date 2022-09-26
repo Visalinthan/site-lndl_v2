@@ -129,7 +129,7 @@
 
                     <div class="row part display-flex">
 
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -148,7 +148,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -167,7 +167,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -187,7 +187,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-3 padding-top-45">
+                        <div class="col-lg-3 col-md-4 col-sm-6 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -211,7 +211,7 @@
 
                     <div class="row pro display-flex">
 
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-6 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -231,7 +231,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-6 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -249,7 +249,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-6 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
@@ -270,7 +270,7 @@
                                 <div class="bottom item-shape item-shape2"></div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-6 padding-top-45">
                             <div class="client-content-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="client-author">
