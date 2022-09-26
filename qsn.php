@@ -56,7 +56,7 @@
                         <div class="col-md-6">
                             <div class="about-2-content-right">
                                 <div data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <img src="assets/img/qsn/BtoC-notre_histoire.jpg" alt="images">
+                                    <img src="assets/img/qsn/BtoC-notre_histoire.png" alt="images">
                                 </div>
 
                             </div>
