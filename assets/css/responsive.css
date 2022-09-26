@@ -2,6 +2,7 @@
 -------------------------------------------------------------- */
 
 @media only screen and (max-width: 1565px) {
+    /*Navbar --- Navbar --- Navbar --- Navbar --- Navbar --- Navbar */
     #site-logo-inner {
         clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
     }
@@ -12,6 +13,25 @@
     }
     #site-header-right .header-search {
         margin-right: 40px;
+    }
+    #site-logo {
+        width: 150px;
+    }
+    #site-header {
+        justify-content: space-around;
+    }
+    #site-header .header-box {
+        right: 0;
+        width: 90%;
+    }
+    #main-nav>ul>li>a {
+        font-size: 14px;
+    }
+    .form-check-label {
+        font-size: 1.6em !important;
+    }
+    #site-header-right .button-header a {
+        font-size: 12px;
     }
 }
 

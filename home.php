@@ -96,7 +96,7 @@
                         </div>
                     </div>
                     <div class="row padding-top-45 display-flex part">
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -104,7 +104,7 @@
                                     <div class="icon-features">
                                         <img src="assets/img/home/picto/assistance-complete.png" alt="images">
                                     </div>
-                                    <h3 class="headline"><br/>Une assistance complète</h3>
+                                    <h3 class="headline">Une assistance complète</h3>
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
@@ -114,7 +114,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -131,7 +131,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -139,7 +139,7 @@
                                     <div class="icon-features">
                                         <img src="assets/img/home/picto/decenale.png" alt="images">
                                     </div>
-                                    <h3 class="headline"><br/>Garantie décennale</h3>
+                                    <h3 class="headline">Garantie décennale</h3>
                                 </div>
                                 <div class="box-content">
                                     <div class="content-post">
@@ -151,7 +151,7 @@
                     </div>
 
                     <div class="row padding-top-45 display-flex pro">
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -185,7 +185,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45">
                             <div class="features-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
                                 <div class="item-shape item-shape1"></div>
                                 <div class="item-shape item-shape2"></div>
@@ -238,86 +238,107 @@
                     </div>
                     <div class="row padding-top-45 display-flex part">
 
-                        <div class="col-md-3 padding-top-45">
-                            <div id="serv1" class="work-box wow fadeInUp" data-wow-delay="300ms"
-                                data-wow-duration="1500ms">
-                                <div class="work-icon">
-                                    <div class="top item-shape item-shape1"></div>
-                                    <div class="top item-shape item-shape2"></div>
-                                    <div class="bottom item-shape item-shape1"></div>
-                                    <div class="bottom item-shape item-shape2"></div>
-                                    <div class="master-icon-box">
-                                        <div class="icon-wrap">
-                                            <img src="assets/img/home/picto/isolation.png" alt="ite iti" />
-                                        </div>
-                                        <div class="text-wrap">
-                                            <h3 class="headline">ITE/ITI</h3>
-                                            <a href="ite-iti.php" class="url-wrap readmore">Découvrir</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 padding-top-45">
-                            <div id="serv2" class="work-box wow fadeInUp" data-wow-delay="600ms"
-                                data-wow-duration="1500ms">
-                                <div class="work-icon">
-                                    <div class="top item-shape item-shape1"></div>
-                                    <div class="top item-shape item-shape2"></div>
-                                    <div class="bottom item-shape item-shape1"></div>
-                                    <div class="bottom item-shape item-shape2"></div>
-                                    <div class="master-icon-box">
-                                        <div class="icon-wrap">
-                                            <img src="assets/img/home/picto/pompe-a-chaleur.png"
-                                                alt="pac pompe à chaleur" />
-                                        </div>
-                                        <div class="text-wrap">
-                                            <h3 class="headline">PAC</h3>
-                                            <a href="pac.php" class="url-wrap readmore">Découvrir</a>
+                        <div class="col-xl-3 col-lg-4 col-md-12 padding-top-45 display-flex">
+                            <div class="expertise-home"> 
+                                <div id="serv1" class="work-box wow fadeInUp" data-wow-delay="300ms"
+                                    data-wow-duration="1500ms">
+                                    <div class="work-icon">
+                                        <div class="top item-shape item-shape1"></div>
+                                        <div class="top item-shape item-shape2"></div>
+                                        <div class="bottom item-shape item-shape1"></div>
+                                        <div class="bottom item-shape item-shape2"></div>
+                                        <div class="master-icon-box">
+                                            <div class="icon-wrap">
+                                                <img src="assets/img/home/picto/isolation.png" alt="ite iti" />
+                                            </div>
+                                            <div class="text-wrap">
+                                                <a href="ite-iti.php" class="url-wrap readmore">Découvrir</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="text-center">
+                                    <h4 class="headline">ITE/ITI</h4>
+                                </div>
                             </div>
+
                         </div>
-                        <div class="col-md-3 padding-top-45">
-                            <div id="serv3" class="work-box">
-                                <div class="work-icon">
-                                    <div class="top item-shape item-shape1"></div>
-                                    <div class="top item-shape item-shape2"></div>
-                                    <div class="bottom item-shape item-shape1"></div>
-                                    <div class="bottom item-shape item-shape2"></div>
-                                    <div class="master-icon-box">
-                                        <div class="icon-wrap">
-                                            <img src="assets/img/home/picto/ventilation.png" alt="ventilation" />
-                                        </div>
-                                        <div class="text-wrap">
-                                            <h3 class="headline">VMC</h3>
-                                            <a href="vmc.php" class="url-wrap readmore">Découvrir</a>
+                        <div class="col-xl-3 col-lg-4 col-md-12 padding-top-45 display-flex">
+                            <div class="expertise-home">
+                                <div id="serv2" class="work-box wow fadeInUp" data-wow-delay="600ms"
+                                    data-wow-duration="1500ms">
+                                    <div class="work-icon">
+                                        <div class="top item-shape item-shape1"></div>
+                                        <div class="top item-shape item-shape2"></div>
+                                        <div class="bottom item-shape item-shape1"></div>
+                                        <div class="bottom item-shape item-shape2"></div>
+                                        <div class="master-icon-box">
+                                            <div class="icon-wrap">
+                                                <img src="assets/img/home/picto/pompe-a-chaleur.png"
+                                                    alt="pac pompe à chaleur" />
+                                            </div>
+                                            <div class="text-wrap">
+                                                <a href="pac.php" class="url-wrap readmore">Découvrir</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="text-center">
+                                    <h4 class="headline">PAC</h4>
+                                </div>
                             </div>
+
                         </div>
-                        <div class="col-md-3 padding-top-45">
-                            <div id="serv4" class="work-box wow fadeInUp" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="work-icon">
-                                    <div class="top item-shape item-shape1"></div>
-                                    <div class="top item-shape item-shape2"></div>
-                                    <div class="bottom item-shape item-shape1"></div>
-                                    <div class="bottom item-shape item-shape2"></div>
-                                    <div class="master-icon-box">
-                                        <div class="icon-wrap">
-                                            <img src="assets/img/home/picto/tce.png" alt="tce tout corps d'état" />
-                                        </div>
-                                        <div class="text-wrap">
-                                            <h3 class="headline">TCE</h3>
-                                            <a href="tce.php" class="url-wrap readmore">Découvrir</a>
+                        <div class="col-xl-3 col-lg-4 col-md-12 padding-top-45 display-flex">
+                            <div class="expertise-home">
+                                <div id="serv3" class="work-box">
+                                    <div class="work-icon">
+                                        <div class="top item-shape item-shape1"></div>
+                                        <div class="top item-shape item-shape2"></div>
+                                        <div class="bottom item-shape item-shape1"></div>
+                                        <div class="bottom item-shape item-shape2"></div>
+                                        <div class="master-icon-box">
+                                            <div class="icon-wrap">
+                                                <img src="assets/img/home/picto/ventilation.png" alt="ventilation" />
+                                            </div>
+                                            <div class="text-wrap">
+                                                <a href="vmc.php" class="url-wrap readmore">Découvrir</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="text-center">
+                                    <h4 class="headline">VMC</h4>
+                                </div>
                             </div>
+
                         </div>
+                        <div class="col-xl-3 col-lg-4 col-md-12 padding-top-45 display-flex">
+                            <div class="expertise-home">
+                                <div id="serv4" class="work-box wow fadeInUp" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <div class="work-icon">
+                                        <div class="top item-shape item-shape1"></div>
+                                        <div class="top item-shape item-shape2"></div>
+                                        <div class="bottom item-shape item-shape1"></div>
+                                        <div class="bottom item-shape item-shape2"></div>
+                                        <div class="master-icon-box">
+                                            <div class="icon-wrap">
+                                                <img src="assets/img/home/picto/tce.png" alt="tce tout corps d'état" />
+                                            </div>
+                                            <div class="text-wrap">
+                                                <a href="tce.php" class="url-wrap readmore">Découvrir</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="headline">TCE</h4>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
 
                     <div class="row padding-top-45 display-flex pro">
@@ -326,7 +347,7 @@
                             <h3 class="section-heading">Nos prestations</h3>
                         </div>
 
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45 display-flex">
                             <div id="serv5" class="work-box wow fadeInUp" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="work-icon">
@@ -347,7 +368,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45 display-flex">
                             <div id="serv6" class="work-box wow fadeInUp" data-wow-delay="600ms"
                                 data-wow-duration="1500ms">
                                 <div class="work-icon">
@@ -367,7 +388,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 padding-top-45">
+                        <div class="col-lg-4 col-md-12 padding-top-45 display-flex">
                             <div id="serv7" class="work-box">
                                 <div class="work-icon">
                                     <div class="top item-shape item-shape1"></div>
@@ -442,7 +463,7 @@
         <!-- /flat logo slogan -->
 
         <!-- flat latest -->
-       <!-- <section class="tf-space flat-latest">
+        <!-- <section class="tf-space flat-latest">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-4">

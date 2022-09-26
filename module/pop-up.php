@@ -3,7 +3,7 @@
 
 #help-pop {
     position: fixed;
-    bottom: 10px;
+    bottom: 100px;
     right: 10px;
     max-width: 350px;
     z-index: 25;
