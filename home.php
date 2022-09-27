@@ -245,7 +245,7 @@
                                 <h3 class="headline">Isolation</h3>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-ite-iti.jpeg" alt="images">
+                                        <img src="assets/img/home/services-ite-iti.png" alt="images">
                                         <div class="post-readmore">
                                             <a href="ite-iti.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
@@ -291,7 +291,7 @@
                                 <h3 class="headline">Tout corps d'état</h3>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-tce.jpg" alt="images">
+                                        <img src="assets/img/home/services-tce.png" alt="images">
                                         <div class="post-readmore">
                                             <a href="tce.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
@@ -326,7 +326,7 @@
                                 <h3 class="headline">Tout corps d'état</h3>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-tce.jpg" alt="images">
+                                        <img src="assets/img/home/services-tce.png" alt="images">
                                         <div class="post-readmore">
                                             <a href="tce-pro.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>

@@ -589,8 +589,8 @@
     form input[type="checkbox"],
     form input[type="radio"] {
         padding: 0;
-        width: 15px !important;
-        height: 15px !important;
+        width: 35px !important;
+        height: 35px !important;
         margin-right: 5px;
         cursor: pointer;
         /* Addresses excess padding in IE8/9 */
@@ -3419,7 +3419,6 @@
     .flat-features .features-box .content-post img {
         width: 100% !important;
         max-width: 350px;
-        height: 250px;
         border-radius: 8px;
     }
     
@@ -5795,10 +5794,7 @@
     
     .logo-qrcode img {
         min-width: 80px;
-    }
-    
-    #footer .logo-footer {
-        margin-bottom: 24px;
+        max-width: 120px;
     }
     
     #footer .text-widget {
@@ -5815,6 +5811,12 @@
     .widget-social {
         display: flex;
         align-items: center;
+    }
+    
+    .footer-widgets-nav-menu {}
+    
+    .footer-widgets-nav-menu input {
+        max-width: 350px;
     }
     
     .widget-social ul {

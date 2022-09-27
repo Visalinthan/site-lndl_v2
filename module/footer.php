@@ -11,7 +11,7 @@
                         </a>
 
                     </div>
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-12 display-flex">
                         <img src="assets/img/qr_code-blanc.png" alt="qr-code" />
                     </div>
                 </div>
