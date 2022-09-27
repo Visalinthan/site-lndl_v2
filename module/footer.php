@@ -5,14 +5,14 @@
         <div class="row">
             <div class="col-md-3 logo-qrcode">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 logo-footer">
+                    <div class="col-lg-6 col-md-12 logo-footer display-flex">
                         <a href="home.php" rel="home" class="main-logo">
                             <img src="assets/img/LOGO-LNDL-footer.png" alt="images">
                         </a>
 
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <img src="assets/img/qr_code-bleu.png" alt="qr-code" />
+                        <img src="assets/img/qr_code-blanc.png" alt="qr-code" />
                     </div>
                 </div>
 
