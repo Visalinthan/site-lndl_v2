@@ -586,11 +586,11 @@
         border: 0;
     }
     
-    input[type="checkbox"],
-    input[type="radio"] {
+    form input[type="checkbox"],
+    form input[type="radio"] {
         padding: 0;
-        width: 30px;
-        height: 30px;
+        width: 15px !important;
+        height: 15px !important;
         margin-right: 5px;
         cursor: pointer;
         /* Addresses excess padding in IE8/9 */
