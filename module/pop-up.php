@@ -14,6 +14,7 @@
 #help-pop.open {
     padding: 10px 10px 40px;
     border-radius: 15px;
+    bottom: 10px !important;
 }
 
 #help-pop.close {
