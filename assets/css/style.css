@@ -5795,6 +5795,7 @@
     .logo-qrcode img {
         min-width: 80px;
         max-width: 120px;
+        padding: 10px 0;
     }
     
     #footer .text-widget {

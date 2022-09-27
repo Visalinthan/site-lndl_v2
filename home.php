@@ -311,7 +311,7 @@
 
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-renovation.jpg" alt="images">
+                                        <img src="assets/img/home/services-renovation.png" alt="images">
                                         <div class="post-readmore">
                                             <a href="renovation.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
