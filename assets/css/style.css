@@ -589,9 +589,9 @@
     input[type="checkbox"],
     input[type="radio"] {
         padding: 0;
-        width: 30px;
-        height: 30px;
-        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
         cursor: pointer;
         /* Addresses excess padding in IE8/9 */
     }
@@ -5856,11 +5856,11 @@
     #footer .widget-social,
     #footer .widget-social ul {
         display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
+        align-items: left !important;
+        justify-content: left !important;
         width: 100%;
         margin: 0 auto;
-        text-align: center;
+        text-align: left;
     }
     
     #footer .widget-social ul li a {

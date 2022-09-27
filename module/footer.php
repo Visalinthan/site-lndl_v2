@@ -45,8 +45,7 @@
                         <ul class="widget-list-contact link-style-4 ">
                             <li>
                                 <img src="../assets/img/picto-footer/Location.png" alt="location" />
-                                <span>1 rue de Rome 93110<br />
-                                    Rosny-Sous-Bois</span>
+                                <span>1, rue de Rome<br /> 93110 Rosny-Sous-Bois</span>
                             </li>
                             <li>
                                 <img src="../assets/img/picto-footer/Mail.png" alt="mail" />
@@ -93,7 +92,7 @@
     <div id="bottom-bar-inner" class="container">
         <div class="bottom-bar-inner-wrap">
             <div class="bottom-bar-content-left link-style-4">
-                <div id="copyright"><span class="text">Copyright © 2022 - La Nationale Du Logement - 1 rue de
+                <div id="copyright"><span class="text">Copyright © 2022 - La Nationale Du Logement - 1, rue de
                         Rome - 93110 Rosny-sous-Bois
                 </div>
             </div>
