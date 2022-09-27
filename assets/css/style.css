@@ -1803,9 +1803,14 @@
         .header-bg-image img {
             display: none;
         }
+        .header-home,
+        .header-services,
         .header-bg-image {
             position: relative;
             width: 100%;
+            min-height: 600px;
+            max-height: 800px;
+            height: auto;
         }
         .header-left-text {
             position: absolute;

@@ -96,7 +96,7 @@ $(document).ready(function() {
             }
         });
 
-        if ($(document).scrollTop() >= 1500) {
+        if ($(document).scrollTop() >= 2000) {
             $('#scroll-top').css({ 'bottom': '150px' });
             $('#help-pop').css({ 'bottom': '150px' });
 
