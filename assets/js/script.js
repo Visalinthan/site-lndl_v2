@@ -96,7 +96,17 @@ $(document).ready(function() {
             }
         });
 
+        if ($(document).scrollTop() >= 1500) {
+            $('#scroll-top').css({ 'bottom': '150px' });
+            $('#help-pop').css({ 'bottom': '150px' });
+
+        } else {
+            $('#scroll-top').css({ 'bottom': '10px' });
+            $('#help-pop').css({ 'bottom': '10px' });
+        }
+
     }).scroll();
+
 
 
 });
