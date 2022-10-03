@@ -68,7 +68,7 @@
                         <div class="col-md-8">
                             <div class="title">
                                 <h3 class="part">Avec la hausse des prix de l'énergie,<br/>ne rien faire coûte souvent plus cher ! </h3>
-                                <h3 class="pro">Réserver aux professionnels </h3>
+                                <h3 class="pro">Réservé aux professionnels </h3>
                             </div>
                             <div class="contact-form wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
                                 id="comments">

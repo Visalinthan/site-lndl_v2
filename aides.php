@@ -174,9 +174,9 @@
                                     <img src="assets/img/aides/btoc-eco-pret-0.png" alt="images">
 
                                 </div>
-                                <h3 class="client-name">Éco-prêt CIC</h3>
+                                <h3 class="client-name">Éco-prêt</h3>
                                 <p>Afin d’encourager les propriétaires à la transition énergétique, L’Etat vous permet
-                                    de bénéficier d’un prêt à taux zéro.<br />Avec notre partenaire CIC, nous vous
+                                    de bénéficier d’un prêt à taux zéro.<br />Avec nos partenaires, nous vous
                                     simplifions les démarches et réalisons pour
                                     vous, votre dossier de financement sans intérêt, ce qui vous permettra de financer
                                     votre reste à charge.</p>

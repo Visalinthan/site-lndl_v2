@@ -48,6 +48,8 @@ function ValidationRulesAndMessage(formulaire, champs) {
 
         validation.rules[value.attr('name')] = { required: true };
 
+        console.log(value);
+
         if (value.attr('type') == "text") {
             validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
         }
@@ -81,6 +83,14 @@ function ValidationRulesAndMessage(formulaire, champs) {
             } else {
                 validation.messages[value.attr('name')] = "Veuillez sélectionnez un ou plusieurs" + value.attr('name');
             }
+        }
+
+        if (value.attr('id') == "choose") {
+            validation.messages[value.attr('name')] = { required: "Veuillez selectionnez !" };
+        }
+
+        if (value.attr('id') == "comment-message") {
+            validation.messages[value.attr('name')] = { required: "Veuillez écrire votre demande" };
         }
 
 

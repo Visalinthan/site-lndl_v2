@@ -81,12 +81,13 @@ function nextPrev(n) {
     var form = $("form");
     var response = grecaptcha.getResponse();
 
-    //console.log();
-    //x[currentTab].getElementsBy.scrollTop();
+
+    $(window).scrollTop(100);
+
 
     if (currentTab == (x.length - 2) && response.length == 0) {
         alert("Veuillez valider le captcha !");
-        //evt.preventDefault();
+
         return false;
     } else if (form.valid()) {
 
@@ -121,11 +122,11 @@ function nextPrev(n) {
             showTab(currentTab);
 
         } else {
+
             showTab(currentTab);
         }
 
     }
-
 }
 
 
