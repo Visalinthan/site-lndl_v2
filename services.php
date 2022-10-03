@@ -148,10 +148,6 @@
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="renovation.php">Rénovation énergétique</a>
-
-                                        </div>
                                     </div>
                                     <div class="portfolio-readmore">
                                         <a href="renovation.php" class="readmore"></a>
@@ -168,10 +164,6 @@
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="tce-pro.php">Tout Corps d'État</a>
-
-                                        </div>
                                     </div>
                                     <div class="portfolio-readmore">
                                         <a href="tce-pro.php" class="readmore"></a>
@@ -188,9 +180,6 @@
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="demolition.php">Démolition</a>
-                                        </div>
                                     </div>
                                     <div class="portfolio-readmore">
                                         <a href="demolition.php" class="readmore"></a>

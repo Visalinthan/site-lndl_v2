@@ -30,9 +30,9 @@
                 <div class="header-left-text">
                     <div>
                         <h2>ITE / ITI</h2>
-                        <p>Une Isolation Thermique par l’Intérieur (ITI) consolide et isole les murs de vos pièces des
-                            déperditions de chaleur.<br/> L’Isolation Thermique par l’Extérieur (ITE) concerne les parois de
-                            votre façade.</p>
+                        <p>L’Isolation Thermique par l’Extérieur (ITE) concerne les parois de
+                            votre façade.<br/>Une Isolation Thermique par l’Intérieur (ITI) consolide et isole les murs de vos pièces des
+                            déperditions de chaleur. </p>
                     </div>
 
                 </div>

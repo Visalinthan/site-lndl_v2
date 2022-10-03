@@ -106,7 +106,7 @@
                     </div>
                     <div class="row margin-top-55">
                         <div class="section-title ">
-                            <h4>Second oeuvre</h4>
+                            <h4>Second œuvre</h4>
                         </div>
                     </div>
                     <div class="row margin-top-55 display-flex display-flex-top">
@@ -121,13 +121,13 @@
                         <div class="col-md-3">
                             <div class="text-center">
                                 <img src="assets/img/services/tce/electricite.png" alt="Electricté">
-                                <p class="text-center">Électricté</p>
+                                <p class="text-center">Électricité</p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="text-center">
                                 <img src="assets/img/services/tce/platrerie.png" alt="Maçonnerie Platrerie">
-                                <p class="text-center">Maçonnerie Plâtrerie</p>
+                                <p class="text-center">Maçonnerie plâtrerie</p>
                             </div>
                         </div>
 
@@ -152,7 +152,7 @@
                         <div class="col-md-3">
                             <div class="text-center">
                                 <img src="assets/img/services/tce/revetement.png" alt="Revetement de Sol">
-                                <p class="text-center">Revêtement de Sol</p>
+                                <p class="text-center">Revêtement de sol</p>
                             </div>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
 
                     <div class="row margin-top-55">
                         <div class="section-title ">
-                            <h4>Gros oeuvre</h4>
+                            <h4>Gros œuvre</h4>
                         </div>
                     </div>
 
