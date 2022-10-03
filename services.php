@@ -70,9 +70,7 @@
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="pac.php">Pompe à chaleur</a>
-                                        </div>
+
                                     </div>
                                     <div class="portfolio-readmore">
                                         <a href="pac.php" class="readmore"></a>
@@ -90,9 +88,6 @@
 
                                     </div>
                                     <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="ite-iti.php">ITE / ITI</a>
-                                        </div>
                                     </div>
                                     <div class="portfolio-readmore">
                                         <a href="ite-iti.php" class="readmore"></a>
@@ -109,10 +104,6 @@
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="vmc.php">VMC</a>
-
-                                        </div>
                                     </div>
                                     <div class="portfolio-readmore">
                                         <a href="vmc.php" class="readmore"></a>
@@ -129,9 +120,6 @@
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
-                                        <div class="content">
-                                            <a href="tce.php">Tout corps d' état</a>
-                                        </div>
                                     </div>
                                     <div class="portfolio-readmore">
                                         <a href="tce.php" class="readmore"></a>

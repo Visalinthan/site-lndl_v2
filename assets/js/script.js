@@ -96,10 +96,9 @@ $(document).ready(function() {
             }
         });
 
-        if ($(document).scrollTop() >= 2000) {
-            $('#scroll-top').css({ 'bottom': '150px' });
-            $('#help-pop').css({ 'bottom': '150px' });
-
+        if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+            $('#scroll-top').css({ 'bottom': '12%' });
+            $('#help-pop').css({ 'bottom': '12%' });
         } else {
             $('#scroll-top').css({ 'bottom': '10px' });
             $('#help-pop').css({ 'bottom': '10px' });
