@@ -27,7 +27,7 @@
             <!-- flat about 2 -->
             <section class="tf-space flat-about-2">
                 <div class="container">
-                    <div class="row ">
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="about-2-content-left wow fadeInLeft part" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
@@ -38,7 +38,7 @@
                                     <p>LNDL prend en charge toutes vos démarches, de la création de votre dossier à
                                         l’obtention de vos aides.</p>
                                 </div>
-                                <div class="row">
+                                <div class="row aides-finances">
                                     <div class="col-md-7">
                                         <img src="assets/img/aides/billet.jpg" alt="billet" />
                                     </div>

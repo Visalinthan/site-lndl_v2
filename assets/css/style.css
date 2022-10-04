@@ -4401,11 +4401,18 @@
         border-radius: 29px;
         padding: 8px 18px;
     }
-    /* flat about 2
--------------------------------------------------------------- */
+    /* flat about 2-------------------------------------------------------------- */
     
     .flat-about-2 {
         padding: 116px 0;
+    }
+    
+    .flat-about-2 .aides-finances {
+        height: 100%;
+    }
+    
+    .flat-about-2 .aides-finances img {
+        border-radius: 20px;
     }
     
     .flat-about-2 .about-2-content-left {

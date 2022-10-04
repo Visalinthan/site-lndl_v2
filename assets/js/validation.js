@@ -116,6 +116,4 @@ $(function() {
         ValidationRulesAndMessage(form, inputs);
         form.validate(validation);
     }
-
-
 });
