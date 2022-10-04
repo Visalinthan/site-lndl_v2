@@ -29,7 +29,7 @@
 
                 <div class="header-left-text">
                     <div>
-                        <h2>Rénovation énergétique</h2>
+                        <h2>RÉNOVATION ÉNERGÉTIQUE</h2>
                         <p>La rénovation énergétique consiste à réaliser des travaux sur un bâtiment existant
                             afin d’améliorer sa performance énergétique. Elle se définit par le rapport entre le
                             niveau d'énergie absorbé par le bâtiment et l'énergie totale qu'il consomme
@@ -125,7 +125,7 @@
 
                     <div class="row margin-top-55">
                         <div class="section-title ">
-                            <h3 class="section-heading">Les services</h3>
+                            <h3 class="section-heading">Nos services</h3>
                         </div>
                     </div>
 
@@ -139,7 +139,7 @@
                         <div class="col-md-3">
                             <div class="text-center">
                                 <img src="assets/img/services/renovation/points-singulier.png" alt="points singulier">
-                                <p class="text-center">Points singulier</p>
+                                <p class="text-center">Points singuliers</p>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -152,13 +152,13 @@
                         <div class="col-md-3">
                             <div class="text-center">
                                 <img src="assets/img/services/renovation/iti.png" alt="iti">
-                                <p class="text-center">ITI</p>
+                                <p class="text-center">Isolation Thermique Intérieure</p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="text-center">
                                 <img src="assets/img/services/renovation/ite.png" alt="ite">
-                                <p class="text-center">ITE</p>
+                                <p class="text-center">Isolation Thermique Extérieure</p>
                             </div>
                         </div>
                         <div class="col-md-3">

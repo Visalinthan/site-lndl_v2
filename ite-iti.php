@@ -29,7 +29,7 @@
 
                 <div class="header-left-text">
                     <div>
-                        <h2>ITE / ITI</h2>
+                        <h2>ISOLATION</h2>
                         <p>L’Isolation Thermique par l’Extérieur (ITE) concerne les parois de
                             votre façade.<br/>Une Isolation Thermique par l’Intérieur (ITI) consolide et isole les murs de vos pièces des
                             déperditions de chaleur. </p>
@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="main-content">
-                                <h2 class="section-heading">Comment choisir entre ITE et ITI ?</h2>
+                                <h2 class="section-heading">Comment choisir entre Isolation Thermique Extérieure (ITE)  <br/>et Isolation Thermique Intérieure (ITI) ?</h2>
                                 <div class="themesflat-spacer clearfix" data-desktop="30" data-mobile="20"
                                     data-smobile="10"></div>
                                 <div class="section-wrap tf-row display-flex">

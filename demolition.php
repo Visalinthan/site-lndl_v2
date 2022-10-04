@@ -29,7 +29,7 @@
 
                 <div class="header-left-text">
                     <div>
-                        <h2>Démolition</h2>
+                        <h2>DÉMOLITION</h2>
                         <p>La Nationale Du Logement intervient dans toute la France pour prendre en charge vos
                             différents
                             travaux de démolition, jusqu’au tri et évacuation des déchets.</p>

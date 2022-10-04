@@ -31,7 +31,7 @@
                                  <a href="services.php" class="pro">Nos prestations </a>
                                  <ul class="sub-menu part">
                                      <li class="menu-item"><a href="pac.php">Pompe à chaleur</a></li>
-                                     <li class="menu-item"><a href="ite-iti.php">ITE / ITI</a></li>
+                                     <li class="menu-item"><a href="ite-iti.php">Isolation</a></li>
                                      <li class="menu-item"><a href="vmc.php">VMC</a></li>
                                      <li class="menu-item"><a href="tce.php">Tout corps d'état</a></li>
                                  </ul>

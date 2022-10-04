@@ -29,8 +29,8 @@
 
                 <div class="header-left-text">
                     <div>
-                        <h2>Pompe À Chaleur</h2>
-                        <p>La Pompe A Chaleur (PAC) est un appareil qui utilise un dispositif thermodynamique qui permet
+                        <h2>POMPE À CHALEUR</h2>
+                        <p>La Pompe À Chaleur (PAC) est un appareil qui utilise un dispositif thermodynamique qui permet
                             de transférer de la chaleur provenant d’un milieu froid (l’air ou le sol principalement)
                             vers un lieu à chauffer.</p>
                     </div>

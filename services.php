@@ -66,7 +66,7 @@
                                     <div class="portfolio-media">
                                         <img src="assets/img/services/services-pac.png" alt="images">
                                         <div class="title-services">
-                                            <h3>Pompe à chaleur</h3>
+                                            <h3>POMPE À CHALEUR</h3>
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
@@ -83,7 +83,7 @@
                                     <div class="portfolio-media">
                                         <img src="assets/img/services/services-ite_iti.png" alt="images">
                                         <div class="title-services">
-                                            <h3>ITE / ITI</h3>
+                                            <h3>ISOLATION</h3>
                                         </div>
 
                                     </div>
@@ -116,7 +116,7 @@
                                     <div class="portfolio-media">
                                         <img src="assets/img/services/services-tce.png" alt="images">
                                         <div class="title-services">
-                                            <h3>Tout corps d' état</h3>
+                                            <h3>TOUT CORPS D' ÉTAT</h3>
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
@@ -144,7 +144,7 @@
                                     <div class="portfolio-media">
                                         <img src="assets/img/services/services-renovation.jpg" alt="images">
                                         <div class="title-services">
-                                            <h3>Rénovation énergétique</h3>
+                                            <h3>RÉNOVATION ÉNERGÉTIQUE</h3>
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
@@ -160,7 +160,7 @@
                                     <div class="portfolio-media">
                                         <img src="assets/img/services/services-tce.png" alt="images">
                                         <div class="title-services">
-                                            <h3>Tout Corps d'État</h3>
+                                            <h3>TOUT CORPS D' ÉTAT</h3>
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">
@@ -176,7 +176,7 @@
                                     <div class="portfolio-media">
                                         <img src="assets/img/services/services-demolition.png" alt="images">
                                         <div class="title-services">
-                                            <h3>Démolition</h3>
+                                            <h3>DÉMOLITION</h3>
                                         </div>
                                     </div>
                                     <div class="portfolio-layer-content">

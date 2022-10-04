@@ -29,7 +29,7 @@
 
                 <div class="header-left-text">
                     <div>
-                        <h2>Tout corps d'état</h2>
+                        <h2>TOUT CORPS D'ÉTAT</h2>
                         <p>Le TCE (Tout Corps d'État) désigne l’ensemble des corps de métiers du bâtiment et des travaux
                             publics.<br /> Les corps d’états se divisent en six catégories et regroupent plus de 60
                             métiers

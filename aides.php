@@ -38,23 +38,29 @@
                                     <p>LNDL prend en charge toutes vos démarches, de la création de votre dossier à
                                         l’obtention de vos aides.</p>
                                 </div>
-                                <div class="flex-column">
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Au profit de tous </h4>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <img src="assets/img/aides/billet.jpg" alt="billet" />
                                     </div>
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Pour tous vos besoins </h4>
+                                    <div class="col-md-5 display-flex flex-column"
+                                        style="align-items:flex-start !important">
+                                        <div class="about-our-company">
+                                            <div class="icon-tick"></div>
+                                            <div class="content-box">
+                                                <h4>Au profit de tous </h4>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="about-our-company">
-                                        <div class="icon-tick"></div>
-                                        <div class="content-box">
-                                            <h4>Cumulables</h4>
+                                        <div class="about-our-company">
+                                            <div class="icon-tick"></div>
+                                            <div class="content-box">
+                                                <h4>Pour tous vos besoins </h4>
+                                            </div>
+                                        </div>
+                                        <div class="about-our-company">
+                                            <div class="icon-tick"></div>
+                                            <div class="content-box">
+                                                <h4>Cumulables</h4>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -337,54 +343,54 @@
                         </div>
 
                     </div>
-                    <section class="tf-space flat-about-2 part">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12" style="text-align:center">
-                                    <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
-                                        data-wow-duration="1500ms">
-                                        <div class="section-title st-2">
-                                            <div class="features-content-left">
-                                                <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie.
-                                                </h3>
-                                            </div>
-                                            <p class="text-center">Notre certification d’entreprise RGE nous permet de
-                                                vous faire
-                                                profiter
-                                                des
-                                                différents dispositifs d’aides.</p>
-                                            <h4 class="text-center" style="font-weight: bold;">Pour y accéder, suivez
-                                                ces
-                                                3 étapes :</h4>
+                </div>
+            </section>
+            <section class="tf-space flat-about-2 part">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align:center">
+                            <div class="about-2-content-left wow fadeInLeft" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                                <div class="section-title st-2">
+                                    <div class="features-content-left">
+                                        <h3>Bénéficiez d’une réduction considérable sur vos factures d’énergie.
+                                        </h3>
+                                    </div>
+                                    <p class="text-center">Notre certification d’entreprise RGE nous permet de
+                                        vous faire
+                                        profiter
+                                        des
+                                        différents dispositifs d’aides.</p>
+                                    <h4 class="text-center" style="font-weight: bold;">Pour y accéder, suivez
+                                        ces
+                                        3 étapes :</h4>
 
+                                </div>
+                                <div class="col-md-12 display-flex">
+                                    <div class="flex-column">
+                                        <div class="about-our-company">
+                                            <div class="icon-tick"></div>
+                                            <div class="content-box">
+                                                <h4>Établissez votre devis par notre expert</h4>
+                                            </div>
                                         </div>
-                                        <div class="col-md-12 display-flex">
-                                            <div class="flex-column">
-                                                <div class="about-our-company">
-                                                    <div class="icon-tick"></div>
-                                                    <div class="content-box">
-                                                        <h4>Établissez votre devis par notre expert</h4>
-                                                    </div>
-                                                </div>
-                                                <div class="about-our-company">
-                                                    <div class="icon-tick"></div>
-                                                    <div class="content-box">
-                                                        <h4>Réalisez vos travaux de rénovation </h4>
-                                                    </div>
-                                                </div>
-                                                <div class="about-our-company">
-                                                    <div class="icon-tick"></div>
-                                                    <div class="content-box">
-                                                        <h4>Percevez le versement de vos aides</h4>
-                                                    </div>
-                                                </div>
+                                        <div class="about-our-company">
+                                            <div class="icon-tick"></div>
+                                            <div class="content-box">
+                                                <h4>Réalisez vos travaux de rénovation </h4>
+                                            </div>
+                                        </div>
+                                        <div class="about-our-company">
+                                            <div class="icon-tick"></div>
+                                            <div class="content-box">
+                                                <h4>Percevez le versement de vos aides</h4>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </section>
 
