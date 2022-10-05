@@ -41,7 +41,7 @@ $phone = $_POST['tel'];
 
 
 $mailto = 'infos@lndl.fr';
-$addCC = $mail;
+$addCC = null;
 $subject = "Simulation projet pour " . $name . " " . $surname;
 $msg = "<h3> Logement </h3>";
 $msg .= "<ul><li>Type de logement : <strong>" . $logement . "</strong></li>";
