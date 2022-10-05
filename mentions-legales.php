@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>La Nationnale Du Logement</title>
+    <title>Mentions Légales LNDL</title>
     <meta name="description"
-        content="Découvrez l'ensemble des travaux de rénovation énergétique à réaliser et réduisez le coût de vos factures énergie ">
+        content="Mentions légales du site internet de la LNDL">
+        <meta name="keywords" content="hébergeur,  ovh, capital, protection de la vie privée, contact">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("module/links.php"); ?>
 </head>

@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>La Nationnale Du Logement</title>
+    <title>Découvrez les différents systèmes de ventilation VMC et VMR.</title>
     <meta name="description"
-        content="Découvrez l'ensemble des travaux de rénovation énergétique à réaliser et réduisez le coût de vos factures énergie ">
+        content="Plusieurs solutions existent pour assurer le renouvellement d'air d'un logement ou d'un bâtiment.  Installez votre ventilation en profitant des aides de l'Etat. Travaux réalisés par des artisans RGE.">
+        <meta name="keywords" content="ventilation,vmc double flux,vmc simple flux,vmc hygroréglable,vmc salle de bain,vmc simple flux hygroréglable,vmc aldes,ventilation double flux,vmc atlantic,aeration fenetre,ventilation salle de bain,aldes vmc,vmc double flux thermodynamique,vmc double flux prix,extracteur salle de bain,vmc hygro b,installation vmc,vmc bruyante,prix vmc,double flux,vmc silencieuse,prix vmc double flux,aeration vide sanitaire,vmc double flux atlantic,aeration salle de bain,installation vmc double flux,ventilation vide sanitaire,vmc hygroréglable atlantic,vmc cuisine,vmi ventilation,extracteur vmc,vmc autoréglable,vmc prix,ventilation naturelle,vmc obligatoire,vmc simple flux silencieuse,aération fenêtre,ventilation simple flux,vmc hygro,vmc double flux aldes,aeration fenetre pvc,ventilation fenetre,vmc hygroréglable aldes,prix vmc simple flux,vmc sauter,ventilation garage,ventilation mécanique contrôlée,ventilation industrielle,ventilation maison,vmc double flux hygroréglable,vmc thermodynamique,vmc hygroreglable,fan salle de bain,ventilation de chute">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("module/links.php"); ?>
 </head>

@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>La Nationnale Du Logement</title>
+    <title>LNDL : Spécialiste en rénovation énergétique</title>
     <meta name="description"
-        content="Découvrez l'ensemble des travaux de rénovation énergétique à réaliser et réduisez le coût de vos factures énergie ">
+        content="Simulez votre prime énergie pour financer vos travaux de rénovation énergétique. La Nationale du Logement vous accompagne dans l'isolation de votre habitat et ...">
+    <meta name="keywords"
+        content="rénovation,renovation maison,renovation energetique,rénovation énergétique,renover,renovation escalier,renov habitat,renovation appartement,rénovation maison,entreprise de renovation,prix renovation maison,renovation man,fenêtre pvc rénovation,bati renov,maprimerenove,cout renovation maison,renovation maison ancienne,renovation energetique 2021,travaux de rénovation,renover une maison,renovation facade,entreprise renovation,rénovation appartement,renovation grange,entreprise renovation maison,mon expert renovation,rénovation toiture,refaire un plafond,renovas,prix rénovation m2,entreprise de rénovation,fenetre renovation,eco renov,renovation fenetre,rénovation énergétique 2021,refaire electricité maison,travaux renovation,total rénovation">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("module/links.php"); ?>
 </head>
@@ -114,7 +116,7 @@
 
                     </div>
                     <div class="row padding-top-45 display-flex">
-                        <div class="col-xxl-3 col-xl-4 col-sm-6 padding-top-45  display-flex" >
+                        <div class="col-xxl-3 col-xl-4 col-sm-6 padding-top-45  display-flex">
                             <div class="team-content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="team-post">
                                     <img src="assets/img/qsn/nos-equipes-la-direction.jpg" alt="images">
