@@ -1,3 +1,5 @@
+<?php include("module/modal.php")?>
+
 <!-- Footer -->
 <footer id="footer" class="clearfix">
     <div id="triangle-topleft"></div>
@@ -63,7 +65,8 @@
                         <h3 class="widget-title-link-wrap style-2">Newsletter</h3>
                         <form class="row g-3" id="newsletterform" method="post">
                             <div class="col-md-12">
-                                <input type="email" class="form-control" id="mail" name="email" placeholder="Newsletter" required>
+                                <input type="email" class="form-control" id="mail" name="email" placeholder="Newsletter"
+                                    required>
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" class="button">S'inscrire</button>
@@ -117,6 +120,13 @@
 
 
 <!-- Javascript -->
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+<script src="assets/js/validation.js"></script>
+<script src="assets/js/contact.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
 <script src="../assets/js/jquery.min.js"></script>
 <script src="../assets/js/wow.min.js"></script>
 <script src="../assets/js/plugin.js"></script>

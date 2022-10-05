@@ -27,6 +27,12 @@ if (!empty($_POST['tce'])) {
     $tce = $_POST['tce'];
 }
 
+if (!empty($_POST['other-chauffe'])) {
+    $otherChauffe = $_POST['other-chauffe'];
+}
+
+
+
 $name = $_POST['nom'];
 $surname = $_POST['prenom'];
 $mail = $_POST['email'];
@@ -45,7 +51,13 @@ $msg .= "<li> Code Postale : <strong>" . $cp . "</strong></li>";
 $msg .= "<li> Ville : <strong>" . $ville . "</strong></li>";
 $msg .= "<li> Date de construction : <strong>" . $construction . "</strong></li>";
 $msg .= "<li> Nombre de personne au foyer <strong>: " . $nbFoyer . "</strong></li>";
-$msg .= "<li> Type de chauffage : <strong>" . $chauffage . "</strong></li>";
+
+if (!empty($_POST['other-chauffe'])) {
+    $msg .= "<li> Autre type de chauffage : <strong>" . $otherChauffe . "</strong></li>";
+}else{
+    $msg .= "<li> Type de chauffage : <strong>" . $chauffage . "</strong></li>";
+}
+
 $msg .= "<li> Revenu fiscal : <strong>" . $revenu . "</strong></li></ul>";
 
 
@@ -57,7 +69,11 @@ foreach ($projet as $value) {
         $serv = $_POST[$value];
         $msg .= " : ";
         foreach ($serv as $val) {
-            $msg .= "<strong>" . $val . "</strong>, ";
+            if ($val == "autre-tce"){
+                $msg .=  $val . ": ";
+            }else{
+                $msg .= "<strong>" . $val . "</strong>, ";
+            }
         }
     }
     $msg .= "</li>";

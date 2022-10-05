@@ -646,7 +646,6 @@
     input[type="search"],
     input[type="tel"],
     input[type="color"] {
-        color: #fff;
         border: 1px solid #e7e7e700;
         padding: 16px 23px;
         letter-spacing: 0.4px;
@@ -663,6 +662,7 @@
         -webkit-transition: border ease .238s;
         -moz-transition: border ease .238s;
         transition: border ease .238s;
+        font-size: 1.5em;
     }
     /* Contact Form 7 */
     
@@ -4411,8 +4411,9 @@
         padding: 116px 0;
     }
     
-    .flat-about-2 .aides-finances {
-        height: 100%;
+    .flat-about-2 .aides-finances .row {
+        display: flex;
+        align-items: center;
     }
     
     .flat-about-2 .aides-finances img {
