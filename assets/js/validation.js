@@ -126,7 +126,6 @@ $(function() {
 
     document.getElementById("newsletterform").addEventListener("submit", function(evt) {
 
-        alert("ok");
         form = $("#newsletterform");
         ValidationRulesAndMessage(form, inputs);
         form.validate(validation);

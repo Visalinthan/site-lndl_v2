@@ -11,7 +11,7 @@ $objet = $_POST['objet'];
 $message = $_POST['message'];
 
 
-$mailto = "vishal@lndl.fr";
+$mailto = "infos@lndl.fr";
 $addCC = null;
 $subject = "Contact de ". $nom . " pour " . $objet ;
 $msg = "<h3> Contact </h3>";

@@ -6,7 +6,7 @@ include "recaptcha.php";
 $mail = $_POST['email'];
 
 
-$mailto = "vishal@lndl.fr";
+$mailto = "infos@lndl.fr";
 $addCC = null;
 $subject = "Demande de newsletter" ;
 $msg = "<h3> Newsletter </h3>";
