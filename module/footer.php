@@ -77,10 +77,10 @@
                             <h5>Suivez-nous </h5>
                             <ul class="text-center">
                                 <li>
-                                    <a href="#" class="linked-icon"></a>
+                                    <a href="https://fr.linkedin.com/company/la-nationale-du-logement" target="_blank"  class="linked-icon"></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="facebook-icon"></a>
+                                    <a href="https://fr-fr.facebook.com/lanationaledulogement/" target="_blank" class="facebook-icon"></a>
                                 </li>
                             </ul>
                         </div>
