@@ -61,9 +61,9 @@
 
                     <div class="menu-3">
                         <h3 class="widget-title-link-wrap style-2">Newsletter</h3>
-                        <form class="row g-3 ">
+                        <form class="row g-3" id="newsletterform" method="post">
                             <div class="col-md-12">
-                                <input type="email" class="form-control" id="newsletter" placeholder="Newsletter" required>
+                                <input type="email" class="form-control" id="mail" name="email" placeholder="Newsletter" required>
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" class="button">S'inscrire</button>

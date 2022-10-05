@@ -48,8 +48,6 @@ function ValidationRulesAndMessage(formulaire, champs) {
 
         validation.rules[value.attr('name')] = { required: true };
 
-        console.log(value);
-
         if (value.attr('type') == "text") {
             validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
         }
@@ -111,9 +109,46 @@ function backend_API_challenge() {
 
 $(function() {
     var inputs = [];
-    var form = $("form");
-    if (form) {
+    var form;
+
+    if (document.getElementById("form-simule")) {
+        form = $("#form-simule");
         ValidationRulesAndMessage(form, inputs);
         form.validate(validation);
     }
+
+    if (document.getElementById("contactform")) {
+        form = $("#contactform");
+        ValidationRulesAndMessage(form, inputs);
+        form.validate(validation);
+    }
+
+
+    document.getElementById("newsletterform").addEventListener("submit", function(evt) {
+
+        alert("ok");
+        form = $("#newsletterform");
+        ValidationRulesAndMessage(form, inputs);
+        form.validate(validation);
+
+        if (form.valid()) {
+            $.ajax({
+                type: "post",
+                url: "form/post-newletter.php",
+                data: $(form).serialize(),
+            }).done(function() {
+                $("#newsletterform")[0].reset();
+                $('#successModal').modal('show');
+                $('#successModal .modal-title').append('Newsletter');
+                $('#successModal .modal-body').append('<p> Votre de demande a bien été envoyée ! </p>');
+            });
+
+        }
+        evt.preventDefault();
+        return true;
+
+    });
+
+    console.log(form);
+
 });

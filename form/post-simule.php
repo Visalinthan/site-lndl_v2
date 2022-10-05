@@ -34,7 +34,7 @@ $phone = $_POST['tel'];
 
 
 
-$mailto = 'infos@lndl.fr';
+$mailto = 'vishal@lndl.fr';
 $addCC = $mail;
 $subject = "Simulation projet pour " . $name . " " . $surname;
 $msg = "<h3> Logement </h3>";

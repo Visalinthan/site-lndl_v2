@@ -2017,6 +2017,10 @@
     }
     /*Modal*/
     
+    .modal-backdrop {
+        z-index: 90 !important;
+    }
+    
     #successModal {
         z-index: 100;
     }
