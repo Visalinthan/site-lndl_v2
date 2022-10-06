@@ -6,7 +6,8 @@
     <title>Débutez vos travaux de rénovation énergétique</title>
     <meta name="description"
         content="Découvrez l'ensemble des travaux de rénovation énergétique à réaliser et réduisez le coût de vos factures énergie ">
-        <meta name="keywords" content="prime renov,isolation,calorifugeage,flocage,chauffage,climatisation,ventilation,electricité,couverture,peinture,placoplatre,traitement,ma prime renov 2022,isolation exterieur,isolation 1 euro,isolation phonique,ravalement de façade,renovation maison,isolation thermique,travaux publics,isolation des combles,isolation toiture,isolation mur intérieur,isolation combles,prime rénovation énergétique 2022,rénovation,renovation energetique,isolation phonique plafond,isolation phonique mur,isolation exterieur 1 euro,isolation mur exterieur,ravalement,ma prime energie,isolation garage,prime eco energie,devis travaux,maison et travaux,rénovation énergétique,pose de parquet,isolation à 1 euro,prime energie 2021,isolation plafond,prime renovation energetique,renovation appartement,rénovation maison,entreprise de renovation,devis peinture,isolation sol,isolation sous sol,rénovation énergétique,prime rénovation énergétique 2022,renovation energetique,aide renovation energetique,prime renovation energetique,ma prime rénovation 2022,aide energetique,aide changement chaudière gaz 2022,aide rénovation énergétique 2022,aide changement chaudière 2022">
+    <meta name="keywords"
+        content="prime renov,isolation,calorifugeage,flocage,chauffage,climatisation,ventilation,electricité,couverture,peinture,placoplatre,traitement,ma prime renov 2022,isolation exterieur,isolation 1 euro,isolation phonique,ravalement de façade,renovation maison,isolation thermique,travaux publics,isolation des combles,isolation toiture,isolation mur intérieur,isolation combles,prime rénovation énergétique 2022,rénovation,renovation energetique,isolation phonique plafond,isolation phonique mur,isolation exterieur 1 euro,isolation mur exterieur,ravalement,ma prime energie,isolation garage,prime eco energie,devis travaux,maison et travaux,rénovation énergétique,pose de parquet,isolation à 1 euro,prime energie 2021,isolation plafond,prime renovation energetique,renovation appartement,rénovation maison,entreprise de renovation,devis peinture,isolation sol,isolation sous sol,rénovation énergétique,prime rénovation énergétique 2022,renovation energetique,aide renovation energetique,prime renovation energetique,ma prime rénovation 2022,aide energetique,aide changement chaudière gaz 2022,aide rénovation énergétique 2022,aide changement chaudière 2022">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("module/links.php"); ?>
 
@@ -246,11 +247,14 @@
                                 <h3 class="headline">Isolation</h3>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-ite-iti.png" alt="images">
+                                        <a href="ite-iti.php">
+                                            <img src="assets/img/home/services-ite-iti.png" alt="images">
+                                        </a>
                                         <div class="post-readmore">
                                             <a href="ite-iti.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +266,9 @@
 
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-pac.png" alt="images">
+                                        <a href="pac.php">
+                                            <img src="assets/img/home/services-pac.png" alt="images">
+                                        </a>
                                         <div class="post-readmore">
                                             <a href="pac.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
@@ -278,7 +284,9 @@
 
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-vmc.png" alt="images">
+                                        <a href="vmc.php">
+                                            <img src="assets/img/home/services-vmc.png" alt="images">
+                                        </a>
                                         <div class="post-readmore">
                                             <a href="vmc.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
@@ -292,7 +300,9 @@
                                 <h3 class="headline">Tout corps d'état</h3>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-tce.png" alt="images">
+                                        <a href="tce.php">
+                                            <img src="assets/img/home/services-tce.png" alt="images">
+                                        </a>
                                         <div class="post-readmore">
                                             <a href="tce.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
@@ -312,7 +322,9 @@
 
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-renovation.png" alt="images">
+                                        <a href="renovation.php">
+                                            <img src="assets/img/home/services-renovation.png" alt="images">
+                                        </a>
                                         <div class="post-readmore">
                                             <a href="renovation.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
@@ -327,7 +339,9 @@
                                 <h3 class="headline">Tout corps d'état</h3>
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-tce.png" alt="images">
+                                        <a href="tce-pro.php">
+                                            <img src="assets/img/home/services-tce.png" alt="images">
+                                        </a>
                                         <div class="post-readmore">
                                             <a href="tce-pro.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
@@ -344,7 +358,9 @@
 
                                 <div class="box-content">
                                     <div class="content-post">
-                                        <img src="assets/img/home/services-demolition.png" alt="images">
+                                        <a href="demolition.php">
+                                            <img src="assets/img/home/services-demolition.png" alt="images">
+                                        </a>
                                         <div class="post-readmore">
                                             <a href="demolition.php" class="read-more">
                                                 <span class="text">Découvrir</span></a>
@@ -356,7 +372,7 @@
                     </div>
 
             </section>
-         
+
 
             <!-- flat logo slogan -->
             <section class="tf-space flat-logo-slogan ">

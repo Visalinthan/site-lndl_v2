@@ -123,8 +123,7 @@
                                     </fieldset>
 
 
-                                    <button name="submit" type="submit" id="comment-reply"
-                                        class="button btn-style4 btn-submit-comment">Envoyer</button>
+                                    <button name="submit" type="submit" id="comment-reply" class="button btn-style4 btn-submit-comment">Envoyer</button>
                                 </form>
                             </div>
                         </div>

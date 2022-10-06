@@ -6,7 +6,8 @@
     <title>Découvrez les différents systèmes de ventilation VMC et VMR.</title>
     <meta name="description"
         content="Plusieurs solutions existent pour assurer le renouvellement d'air d'un logement ou d'un bâtiment.  Installez votre ventilation en profitant des aides de l'Etat. Travaux réalisés par des artisans RGE.">
-        <meta name="keywords" content="ventilation,vmc double flux,vmc simple flux,vmc hygroréglable,vmc salle de bain,vmc simple flux hygroréglable,vmc aldes,ventilation double flux,vmc atlantic,aeration fenetre,ventilation salle de bain,aldes vmc,vmc double flux thermodynamique,vmc double flux prix,extracteur salle de bain,vmc hygro b,installation vmc,vmc bruyante,prix vmc,double flux,vmc silencieuse,prix vmc double flux,aeration vide sanitaire,vmc double flux atlantic,aeration salle de bain,installation vmc double flux,ventilation vide sanitaire,vmc hygroréglable atlantic,vmc cuisine,vmi ventilation,extracteur vmc,vmc autoréglable,vmc prix,ventilation naturelle,vmc obligatoire,vmc simple flux silencieuse,aération fenêtre,ventilation simple flux,vmc hygro,vmc double flux aldes,aeration fenetre pvc,ventilation fenetre,vmc hygroréglable aldes,prix vmc simple flux,vmc sauter,ventilation garage,ventilation mécanique contrôlée,ventilation industrielle,ventilation maison,vmc double flux hygroréglable,vmc thermodynamique,vmc hygroreglable,fan salle de bain,ventilation de chute">
+    <meta name="keywords"
+        content="ventilation,vmc double flux,vmc simple flux,vmc hygroréglable,vmc salle de bain,vmc simple flux hygroréglable,vmc aldes,ventilation double flux,vmc atlantic,aeration fenetre,ventilation salle de bain,aldes vmc,vmc double flux thermodynamique,vmc double flux prix,extracteur salle de bain,vmc hygro b,installation vmc,vmc bruyante,prix vmc,double flux,vmc silencieuse,prix vmc double flux,aeration vide sanitaire,vmc double flux atlantic,aeration salle de bain,installation vmc double flux,ventilation vide sanitaire,vmc hygroréglable atlantic,vmc cuisine,vmi ventilation,extracteur vmc,vmc autoréglable,vmc prix,ventilation naturelle,vmc obligatoire,vmc simple flux silencieuse,aération fenêtre,ventilation simple flux,vmc hygro,vmc double flux aldes,aeration fenetre pvc,ventilation fenetre,vmc hygroréglable aldes,prix vmc simple flux,vmc sauter,ventilation garage,ventilation mécanique contrôlée,ventilation industrielle,ventilation maison,vmc double flux hygroréglable,vmc thermodynamique,vmc hygroreglable,fan salle de bain,ventilation de chute">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("module/links.php"); ?>
 </head>
@@ -51,19 +52,24 @@
                         <div class="col-md-12">
                             <div class="main-content">
 
-                                <div class="section-wrap tf-row">
-                                    <div class="tf-col-6">
+                                <div class="section-wrap row">
+                                    <div class="col-md-8">
                                         <div class="post-media">
-                                            <img src="assets/img/services/services-vmc-2.jpg" alt="images">
+                                            <img src="assets/img/services/schema-VMC.jpg" alt="schema VMC">
                                         </div>
+
                                     </div>
-                                    <div class="tf-col-6">
+                                    <div class="col-md-4">
+
                                         <div class="section-title">
                                             <h3 class="section-heading">Les bénéfices</h3>
                                         </div>
                                         <p>Une VMC est le moyen le plus sûr de garantir un renouvellement de l’air à
                                             moindre coût.<br>Elle est un indispensable pour le bien-être et la santé des
                                             occupants.</p>
+                                        <div class="post-media display-flex">
+                                            <img src="assets/img/services/services-vmc-2.jpg" alt="images" style="width: 250px; border-radius: 10px">
+                                        </div>
                                     </div>
 
                                 </div>
