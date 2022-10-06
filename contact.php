@@ -92,8 +92,8 @@
                                                 tabindex="1" placeholder="Prénom*" value="">
                                         </fieldset>
                                         <fieldset class="email-wrap col-md-6">
-                                            <input type="email" id="mail" class="tb-my-input" name="mail" tabindex="2"
-                                                placeholder="Email*" value="">
+                                            <input type="email" id="mail-f" class="tb-my-input" name="mail" tabindex="2"
+                                                placeholder="Email" value="">
                                         </fieldset>
                                     </div>
 
@@ -112,7 +112,7 @@
 
                                     <fieldset class="message-wrap">
                                         <textarea id="comment-message" name="message" rows="13" tabindex="4"
-                                            placeholder="Ecrivez votre demande" style="color: #000"></textarea>
+                                            placeholder="Si besoin de nous transmettre des détails c'est ici !" style="color: #000"></textarea>
                                     </fieldset>
 
                                     <fieldset class="checkbox-wrap">

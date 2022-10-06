@@ -430,7 +430,7 @@
                             <div class="about-counter-inner wow fadeInUp" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
                                 <div class="number-counter">
-                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">99</span>
+                                    <span class="number" data-speed="4000" data-to="95" data-inviewport="yes">98</span>
                                     <span>%</span>
                                 </div>
                                 <div class="heading-count">

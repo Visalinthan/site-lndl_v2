@@ -77,9 +77,11 @@
                                             favoriser votre
                                             transition écologique</h3>
                                     </div>
-                                    <p>Afin de réaliser vos travaux, il existe de nombreuses aides de l'État, ces
-                                        dispositifs vous permettent de bénéficier de réductions considérables sur
-                                        l’ensemble de vos projets.</p>
+                                    <p>Vous avez des projets en réflexion? Savez-vous qu'il existe de nombreuses aides
+                                        de l'État!
+                                        <br />En effet, des dispositifs vous permettent de bénéficier de réductions considérables sur
+                                        l’ensemble de vos projets.
+                                    </p>
                                     <p>Ces aides sont valables uniquement lorsque les travaux sont effectués par des
                                         artisans certifiés RGE (Reconnu Garant de l'Environnement).<br />
                                         Avec La Nationale Du Logement, renouvelez et modernisez vos structures en toute

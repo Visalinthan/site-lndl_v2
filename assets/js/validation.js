@@ -46,7 +46,6 @@ function ValidationRulesAndMessage(formulaire, champs) {
 
     jQuery.each(champs, function(index, value) {
 
-        validation.rules[value.attr('name')] = { required: true };
 
         if (value.attr('type') == "text") {
             validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
@@ -56,7 +55,7 @@ function ValidationRulesAndMessage(formulaire, champs) {
             validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
         }
 
-        if (value.attr('type') == "email") {
+        if (value.attr('type') == "email" && value.attr('id') != "mail-f") {
             validation.rules[value.attr('name')] = { required: true, regex: /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i };
             validation.messages[value.attr('name')] = { required: "Veuillez entrer votre adresse mail", regex: "Veuillez entrer une adresse mail valide !" };
         }
@@ -77,18 +76,18 @@ function ValidationRulesAndMessage(formulaire, champs) {
         if (value.attr('type') == "checkbox") {
             validation.rules[value.attr('name')] = { required: true, minlength: 1 };
             if (value.attr('name') == "accept") {
-                validation.messages[value.attr('name')] = "Veuillez cocher la case ";
+                validation.messages[value.attr('name')] = "Merci d'accepter notre politique de confidentialité et mentions légales";
             } else {
                 validation.messages[value.attr('name')] = "Veuillez sélectionnez un ou plusieurs" + value.attr('name');
             }
         }
 
         if (value.attr('id') == "choose") {
-            validation.messages[value.attr('name')] = { required: "Veuillez selectionnez !" };
+            validation.messages[value.attr('name')] = { required: "Comment peut-on vous aidez ?" };
         }
 
-        if (value.attr('id') == "comment-message") {
-            validation.messages[value.attr('name')] = { required: "Veuillez écrire votre demande" };
+        if (value.attr('id') != "comment-message" && value.attr('id') != "mail-f") {
+            validation.rules[value.attr('name')] = { required: true };
         }
 
 

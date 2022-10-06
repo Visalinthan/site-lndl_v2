@@ -1869,7 +1869,6 @@
         font-size: 1.5em;
         font-weight: bold;
         padding: 0;
-        justify-content: center !important;
         text-align: center !important;
         margin-top: 25px;
     }
@@ -3305,7 +3304,7 @@
         margin: 3px 0 -13px 0;
         background-image: url(../images/mark-page/mark-features.png);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 50% 80%;
     }
     
     .flat-work .features-content-left,
