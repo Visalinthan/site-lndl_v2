@@ -48,12 +48,18 @@ function ValidationRulesAndMessage(formulaire, champs) {
 
 
         if (value.attr('type') == "text") {
-            validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
+            if (value.attr('name') == "prenom") {
+                validation.messages[value.attr('name')] = { required: "Veuillez entrer votre prénom " };
+            } else if (value.attr('id') == "other-chauffe") {
+                console.log(value.attr('id'));
+                validation.rules[value.attr('name')] = { required: true };
+                validation.messages[value.attr('name')] = { required: "Veuillez entrer votre autre type de chauffage " };
+            } else {
+                validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
+            }
+
         }
 
-        if (value.attr('type') == "number") {
-            validation.messages[value.attr('name')] = { required: "Veuillez entrer votre " + value.attr('name') };
-        }
 
         if (value.attr('type') == "email" && value.attr('id') != "mail-f") {
             validation.rules[value.attr('name')] = { required: true, regex: /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i };
@@ -64,6 +70,10 @@ function ValidationRulesAndMessage(formulaire, champs) {
             if (value.attr("name") == "tel" || value.attr("name") == "phone") {
                 validation.rules[value.attr('name')] = { required: true, regex: /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/gmi };
                 validation.messages[value.attr('name')] = { required: "Veuillez entrer votre numéro de téléphone", regex: "Veuillez entrer un numéro de téléphone valide !" };
+            } else if (value.attr('name') == "nbFoyer") {
+                validation.messages[value.attr('name')] = { required: "Veuillez entrer le nombre de personne dans votre foyer" };
+            } else if (value.attr("name") == "codepostale") {
+                validation.messages[value.attr('name')] = "Veuillez entrer votre code postale";
             } else {
                 validation.messages[value.attr('name')] = "Veuillez entrer votre " + value.attr('name');
             }
@@ -83,12 +93,19 @@ function ValidationRulesAndMessage(formulaire, champs) {
         }
 
         if (value.attr('id') == "choose") {
-            validation.messages[value.attr('name')] = { required: "Comment peut-on vous aidez ?" };
+            validation.messages[value.attr('name')] = { required: "Comment peut-on vous aider ?" };
+        }
+
+        if (value.attr('id') == "ville") {
+            validation.messages[value.attr('name')] = { required: "Veuillez entrer votre ville " };
         }
 
         if (value.attr('id') != "comment-message" && value.attr('id') != "mail-f") {
             validation.rules[value.attr('name')] = { required: true };
         }
+
+
+
 
 
     });

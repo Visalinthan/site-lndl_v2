@@ -186,6 +186,8 @@
             </section>
             <!-- /flat portfolio details -->
 
+            <?php include("articles/blog-renovation.php") ?>
+
             <!-- Footer -->
             <?php include("module/footer.php") ?>
             <!-- /#footer -->

@@ -4459,6 +4459,12 @@
         font-size: 20px;
     }
     
+    .flat-portfolio-details .pac-benefices {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
     .flat-about-2 .about-2-content-left .content-box {
         padding: 7px 30px 7px 19px;
     }

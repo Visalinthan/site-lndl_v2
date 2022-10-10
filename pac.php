@@ -6,7 +6,8 @@
     <title>Quel chauffage et climatisation choisir en 2022 </title>
     <meta name="description"
         content="Installez le meilleur système de chauffage et de climatisation qui correspond à votre maison. Découvrez les différents type de chauffage et de climatisation.">
-        <meta name="keywords" content="chauffage,climatisation,pompe a chaleur,climatiseur mobile,climatiseur,chauffe eau,radiateur electrique,chauffe eau thermodynamique,radiateur,chauffage electrique,pompe à chaleur,pompe a chaleur air eau,plombier chauffagiste,clim reversible,chauffe eau electrique,chaudiere,chauffe eau solaire,climatiseur mobile sans évacuation,pompe a chaleur air air,radiateur a inertie,chauffe eau instantané,air climatisé,chaudière à condensation,climatiseur mobile silencieux,chaudiere fioul,clim mobile,air climatisé portatif,climatiseur portatif,radiateur électrique à inertie,chaudiere electrique,climatiseur portable,chauffage gaz,radiateur eau chaude,chauffe eau gaz,convecteur électrique,pompe à chaleur air eau,climatisation mobile,climatiseur mural,radiateur atlantic,chauffe terrasse,chauffage au sol,climatiseur sans évacuation,entretien chaudiere,radiateur électrique,entretien chaudière gaz,radiateur electrique economique,mini climatiseur,radiateur fonte,chauffage soufflant,radiateur inertie seche,radiateur chauffage central,prix pompe a chaleur,clim portative,chaudière gaz,convecteur,pompe à chaleur air air,chauffage a gaz,radiateur soufflant,chauffage exterieur,radiateur inertie,installation climatisation,radiateur à inertie,climatiseur reversible,climatiseur pas cher">
+    <meta name="keywords"
+        content="chauffage,climatisation,pompe a chaleur,climatiseur mobile,climatiseur,chauffe eau,radiateur electrique,chauffe eau thermodynamique,radiateur,chauffage electrique,pompe à chaleur,pompe a chaleur air eau,plombier chauffagiste,clim reversible,chauffe eau electrique,chaudiere,chauffe eau solaire,climatiseur mobile sans évacuation,pompe a chaleur air air,radiateur a inertie,chauffe eau instantané,air climatisé,chaudière à condensation,climatiseur mobile silencieux,chaudiere fioul,clim mobile,air climatisé portatif,climatiseur portatif,radiateur électrique à inertie,chaudiere electrique,climatiseur portable,chauffage gaz,radiateur eau chaude,chauffe eau gaz,convecteur électrique,pompe à chaleur air eau,climatisation mobile,climatiseur mural,radiateur atlantic,chauffe terrasse,chauffage au sol,climatiseur sans évacuation,entretien chaudiere,radiateur électrique,entretien chaudière gaz,radiateur electrique economique,mini climatiseur,radiateur fonte,chauffage soufflant,radiateur inertie seche,radiateur chauffage central,prix pompe a chaleur,clim portative,chaudière gaz,convecteur,pompe à chaleur air air,chauffage a gaz,radiateur soufflant,chauffage exterieur,radiateur inertie,installation climatisation,radiateur à inertie,climatiseur reversible,climatiseur pas cher">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("module/links.php"); ?>
 </head>
@@ -52,12 +53,13 @@
                             <div class="main-content">
 
                                 <div class="section-wrap tf-row">
-                                    <div class="tf-col-6">
+                                    <div class="col-md-8">
                                         <div class="post-media">
-                                            <img src="assets/img/services/services-pac.jpg" alt="images">
+                                            <img src="assets/img/services/schema-PAC.jpg" alt="schema VMC">
                                         </div>
+
                                     </div>
-                                    <div class="tf-col-6">
+                                    <div class="col-md-4 pac-benefices">
                                         <div class="section-title">
                                             <h3 class="section-heading">Les bénéfices</h3>
                                         </div>
@@ -129,6 +131,7 @@
             </section>
             <!-- /flat portfolio details -->
 
+            <?php include("articles/blog-pac.php") ?>
 
             <!-- Footer -->
             <?php include("module/footer.php") ?>

@@ -6,7 +6,8 @@
     <title>Simulation de prime - Travaux de rénovation énergétique</title>
     <meta name="description"
         content="Vos travaux de rénovation énergétique sont éligibles aux primes énergie ? Obtenez une estimation du montant dont vous pouvez bénéficier grâce à notre ...">
-        <meta name="keywords" content="prime énergie,prime energie,prime cee,prime energie leclerc,prime rénovation énergétique 2021,ma prime energie,prime eco energie,primesenergie,prime energie 2021,prime renovation energetique,prime cee total,prime énergie gouv,prime énergie gouvernement 2021,prime energie total,aide cee,aide changement chaudière gaz 2021,prime énergie gouvernement 2020,prime cee engie,prime engie,prime isolation 2021,ma prime energie edf,prime energie 2020,prime énergie 2021,aide energie,prime cee 2021,prime cee gouv,cee prime,coup de pouce isolation,ma prime énergie,prime renovation 2021,coup de pouce energie,prime énergie total,prime enlèvement cuve fioul 2021,primes energies,aide changement chaudière fioul 2021,cee prime energie,prime rénovation énergétique,aide economie energie,prime énergie engie,la prime energie,prime energie cora,aide energie 2021,prime edf pompe a chaleur,monespace prime engie,prime renovation energetique 2021,prime pompe à chaleur 2021,prime isolation 2020,prime energie cee,prime énergie 2020,ma prime renov chaudiere gaz,prime travaux,prime coup de pouce engie,prime economie energie,prime energie edf 2021,prime chauffage 2021">
+    <meta name="keywords"
+        content="prime énergie,prime energie,prime cee,prime energie leclerc,prime rénovation énergétique 2021,ma prime energie,prime eco energie,primesenergie,prime energie 2021,prime renovation energetique,prime cee total,prime énergie gouv,prime énergie gouvernement 2021,prime energie total,aide cee,aide changement chaudière gaz 2021,prime énergie gouvernement 2020,prime cee engie,prime engie,prime isolation 2021,ma prime energie edf,prime energie 2020,prime énergie 2021,aide energie,prime cee 2021,prime cee gouv,cee prime,coup de pouce isolation,ma prime énergie,prime renovation 2021,coup de pouce energie,prime énergie total,prime enlèvement cuve fioul 2021,primes energies,aide changement chaudière fioul 2021,cee prime energie,prime rénovation énergétique,aide economie energie,prime énergie engie,la prime energie,prime energie cora,aide energie 2021,prime edf pompe a chaleur,monespace prime engie,prime renovation energetique 2021,prime pompe à chaleur 2021,prime isolation 2020,prime energie cee,prime énergie 2020,ma prime renov chaudiere gaz,prime travaux,prime coup de pouce engie,prime economie energie,prime energie edf 2021,prime chauffage 2021">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("module/links.php"); ?>
 
@@ -50,7 +51,7 @@
             </div>
             <form id="form-simule" class="form needs-validation " name="form" method="POST" novalidate>
 
-                <div class="row form-step">
+                <!-- <div class="row form-step">
                     <h2 class="col-md-12">Quel est votre type de logement ?</h2>
 
                     <input type="radio" id="maison" name="logement" value="maison" required />
@@ -128,7 +129,7 @@
                         </div>
                     </div>
 
-                </div>
+                </div>-->
 
                 <div class="row form-step" id="chauffage">
                     <h2 class="col-md-12">Quelle est l'énergie de chauffage actuelle de votre logement ?</h2>
@@ -358,14 +359,16 @@
         } else {
             $(otherChauffe).remove();
         }
-
-        if (document.getElementById("other-tce").checked) {
-            var label = $('label[for="' + $(this).attr('id') + '"]');
-            $(label).after(otherTce);
-        } else {
-            $(otherTce).remove();
-        }
+       /* if ($('#input-other-tce')) {
+            if (document.getElementById("other-tce").checked) {
+                var label = $('label[for="' + $(this).attr('id') + '"]');
+                $(label).after(otherTce);
+            } else {
+                $(otherTce).remove();
+            }
+        }*/
     });
+
 
     let otherTce = $('#input-other-tce');
     $(otherTce).remove();

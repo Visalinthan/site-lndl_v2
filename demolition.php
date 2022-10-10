@@ -103,6 +103,7 @@
             </section>
             <!-- /flat portfolio details -->
 
+            <?php include("articles/blog-demolition.php") ?>
 
             <!-- Footer -->
             <?php include("module/footer.php") ?>

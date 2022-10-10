@@ -181,6 +181,8 @@
             </section>
             <!-- /flat portfolio details -->
 
+            <?php include("articles/blog-tce-pro.php") ?>
+
             <!-- Footer -->
             <?php include("module/footer.php") ?>
             <!-- /#footer -->
