@@ -51,7 +51,7 @@
             </div>
             <form id="form-simule" class="form needs-validation " name="form" method="POST" novalidate>
 
-                <!-- <div class="row form-step">
+                 <div class="row form-step">
                     <h2 class="col-md-12">Quel est votre type de logement ?</h2>
 
                     <input type="radio" id="maison" name="logement" value="maison" required />
@@ -129,7 +129,7 @@
                         </div>
                     </div>
 
-                </div>-->
+                </div>
 
                 <div class="row form-step" id="chauffage">
                     <h2 class="col-md-12">Quelle est l'énergie de chauffage actuelle de votre logement ?</h2>
